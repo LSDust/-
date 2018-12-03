@@ -1,0 +1,4 @@
+[00:03:05]: [Join Announcement] 布利扎德
+[01:18:20]: [Skin Announcement] 布利扎德 body_suspenders_pink_pearl
+[01:21:08]: [Vote Announcement] rollback passed
+[01:54:03]: [Leave Announcement] 布利扎德

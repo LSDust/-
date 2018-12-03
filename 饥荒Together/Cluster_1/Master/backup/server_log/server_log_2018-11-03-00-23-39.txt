@@ -1,0 +1,1912 @@
+[00:00:01]: 
+System Memory:
+	Memory Load: 60%
+	Available Physical Memory: 1577m/3979m
+	Available Page File: 3171m/6923m
+	Available Virtual Memory: 4008m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:01]: 
+Process Memory:
+	Peak Working Set Size: 8m
+	Working Set Size: 8m
+	Quota Peak Page Pool Usage: 172k
+	Quota Page Pool Usage: 170k
+	Quota Peak Non Paged Pool Usage:13k
+	Quota Non Paged Pool Usage: 13k
+	Page File Usage: 3m
+	Peak Page File Usage: 3m
+[00:00:01]: PersistRootStorage is now APP:Klei//DoNotStarveTogetherRail/Cluster_4/Master/ 
+[00:00:01]: Starting Up
+[00:00:01]: Version: 291731
+[00:00:01]: Current time: Fri Nov 02 18:43:40 2018
+
+[00:00:01]: Don't Starve Together: 291731 WIN32
+[00:00:01]: Build Date: 3652
+[00:00:01]: Parsing command line
+[00:00:01]: Command Line Arguments: -monitor_parent_process 7300 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogetherRail -cluster Cluster_4 -ownernetid R:76561197970823881 -backup_log_count 10 -backup_log_period 0 -shard Master -sigprefix DST_Master -region China --rail_platform_type=1 --rail_app_type=2 --rail_channel_id=1600017300 
+[00:00:01]: Initializing distribution platform
+[00:00:01]: [Rail] Initializing Rail (2000004)
+[00:00:01]: [Rail] Rail SDK version 1.8.6.0
+[00:00:01]: ....Done
+[00:00:01]: Fixing DPI
+[00:00:01]: ...Done
+[00:00:01]: Mounting file system databundles/klump.zip successful.
+[00:00:01]: Mounting file system databundles/shaders.zip successful.
+[00:00:01]: Mounting file system databundles/fonts.zip successful.
+[00:00:01]: THREAD - started 'GAClient' (28684)
+[00:00:01]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:01]: CurlRequestManager::ClientThread::Main()
+[00:00:01]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:01]: Mounting file system databundles/images.zip successful.
+[00:00:01]: Mounting file system databundles/scripts.zip successful.
+[00:00:01]: ProfileIndex:9.45
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: THREAD - started 'Ping Job Thread' (28724)
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Authorized application D:\
+[00:00:01]: WindowsFirewall - Application already authorized
+[00:00:01]: Overriding region to China
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/client_save/blocklist.txt (Failure)
+[00:00:01]: THREAD - started 'StreamInput' (28744)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/client_save/adminlist.txt (Failure)
+[00:00:01]: OnLoadUserIdList: APP:Klei//DoNotStarveTogetherRail/client_save/whitelist.txt (Failure)
+[00:00:01]: Offline user ID: RU_76561197970823881
+[00:00:01]: Token retrieved from: APP:Klei//DoNotStarveTogetherRail/Cluster_4/cluster_token.txt
+[00:00:01]: Token retrieved from: APP:Klei//DoNotStarveTogetherRail/Cluster_4/cluster_token.txt
+[00:00:01]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 8.1 中文版
+    version                   6.3.9600
+    architecture              64 位
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  4
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42
+    name                      Intel(R) Pentium(R) CPU  N3530  @ 2.16GHz
+    manufacturer              GenuineIntel
+    clockSpeed                2159
+  RAM                       
+    megsOfRam                 4096
+  GPU                       
+    name                      Intel(R) HD Graphics
+    driverDate                20140311000000.000000-000
+    megsOfRam                 2053
+    refreshRate               59
+    videoModeDescription      1366 x 768 x 4294967296 种颜色
+    driverVersion             10.18.10.3496
+
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:02]: LOADING LUA
+[00:00:02]: DoLuaFile scripts/main.lua
+[00:00:02]: DoLuaFile loading buffer scripts/main.lua
+[00:00:02]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:00:08]:   taskgrouplist:	default	联机	
+[00:00:08]:   taskgrouplist:	classic	经典	
+[00:00:08]:   taskgrouplist:	cave_default	地下	
+[00:00:08]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:08]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:08]: running main.lua
+	
+[00:00:08]: loaded modindex	
+[00:00:08]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:09]: DownloadMods(0)
+[00:00:09]: modoverrides.lua enabling workshop-100010027	
+[00:00:09]: modoverrides.lua enabling workshop-100010024	
+[00:00:09]: modoverrides.lua enabling workshop-2199027653598516741	
+[00:00:09]: modoverrides.lua enabling workshop-100010040	
+[00:00:09]: modoverrides.lua enabling workshop-2199027653598514255	
+[00:00:09]: modoverrides.lua enabling workshop-2199027653598513728	
+[00:00:09]: modoverrides.lua enabling workshop-100010062	
+[00:00:09]: modoverrides.lua enabling workshop-2199027653598513601	
+[00:00:09]: modoverrides.lua enabling workshop-100010059	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010040	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010059	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598513601	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598513728	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598514255	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598516741	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-100010024_CLIENT	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516741	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_DAMAGE with value 30	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_DAMAGE with value 30	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIJITA_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_SPEED with value 1	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_NET with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIGJ_DAMAGE with value 100	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option CHANGMAO_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_DAMAGE with value 10	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMISZ_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option CHANGMAOKT_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option RUIWEN_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_FW with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_HAMMER with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIGJ_PF with value true	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PA with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_MINE with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_RANG with value 1	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DAMAGE with value 55	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DIG with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAOKT_DAMAGE with value 55	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_QD with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_CHOP with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIJITA_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMISZ_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option RUIWEN_PF with value false	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:09]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:09]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:09]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598514255	
+[00:00:09]: Overriding mod workshop-2199027653598514255's option uptime with value 5	
+[00:00:09]: Overriding mod workshop-2199027653598514255's option penalty with value 0.35	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513728	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-100010027_CLIENT	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516741	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_DAMAGE with value 30	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_DAMAGE with value 30	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIJITA_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_SPEED with value 1	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_NET with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIGJ_DAMAGE with value 100	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option CHANGMAO_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_DAMAGE with value 10	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMISZ_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option CHANGMAOKT_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option RUIWEN_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_FW with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_HAMMER with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIGJ_PF with value true	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PA with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_MINE with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_RANG with value 1	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DAMAGE with value 55	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DIG with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAOKT_DAMAGE with value 55	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_QD with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_CHOP with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIJITA_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMISZ_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option RUIWEN_PF with value false	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:09]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:09]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:09]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598514255	
+[00:00:09]: Overriding mod workshop-2199027653598514255's option uptime with value 5	
+[00:00:09]: Overriding mod workshop-2199027653598514255's option penalty with value 0.35	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513728	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: Loading mod: workshop-100010027 (Wormhole Marks) Version:1.4.5	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-100010040_CLIENT	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516741	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_DAMAGE with value 30	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_DAMAGE with value 30	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIJITA_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_SPEED with value 1	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_NET with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIGJ_DAMAGE with value 100	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option CHANGMAO_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_DAMAGE with value 10	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMISZ_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option CHANGMAOKT_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option RUIWEN_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_FW with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_HAMMER with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIGJ_PF with value true	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PA with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_MINE with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_RANG with value 1	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DAMAGE with value 55	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DIG with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAOKT_DAMAGE with value 55	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_QD with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_CHOP with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIJITA_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMISZ_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option RUIWEN_PF with value false	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:09]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:09]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:09]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598514255	
+[00:00:09]: Overriding mod workshop-2199027653598514255's option uptime with value 5	
+[00:00:09]: Overriding mod workshop-2199027653598514255's option penalty with value 0.35	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513728	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: Loading mod: workshop-100010040 (Global Pause) Version:1.3.2	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-100010059_CLIENT	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516741	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_DAMAGE with value 30	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_DAMAGE with value 30	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIJITA_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_SPEED with value 1	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_NET with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIGJ_DAMAGE with value 100	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option CHANGMAO_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_DAMAGE with value 10	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMISZ_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option CHANGMAOKT_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option RUIWEN_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_FW with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_HAMMER with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIGJ_PF with value true	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PA with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_MINE with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_RANG with value 1	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DAMAGE with value 55	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DIG with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAOKT_DAMAGE with value 55	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_QD with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_CHOP with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIJITA_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMISZ_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option RUIWEN_PF with value false	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:09]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:09]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:09]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598514255	
+[00:00:09]: Overriding mod workshop-2199027653598514255's option uptime with value 5	
+[00:00:09]: Overriding mod workshop-2199027653598514255's option penalty with value 0.35	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513728	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: Loading mod: workshop-100010059 (Extra Equip Slots) Version:1.8.0	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-100010062_CLIENT	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516741	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_DAMAGE with value 30	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_DAMAGE with value 30	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIJITA_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_SPEED with value 1	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_NET with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIGJ_DAMAGE with value 100	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option CHANGMAO_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_DAMAGE with value 10	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMISZ_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option CHANGMAOKT_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option RUIWEN_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_FW with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_HAMMER with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIGJ_PF with value true	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PA with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_MINE with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_RANG with value 1	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DAMAGE with value 55	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DIG with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAOKT_DAMAGE with value 55	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_QD with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_CHOP with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIJITA_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMISZ_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option RUIWEN_PF with value false	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:09]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:09]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:09]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598514255	
+[00:00:09]: Overriding mod workshop-2199027653598514255's option uptime with value 5	
+[00:00:09]: Overriding mod workshop-2199027653598514255's option penalty with value 0.35	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513728	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: Loading mod: workshop-100010062 (Health Info) Version:2.1.4	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-2199027653598513601_CLIENT	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516741	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_DAMAGE with value 30	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_DAMAGE with value 30	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIJITA_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_SPEED with value 1	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_NET with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIGJ_DAMAGE with value 100	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option CHANGMAO_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_DAMAGE with value 10	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMISZ_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option CHANGMAOKT_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option RUIWEN_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_FW with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_HAMMER with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIGJ_PF with value true	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PA with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_MINE with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_RANG with value 1	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DAMAGE with value 55	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DIG with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAOKT_DAMAGE with value 55	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_QD with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_CHOP with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIJITA_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMISZ_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option RUIWEN_PF with value false	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:09]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:09]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:09]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598514255	
+[00:00:09]: Overriding mod workshop-2199027653598514255's option uptime with value 5	
+[00:00:09]: Overriding mod workshop-2199027653598514255's option penalty with value 0.35	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513728	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: Loading mod: workshop-2199027653598513601 (阻止草变异) Version:1.1 (Old API! (mod: 2 game: 10) )	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-2199027653598513728_CLIENT	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516741	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_DAMAGE with value 30	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_DAMAGE with value 30	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIJITA_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_SPEED with value 1	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_NET with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIGJ_DAMAGE with value 100	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option CHANGMAO_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_DAMAGE with value 10	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMISZ_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option CHANGMAOKT_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option RUIWEN_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_FW with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_HAMMER with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIGJ_PF with value true	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PA with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_MINE with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_RANG with value 1	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DAMAGE with value 55	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DIG with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAOKT_DAMAGE with value 55	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_QD with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_CHOP with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIJITA_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMISZ_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option RUIWEN_PF with value false	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:09]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:09]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:09]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598514255	
+[00:00:09]: Overriding mod workshop-2199027653598514255's option uptime with value 5	
+[00:00:09]: Overriding mod workshop-2199027653598514255's option penalty with value 0.35	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513728	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: Loading mod: workshop-2199027653598513728 (Lamb) Version:1.0.1	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-2199027653598514255_CLIENT	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516741	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_DAMAGE with value 30	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_DAMAGE with value 30	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIJITA_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_SPEED with value 1	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_NET with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIGJ_DAMAGE with value 100	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option CHANGMAO_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_DAMAGE with value 10	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMISZ_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option CHANGMAOKT_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option RUIWEN_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_FW with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_HAMMER with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIGJ_PF with value true	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PA with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_MINE with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_RANG with value 1	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DAMAGE with value 55	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DIG with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAOKT_DAMAGE with value 55	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_QD with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_CHOP with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIJITA_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMISZ_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option RUIWEN_PF with value false	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:09]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:09]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:09]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598514255	
+[00:00:09]: Overriding mod workshop-2199027653598514255's option uptime with value 5	
+[00:00:09]: Overriding mod workshop-2199027653598514255's option penalty with value 0.35	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513728	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: Loading mod: workshop-2199027653598514255 (Lazy Lazy Deserter) Version:2.0	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-2199027653598516741_CLIENT	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516741	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_DAMAGE with value 30	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_DAMAGE with value 30	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIJITA_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_SPEED with value 1	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_NET with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIGJ_DAMAGE with value 100	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option CHANGMAO_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option REDSWORD_DAMAGE with value 10	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMISZ_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option CHANGMAOKT_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option RUIWEN_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_FW with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_HAMMER with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIGJ_PF with value true	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_LV with value 40	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PA with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_MINE with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_RANG with value 1	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DAMAGE with value 55	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DIG with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAOKT_DAMAGE with value 55	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_QD with value 0	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option KING_PF with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_CHOP with value false	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMIJITA_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option XIMISZ_DAMAGE with value 58	
+[00:00:09]: Overriding mod workshop-2199027653598516741's option RUIWEN_PF with value false	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:09]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:09]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:09]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:09]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598514255	
+[00:00:09]: Overriding mod workshop-2199027653598514255's option uptime with value 5	
+[00:00:09]: Overriding mod workshop-2199027653598514255's option penalty with value 0.35	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513728	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: Loading mod: workshop-2199027653598516741 (西米武器合集) Version:1.8.6	
+[00:00:09]: Mod: workshop-100010040 (Global Pause)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-100010040 (Global Pause)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-100010040 (Global Pause)	Loading modmain.lua	
+[00:00:09]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-100010059 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:09]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-100010062 (Health Info)	Loading modmain.lua	
+[00:00:09]: modimport: ../mods/workshop-100010062/black_white_lists.lua	
+[00:00:09]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-2199027653598513601 (阻止草变异)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modmain.lua	
+[00:00:09]: Mod: workshop-2199027653598516741 (西米武器合集)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-2199027653598516741 (西米武器合集)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-2199027653598516741 (西米武器合集)	Loading modmain.lua	
+[00:00:10]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:00:10]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:10]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:00:10]: Mod: workshop-100010027 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:00:10]: Mod: workshop-100010027 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:10]: Mod: workshop-100010027 (Wormhole Marks)	Loading modmain.lua	
+[00:00:10]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	Loading modworldgenmain.lua	
+[00:00:10]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:10]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	Loading modmain.lua	
+[00:00:10]: Mod: workshop-2199027653598513728 (Lamb)	Loading modworldgenmain.lua	
+[00:00:10]: Mod: workshop-2199027653598513728 (Lamb)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:10]: Mod: workshop-2199027653598513728 (Lamb)	Loading modmain.lua	
+[00:00:14]: AnimationFile::LoadFile Failed to open anim/lamb.zip
+[00:00:14]: LOADING LUA SUCCESS
+[00:00:14]: Registering mod namespace "globalpause"
+[00:00:15]: PlayerDeaths could not load morgue	
+[00:00:15]: PlayerHistory could not load player_history	
+[00:00:15]: ServerPreferences could not load server_preferences	
+[00:00:15]: bloom_enabled	false	
+[00:00:15]: loaded saveindex	
+[00:00:15]: OnFilesLoaded()	
+[00:00:15]: OnUpdatePurchaseStateComplete	
+[00:00:15]: Klump load on boot started.	
+[00:00:15]: Klump files loaded: 	0	
+[00:00:22]: Mod: workshop-100010040 (Global Pause)	Registering prefabs	
+[00:00:22]: Mod: workshop-100010040 (Global Pause)	  Registering default mod prefab	
+[00:00:22]: Mod: workshop-100010059 (Extra Equip Slots)	Registering prefabs	
+[00:00:22]: Mod: workshop-100010059 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:23]: Mod: workshop-100010062 (Health Info)	Registering prefabs	
+[00:00:23]: Mod: workshop-100010062 (Health Info)	  Registering default mod prefab	
+[00:00:23]: Mod: workshop-2199027653598513601 (阻止草变异)	Registering prefabs	
+[00:00:23]: Mod: workshop-2199027653598513601 (阻止草变异)	  Registering default mod prefab	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	Registering prefabs	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/xiangrikui	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    xiangrikui	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    xiangrikuilight	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/king	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    king	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximibi	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximibi	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/redsword	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    redsword	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/redsword_jx	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    redsword_jx	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/changmao	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    changmao	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/changmaokt	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    changmaokt	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximigj	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximigj	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximigj_projectile	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    ice_projectile	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximigj_projectile	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximisz	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximisz	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximisz_projectile	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    ice_projectile	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximisz_projectile	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximijita	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximijita	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ruiwen	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    ruiwen	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand2	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand2	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand3	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand3	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand4	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand4	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand5	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand5	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand6	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand6	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand7	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand7	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand8	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand8	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand9	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand9	
+[00:00:23]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/masaike	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	    masaike	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/masaike2	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	    masaike2	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/masaike3	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	    masaike3	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/luobo	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	    luobo	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/tz_firesword_fx	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	    tz_firesword_fx	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/tz_icesword_fx	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	    tz_icesword_fx	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/kbsword	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	    kbsword	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/bolld_ancient_fx	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	    bolld_ancient_fx1	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	    bolld_ancient_fx2	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	    bolld_ancient_fx3	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	    bolld_ancient_fx	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/shadow_fx	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	    shadow_fx	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/chibang_fx	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	    chibang_fx	
+[00:00:24]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering default mod prefab	
+[00:00:25]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:00:25]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:00:25]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
+[00:00:25]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
+[00:00:25]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
+[00:00:25]: Mod: workshop-100010027 (Wormhole Marks)	Registering prefabs	
+[00:00:25]: Mod: workshop-100010027 (Wormhole Marks)	  Registering default mod prefab	
+[00:00:26]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	Registering prefabs	
+[00:00:26]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	  Registering default mod prefab	
+[00:00:26]: Mod: workshop-2199027653598513728 (Lamb)	Registering prefabs	
+[00:00:26]: Mod: workshop-2199027653598513728 (Lamb)	  Registering prefab file: prefabs/lamb	
+[00:00:28]: Mod: workshop-2199027653598513728 (Lamb)	    lamb	
+[00:00:28]: Mod: workshop-2199027653598513728 (Lamb)	  Registering prefab file: prefabs/lamb_none	
+[00:00:28]: Mod: workshop-2199027653598513728 (Lamb)	    lamb_none	
+[00:00:28]: Mod: workshop-2199027653598513728 (Lamb)	  Registering default mod prefab	
+[00:00:32]: 	Load FE	
+[00:00:34]: 	Load FE: done	
+[00:00:34]: THREAD - started 'FilesExistAsyncThread' (28884)
+[00:00:34]: FilesExistAsyncThread started (17406 files)...
+[00:00:34]: ModIndex: Load sequence finished successfully.	
+[00:00:34]: Reset() returning
+[00:00:34]: [IPC] Signal 'DST_Master_Kill' opened  #00000444
+[00:00:34]: [IPC] Registering handler for signal #00000444
+[00:00:34]: [IPC] Handle #00000444 added to the Eventhandles
+[00:00:34]: [IPC] Signal 'DST_Master_Starting' opened  #00000470
+[00:00:34]: [IPC] Sending signal... #00000470
+[00:00:35]: Error: Could not find file: anim/lamb.zip
+[00:00:35]: [200] Account Communication Success (6)
+[00:00:35]: Received (KU_3xJ72Cx7) from TokenPurpose
+[00:00:35]: Starting Dedicated Server Game	
+[00:00:35]: Network tick rate: U=15(2), D=0
+[00:00:35]: About to start a server with the following settings:
+[00:00:35]:   Dedicated: true
+[00:00:35]:   Online: true
+[00:00:35]:   Passworded: true
+[00:00:35]:   ServerPort: 10999
+[00:00:35]:   SteamAuthPort: 8766
+[00:00:35]:   SteamMasterServerPort: 27016
+[00:00:35]:   ClanID: false
+[00:00:35]:   ClanOnly: false
+[00:00:35]:   ClanAdmin: false
+[00:00:35]:   LanOnly: false
+[00:00:35]:   FriendsOnly: false
+[00:00:35]:   EnableAutosaver: true
+[00:00:35]:   EncodeUserPath: true
+[00:00:35]:   PVP: false
+[00:00:35]:   MaxPlayers: 6
+[00:00:35]:   GameMode: survival
+[00:00:35]:   OverridenDNS: 
+[00:00:35]:   PauseWhenEmpty: true
+[00:00:35]:   IdleTimeout: 1800s
+[00:00:35]:   VoteEnabled: false
+[00:00:35]:   InternetBroadcasting: true
+[00:00:35]:   Intent: cooperative
+[00:00:36]: [Warning] Could not confirm port 10999 is open in the firewall. 
+[00:00:36]: Could not load mod_config_data/modconfiguration_workshop-100010027	
+[00:00:36]: Could not load mod_config_data/modconfiguration_workshop-100010062	
+[00:00:36]: Could not load mod_config_data/modconfiguration_workshop-2199027653598516741	
+[00:00:36]: Could not load mod_config_data/modconfiguration_workshop-100010040	
+[00:00:36]: Could not load mod_config_data/modconfiguration_workshop-100010024	
+[00:00:36]: Could not load mod_config_data/modconfiguration_workshop-2199027653598513728	
+[00:00:36]: Could not load mod_config_data/modconfiguration_workshop-100010059	
+[00:00:36]: Online Server Started on port: 10999
+[00:00:36]: [Rail] Punchthrough start.
+[00:00:36]: Collecting garbage...
+[00:00:36]: lua_gc took 0.32 seconds
+[00:00:36]: ~ShardLuaProxy()
+[00:00:36]: ~cEventLeaderboardProxy()
+[00:00:36]: ~ItemServerLuaProxy()
+[00:00:36]: ~InventoryLuaProxy()
+[00:00:36]: ~NetworkLuaProxy()
+[00:00:36]: ~SimLuaProxy()
+[00:00:37]: FilesExistAsyncThread aborted.
+[00:00:37]: ... FilesExistAsyncThread complete
+[00:00:37]: lua_close took 0.30 seconds
+[00:00:37]: ReleaseAll
+[00:00:37]: ReleaseAll Finished
+[00:00:37]: cGame::StartPlaying
+[00:00:37]: LOADING LUA
+[00:00:37]: DoLuaFile scripts/main.lua
+[00:00:37]: DoLuaFile loading buffer scripts/main.lua
+[00:00:37]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:00:42]:   taskgrouplist:	default	联机	
+[00:00:42]:   taskgrouplist:	classic	经典	
+[00:00:42]:   taskgrouplist:	cave_default	地下	
+[00:00:42]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:42]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:42]: running main.lua
+	
+[00:00:42]: unloading prefabs for mod MOD_workshop-100010040	
+[00:00:42]: unloading prefabs for mod MOD_workshop-100010059	
+[00:00:42]: unloading prefabs for mod MOD_workshop-100010062	
+[00:00:42]: unloading prefabs for mod MOD_workshop-2199027653598513601	
+[00:00:42]: unloading prefabs for mod MOD_workshop-2199027653598516741	
+[00:00:42]: unloading prefabs for mod MOD_workshop-100010024	
+[00:00:42]: unloading prefabs for mod MOD_workshop-100010027	
+[00:00:42]: unloading prefabs for mod MOD_workshop-2199027653598514255	
+[00:00:42]: unloading prefabs for mod MOD_workshop-2199027653598513728	
+[00:00:42]: loaded modindex	
+[00:00:42]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:43]: modoverrides.lua enabling workshop-100010027	
+[00:00:43]: modoverrides.lua enabling workshop-100010024	
+[00:00:43]: modoverrides.lua enabling workshop-2199027653598516741	
+[00:00:43]: modoverrides.lua enabling workshop-100010040	
+[00:00:43]: modoverrides.lua enabling workshop-2199027653598514255	
+[00:00:43]: modoverrides.lua enabling workshop-2199027653598513728	
+[00:00:43]: modoverrides.lua enabling workshop-100010062	
+[00:00:43]: modoverrides.lua enabling workshop-2199027653598513601	
+[00:00:43]: modoverrides.lua enabling workshop-100010059	
+[00:00:43]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:00:43]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:00:43]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010040	
+[00:00:43]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010059	
+[00:00:43]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:00:43]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598513601	
+[00:00:43]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598513728	
+[00:00:43]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598514255	
+[00:00:43]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598516741	
+[00:00:43]: Could not load mod_config_data/modconfiguration_workshop-100010024	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:43]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:43]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:43]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:43]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:43]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:43]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:43]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516741	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_DAMAGE with value 30	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_DAMAGE with value 30	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIJITA_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_SPEED with value 1	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_NET with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIGJ_DAMAGE with value 100	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option CHANGMAO_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_DAMAGE with value 10	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMISZ_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option CHANGMAOKT_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option RUIWEN_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_FW with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_HAMMER with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIGJ_PF with value true	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PA with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_MINE with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_RANG with value 1	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DAMAGE with value 55	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DIG with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAOKT_DAMAGE with value 55	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_QD with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_CHOP with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIJITA_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMISZ_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option RUIWEN_PF with value false	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:43]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:43]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:43]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598514255	
+[00:00:43]: Overriding mod workshop-2199027653598514255's option uptime with value 5	
+[00:00:43]: Overriding mod workshop-2199027653598514255's option penalty with value 0.35	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513728	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:43]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:43]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:43]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:43]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:43]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:43]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:43]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:43]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:00:43]: Could not load mod_config_data/modconfiguration_workshop-100010027	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:43]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:43]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:43]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:43]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:43]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:43]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:43]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516741	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_DAMAGE with value 30	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_DAMAGE with value 30	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIJITA_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_SPEED with value 1	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_NET with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIGJ_DAMAGE with value 100	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option CHANGMAO_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_DAMAGE with value 10	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMISZ_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option CHANGMAOKT_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option RUIWEN_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_FW with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_HAMMER with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIGJ_PF with value true	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PA with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_MINE with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_RANG with value 1	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DAMAGE with value 55	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DIG with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAOKT_DAMAGE with value 55	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_QD with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_CHOP with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIJITA_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMISZ_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option RUIWEN_PF with value false	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:43]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:43]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:43]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598514255	
+[00:00:43]: Overriding mod workshop-2199027653598514255's option uptime with value 5	
+[00:00:43]: Overriding mod workshop-2199027653598514255's option penalty with value 0.35	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513728	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:43]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:43]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:43]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:43]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:43]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:43]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:43]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:43]: Loading mod: workshop-100010027 (Wormhole Marks) Version:1.4.5	
+[00:00:43]: Could not load mod_config_data/modconfiguration_workshop-100010040	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:43]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:43]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:43]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:43]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:43]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:43]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:43]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516741	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_DAMAGE with value 30	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_DAMAGE with value 30	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIJITA_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_SPEED with value 1	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_NET with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIGJ_DAMAGE with value 100	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option CHANGMAO_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_DAMAGE with value 10	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMISZ_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option CHANGMAOKT_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option RUIWEN_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_FW with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_HAMMER with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIGJ_PF with value true	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PA with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_MINE with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_RANG with value 1	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DAMAGE with value 55	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DIG with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAOKT_DAMAGE with value 55	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_QD with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_CHOP with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIJITA_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMISZ_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option RUIWEN_PF with value false	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:43]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:43]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:43]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598514255	
+[00:00:43]: Overriding mod workshop-2199027653598514255's option uptime with value 5	
+[00:00:43]: Overriding mod workshop-2199027653598514255's option penalty with value 0.35	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513728	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:43]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:43]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:43]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:43]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:43]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:43]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:43]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:43]: Loading mod: workshop-100010040 (Global Pause) Version:1.3.2	
+[00:00:43]: Could not load mod_config_data/modconfiguration_workshop-100010059	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:43]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:43]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:43]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:43]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:43]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:43]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:43]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516741	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_DAMAGE with value 30	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_DAMAGE with value 30	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIJITA_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_SPEED with value 1	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_NET with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIGJ_DAMAGE with value 100	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option CHANGMAO_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_DAMAGE with value 10	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMISZ_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option CHANGMAOKT_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option RUIWEN_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_FW with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_HAMMER with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIGJ_PF with value true	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PA with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_MINE with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_RANG with value 1	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DAMAGE with value 55	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DIG with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAOKT_DAMAGE with value 55	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_QD with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_CHOP with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIJITA_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMISZ_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option RUIWEN_PF with value false	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:43]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:43]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:43]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598514255	
+[00:00:43]: Overriding mod workshop-2199027653598514255's option uptime with value 5	
+[00:00:43]: Overriding mod workshop-2199027653598514255's option penalty with value 0.35	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513728	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:43]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:43]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:43]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:43]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:43]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:43]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:43]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:43]: Loading mod: workshop-100010059 (Extra Equip Slots) Version:1.8.0	
+[00:00:43]: Could not load mod_config_data/modconfiguration_workshop-100010062	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:43]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:43]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:43]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:43]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:43]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:43]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:43]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516741	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_DAMAGE with value 30	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_DAMAGE with value 30	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIJITA_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_SPEED with value 1	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_NET with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIGJ_DAMAGE with value 100	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option CHANGMAO_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_DAMAGE with value 10	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMISZ_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option CHANGMAOKT_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option RUIWEN_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_FW with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_HAMMER with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIGJ_PF with value true	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PA with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_MINE with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_RANG with value 1	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DAMAGE with value 55	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DIG with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAOKT_DAMAGE with value 55	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_QD with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_CHOP with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIJITA_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMISZ_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option RUIWEN_PF with value false	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:43]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:43]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:43]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598514255	
+[00:00:43]: Overriding mod workshop-2199027653598514255's option uptime with value 5	
+[00:00:43]: Overriding mod workshop-2199027653598514255's option penalty with value 0.35	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513728	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:43]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:43]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:43]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:43]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:43]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:43]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:43]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:43]: Loading mod: workshop-100010062 (Health Info) Version:2.1.4	
+[00:00:43]: Could not load mod_config_data/modconfiguration_workshop-2199027653598513601	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:43]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:43]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:43]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:43]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:43]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:43]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:43]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516741	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_DAMAGE with value 30	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_DAMAGE with value 30	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIJITA_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_SPEED with value 1	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_NET with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIGJ_DAMAGE with value 100	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option CHANGMAO_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_DAMAGE with value 10	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMISZ_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option CHANGMAOKT_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option RUIWEN_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_FW with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_HAMMER with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIGJ_PF with value true	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PA with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_MINE with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_RANG with value 1	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DAMAGE with value 55	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DIG with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAOKT_DAMAGE with value 55	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_QD with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_CHOP with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIJITA_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMISZ_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option RUIWEN_PF with value false	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:43]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:43]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:43]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598514255	
+[00:00:43]: Overriding mod workshop-2199027653598514255's option uptime with value 5	
+[00:00:43]: Overriding mod workshop-2199027653598514255's option penalty with value 0.35	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513728	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:43]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:43]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:43]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:43]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:43]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:43]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:43]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:43]: Loading mod: workshop-2199027653598513601 (阻止草变异) Version:1.1 (Old API! (mod: 2 game: 10) )	
+[00:00:43]: Could not load mod_config_data/modconfiguration_workshop-2199027653598513728	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:43]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:43]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:43]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:43]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:43]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:43]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:43]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516741	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_DAMAGE with value 30	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_DAMAGE with value 30	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIJITA_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_SPEED with value 1	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_NET with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIGJ_DAMAGE with value 100	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option CHANGMAO_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_DAMAGE with value 10	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMISZ_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option CHANGMAOKT_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option RUIWEN_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_FW with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_HAMMER with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIGJ_PF with value true	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PA with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_MINE with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_RANG with value 1	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DAMAGE with value 55	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DIG with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAOKT_DAMAGE with value 55	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_QD with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_CHOP with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIJITA_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMISZ_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option RUIWEN_PF with value false	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:43]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:43]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:43]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598514255	
+[00:00:43]: Overriding mod workshop-2199027653598514255's option uptime with value 5	
+[00:00:43]: Overriding mod workshop-2199027653598514255's option penalty with value 0.35	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513728	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:43]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:43]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:43]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:43]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:43]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:43]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:43]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:43]: Loading mod: workshop-2199027653598513728 (Lamb) Version:1.0.1	
+[00:00:43]: Could not load mod_config_data/modconfiguration_workshop-2199027653598514255	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:43]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:43]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:43]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:43]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:43]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:43]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:43]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516741	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_DAMAGE with value 30	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_DAMAGE with value 30	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIJITA_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_SPEED with value 1	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_NET with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIGJ_DAMAGE with value 100	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option CHANGMAO_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_DAMAGE with value 10	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMISZ_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option CHANGMAOKT_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option RUIWEN_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_FW with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_HAMMER with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIGJ_PF with value true	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PA with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_MINE with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_RANG with value 1	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DAMAGE with value 55	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DIG with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAOKT_DAMAGE with value 55	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_QD with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_CHOP with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIJITA_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMISZ_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option RUIWEN_PF with value false	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:43]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:43]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:43]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598514255	
+[00:00:43]: Overriding mod workshop-2199027653598514255's option uptime with value 5	
+[00:00:43]: Overriding mod workshop-2199027653598514255's option penalty with value 0.35	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513728	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:43]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:43]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:43]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:43]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:43]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:43]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:43]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:43]: Loading mod: workshop-2199027653598514255 (Lazy Lazy Deserter) Version:2.0	
+[00:00:43]: Could not load mod_config_data/modconfiguration_workshop-2199027653598516741	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:43]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:43]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:43]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:43]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:43]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:43]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:43]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598516741	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_DAMAGE with value 30	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_DAMAGE with value 30	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIJITA_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_SPEED with value 1	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_NET with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIGJ_DAMAGE with value 100	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option CHANGMAO_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option REDSWORD_DAMAGE with value 10	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMISZ_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option CHANGMAOKT_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option RUIWEN_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_FW with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_HAMMER with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIGJ_PF with value true	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAO_LV with value 40	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_PA with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_MINE with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_RANG with value 1	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DAMAGE with value 55	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_DIG with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMICHANGMAOKT_DAMAGE with value 55	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_QD with value 0	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option KING_PF with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIANGRIKUI_CHOP with value false	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMIJITA_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option XIMISZ_DAMAGE with value 58	
+[00:00:43]: Overriding mod workshop-2199027653598516741's option RUIWEN_PF with value false	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:43]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:43]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:43]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:43]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598514255	
+[00:00:43]: Overriding mod workshop-2199027653598514255's option uptime with value 5	
+[00:00:43]: Overriding mod workshop-2199027653598514255's option penalty with value 0.35	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513728	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:43]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:43]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:43]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:43]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:43]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:43]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:43]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:43]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:43]: Loading mod: workshop-2199027653598516741 (西米武器合集) Version:1.8.6	
+[00:00:43]: Mod: workshop-100010040 (Global Pause)	Loading modworldgenmain.lua	
+[00:00:43]: Mod: workshop-100010040 (Global Pause)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:43]: Mod: workshop-100010040 (Global Pause)	Loading modmain.lua	
+[00:00:44]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:44]: Mod: workshop-100010059 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:44]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:44]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:00:44]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:44]: Mod: workshop-100010062 (Health Info)	Loading modmain.lua	
+[00:00:44]: modimport: ../mods/workshop-100010062/black_white_lists.lua	
+[00:00:44]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modworldgenmain.lua	
+[00:00:44]: Mod: workshop-2199027653598513601 (阻止草变异)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:44]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modmain.lua	
+[00:00:44]: Mod: workshop-2199027653598516741 (西米武器合集)	Loading modworldgenmain.lua	
+[00:00:44]: Mod: workshop-2199027653598516741 (西米武器合集)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:44]: Mod: workshop-2199027653598516741 (西米武器合集)	Loading modmain.lua	
+[00:00:44]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:00:44]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:44]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:00:44]: Mod: workshop-100010027 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:00:44]: Mod: workshop-100010027 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:44]: Mod: workshop-100010027 (Wormhole Marks)	Loading modmain.lua	
+[00:00:44]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	Loading modworldgenmain.lua	
+[00:00:44]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:44]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	Loading modmain.lua	
+[00:00:44]: Mod: workshop-2199027653598513728 (Lamb)	Loading modworldgenmain.lua	
+[00:00:44]: Mod: workshop-2199027653598513728 (Lamb)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:44]: Mod: workshop-2199027653598513728 (Lamb)	Loading modmain.lua	
+[00:00:49]: LOADING LUA SUCCESS
+[00:00:49]: Registering mod namespace "globalpause"
+[00:00:49]: PlayerDeaths could not load morgue	
+[00:00:49]: PlayerHistory could not load player_history	
+[00:00:49]: ServerPreferences could not load server_preferences	
+[00:00:49]: bloom_enabled	false	
+[00:00:49]: loaded saveindex	
+[00:00:49]: OnFilesLoaded()	
+[00:00:49]: OnUpdatePurchaseStateComplete	
+[00:00:49]: Loading world: session/0B903274C5161688/0000000197	
+[00:00:50]: Save file is at version 4.77	
+[00:00:50]: Klump load on boot started.	
+[00:00:50]: Klump files loaded: 	0	
+[00:00:50]: 	Unload FE	
+[00:00:50]: 	Unload FE done	
+[00:01:07]: Mod: workshop-100010040 (Global Pause)	Registering prefabs	
+[00:01:07]: Mod: workshop-100010040 (Global Pause)	  Registering default mod prefab	
+[00:01:07]: Mod: workshop-100010059 (Extra Equip Slots)	Registering prefabs	
+[00:01:07]: Mod: workshop-100010059 (Extra Equip Slots)	  Registering default mod prefab	
+[00:01:07]: Mod: workshop-100010062 (Health Info)	Registering prefabs	
+[00:01:07]: Mod: workshop-100010062 (Health Info)	  Registering default mod prefab	
+[00:01:07]: Mod: workshop-2199027653598513601 (阻止草变异)	Registering prefabs	
+[00:01:07]: Mod: workshop-2199027653598513601 (阻止草变异)	  Registering default mod prefab	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	Registering prefabs	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/xiangrikui	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    xiangrikui	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    xiangrikuilight	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/king	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    king	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximibi	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximibi	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/redsword	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    redsword	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/redsword_jx	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    redsword_jx	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/changmao	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    changmao	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/changmaokt	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    changmaokt	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximigj	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximigj	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximigj_projectile	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    ice_projectile	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximigj_projectile	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximisz	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximisz	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximisz_projectile	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    ice_projectile	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximisz_projectile	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximijita	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximijita	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ruiwen	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    ruiwen	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand2	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand2	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand3	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand3	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand4	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand4	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand5	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand5	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand6	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand6	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand7	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand7	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand8	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand8	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand9	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand9	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/masaike	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    masaike	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/masaike2	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    masaike2	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/masaike3	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    masaike3	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/luobo	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    luobo	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/tz_firesword_fx	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    tz_firesword_fx	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/tz_icesword_fx	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    tz_icesword_fx	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/kbsword	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    kbsword	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/bolld_ancient_fx	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    bolld_ancient_fx1	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    bolld_ancient_fx2	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    bolld_ancient_fx3	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    bolld_ancient_fx	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/shadow_fx	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    shadow_fx	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/chibang_fx	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	    chibang_fx	
+[00:01:07]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering default mod prefab	
+[00:01:08]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:01:08]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:01:08]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
+[00:01:08]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
+[00:01:08]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
+[00:01:08]: Mod: workshop-100010027 (Wormhole Marks)	Registering prefabs	
+[00:01:08]: Mod: workshop-100010027 (Wormhole Marks)	  Registering default mod prefab	
+[00:01:08]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	Registering prefabs	
+[00:01:08]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	  Registering default mod prefab	
+[00:01:08]: Mod: workshop-2199027653598513728 (Lamb)	Registering prefabs	
+[00:01:08]: Mod: workshop-2199027653598513728 (Lamb)	  Registering prefab file: prefabs/lamb	
+[00:01:08]: Mod: workshop-2199027653598513728 (Lamb)	    lamb	
+[00:01:08]: Mod: workshop-2199027653598513728 (Lamb)	  Registering prefab file: prefabs/lamb_none	
+[00:01:08]: Mod: workshop-2199027653598513728 (Lamb)	    lamb_none	
+[00:01:08]: Mod: workshop-2199027653598513728 (Lamb)	  Registering default mod prefab	
+[00:01:10]: 	LOAD BE	
+[00:01:35]: 	LOAD BE: done	
+[00:01:36]: Begin Session: 0B903274C5161688
+[00:01:36]: saving to server_temp/server_save	
+[00:01:37]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010024/minimap/storeroom.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_1.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_2.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_3.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_4.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_5.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_6.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_7.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_8.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_9.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_10.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_11.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_12.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_13.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_14.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_15.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_16.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_17.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_18.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_19.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_20.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_21.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_22.xml )
+[00:01:37]: MiniMapComponent::AddAtlas( ../mods/workshop-2199027653598513728/images/map_icons/lamb.xml )
+[00:01:37]: Loading 13 new character(s)	
+[00:01:39]: Total 13 character(s) loaded	
+[00:01:40]: Loading Nav Grid	
+[00:01:40]: setting 	summerlength	15	
+[00:01:40]: setting 	isnightmaredawn	false	
+[00:01:40]: setting 	elapseddaysinseason	12	
+[00:01:40]: setting 	isfullmoon	false	
+[00:01:40]: setting 	moisture	1270.9522705078	
+[00:01:40]: setting 	springlength	20	
+[00:01:40]: setting 	isnightmarewild	false	
+[00:01:40]: setting 	moonphase	threequarter	
+[00:01:40]: setting 	precipitationrate	0	
+[00:01:40]: setting 	iswet	true	
+[00:01:40]: setting 	isnewmoon	false	
+[00:01:40]: setting 	iswinter	false	
+[00:01:40]: setting 	israining	false	
+[00:01:40]: setting 	isnightmarewarn	false	
+[00:01:40]: setting 	precipitation	none	
+[00:01:40]: setting 	cavephase	dusk	
+[00:01:40]: setting 	moistureceil	2731.7678222656	
+[00:01:40]: setting 	isday	false	
+[00:01:40]: setting 	iscaveday	false	
+[00:01:40]: setting 	season	spring	
+[00:01:40]: setting 	timeinphase	0.062624549865723	
+[00:01:40]: setting 	temperature	35	
+[00:01:40]: setting 	isnightmarecalm	false	
+[00:01:40]: setting 	isnight	false	
+[00:01:40]: setting 	isdusk	true	
+[00:01:40]: setting 	iscavedusk	true	
+[00:01:40]: setting 	isautumn	false	
+[00:01:40]: setting 	issnowing	false	
+[00:01:40]: setting 	iswaxingmoon	true	
+[00:01:40]: setting 	pop	0.40614956219041	
+[00:01:40]: setting 	snowlevel	0	
+[00:01:40]: setting 	issnowcovered	false	
+[00:01:40]: setting 	autumnlength	20	
+[00:01:40]: setting 	phase	dusk	
+[00:01:40]: setting 	nightmaretime	0	
+[00:01:40]: setting 	winterlength	15	
+[00:01:40]: setting 	isspring	true	
+[00:01:40]: setting 	nightmarephase	none	
+[00:01:40]: setting 	remainingdaysinseason	8	
+[00:01:40]: setting 	cycles	187	
+[00:01:40]: setting 	iscavenight	false	
+[00:01:40]: setting 	nightmaretimeinphase	0	
+[00:01:40]: setting 	wetness	21.934244155884	
+[00:01:40]: setting 	time	0.34381227493286	
+[00:01:40]: setting 	issummer	false	
+[00:01:40]: OVERRIDE: setting	disease_delay	to	none	
+[00:02:34]: Reconstructing topology	
+[00:02:34]: 	...Sorting points	
+[00:02:34]: 	...Sorting edges	
+[00:02:34]: 	...Connecting nodes	
+[00:02:34]: 	...Validating connections	
+[00:02:34]: 	...Housekeeping	
+[00:02:34]: 	...Done!	
+[00:02:34]: 1 uploads added to server. From server_temp
+[00:02:34]: About to start a shard with these settings:
+[00:02:34]:   ShardName: [SHDMASTER]
+[00:02:34]:   ShardID: 1
+[00:02:34]:   ShardRole: MASTER
+[00:02:34]:   MasterHost: (null)
+[00:02:34]:   MasterBind: 127.0.0.1
+[00:02:34]:   MasterPort: 10888
+[00:02:34]: [Shard] Starting master server
+[00:02:34]: [Warning] Could not confirm port 10888 is open in the firewall. 
+[00:02:34]: [Shard] Shard server started on port: 10888
+[00:02:34]: [IPC] Signal 'DST_Master_Ready' opened  #00000474
+[00:02:34]: [IPC] Sending signal... #00000474
+[00:02:34]: Telling Client our new session identifier: 0B903274C5161688
+[00:02:34]: ModIndex: Load sequence finished successfully.	
+[00:02:37]: Reset() returning
+[00:02:37]: [Rail] Creating game server...
+[00:02:37]: [Rail] Done.
+[00:02:39]: Validating portal[7] <-> 3918349408[7] (inactive)	
+[00:02:39]: Validating portal[3] <-> 3918349408[3] (inactive)	
+[00:02:39]: Validating portal[9] <-> 3918349408[9] (inactive)	
+[00:02:39]: Validating portal[6] <-> 3918349408[6] (inactive)	
+[00:02:39]: Validating portal[4] <-> 3918349408[4] (inactive)	
+[00:02:39]: Validating portal[10] <-> 3918349408[10] (inactive)	
+[00:02:39]: Validating portal[1] <-> 3918349408[1] (inactive)	
+[00:02:39]: Validating portal[5] <-> 3918349408[5] (inactive)	
+[00:02:39]: Validating portal[8] <-> 3918349408[8] (inactive)	
+[00:02:39]: Validating portal[2] <-> 3918349408[2] (inactive)	
+[00:02:40]: Sim paused
+[00:02:40]: Registering master server in China lobby
+[00:02:40]: [Rail] Game server created.
+[00:02:40]: [P2P] Setting rail id 90071997526991811
+[00:02:40]: [Rail] WARNING: Spent 1506 milliseconds in rail calls in the last 1.51 seconds
+[00:02:40]:     RailLibrary::RailFireEvents: 0ms
+[00:02:41]: [Rail] Register to server list success.
+[00:02:41]: [Shard] Slave Caves(3918349408) connected: [LAN] 127.0.0.1
+[00:02:42]: [Shard] Slave Caves(3918349408) ready!
+[00:02:42]: World 3918349408 is now connected	
+[00:02:42]: Validating portal[7] <-> 3918349408[7] (active)	
+[00:02:42]: Validating portal[3] <-> 3918349408[3] (active)	
+[00:02:42]: Validating portal[9] <-> 3918349408[9] (disabled)	
+[00:02:42]: Validating portal[6] <-> 3918349408[6] (disabled)	
+[00:02:42]: Validating portal[4] <-> 3918349408[4] (active)	
+[00:02:42]: Validating portal[10] <-> 3918349408[10] (active)	
+[00:02:42]: Validating portal[1] <-> 3918349408[1] (active)	
+[00:02:42]: Validating portal[5] <-> 3918349408[5] (disabled)	
+[00:02:42]: Validating portal[8] <-> 3918349408[8] (disabled)	
+[00:02:42]: Validating portal[2] <-> 3918349408[2] (disabled)	
+[00:02:44]: New incoming connection 127.0.0.1|62550 <9045560954732464024>
+[00:02:44]: Client connected from [LAN] 127.0.0.1|62550 <9045560954732464024>
+[00:02:44]: ValidateGameSessionToken pgs-sing^KU_3xJ72Cx7^DontStarveTogether^ODEWP8xer2C+1rqnlqrMHFmmsjRnJMBE4obWsUv1n0Q= for <9045560954732464024>
+[00:02:44]: Client authenticated: (KU_3xJ72Cx7) 布利扎德
+[00:02:46]: There is no active event to validate against.
+[00:02:46]: [Shard] Read save location file for (KU_3xJ72Cx7)
+[00:02:46]: [Rail] Reporting played with: "布利扎德" (R:76561197970823881).
+[00:02:46]: [Rail] Reporting player join "布利扎德" (R:76561197970823881).
+[00:02:50]: Registering master server in China lobby
+[00:03:48]: Resuming user: session/0B903274C5161688/A7GFMJ3GHJM7/0000000197
+[00:03:57]: Spawning player at: [Load] (-83.44, -0.00, -11.82)	
+[00:04:02]: Sim unpaused
+[00:04:02]: Registering master server in China lobby
+[00:04:17]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:04:17]: toggling	
+[00:04:36]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:04:36]: toggling	
+[00:04:36]: OnGPUnpause	
+[00:04:43]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:04:43]: toggling	
+[00:04:48]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:04:48]: toggling	
+[00:04:48]: OnGPUnpause	
+[00:05:26]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:05:26]: toggling	
+[00:05:31]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:05:31]: toggling	
+[00:05:31]: OnGPUnpause	
+[00:06:17]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:06:17]: toggling	
+[00:06:29]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:06:29]: toggling	
+[00:06:29]: OnGPUnpause	
+[00:06:34]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:06:34]: toggling	
+[00:06:52]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:06:52]: toggling	
+[00:06:52]: OnGPUnpause	
+[00:07:13]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:07:13]: toggling	
+[00:07:21]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:07:21]: toggling	
+[00:07:21]: OnGPUnpause	
+[00:07:22]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:07:22]: toggling	
+[00:07:24]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:07:24]: toggling	
+[00:07:24]: OnGPUnpause	
+[00:10:27]: Registering master server in China lobby
+[00:10:30]: Serializing user: session/0B903274C5161688/A7GFMJ3GHJM7/0000000198
+[00:10:33]: Serializing world: session/0B903274C5161688/0000000198
+[00:18:32]: Registering master server in China lobby
+[00:18:35]: Serializing user: session/0B903274C5161688/A7GFMJ3GHJM7/0000000199
+[00:18:37]: Serializing world: session/0B903274C5161688/0000000199
+[00:18:40]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:18:40]: toggling	
+[00:19:06]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:19:06]: toggling	
+[00:19:06]: OnGPUnpause	
+[00:21:08]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:21:08]: toggling	
+[00:21:15]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:21:15]: toggling	
+[00:21:15]: OnGPUnpause	
+[00:21:24]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:21:24]: toggling	
+[00:21:25]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:21:25]: toggling	
+[00:21:25]: OnGPUnpause	
+[00:24:33]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:24:33]: toggling	
+[00:24:44]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:24:44]: toggling	
+[00:24:44]: OnGPUnpause	
+[00:25:06]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:25:06]: toggling	
+[00:25:13]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:25:13]: toggling	
+[00:25:13]: OnGPUnpause	
+[00:25:21]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:25:21]: toggling	
+[00:25:30]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:25:30]: toggling	
+[00:25:30]: OnGPUnpause	
+[00:25:32]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:25:32]: toggling	
+[00:25:37]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:25:37]: toggling	
+[00:25:37]: OnGPUnpause	
+[00:25:44]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:25:44]: toggling	
+[00:25:49]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:25:49]: toggling	
+[00:25:49]: OnGPUnpause	
+[00:25:59]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:25:59]: toggling	
+[00:25:59]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:25:59]: toggling	
+[00:25:59]: OnGPUnpause	
+[00:26:06]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:26:06]: toggling	
+[00:26:09]: [(KU_3xJ72Cx7) 布利扎德] ReceiveRemoteExecute(GPTogglePause())
+[00:26:09]: toggling	
+[00:26:09]: OnGPUnpause	
+[00:26:29]: [Shard] (KU_3xJ72Cx7) disconnected from [SHDMASTER](1)
+[00:26:29]: [IPC] Received shutdown signal.
+[00:26:31]: Serializing user: session/0B903274C5161688/A7GFMJ3GHJM7/0000000200
+[00:26:32]: Serializing world: session/0B903274C5161688/0000000200
+[00:26:32]: Truncating to snapshot #200...
+[00:26:32]:  - session/0B903274C5161688/0000000192
+[00:26:32]:  - session/0B903274C5161688/0000000193
+[00:26:32]:  - session/0B903274C5161688/0000000194
+[00:26:32]:  - session/0B903274C5161688/A7GFMJ3GHJM7/0000000194
+[00:26:32]:  - session/0B903274C5161688/A7GFMJ3GHJM7/0000000193
+[00:26:32]:  - session/0B903274C5161688/A7GFMJ3GHJM7/0000000192
+[00:26:32]:    6 file(s) removed
+[00:26:32]: Removing server from China lobby
+[00:26:32]: [Shard] Stopping shard mode
+[00:26:38]: Collecting garbage...
+[00:26:39]: lua_gc took 0.68 seconds
+[00:26:39]: ~ShardLuaProxy()
+[00:26:39]: ~cEventLeaderboardProxy()
+[00:26:39]: ~ItemServerLuaProxy()
+[00:26:39]: ~InventoryLuaProxy()
+[00:26:39]: ~NetworkLuaProxy()
+[00:26:39]: ~SimLuaProxy()
+[00:26:44]: lua_close took 5.46 seconds
+[00:26:58]: CurlRequestManager::ClientThread::Main() complete
+[00:26:58]: HttpClient2 discarded 0 callbacks.
+[00:26:58]: [Rail] Shutting down Rail
+[00:27:04]: [Rail] WARNING: Spent 5959 milliseconds in RailLibrary::RailFinalize
+[00:27:04]: Shutting down
