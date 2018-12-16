@@ -1,13 +1,13 @@
 [00:00:00]: 
 System Memory:
-	Memory Load: 31%
-	Available Physical Memory: 11108m/16244m
-	Available Page File: 10666m/17967m
-	Available Virtual Memory: 3991m/4095m
+	Memory Load: 33%
+	Available Physical Memory: 10863m/16244m
+	Available Page File: 11043m/19188m
+	Available Virtual Memory: 3992m/4095m
 	Available Extended Virtual Memory: 0m
 [00:00:00]: 
 Process Memory:
-	Peak Working Set Size: 10m
+	Peak Working Set Size: 11m
 	Working Set Size: 10m
 	Quota Peak Page Pool Usage: 193k
 	Quota Page Pool Usage: 190k
@@ -15,15 +15,15 @@ Process Memory:
 	Quota Non Paged Pool Usage: 14k
 	Page File Usage: 3m
 	Peak Page File Usage: 3m
-[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogetherRail/76561197970823881/Cluster_1/Caves/ 
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogetherRail/76561197970823881/Cluster_1/Master/ 
 [00:00:00]: Starting Up
-[00:00:00]: Version: 298779
-[00:00:00]: Current time: Sun Dec 16 20:39:43 2018
+[00:00:00]: Version: 295861
+[00:00:00]: Current time: Sun Nov 25 19:39:21 2018
 
-[00:00:00]: Don't Starve Together: 298779 WIN32
-[00:00:00]: Build Date: 3817
+[00:00:00]: Don't Starve Together: 295861 WIN32
+[00:00:00]: Build Date: 3774
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -monitor_parent_process 6260 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogetherRail -cluster Cluster_1 -ownernetid R:76561197970823881 -ownerdir 76561197970823881 -backup_log_count 10 -backup_log_period 0 -shard Caves -sigprefix DST_Slave -region China --rail_platform_type=1 --rail_app_type=2 --rail_channel_id=1600026260 
+[00:00:00]: Command Line Arguments: -monitor_parent_process 18720 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogetherRail -cluster Cluster_1 -ownernetid R:76561197970823881 -ownerdir 76561197970823881 -backup_log_count 10 -backup_log_period 0 -shard Master -sigprefix DST_Master -region China --rail_platform_type=1 --rail_app_type=2 --rail_channel_id=1600028720 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: [Rail] Initializing Rail (2000004)
 [00:00:00]: [Rail] Rail SDK version 1.8.6.0
@@ -31,24 +31,24 @@ Process Memory:
 [00:00:00]: Fixing DPI
 [00:00:00]: ...Done
 [00:00:00]: Mounting file system databundles/klump.zip successful.
-[00:00:00]: THREAD - started 'GAClient' (9028)
-[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: THREAD - started 'GAClient' (3408)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
 [00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
 [00:00:00]: Mounting file system databundles/bigportraits.zip successful.
 [00:00:00]: Mounting file system databundles/images.zip successful.
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
-[00:00:00]: ProfileIndex:2.91
+[00:00:00]: ProfileIndex:2.82
 [00:00:00]: [Connect] PendingConnection::Reset(true)
-[00:00:00]: THREAD - started 'Ping Job Thread' (2404)
+[00:00:00]: THREAD - started 'Ping Job Thread' (15192)
 [00:00:00]: Platform: 4
 [00:00:00]: Network tick rate: U=15(2), D=0
 [00:00:00]: Network tick rate: U=15(2), D=0
-[00:00:00]: [Warning] Authorized application E:\Games\WeGame_bought\rail_apps\
 [00:00:00]: Authorized application E:\Games\WeGame_bought\rail_apps\
+[00:00:00]: WindowsFirewall - Application already authorized
 [00:00:00]: Overriding region to China
-[00:00:00]: THREAD - started 'StreamInput' (3016)
+[00:00:00]: THREAD - started 'StreamInput' (21948)
 [00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/76561197970823881/client_save/blocklist.txt (Failure)
 [00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/76561197970823881/client_save/adminlist.txt (Failure)
 [00:00:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogetherRail/76561197970823881/client_save/whitelist.txt (Failure)
@@ -73,8 +73,8 @@ Process Memory:
     name                      NVIDIA GeForce GTX 1050
     driverDate                20180624000000.000000-000
     megsOfRam                 4095
-    refreshRate               0
-    videoModeDescription      
+    refreshRate               60
+    videoModeDescription      1024 x 768 x 4294967296 种颜色
     driverVersion             24.21.13.9836
 
 [00:00:00]: cGame::InitializeOnMainThread
@@ -84,9 +84,9 @@ Process Memory:
 [00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
 [00:00:00]: GameSpecific initialize: Okay
 [00:00:00]: cGame::StartPlaying
-[00:00:01]: LOADING LUA
-[00:00:01]: DoLuaFile scripts/main.lua
-[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
 [00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
 [00:00:02]:   taskgrouplist:	default	联机	
 [00:00:02]:   taskgrouplist:	classic	经典	
@@ -830,18 +830,18 @@ Process Memory:
 [00:00:05]: Mod: workshop-2199027653598513728 (Lamb)	    lamb_none	
 [00:00:05]: Mod: workshop-2199027653598513728 (Lamb)	  Registering default mod prefab	
 [00:00:06]: 	Load FE	
-[00:00:07]: 	Load FE: done	
-[00:00:07]: THREAD - started 'FilesExistAsyncThread' (14564)
-[00:00:07]: FilesExistAsyncThread started (19516 files)...
-[00:00:07]: ModIndex: Load sequence finished successfully.	
-[00:00:07]: Reset() returning
-[00:00:07]: [IPC] Signal 'DST_Slave_Kill' opened  #0000051C
-[00:00:07]: [IPC] Registering handler for signal #0000051C
-[00:00:07]: [IPC] Handle #0000051C added to the Eventhandles
-[00:00:07]: [IPC] Signal 'DST_Slave_Starting' opened  #0000055C
-[00:00:07]: [IPC] Sending signal... #0000055C
-[00:00:07]: Error: Could not find file: anim/lamb.zip
-[00:00:07]: Error: Could not find file: anim/lamb.zip
+[00:00:06]: 	Load FE: done	
+[00:00:06]: THREAD - started 'FilesExistAsyncThread' (22308)
+[00:00:06]: FilesExistAsyncThread started (19151 files)...
+[00:00:06]: ModIndex: Load sequence finished successfully.	
+[00:00:06]: Reset() returning
+[00:00:06]: [IPC] Signal 'DST_Master_Kill' opened  #0000044C
+[00:00:06]: [IPC] Registering handler for signal #0000044C
+[00:00:06]: [IPC] Handle #0000044C added to the Eventhandles
+[00:00:06]: [IPC] Signal 'DST_Master_Starting' opened  #0000054C
+[00:00:06]: [IPC] Sending signal... #0000054C
+[00:00:06]: Error: Could not find file: anim/lamb.zip
+[00:00:06]: Error: Could not find file: anim/lamb.zip
 [00:00:07]: [200] Account Communication Success (6)
 [00:00:07]: Received (KU_3xJ72Cx7) from TokenPurpose
 [00:00:07]: Starting Dedicated Server Game	
@@ -850,7 +850,7 @@ Process Memory:
 [00:00:07]:   Dedicated: true
 [00:00:07]:   Online: true
 [00:00:07]:   Passworded: true
-[00:00:07]:   ServerPort: 10998
+[00:00:07]:   ServerPort: 10999
 [00:00:07]:   SteamAuthPort: 8766
 [00:00:07]:   SteamMasterServerPort: 27016
 [00:00:07]:   ClanID: false
@@ -869,7 +869,7 @@ Process Memory:
 [00:00:07]:   VoteEnabled: false
 [00:00:07]:   InternetBroadcasting: true
 [00:00:07]:   Intent: cooperative
-[00:00:07]: [Warning] Could not confirm port 10998 is open in the firewall. 
+[00:00:07]: [Warning] Could not confirm port 10999 is open in the firewall. 
 [00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010027	
 [00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010062	
 [00:00:07]: Could not load mod_config_data/modconfiguration_workshop-2199027653598516741	
@@ -877,10 +877,10 @@ Process Memory:
 [00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010024	
 [00:00:07]: Could not load mod_config_data/modconfiguration_workshop-2199027653598513728	
 [00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010059	
-[00:00:07]: Online Server Started on port: 10998
+[00:00:07]: Online Server Started on port: 10999
 [00:00:07]: [Rail] Punchthrough start.
 [00:00:07]: Collecting garbage...
-[00:00:07]: lua_gc took 0.03 seconds
+[00:00:07]: lua_gc took 0.04 seconds
 [00:00:07]: ~ShardLuaProxy()
 [00:00:07]: ~cEventLeaderboardProxy()
 [00:00:07]: ~ItemServerLuaProxy()
@@ -889,7 +889,7 @@ Process Memory:
 [00:00:07]: ~SimLuaProxy()
 [00:00:07]: FilesExistAsyncThread aborted.
 [00:00:07]: ... FilesExistAsyncThread complete
-[00:00:07]: lua_close took 0.07 seconds
+[00:00:07]: lua_close took 0.05 seconds
 [00:00:07]: ReleaseAll
 [00:00:07]: ReleaseAll Finished
 [00:00:07]: cGame::StartPlaying
@@ -1513,31 +1513,31 @@ Process Memory:
 [00:00:08]: Mod: workshop-100010040 (Global Pause)	Loading modworldgenmain.lua	
 [00:00:08]: Mod: workshop-100010040 (Global Pause)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:08]: Mod: workshop-100010040 (Global Pause)	Loading modmain.lua	
-[00:00:09]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modworldgenmain.lua	
-[00:00:09]: Mod: workshop-100010059 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:09]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modmain.lua	
-[00:00:09]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
-[00:00:09]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:09]: Mod: workshop-100010062 (Health Info)	Loading modmain.lua	
-[00:00:09]: modimport: ../mods/workshop-100010062/black_white_lists.lua	
-[00:00:09]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modworldgenmain.lua	
-[00:00:09]: Mod: workshop-2199027653598513601 (阻止草变异)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:09]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modmain.lua	
-[00:00:09]: Mod: workshop-2199027653598516741 (西米武器合集)	Loading modworldgenmain.lua	
-[00:00:09]: Mod: workshop-2199027653598516741 (西米武器合集)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:09]: Mod: workshop-2199027653598516741 (西米武器合集)	Loading modmain.lua	
-[00:00:09]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
-[00:00:09]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:09]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
-[00:00:09]: Mod: workshop-100010027 (Wormhole Marks)	Loading modworldgenmain.lua	
-[00:00:09]: Mod: workshop-100010027 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:09]: Mod: workshop-100010027 (Wormhole Marks)	Loading modmain.lua	
-[00:00:09]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	Loading modworldgenmain.lua	
-[00:00:09]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:09]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	Loading modmain.lua	
-[00:00:09]: Mod: workshop-2199027653598513728 (Lamb)	Loading modworldgenmain.lua	
-[00:00:09]: Mod: workshop-2199027653598513728 (Lamb)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:09]: Mod: workshop-2199027653598513728 (Lamb)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-100010059 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-100010062 (Health Info)	Loading modmain.lua	
+[00:00:08]: modimport: ../mods/workshop-100010062/black_white_lists.lua	
+[00:00:08]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-2199027653598513601 (阻止草变异)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-2199027653598516741 (西米武器合集)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-2199027653598516741 (西米武器合集)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-2199027653598516741 (西米武器合集)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-100010027 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-100010027 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-100010027 (Wormhole Marks)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-2199027653598513728 (Lamb)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-2199027653598513728 (Lamb)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-2199027653598513728 (Lamb)	Loading modmain.lua	
 [00:00:09]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
 [00:00:09]: LOADING LUA SUCCESS
 [00:00:09]: Registering mod namespace "globalpause"
@@ -1548,185 +1548,185 @@ Process Memory:
 [00:00:09]: loaded saveindex	
 [00:00:09]: OnFilesLoaded()	
 [00:00:09]: OnUpdatePurchaseStateComplete	
-[00:00:09]: Loading world: session/5B3136F7C2C2F037/0000000248	
+[00:00:09]: Loading world: session/0B903274C5161688/0000000237	
 [00:00:09]: Save file is at version 4.77	
 [00:00:09]: Klump load on boot started.	
 [00:00:09]: Klump files loaded: 	0	
 [00:00:09]: 	Unload FE	
 [00:00:09]: 	Unload FE done	
-[00:00:11]: Mod: workshop-100010040 (Global Pause)	Registering prefabs	
-[00:00:11]: Mod: workshop-100010040 (Global Pause)	  Registering default mod prefab	
-[00:00:11]: Mod: workshop-100010059 (Extra Equip Slots)	Registering prefabs	
-[00:00:11]: Mod: workshop-100010059 (Extra Equip Slots)	  Registering default mod prefab	
-[00:00:11]: Mod: workshop-100010062 (Health Info)	Registering prefabs	
-[00:00:11]: Mod: workshop-100010062 (Health Info)	  Registering default mod prefab	
-[00:00:11]: Mod: workshop-2199027653598513601 (阻止草变异)	Registering prefabs	
-[00:00:11]: Mod: workshop-2199027653598513601 (阻止草变异)	  Registering default mod prefab	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	Registering prefabs	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/xiangrikui	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    xiangrikui	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    xiangrikuilight	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/king	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    king	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximibi	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximibi	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/redsword	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    redsword	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/redsword_jx	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    redsword_jx	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/changmao	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    changmao	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/changmaokt	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    changmaokt	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximigj	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximigj	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximigj_projectile	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    ice_projectile	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximigj_projectile	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximisz	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximisz	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximisz_projectile	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    ice_projectile	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximisz_projectile	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximijita	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximijita	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ruiwen	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    ruiwen	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand2	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand2	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand3	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand3	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand4	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand4	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand5	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand5	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand6	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand6	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand7	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand7	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand8	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand8	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand9	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand9	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/masaike	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    masaike	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/masaike2	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    masaike2	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/masaike3	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    masaike3	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/luobo	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    luobo	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/tz_firesword_fx	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    tz_firesword_fx	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/tz_icesword_fx	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    tz_icesword_fx	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/kbsword	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    kbsword	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/bolld_ancient_fx	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    bolld_ancient_fx1	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    bolld_ancient_fx2	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    bolld_ancient_fx3	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    bolld_ancient_fx	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/shadow_fx	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    shadow_fx	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/chibang_fx	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	    chibang_fx	
-[00:00:11]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering default mod prefab	
-[00:00:11]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
-[00:00:11]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
-[00:00:11]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
-[00:00:11]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
-[00:00:11]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
-[00:00:11]: Mod: workshop-100010027 (Wormhole Marks)	Registering prefabs	
-[00:00:11]: Mod: workshop-100010027 (Wormhole Marks)	  Registering default mod prefab	
-[00:00:11]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	Registering prefabs	
-[00:00:11]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	  Registering default mod prefab	
-[00:00:11]: Mod: workshop-2199027653598513728 (Lamb)	Registering prefabs	
-[00:00:11]: Mod: workshop-2199027653598513728 (Lamb)	  Registering prefab file: prefabs/lamb	
-[00:00:11]: Mod: workshop-2199027653598513728 (Lamb)	    lamb	
-[00:00:11]: Mod: workshop-2199027653598513728 (Lamb)	  Registering prefab file: prefabs/lamb_none	
-[00:00:11]: Mod: workshop-2199027653598513728 (Lamb)	    lamb_none	
-[00:00:11]: Mod: workshop-2199027653598513728 (Lamb)	  Registering default mod prefab	
+[00:00:10]: Mod: workshop-100010040 (Global Pause)	Registering prefabs	
+[00:00:10]: Mod: workshop-100010040 (Global Pause)	  Registering default mod prefab	
+[00:00:10]: Mod: workshop-100010059 (Extra Equip Slots)	Registering prefabs	
+[00:00:10]: Mod: workshop-100010059 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:10]: Mod: workshop-100010062 (Health Info)	Registering prefabs	
+[00:00:10]: Mod: workshop-100010062 (Health Info)	  Registering default mod prefab	
+[00:00:10]: Mod: workshop-2199027653598513601 (阻止草变异)	Registering prefabs	
+[00:00:10]: Mod: workshop-2199027653598513601 (阻止草变异)	  Registering default mod prefab	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	Registering prefabs	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/xiangrikui	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    xiangrikui	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    xiangrikuilight	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/king	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    king	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximibi	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximibi	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/redsword	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    redsword	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/redsword_jx	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    redsword_jx	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/changmao	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    changmao	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/changmaokt	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    changmaokt	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximigj	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximigj	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximigj_projectile	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    ice_projectile	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximigj_projectile	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximisz	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximisz	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximisz_projectile	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    ice_projectile	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximisz_projectile	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ximijita	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    ximijita	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/ruiwen	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    ruiwen	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand2	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand2	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand3	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand3	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand4	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand4	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand5	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand5	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand6	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand6	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand7	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand7	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand8	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand8	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/wand9	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    wand9	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/masaike	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    masaike	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/masaike2	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    masaike2	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/masaike3	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    masaike3	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/luobo	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    luobo	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/tz_firesword_fx	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    tz_firesword_fx	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/tz_icesword_fx	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    tz_icesword_fx	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/kbsword	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    kbsword	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/bolld_ancient_fx	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    bolld_ancient_fx1	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    bolld_ancient_fx2	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    bolld_ancient_fx3	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    bolld_ancient_fx	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/shadow_fx	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    shadow_fx	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering prefab file: prefabs/chibang_fx	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	    chibang_fx	
+[00:00:10]: Mod: workshop-2199027653598516741 (西米武器合集)	  Registering default mod prefab	
+[00:00:10]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:00:10]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:00:10]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
+[00:00:10]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
+[00:00:10]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
+[00:00:10]: Mod: workshop-100010027 (Wormhole Marks)	Registering prefabs	
+[00:00:10]: Mod: workshop-100010027 (Wormhole Marks)	  Registering default mod prefab	
+[00:00:10]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	Registering prefabs	
+[00:00:10]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	  Registering default mod prefab	
+[00:00:10]: Mod: workshop-2199027653598513728 (Lamb)	Registering prefabs	
+[00:00:10]: Mod: workshop-2199027653598513728 (Lamb)	  Registering prefab file: prefabs/lamb	
+[00:00:10]: Mod: workshop-2199027653598513728 (Lamb)	    lamb	
+[00:00:10]: Mod: workshop-2199027653598513728 (Lamb)	  Registering prefab file: prefabs/lamb_none	
+[00:00:10]: Mod: workshop-2199027653598513728 (Lamb)	    lamb_none	
+[00:00:10]: Mod: workshop-2199027653598513728 (Lamb)	  Registering default mod prefab	
 [00:00:11]: 	LOAD BE	
-[00:00:17]: 	LOAD BE: done	
-[00:00:17]: Begin Session: 5B3136F7C2C2F037
-[00:00:17]: saving to server_temp/server_save	
-[00:00:17]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010024/minimap/storeroom.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_1.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_2.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_3.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_4.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_5.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_6.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_7.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_8.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_9.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_10.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_11.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_12.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_13.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_14.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_15.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_16.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_17.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_18.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_19.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_20.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_21.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_22.xml )
-[00:00:17]: MiniMapComponent::AddAtlas( ../mods/workshop-2199027653598513728/images/map_icons/lamb.xml )
-[00:00:17]: Loading 13 new character(s)	
-[00:00:17]: Total 13 character(s) loaded	
-[00:00:17]: Loading Nav Grid	
-[00:00:17]: setting 	summerlength	15	
-[00:00:17]: setting 	isnightmaredawn	true	
-[00:00:17]: setting 	elapseddaysinseason	2	
-[00:00:17]: setting 	isfullmoon	false	
-[00:00:17]: setting 	moisture	5586.0815429688	
-[00:00:17]: setting 	springlength	20	
-[00:00:17]: setting 	isnightmarewild	false	
-[00:00:17]: setting 	moonphase	new	
-[00:00:17]: setting 	precipitationrate	0	
-[00:00:17]: setting 	iswet	false	
-[00:00:17]: setting 	isnewmoon	false	
-[00:00:17]: setting 	iswinter	true	
-[00:00:17]: setting 	israining	false	
-[00:00:17]: setting 	isnightmarewarn	false	
-[00:00:17]: setting 	precipitation	none	
-[00:00:17]: setting 	cavephase	day	
-[00:00:17]: setting 	moistureceil	6027.0200195313	
-[00:00:17]: setting 	isday	false	
-[00:00:17]: setting 	iscaveday	true	
-[00:00:17]: setting 	season	winter	
-[00:00:17]: setting 	timeinphase	0.99999444444418	
-[00:00:17]: setting 	temperature	-3.8407708808497	
-[00:00:17]: setting 	isnightmarecalm	false	
-[00:00:17]: setting 	isnight	true	
-[00:00:17]: setting 	isdusk	false	
-[00:00:17]: setting 	iscavedusk	false	
-[00:00:17]: setting 	isautumn	false	
-[00:00:17]: setting 	issnowing	false	
-[00:00:17]: setting 	iswaxingmoon	true	
-[00:00:17]: setting 	pop	0.86982264556806	
-[00:00:17]: setting 	snowlevel	0	
-[00:00:17]: setting 	issnowcovered	false	
-[00:00:17]: setting 	autumnlength	20	
-[00:00:17]: setting 	phase	night	
-[00:00:17]: setting 	nightmaretime	627.11583856177	
-[00:00:17]: setting 	winterlength	15	
-[00:00:17]: setting 	isspring	false	
-[00:00:17]: setting 	nightmarephase	dawn	
-[00:00:17]: setting 	remainingdaysinseason	13	
-[00:00:17]: setting 	cycles	232	
-[00:00:17]: setting 	iscavenight	false	
-[00:00:17]: setting 	nightmaretimeinphase	0.45193064269618	
-[00:00:17]: setting 	wetness	0	
-[00:00:17]: setting 	time	0.37499791666657	
-[00:00:17]: setting 	issummer	false	
-[00:00:17]: [Shard] Slave is waiting for LUA...
+[00:00:13]: 	LOAD BE: done	
+[00:00:13]: Begin Session: 0B903274C5161688
+[00:00:13]: saving to server_temp/server_save	
+[00:00:13]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010024/minimap/storeroom.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_1.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_2.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_3.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_4.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_5.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_6.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_7.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_8.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_9.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_10.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_11.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_12.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_13.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_14.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_15.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_16.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_17.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_18.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_19.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_20.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_21.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_22.xml )
+[00:00:13]: MiniMapComponent::AddAtlas( ../mods/workshop-2199027653598513728/images/map_icons/lamb.xml )
+[00:00:13]: Loading 13 new character(s)	
+[00:00:14]: Total 13 character(s) loaded	
+[00:00:14]: Loading Nav Grid	
+[00:00:14]: setting 	summerlength	15	
+[00:00:14]: setting 	isnightmaredawn	false	
+[00:00:14]: setting 	elapseddaysinseason	12	
+[00:00:14]: setting 	isfullmoon	false	
+[00:00:14]: setting 	moisture	4537.2045898438	
+[00:00:14]: setting 	springlength	20	
+[00:00:14]: setting 	isnightmarewild	false	
+[00:00:14]: setting 	moonphase	quarter	
+[00:00:14]: setting 	precipitationrate	0	
+[00:00:14]: setting 	iswet	false	
+[00:00:14]: setting 	isnewmoon	false	
+[00:00:14]: setting 	iswinter	false	
+[00:00:14]: setting 	israining	false	
+[00:00:14]: setting 	isnightmarewarn	false	
+[00:00:14]: setting 	precipitation	none	
+[00:00:14]: setting 	cavephase	day	
+[00:00:14]: setting 	moistureceil	6962.8930664063	
+[00:00:14]: setting 	isday	true	
+[00:00:14]: setting 	iscaveday	true	
+[00:00:14]: setting 	season	autumn	
+[00:00:14]: setting 	timeinphase	0.74777625401815	
+[00:00:14]: setting 	temperature	27.208113608571	
+[00:00:14]: setting 	isnightmarecalm	false	
+[00:00:14]: setting 	isnight	false	
+[00:00:14]: setting 	isdusk	false	
+[00:00:14]: setting 	iscavedusk	false	
+[00:00:14]: setting 	isautumn	true	
+[00:00:14]: setting 	issnowing	false	
+[00:00:14]: setting 	iswaxingmoon	true	
+[00:00:14]: setting 	pop	0.63520332588625	
+[00:00:14]: setting 	snowlevel	0	
+[00:00:14]: setting 	issnowcovered	false	
+[00:00:14]: setting 	autumnlength	20	
+[00:00:14]: setting 	phase	day	
+[00:00:14]: setting 	nightmaretime	0	
+[00:00:14]: setting 	winterlength	15	
+[00:00:14]: setting 	isspring	false	
+[00:00:14]: setting 	nightmarephase	none	
+[00:00:14]: setting 	remainingdaysinseason	8	
+[00:00:14]: setting 	cycles	222	
+[00:00:14]: setting 	iscavenight	false	
+[00:00:14]: setting 	nightmaretimeinphase	0	
+[00:00:14]: setting 	wetness	0	
+[00:00:14]: setting 	time	0.37388812700907	
+[00:00:14]: setting 	issummer	false	
+[00:00:14]: OVERRIDE: setting	disease_delay	to	none	
 [00:00:21]: Reconstructing topology	
 [00:00:21]: 	...Sorting points	
 [00:00:21]: 	...Sorting edges	
@@ -1736,265 +1736,340 @@ Process Memory:
 [00:00:21]: 	...Done!	
 [00:00:21]: 1 uploads added to server. From server_temp
 [00:00:21]: About to start a shard with these settings:
-[00:00:21]:   ShardName: Caves
-[00:00:21]:   ShardID: 3918349408
-[00:00:21]:   ShardRole: SLAVE
-[00:00:21]:   MasterHost: 127.0.0.1
-[00:00:21]:   MasterBind: (null)
+[00:00:21]:   ShardName: [SHDMASTER]
+[00:00:21]:   ShardID: 1
+[00:00:21]:   ShardRole: MASTER
+[00:00:21]:   MasterHost: (null)
+[00:00:21]:   MasterBind: 127.0.0.1
 [00:00:21]:   MasterPort: 10888
-[00:00:21]: [Shard] Connecting to master...
-[00:00:21]: Telling Client our new session identifier: 5B3136F7C2C2F037
+[00:00:21]: [Shard] Starting master server
+[00:00:21]: [Warning] Could not confirm port 10888 is open in the firewall. 
+[00:00:21]: [Shard] Shard server started on port: 10888
+[00:00:21]: [IPC] Signal 'DST_Master_Ready' opened  #00000618
+[00:00:21]: [IPC] Sending signal... #00000618
+[00:00:21]: Telling Client our new session identifier: 0B903274C5161688
 [00:00:21]: ModIndex: Load sequence finished successfully.	
-[00:00:21]: Reset() returning
-[00:00:21]: [Rail] Creating game server...
-[00:00:21]: [Rail] Done.
-[00:00:21]: [Shard] Connection to master failed. Waiting to reconnect...
-[00:00:21]: Validating portal[8] <-> 1[8] (inactive)	
-[00:00:21]: Validating portal[4] <-> 1[4] (inactive)	
-[00:00:21]: Validating portal[2] <-> 1[2] (inactive)	
-[00:00:21]: Validating portal[9] <-> 1[9] (inactive)	
-[00:00:21]: Validating portal[7] <-> 1[7] (inactive)	
-[00:00:21]: Validating portal[5] <-> 1[5] (inactive)	
-[00:00:21]: Validating portal[10] <-> 1[10] (inactive)	
-[00:00:21]: Validating portal[1] <-> 1[1] (inactive)	
-[00:00:21]: Validating portal[6] <-> 1[6] (inactive)	
-[00:00:21]: Validating portal[3] <-> 1[3] (inactive)	
-[00:00:24]: [Rail] Game server created.
-[00:00:24]: [P2P] Setting rail id 90071997545213647
-[00:00:24]: [Rail] WARNING: Spent 2990 milliseconds in rail calls in the last 3.27 seconds
-[00:00:24]:     RailLibrary::RailFireEvents: 0ms
-[00:00:26]: About to start a shard with these settings:
-[00:00:26]:   ShardName: Caves
-[00:00:26]:   ShardID: 3918349408
-[00:00:26]:   ShardRole: SLAVE
-[00:00:26]:   MasterHost: 127.0.0.1
-[00:00:26]:   MasterBind: (null)
-[00:00:26]:   MasterPort: 10888
-[00:00:26]: [Shard] Connecting to master...
-[00:00:26]: [Shard] Sending slave information to master...
-[00:00:30]: Registering slave in China lobby
-[00:00:30]: [Shard] Slave is now ready!
-[00:00:30]: World 1 is now connected	
-[00:00:30]: Validating portal[8] <-> 1[8] (active)	
-[00:00:30]: Validating portal[4] <-> 1[4] (active)	
-[00:00:30]: Validating portal[2] <-> 1[2] (active)	
-[00:00:30]: Validating portal[9] <-> 1[9] (active)	
-[00:00:30]: Validating portal[7] <-> 1[7] (active)	
-[00:00:30]: Validating portal[5] <-> 1[5] (active)	
-[00:00:30]: Validating portal[10] <-> 1[10] (active)	
-[00:00:30]: Validating portal[1] <-> 1[1] (active)	
-[00:00:30]: Validating portal[6] <-> 1[6] (active)	
-[00:00:30]: Validating portal[3] <-> 1[3] (active)	
-[00:00:31]: [Shard] Slave LUA is now ready!
-[00:00:31]: [IPC] Signal 'DST_Slave_Ready' opened  #000005E4
-[00:00:31]: [IPC] Sending signal... #000005E4
-[00:00:31]: Sim paused
-[00:00:35]: [Rail] Reporting played with: "彡粼" (R:76561197970823881).
-[00:00:44]: Sim unpaused
-[00:05:30]: Registering slave in China lobby
-[00:10:30]: Registering slave in China lobby
-[00:15:30]: Registering slave in China lobby
-[00:17:01]: Serializing world: session/5B3136F7C2C2F037/0000000249
-[00:17:01]: Truncating to snapshot #249...
-[00:17:01]:  - session/5B3136F7C2C2F037/0000000243
-[00:17:01]:  - session/5B3136F7C2C2F037/A7GFMJ3GHJM7/0000000243
-[00:17:01]:    2 file(s) removed
-[00:20:30]: Registering slave in China lobby
-[00:25:30]: Registering slave in China lobby
-[00:25:42]: Serializing world: session/5B3136F7C2C2F037/0000000250
-[00:25:42]: Truncating to snapshot #250...
-[00:25:42]:  - session/5B3136F7C2C2F037/0000000244
-[00:25:42]:  - session/5B3136F7C2C2F037/A7GFMJ3GHJM7/0000000244
-[00:25:42]:    2 file(s) removed
+[00:00:22]: Reset() returning
+[00:00:22]: [Rail] Creating game server...
+[00:00:22]: [Rail] Done.
+[00:00:22]: Validating portal[7] <-> 3918349408[7] (inactive)	
+[00:00:22]: Validating portal[1] <-> 3918349408[1] (inactive)	
+[00:00:22]: Validating portal[2] <-> 3918349408[2] (inactive)	
+[00:00:22]: Validating portal[9] <-> 3918349408[9] (inactive)	
+[00:00:22]: Validating portal[5] <-> 3918349408[5] (inactive)	
+[00:00:22]: Validating portal[3] <-> 3918349408[3] (inactive)	
+[00:00:22]: Validating portal[6] <-> 3918349408[6] (inactive)	
+[00:00:22]: Validating portal[4] <-> 3918349408[4] (inactive)	
+[00:00:22]: Validating portal[8] <-> 3918349408[8] (inactive)	
+[00:00:22]: Validating portal[10] <-> 3918349408[10] (inactive)	
+[00:00:25]: Sim paused
+[00:00:25]: Registering master server in China lobby
+[00:00:25]: [Rail] Game server created.
+[00:00:25]: [P2P] Setting rail id 90071997537142999
+[00:00:25]: [Rail] WARNING: Spent 2944 milliseconds in rail calls in the last 3.33 seconds
+[00:00:25]:     RailLibrary::RailFireEvents: 0ms
+[00:00:25]: [Rail] Register to server list success.
+[00:01:23]: Registering master server in China lobby
+[00:01:23]: [Shard] Slave Caves(3918349408) connected: [LAN] 127.0.0.1
+[00:01:25]: [Shard] Slave Caves(3918349408) ready!
+[00:01:25]: World 3918349408 is now connected	
+[00:01:25]: Validating portal[7] <-> 3918349408[7] (active)	
+[00:01:25]: Validating portal[1] <-> 3918349408[1] (active)	
+[00:01:25]: Validating portal[2] <-> 3918349408[2] (disabled)	
+[00:01:25]: Validating portal[9] <-> 3918349408[9] (disabled)	
+[00:01:25]: Validating portal[5] <-> 3918349408[5] (disabled)	
+[00:01:25]: Validating portal[3] <-> 3918349408[3] (active)	
+[00:01:25]: Validating portal[6] <-> 3918349408[6] (disabled)	
+[00:01:25]: Validating portal[4] <-> 3918349408[4] (active)	
+[00:01:25]: Validating portal[8] <-> 3918349408[8] (disabled)	
+[00:01:25]: Validating portal[10] <-> 3918349408[10] (active)	
+[00:01:26]: New incoming connection 127.0.0.1|51932 <510918657951005689>
+[00:01:26]: Client connected from [LAN] 127.0.0.1|51932 <510918657951005689>
+[00:01:26]: ValidateGameSessionToken pgs-sing^KU_3xJ72Cx7^DontStarveTogether^gbswNLV34dVescsP4uYEHdaS6VblziaqnggrWK8vtvY= for <510918657951005689>
+[00:01:27]: Client authenticated: (KU_3xJ72Cx7) 彡粼
+[00:01:27]: LOCAL_SKIN_DLC_GRANTING reading bits in DeserializeUnverifiedInventory unread bits 8
+[00:01:29]: [Shard] Read save location file for (KU_3xJ72Cx7)
+[00:01:29]: [Rail] Reporting played with: "彡粼" (R:76561197970823881).
+[00:01:29]: [Rail] Reporting player join "彡粼" (R:76561197970823881).
+[00:01:33]: Registering master server in China lobby
+[00:01:36]: Resuming user: session/0B903274C5161688/A7GFMJ3GHJM7/0000000237
+[00:01:36]: Spawning player at: [Load] (-103.07, -0.00, -16.99)	
+[00:01:37]: Sim unpaused
+[00:01:43]: Registering master server in China lobby
+[00:01:44]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:01:44]: toggling	
+[00:02:38]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:02:38]: toggling	
+[00:02:38]: OnGPUnpause	
+[00:02:41]: SimLuaProxy::QueryServer()
+[00:02:41]: ----------------- HEALTH INFO WARNING ------------------	
+[00:02:41]: Please, show this log message to authors of Health Info mod.	
+[00:02:41]: Unknown Prefabs: fence/fence_gate	
+[00:02:41]: The mod should be fixed to support these prefabs.	
+[00:02:41]: Also you can change settings of the Health Info mod to be more useful but less compatible.	
+[00:02:41]: If you are mod developer, you can add the tag "healthinfo" to you prefab:	
+[00:02:41]: inst:AddTag("healthinfo")	
+[00:02:41]: Add tags before this line: inst.entity:SetPristine()	
+[00:02:41]: Thanks!	
+[00:02:41]: --------------------------------------------------------	
+[00:02:47]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:02:47]: toggling	
+[00:02:53]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:02:53]: toggling	
+[00:02:53]: OnGPUnpause	
+[00:03:14]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:03:14]: toggling	
+[00:03:26]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:03:26]: toggling	
+[00:03:26]: OnGPUnpause	
+[00:03:29]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:03:29]: toggling	
+[00:03:39]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:03:39]: toggling	
+[00:03:39]: OnGPUnpause	
+[00:03:42]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:03:42]: toggling	
+[00:04:05]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:04:05]: toggling	
+[00:04:05]: OnGPUnpause	
+[00:04:07]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:04:07]: toggling	
+[00:04:17]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:04:17]: toggling	
+[00:04:17]: OnGPUnpause	
+[00:04:38]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(c_godmode(UserToPlayer('KU_3xJ72Cx7'))) @(-181.74, 0.26)
+[00:04:38]: God mode: true	
+[00:04:38]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.health ~= nil and not player:HasTag("playerghost") then player.components.health:SetPercent(1) end) @(-181.74, 0.26)
+[00:04:38]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.sanity ~= nil and not player:HasTag("playerghost") then player.components.sanity:SetPercent(1) end) @(-181.74, 0.26)
+[00:04:38]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.hunger ~= nil and not player:HasTag("playerghost") then player.components.hunger:SetPercent(1) end) @(-181.74, 0.26)
+[00:04:38]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.moisture ~= nil and not player:HasTag("playerghost") then player.components.moisture:SetPercent(0) end) @(-181.74, 0.26)
+[00:04:38]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.temperature ~= nil and not player:HasTag("playerghost") then player.components.temperature:SetTemperature(25) end) @(-181.74, 0.26)
+[00:07:54]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:07:54]: toggling	
+[00:21:24]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:21:24]: toggling	
+[00:21:24]: OnGPUnpause	
+[00:21:28]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:21:28]: toggling	
+[00:25:33]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:25:33]: toggling	
+[00:25:33]: OnGPUnpause	
+[00:26:07]: Registering master server in China lobby
+[00:26:08]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:26:08]: toggling	
+[00:26:08]: Serializing user: session/0B903274C5161688/A7GFMJ3GHJM7/0000000238
+[00:26:08]: Serializing world: session/0B903274C5161688/0000000238
+[00:26:17]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:26:17]: toggling	
+[00:26:17]: OnGPUnpause	
 [00:30:07]: [200] Account Communication Success (6)
 [00:30:07]: Received (KU_3xJ72Cx7) from TokenPurpose
-[00:30:30]: Registering slave in China lobby
-[00:35:11]: Serializing world: session/5B3136F7C2C2F037/0000000251
-[00:35:11]: Truncating to snapshot #251...
-[00:35:11]:  - session/5B3136F7C2C2F037/0000000245
-[00:35:11]:    1 file(s) removed
-[00:35:30]: Registering slave in China lobby
-[00:36:34]: [Rail] Reporting played with: "卡大叔啊" (R:76561197970821885).
-[00:40:30]: Registering slave in China lobby
-[00:43:12]: Serializing world: session/5B3136F7C2C2F037/0000000252
-[00:43:12]: Truncating to snapshot #252...
-[00:43:12]:  - session/5B3136F7C2C2F037/0000000246
-[00:43:12]:    1 file(s) removed
-[00:45:30]: Registering slave in China lobby
-[00:50:30]: Registering slave in China lobby
-[00:51:19]: Serializing world: session/5B3136F7C2C2F037/0000000253
-[00:51:19]: Truncating to snapshot #253...
-[00:51:19]:  - session/5B3136F7C2C2F037/0000000247
-[00:51:19]:    1 file(s) removed
-[00:55:30]: Registering slave in China lobby
-[00:59:20]: Serializing world: session/5B3136F7C2C2F037/0000000254
-[00:59:20]: Truncating to snapshot #254...
-[00:59:20]:  - session/5B3136F7C2C2F037/0000000248
-[00:59:20]:    1 file(s) removed
+[00:32:01]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(c_godmode(UserToPlayer('KU_3xJ72Cx7'))) @(-89.27, -7.13)
+[00:32:01]: God mode: false	
+[00:32:01]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.health ~= nil and not player:HasTag("playerghost") then player.components.health:SetPercent(1) end) @(-89.27, -7.13)
+[00:32:01]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.sanity ~= nil and not player:HasTag("playerghost") then player.components.sanity:SetPercent(1) end) @(-89.27, -7.13)
+[00:32:01]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.hunger ~= nil and not player:HasTag("playerghost") then player.components.hunger:SetPercent(1) end) @(-89.27, -7.13)
+[00:32:01]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.moisture ~= nil and not player:HasTag("playerghost") then player.components.moisture:SetPercent(0) end) @(-89.27, -7.13)
+[00:32:01]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.temperature ~= nil and not player:HasTag("playerghost") then player.components.temperature:SetTemperature(25) end) @(-89.27, -7.13)
+[00:32:03]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(c_godmode(UserToPlayer('KU_3xJ72Cx7'))) @(-89.27, -7.13)
+[00:32:03]: God mode: true	
+[00:32:03]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.health ~= nil and not player:HasTag("playerghost") then player.components.health:SetPercent(1) end) @(-89.27, -7.13)
+[00:32:03]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.sanity ~= nil and not player:HasTag("playerghost") then player.components.sanity:SetPercent(1) end) @(-89.27, -7.13)
+[00:32:03]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.hunger ~= nil and not player:HasTag("playerghost") then player.components.hunger:SetPercent(1) end) @(-89.27, -7.13)
+[00:32:03]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.moisture ~= nil and not player:HasTag("playerghost") then player.components.moisture:SetPercent(0) end) @(-89.27, -7.13)
+[00:32:03]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.temperature ~= nil and not player:HasTag("playerghost") then player.components.temperature:SetTemperature(25) end) @(-89.27, -7.13)
+[00:34:16]: Registering master server in China lobby
+[00:34:18]: Serializing user: session/0B903274C5161688/A7GFMJ3GHJM7/0000000239
+[00:34:18]: Serializing world: session/0B903274C5161688/0000000239
+[00:39:05]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.Transform then local x,y,z = player.Transform:GetWorldPosition() for i = 1, 1 or 1 do local inst = DebugSpawn('blue_cap') if inst ~= nil and inst.components then if inst.components.inventoryitem ~= nil then if player.components and player.components.inventory then player.components.inventory:GiveItem(inst) end else inst.Transform:SetPosition(x,y,z) end end end end) @(-148.53, 65.15)
+[00:42:18]: Serializing user: session/0B903274C5161688/A7GFMJ3GHJM7/0000000240
+[00:42:18]: Serializing world: session/0B903274C5161688/0000000240
+[00:42:22]: Registering master server in China lobby
+[00:46:23]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:46:23]: toggling	
+[00:46:48]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:46:48]: toggling	
+[00:46:48]: OnGPUnpause	
+[00:47:01]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:47:01]: toggling	
+[00:47:11]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:47:11]: toggling	
+[00:47:11]: OnGPUnpause	
+[00:47:28]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:47:28]: toggling	
+[00:48:11]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:48:11]: toggling	
+[00:48:11]: OnGPUnpause	
+[00:48:18]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:48:18]: toggling	
+[00:48:29]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:48:29]: toggling	
+[00:48:29]: OnGPUnpause	
+[00:48:34]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:48:34]: toggling	
+[00:48:40]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:48:40]: toggling	
+[00:48:40]: OnGPUnpause	
+[00:48:41]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:48:41]: toggling	
+[00:48:44]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:48:44]: toggling	
+[00:48:44]: OnGPUnpause	
+[00:48:50]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:48:50]: toggling	
+[00:49:24]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:49:24]: toggling	
+[00:49:24]: OnGPUnpause	
+[00:50:51]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.Transform then local x,y,z = player.Transform:GetWorldPosition() for i = 1, 1 or 1 do local inst = DebugSpawn('canary') if inst ~= nil and inst.components then if inst.components.inventoryitem ~= nil then if player.components and player.components.inventory then player.components.inventory:GiveItem(inst) end else inst.Transform:SetPosition(x,y,z) end end end end) @(-85.90, -20.41)
+[00:52:31]: Serializing user: session/0B903274C5161688/A7GFMJ3GHJM7/0000000241
+[00:52:31]: Serializing world: session/0B903274C5161688/0000000241
+[00:52:32]: Registering master server in China lobby
+[00:54:11]: Activating portal[1] to 3918349408	
+[00:54:12]: Serializing user: session/0B903274C5161688/A7GFMJ3GHJM7/0000000242
+[00:54:12]: [Shard] Migration request: (KU_3xJ72Cx7) to Caves(3918349408)
+[00:54:12]: [Shard] Begin migration #1 for (KU_3xJ72Cx7)
+[00:54:12]: [Shard] #1 [SHDMASTER](1) -> Caves(3918349408)
+[00:54:12]: [Shard] #1 <- session/0B903274C5161688/A7GFMJ3GHJM7/0000000242
+[00:54:12]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:54:12]: [Shard] (KU_3xJ72Cx7) disconnected from [SHDMASTER](1)
+[00:54:15]: [Shard] Completed migration #1 for player (KU_3xJ72Cx7)
+[00:54:15]: [Shard] Writing save location file for (KU_3xJ72Cx7)
 [01:00:07]: [200] Account Communication Success (6)
 [01:00:07]: Received (KU_3xJ72Cx7) from TokenPurpose
-[01:00:30]: Registering slave in China lobby
-[01:05:30]: Registering slave in China lobby
-[01:07:20]: Serializing world: session/5B3136F7C2C2F037/0000000255
-[01:07:20]: Truncating to snapshot #255...
-[01:07:20]:  - session/5B3136F7C2C2F037/0000000249
-[01:07:20]:    1 file(s) removed
-[01:10:30]: Registering slave in China lobby
-[01:15:20]: Serializing world: session/5B3136F7C2C2F037/0000000256
-[01:15:20]: Truncating to snapshot #256...
-[01:15:20]:  - session/5B3136F7C2C2F037/0000000250
-[01:15:20]:    1 file(s) removed
-[01:15:30]: Registering slave in China lobby
-[01:20:30]: Registering slave in China lobby
-[01:24:31]: Serializing world: session/5B3136F7C2C2F037/0000000257
-[01:24:31]: Truncating to snapshot #257...
-[01:24:31]:  - session/5B3136F7C2C2F037/0000000251
-[01:24:31]:    1 file(s) removed
-[01:25:30]: Registering slave in China lobby
-[01:26:41]: [Rail] Reporting played with: "卡大叔啊" (R:76561197970821885).
+[01:00:31]: Serializing world: session/0B903274C5161688/0000000242
+[01:00:31]: Truncating to snapshot #242...
+[01:00:31]:  - session/0B903274C5161688/0000000232
+[01:00:31]:  - session/0B903274C5161688/0000000233
+[01:00:31]:  - session/0B903274C5161688/0000000234
+[01:00:31]:  - session/0B903274C5161688/0000000235
+[01:00:31]:  - session/0B903274C5161688/0000000236
+[01:00:31]:  - session/0B903274C5161688/A7GFMJ3GHJM7/0000000236
+[01:00:31]:  - session/0B903274C5161688/A7GFMJ3GHJM7/0000000235
+[01:00:31]:  - session/0B903274C5161688/A7GFMJ3GHJM7/0000000234
+[01:00:31]:  - session/0B903274C5161688/A7GFMJ3GHJM7/0000000233
+[01:00:31]:  - session/0B903274C5161688/A7GFMJ3GHJM7/0000000232
+[01:00:31]:    10 file(s) removed
+[01:00:37]: Registering master server in China lobby
+[01:08:30]: Registering master server in China lobby
+[01:08:32]: Serializing world: session/0B903274C5161688/0000000243
+[01:08:32]: Truncating to snapshot #243...
+[01:08:32]:  - session/0B903274C5161688/0000000237
+[01:08:32]:  - session/0B903274C5161688/A7GFMJ3GHJM7/0000000237
+[01:08:32]:    2 file(s) removed
+[01:16:32]: Serializing world: session/0B903274C5161688/0000000244
+[01:16:32]: Truncating to snapshot #244...
+[01:16:32]:  - session/0B903274C5161688/0000000238
+[01:16:32]:  - session/0B903274C5161688/A7GFMJ3GHJM7/0000000238
+[01:16:32]:    2 file(s) removed
+[01:16:35]: Registering master server in China lobby
+[01:20:02]: [Shard] Begin migration #2 for (KU_3xJ72Cx7)
+[01:20:02]: [Shard] #2 Caves(3918349408) -> [SHDMASTER](1)
+[01:20:02]: [Shard] #2 -> session/0B903274C5161688/A7GFMJ3GHJM7/0000000245
+[01:20:02]: [Shard] Received migration #2 data for (KU_3xJ72Cx7)
+[01:20:02]: [Shard] (KU_3xJ72Cx7) disconnected from Caves(3918349408)
+[01:20:05]: New incoming connection 127.0.0.1|65021 <5451650006562085228>
+[01:20:05]: Client connected from [LAN] 127.0.0.1|65021 <5451650006562085228>
+[01:20:05]: ValidateGameSessionToken pgs-sing^KU_3xJ72Cx7^DontStarveTogether^Alzd9PPgC9iql/2I1tHmkhOtuMJzlMgMx3494N+AovQ= for <5451650006562085228>
+[01:20:05]: Client authenticated: (KU_3xJ72Cx7) 彡粼
+[01:20:05]: [Shard] Completed incoming migration #2 for (KU_3xJ72Cx7)
+[01:20:05]: [Shard] Completed migration #2 for player (KU_3xJ72Cx7)
+[01:20:05]: [Shard] Writing save location file for (KU_3xJ72Cx7)
+[01:20:13]: Resuming user: session/0B903274C5161688/A7GFMJ3GHJM7/0000000245
+[01:20:13]: Player will spawn close to portal #3	
+[01:20:13]: Spawning player at: [Load] (-384.87, 0.00, -341.77)	
+[01:20:17]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[01:20:17]: toggling	
+[01:20:29]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[01:20:29]: toggling	
+[01:20:29]: OnGPUnpause	
+[01:20:33]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[01:20:33]: toggling	
+[01:20:35]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[01:20:35]: toggling	
+[01:20:35]: OnGPUnpause	
+[01:20:44]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(c_godmode(UserToPlayer('KU_3xJ72Cx7'))) @(-316.91, -385.06)
+[01:20:44]: God mode: true	
+[01:20:44]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.health ~= nil and not player:HasTag("playerghost") then player.components.health:SetPercent(1) end) @(-316.91, -385.06)
+[01:20:44]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.sanity ~= nil and not player:HasTag("playerghost") then player.components.sanity:SetPercent(1) end) @(-316.91, -385.06)
+[01:20:44]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.hunger ~= nil and not player:HasTag("playerghost") then player.components.hunger:SetPercent(1) end) @(-316.91, -385.06)
+[01:20:44]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.moisture ~= nil and not player:HasTag("playerghost") then player.components.moisture:SetPercent(0) end) @(-316.91, -385.06)
+[01:20:44]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local player = UserToPlayer('KU_3xJ72Cx7') if player ~= nil and player.components.temperature ~= nil and not player:HasTag("playerghost") then player.components.temperature:SetTemperature(25) end) @(-316.91, -385.06)
+[01:22:51]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[01:22:51]: toggling	
+[01:23:11]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[01:23:11]: toggling	
+[01:23:11]: OnGPUnpause	
+[01:25:06]: Registering master server in China lobby
+[01:25:06]: Serializing user: session/0B903274C5161688/A7GFMJ3GHJM7/0000000245
+[01:25:06]: Serializing world: session/0B903274C5161688/0000000245
+[01:26:57]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[01:26:57]: toggling	
+[01:27:14]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[01:27:14]: toggling	
+[01:27:14]: OnGPUnpause	
 [01:30:07]: [200] Account Communication Success (6)
 [01:30:07]: Received (KU_3xJ72Cx7) from TokenPurpose
-[01:30:30]: Registering slave in China lobby
-[01:32:33]: Serializing world: session/5B3136F7C2C2F037/0000000258
-[01:32:33]: Truncating to snapshot #258...
-[01:32:33]:  - session/5B3136F7C2C2F037/0000000252
-[01:32:33]:    1 file(s) removed
-[01:35:30]: Registering slave in China lobby
-[01:40:30]: Registering slave in China lobby
-[01:40:33]: Serializing world: session/5B3136F7C2C2F037/0000000259
-[01:40:33]: Truncating to snapshot #259...
-[01:40:33]:  - session/5B3136F7C2C2F037/0000000253
-[01:40:33]:    1 file(s) removed
-[01:45:30]: Registering slave in China lobby
-[01:48:34]: Serializing world: session/5B3136F7C2C2F037/0000000260
-[01:48:34]: Truncating to snapshot #260...
-[01:48:34]:  - session/5B3136F7C2C2F037/0000000254
-[01:48:34]:    1 file(s) removed
-[01:50:30]: Registering slave in China lobby
-[01:55:30]: Registering slave in China lobby
-[01:56:34]: Serializing world: session/5B3136F7C2C2F037/0000000261
-[01:56:34]: Truncating to snapshot #261...
-[01:56:34]:  - session/5B3136F7C2C2F037/0000000255
-[01:56:34]:    1 file(s) removed
-[02:00:07]: [200] Account Communication Success (6)
-[02:00:07]: Received (KU_3xJ72Cx7) from TokenPurpose
-[02:00:30]: Registering slave in China lobby
-[02:04:34]: Serializing world: session/5B3136F7C2C2F037/0000000262
-[02:04:34]: Truncating to snapshot #262...
-[02:04:34]:  - session/5B3136F7C2C2F037/0000000256
-[02:04:34]:    1 file(s) removed
-[02:05:30]: Registering slave in China lobby
-[02:10:30]: Registering slave in China lobby
-[02:12:35]: Serializing world: session/5B3136F7C2C2F037/0000000263
-[02:12:35]: Truncating to snapshot #263...
-[02:12:35]:  - session/5B3136F7C2C2F037/0000000257
-[02:12:35]:    1 file(s) removed
-[02:15:30]: Registering slave in China lobby
-[02:20:30]: Registering slave in China lobby
-[02:20:35]: Serializing world: session/5B3136F7C2C2F037/0000000264
-[02:20:35]: Truncating to snapshot #264...
-[02:20:35]:  - session/5B3136F7C2C2F037/0000000258
-[02:20:35]:    1 file(s) removed
-[02:25:30]: Registering slave in China lobby
-[02:30:07]: [200] Account Communication Success (6)
-[02:30:07]: Received (KU_3xJ72Cx7) from TokenPurpose
-[02:30:12]: Serializing world: session/5B3136F7C2C2F037/0000000265
-[02:30:12]: Truncating to snapshot #265...
-[02:30:12]:  - session/5B3136F7C2C2F037/0000000259
-[02:30:12]:    1 file(s) removed
-[02:30:30]: Registering slave in China lobby
-[02:35:30]: Registering slave in China lobby
-[02:38:12]: Serializing world: session/5B3136F7C2C2F037/0000000266
-[02:38:12]: Truncating to snapshot #266...
-[02:38:12]:  - session/5B3136F7C2C2F037/0000000260
-[02:38:12]:    1 file(s) removed
-[02:40:30]: Registering slave in China lobby
-[02:45:30]: Registering slave in China lobby
-[02:46:13]: Serializing world: session/5B3136F7C2C2F037/0000000267
-[02:46:13]: Truncating to snapshot #267...
-[02:46:13]:  - session/5B3136F7C2C2F037/0000000261
-[02:46:13]:    1 file(s) removed
-[02:50:30]: Registering slave in China lobby
-[02:54:25]: Serializing world: session/5B3136F7C2C2F037/0000000268
-[02:54:25]: Truncating to snapshot #268...
-[02:54:25]:  - session/5B3136F7C2C2F037/0000000262
-[02:54:25]:    1 file(s) removed
-[02:55:30]: Registering slave in China lobby
-[03:00:07]: [200] Account Communication Success (6)
-[03:00:07]: Received (KU_3xJ72Cx7) from TokenPurpose
-[03:00:30]: Registering slave in China lobby
-[03:02:25]: Serializing world: session/5B3136F7C2C2F037/0000000269
-[03:02:25]: Truncating to snapshot #269...
-[03:02:25]:  - session/5B3136F7C2C2F037/0000000263
-[03:02:25]:    1 file(s) removed
-[03:05:30]: Registering slave in China lobby
-[03:10:25]: Serializing world: session/5B3136F7C2C2F037/0000000270
-[03:10:25]: Truncating to snapshot #270...
-[03:10:25]:  - session/5B3136F7C2C2F037/0000000264
-[03:10:25]:    1 file(s) removed
-[03:10:30]: Registering slave in China lobby
-[03:15:30]: Registering slave in China lobby
-[03:18:26]: Serializing world: session/5B3136F7C2C2F037/0000000271
-[03:18:26]: Truncating to snapshot #271...
-[03:18:26]:  - session/5B3136F7C2C2F037/0000000265
-[03:18:26]:    1 file(s) removed
-[03:20:30]: Registering slave in China lobby
-[03:25:30]: Registering slave in China lobby
-[03:26:26]: Serializing world: session/5B3136F7C2C2F037/0000000272
-[03:26:26]: Truncating to snapshot #272...
-[03:26:26]:  - session/5B3136F7C2C2F037/0000000266
-[03:26:26]:    1 file(s) removed
-[03:30:07]: [200] Account Communication Success (6)
-[03:30:07]: Received (KU_3xJ72Cx7) from TokenPurpose
-[03:30:30]: Registering slave in China lobby
-[03:34:27]: Serializing world: session/5B3136F7C2C2F037/0000000273
-[03:34:27]: Truncating to snapshot #273...
-[03:34:27]:  - session/5B3136F7C2C2F037/0000000267
-[03:34:27]:    1 file(s) removed
-[03:35:30]: Registering slave in China lobby
-[03:40:30]: Registering slave in China lobby
-[03:42:27]: Serializing world: session/5B3136F7C2C2F037/0000000274
-[03:42:27]: Truncating to snapshot #274...
-[03:42:27]:  - session/5B3136F7C2C2F037/0000000268
-[03:42:27]:    1 file(s) removed
-[03:45:30]: Registering slave in China lobby
-[03:50:30]: Registering slave in China lobby
-[03:50:59]: Serializing world: session/5B3136F7C2C2F037/0000000275
-[03:50:59]: Truncating to snapshot #275...
-[03:50:59]:  - session/5B3136F7C2C2F037/0000000269
-[03:50:59]:    1 file(s) removed
-[03:55:30]: Registering slave in China lobby
-[03:58:59]: Serializing world: session/5B3136F7C2C2F037/0000000276
-[03:58:59]: Truncating to snapshot #276...
-[03:58:59]:  - session/5B3136F7C2C2F037/0000000270
-[03:58:59]:    1 file(s) removed
-[04:00:07]: [200] Account Communication Success (6)
-[04:00:07]: Received (KU_3xJ72Cx7) from TokenPurpose
-[04:00:30]: Registering slave in China lobby
-[04:05:30]: Registering slave in China lobby
-[04:07:00]: Serializing world: session/5B3136F7C2C2F037/0000000277
-[04:07:00]: Truncating to snapshot #277...
-[04:07:00]:  - session/5B3136F7C2C2F037/0000000271
-[04:07:00]:    1 file(s) removed
-[04:10:30]: Registering slave in China lobby
-[04:13:08]: [Shard] We have been disconnected from the master. Waiting to reconnect...
-[04:13:08]: Sim paused
-[04:13:10]: [IPC] Received shutdown signal.
-[04:13:10]: Serializing world: session/5B3136F7C2C2F037/0000000278
-[04:13:10]: Truncating to snapshot #278...
-[04:13:10]:  - session/5B3136F7C2C2F037/0000000272
-[04:13:10]:    1 file(s) removed
-[04:13:10]: [Shard] Stopping shard mode
-[04:13:11]: Collecting garbage...
-[04:13:11]: lua_gc took 0.07 seconds
-[04:13:11]: ~ShardLuaProxy()
-[04:13:11]: ~cEventLeaderboardProxy()
-[04:13:11]: ~ItemServerLuaProxy()
-[04:13:11]: ~InventoryLuaProxy()
-[04:13:11]: ~NetworkLuaProxy()
-[04:13:11]: ~SimLuaProxy()
-[04:13:11]: lua_close took 0.17 seconds
-[04:13:11]: CurlRequestManager::ClientThread::Main() complete
-[04:13:11]: HttpClient2 discarded 0 callbacks.
-[04:13:11]: [Rail] Shutting down Rail
-[04:13:12]: Shutting down
+[01:33:22]: Registering master server in China lobby
+[01:33:24]: Serializing user: session/0B903274C5161688/A7GFMJ3GHJM7/0000000246
+[01:33:24]: Serializing world: session/0B903274C5161688/0000000246
+[01:41:24]: Serializing user: session/0B903274C5161688/A7GFMJ3GHJM7/0000000247
+[01:41:24]: Serializing world: session/0B903274C5161688/0000000247
+[01:41:28]: Registering master server in China lobby
+[01:42:14]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[01:42:14]: toggling	
+[01:42:26]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[01:42:26]: toggling	
+[01:42:26]: OnGPUnpause	
+[01:42:58]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[01:42:58]: toggling	
+[01:43:02]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[01:43:02]: toggling	
+[01:43:02]: OnGPUnpause	
+[01:43:11]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[01:43:11]: toggling	
+[01:43:17]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[01:43:17]: toggling	
+[01:43:17]: OnGPUnpause	
+[01:43:23]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[01:43:23]: toggling	
+[01:43:25]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[01:43:25]: toggling	
+[01:43:25]: OnGPUnpause	
+[01:44:10]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[01:44:10]: toggling	
+[01:44:24]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[01:44:24]: toggling	
+[01:44:24]: OnGPUnpause	
+[01:44:50]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[01:44:50]: toggling	
+[01:45:00]: [Shard] (KU_3xJ72Cx7) disconnected from [SHDMASTER](1)
+[01:45:00]: [Rail] Reporting player quit "彡粼" (R:76561197970823881).
+[01:45:00]: Registering master server in China lobby
+[01:45:00]: [IPC] Received shutdown signal.
+[01:45:01]: Serializing user: session/0B903274C5161688/A7GFMJ3GHJM7/0000000248
+[01:45:01]: Serializing world: session/0B903274C5161688/0000000248
+[01:45:01]: Truncating to snapshot #248...
+[01:45:01]:  - session/0B903274C5161688/0000000239
+[01:45:01]:  - session/0B903274C5161688/0000000240
+[01:45:01]:  - session/0B903274C5161688/0000000241
+[01:45:01]:  - session/0B903274C5161688/0000000242
+[01:45:01]:  - session/0B903274C5161688/A7GFMJ3GHJM7/0000000241
+[01:45:01]:  - session/0B903274C5161688/A7GFMJ3GHJM7/0000000240
+[01:45:01]:  - session/0B903274C5161688/A7GFMJ3GHJM7/0000000239
+[01:45:01]:    7 file(s) removed
+[01:45:01]: Removing server from China lobby
+[01:45:01]: [Shard] Stopping shard mode
+[01:45:01]: Collecting garbage...
+[01:45:01]: lua_gc took 0.14 seconds
+[01:45:01]: ~ShardLuaProxy()
+[01:45:01]: ~cEventLeaderboardProxy()
+[01:45:01]: ~ItemServerLuaProxy()
+[01:45:01]: ~InventoryLuaProxy()
+[01:45:01]: ~NetworkLuaProxy()
+[01:45:01]: ~SimLuaProxy()
+[01:45:02]: lua_close took 0.32 seconds
+[01:45:02]: CurlRequestManager::ClientThread::Main() complete
+[01:45:02]: HttpClient2 discarded 1 callbacks.
+[01:45:02]: [Rail] Shutting down Rail
+[01:45:08]: [Rail] WARNING: Spent 5769 milliseconds in RailLibrary::RailFinalize
+[01:45:08]: Shutting down
