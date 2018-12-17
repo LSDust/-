@@ -38,6 +38,7 @@ return {
   ["workshop-2199027653598513601"]={ configuration_options={  }, enabled=true },
   ["workshop-2199027653598513728"]={ configuration_options={  }, enabled=true },
   ["workshop-2199027653598514255"]={ configuration_options={ penalty=0.2, uptime=3 }, enabled=true },
+  ["workshop-2199027653598514364"]={ configuration_options={  }, enabled=true },
   ["workshop-2199027653598516741"]={
     configuration_options={
       CHANGMAOKT_PF=false,
