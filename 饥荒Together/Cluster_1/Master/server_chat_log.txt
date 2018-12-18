@@ -1,2 +1,7 @@
-[00:00:58]: [Join Announcement] 彡粼
-[05:21:26]: [Leave Announcement] 彡粼
+[00:00:39]: [Join Announcement] 彡粼
+[00:44:54]: [Skin Announcement] 彡粼 mysterybox_ice_4
+[00:49:07]: [Death Announcement] 彡粼 已被击杀，击杀者是 兔人. 她变成了一个幽灵！
+[00:49:13]: [Resurrect Announcement] 彡粼 已被复活，复活人是 恶作剧.
+[00:49:19]: [Death Announcement] 彡粼 已被击杀，击杀者是 兔人. 她变成了一个幽灵！
+[00:49:23]: [Resurrect Announcement] 彡粼 已被复活，复活人是 恶作剧.
+[02:13:37]: [Leave Announcement] 彡粼
