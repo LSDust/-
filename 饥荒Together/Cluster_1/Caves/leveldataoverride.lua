@@ -1,6 +1,6 @@
 return {
   background_node_range={ 0, 1 },
-  desc="一起……钻进洞里吧！",
+  desc="探查洞穴…… 一起！",
   hideminimap=false,
   id="DST_CAVE",
   location="cave",

@@ -1,5 +1,5 @@
 return {
-  desc="标准的饥荒体验。",
+  desc="标准《饥荒》体验。",
   hideminimap=false,
   id="SURVIVAL_TOGETHER",
   location="forest",

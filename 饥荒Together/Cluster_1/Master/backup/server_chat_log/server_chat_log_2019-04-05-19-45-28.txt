@@ -1,0 +1,16 @@
+[00:00:38]: [Join Announcement] 彡粼
+[00:13:09]: [Skin Announcement] 彡粼 body_sweatervest_blue_snowbird
+[01:10:57]: [Death Announcement] 彡粼 被此人杀死： 巨鹿. 他变成了可怕的鬼魂！
+[01:11:08]: [Vote Announcement] rollback passed
+[01:25:02]: [Death Announcement] 彡粼 被此人杀死： 巨鹿. 他变成了可怕的鬼魂！
+[01:25:33]: [Vote Announcement] rollback passed
+[01:33:17]: [Skin Announcement] 彡粼 profileflair_mole
+[02:05:01]: [Vote Announcement] rollback passed
+[02:39:17]: [Skin Announcement] 彡粼 body_buttons_pink_hibiscus
+[03:26:24]: [Vote Announcement] rollback passed
+[03:27:16]: [Vote Announcement] rollback passed
+[03:39:09]: [Skin Announcement] 彡粼 feet_wx78_wip
+[04:01:43]: [Death Announcement] 彡粼 被此人杀死： 鹿鸭. 他变成了可怕的鬼魂！
+[04:02:15]: [Vote Announcement] rollback passed
+[04:52:11]: [Skin Announcement] 彡粼 profileflair_ornaments_6
+[05:12:44]: [Leave Announcement] 彡粼

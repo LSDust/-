@@ -1,8 +1,8 @@
 [00:00:00]: 
 System Memory:
-	Memory Load: 34%
-	Available Physical Memory: 10683m/16244m
-	Available Page File: 9126m/17268m
+	Memory Load: 38%
+	Available Physical Memory: 9987m/16244m
+	Available Page File: 8811m/17268m
 	Available Virtual Memory: 3991m/4095m
 	Available Extended Virtual Memory: 0m
 [00:00:00]: 
@@ -15,33 +15,33 @@ Process Memory:
 	Quota Non Paged Pool Usage: 14k
 	Page File Usage: 3m
 	Peak Page File Usage: 3m
-[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogetherRail/76561197970823881/Cluster_1/Caves/ 
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogetherRail/76561197970823881/Cluster_1/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 322626
-[00:00:00]: Current time: Sun Apr 14 13:59:27 2019
+[00:00:00]: Current time: Thu Apr 11 21:51:27 2019
 
 [00:00:00]: Don't Starve Together: 322626 WIN32
 [00:00:00]: Build Date: 4070
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -monitor_parent_process 19964 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogetherRail -cluster Cluster_1 -ownernetid R:76561197970823881 -ownerdir 76561197970823881 -backup_log_count 10 -backup_log_period 0 -shard Caves -sigprefix DST_Slave -region China --rail_platform_type=1 --rail_app_type=2 --rail_channel_id=1600039964 
+[00:00:00]: Command Line Arguments: -monitor_parent_process 2436 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogetherRail -cluster Cluster_1 -ownernetid R:76561197970823881 -ownerdir 76561197970823881 -backup_log_count 10 -backup_log_period 0 -shard Master -sigprefix DST_Master -region China --rail_platform_type=1 --rail_app_type=2 --rail_channel_id=1600012436 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: [Rail] Initializing Rail (2000004)
 [00:00:00]: [Rail] Rail SDK version 1.8.6.0
 [00:00:00]: ....Done
 [00:00:00]: Fixing DPI
 [00:00:00]: ...Done
-[00:00:00]: THREAD - started 'GAClient' (10232)
 [00:00:00]: Mounting file system databundles/klump.zip successful.
-[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: THREAD - started 'GAClient' (11412)
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
 [00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
 [00:00:00]: Mounting file system databundles/bigportraits.zip successful.
 [00:00:00]: Mounting file system databundles/images.zip successful.
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
-[00:00:00]: ProfileIndex:3.00
+[00:00:00]: ProfileIndex:2.98
 [00:00:00]: [Connect] PendingConnection::Reset(true)
-[00:00:00]: THREAD - started 'Ping Job Thread' (17788)
+[00:00:00]: THREAD - started 'Ping Job Thread' (9280)
 [00:00:00]: Platform: 4
 [00:00:00]: Network tick rate: U=15(2), D=0
 [00:00:00]: Network tick rate: U=15(2), D=0
@@ -49,8 +49,8 @@ Process Memory:
 [00:00:00]: WindowsFirewall - Application already authorized
 [00:00:00]: Overriding region to China
 [00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/76561197970823881/client_save/blocklist.txt (Failure)
+[00:00:00]: THREAD - started 'StreamInput' (7912)
 [00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/76561197970823881/client_save/adminlist.txt (Failure)
-[00:00:00]: THREAD - started 'StreamInput' (14868)
 [00:00:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogetherRail/76561197970823881/client_save/whitelist.txt (Failure)
 [00:00:00]: Offline user ID: RU_76561197970823881
 [00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogetherRail/76561197970823881/Cluster_1/cluster_token.txt
@@ -452,18 +452,18 @@ Process Memory:
 [00:00:02]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	Loading modworldgenmain.lua	
 [00:00:02]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	  Mod had no modworldgenmain.lua. Skipping.	
 [00:00:02]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	Loading modmain.lua	
-[00:00:03]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
-[00:00:04]: LOADING LUA SUCCESS
-[00:00:04]: Registering mod namespace "globalpause"
-[00:00:04]: PlayerDeaths could not load morgue	
-[00:00:04]: PlayerHistory could not load player_history	
-[00:00:04]: ServerPreferences could not load server_preferences	
-[00:00:04]: bloom_enabled	false	
-[00:00:04]: loaded saveindex	
-[00:00:04]: OnFilesLoaded()	
-[00:00:04]: OnUpdatePurchaseStateComplete	
-[00:00:04]: Klump load on boot started.	
-[00:00:04]: Klump files loaded: 	0	
+[00:00:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:03]: LOADING LUA SUCCESS
+[00:00:03]: Registering mod namespace "globalpause"
+[00:00:03]: PlayerDeaths could not load morgue	
+[00:00:03]: PlayerHistory could not load player_history	
+[00:00:03]: ServerPreferences could not load server_preferences	
+[00:00:03]: bloom_enabled	false	
+[00:00:03]: loaded saveindex	
+[00:00:03]: OnFilesLoaded()	
+[00:00:03]: OnUpdatePurchaseStateComplete	
+[00:00:03]: Klump load on boot started.	
+[00:00:03]: Klump files loaded: 	0	
 [00:00:05]: Mod: workshop-100010040 (Global Pause)	Registering prefabs	
 [00:00:05]: Mod: workshop-100010040 (Global Pause)	  Registering default mod prefab	
 [00:00:05]: Mod: workshop-100010059 (Extra Equip Slots)	Registering prefabs	
@@ -492,8 +492,8 @@ Process Memory:
 [00:00:05]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_moonrock_item	
 [00:00:05]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_moonrock_item_placer	
 [00:00:05]: Mod: workshop-2199027653598514364 (墙壁永固)	  Registering default mod prefab	
-[00:00:06]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
-[00:00:06]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:00:05]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:00:05]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
 [00:00:06]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
 [00:00:06]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
 [00:00:06]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
@@ -503,15 +503,15 @@ Process Memory:
 [00:00:06]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	  Registering default mod prefab	
 [00:00:06]: 	Load FE	
 [00:00:06]: 	Load FE: done	
-[00:00:06]: THREAD - started 'FilesExistAsyncThread' (7316)
+[00:00:06]: THREAD - started 'FilesExistAsyncThread' (8824)
 [00:00:06]: FilesExistAsyncThread started (10278 files)...
 [00:00:06]: ModIndex: Load sequence finished successfully.	
 [00:00:06]: Reset() returning
-[00:00:06]: [IPC] Signal 'DST_Slave_Kill' opened  #00000528
-[00:00:06]: [IPC] Registering handler for signal #00000528
-[00:00:06]: [IPC] Handle #00000528 added to the Eventhandles
-[00:00:06]: [IPC] Signal 'DST_Slave_Starting' opened  #000004DC
-[00:00:06]: [IPC] Sending signal... #000004DC
+[00:00:06]: [IPC] Signal 'DST_Master_Kill' opened  #00000404
+[00:00:06]: [IPC] Registering handler for signal #00000404
+[00:00:06]: [IPC] Handle #00000404 added to the Eventhandles
+[00:00:06]: [IPC] Signal 'DST_Master_Starting' opened  #00000500
+[00:00:06]: [IPC] Sending signal... #00000500
 [00:00:07]: [200] Account Communication Success (6)
 [00:00:07]: Received (KU_3xJ72Cx7) from TokenPurpose
 [00:00:07]: Starting Dedicated Server Game	
@@ -520,7 +520,7 @@ Process Memory:
 [00:00:07]:   Dedicated: true
 [00:00:07]:   Online: true
 [00:00:07]:   Passworded: true
-[00:00:07]:   ServerPort: 10998
+[00:00:07]:   ServerPort: 10999
 [00:00:07]:   SteamAuthPort: 8766
 [00:00:07]:   SteamMasterServerPort: 27016
 [00:00:07]:   ClanID: false
@@ -539,17 +539,17 @@ Process Memory:
 [00:00:07]:   VoteEnabled: false
 [00:00:07]:   InternetBroadcasting: true
 [00:00:07]:   Intent: cooperative
-[00:00:07]: [Warning] Could not confirm port 10998 is open in the firewall. 
+[00:00:07]: [Warning] Could not confirm port 10999 is open in the firewall. 
 [00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010027	
 [00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010062	
 [00:00:07]: Could not load mod_config_data/modconfiguration_workshop-2199027653598518049	
 [00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010040	
 [00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010024	
 [00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010059	
-[00:00:07]: Online Server Started on port: 10998
+[00:00:07]: Online Server Started on port: 10999
 [00:00:07]: [Rail] Punchthrough start.
 [00:00:07]: Collecting garbage...
-[00:00:07]: lua_gc took 0.05 seconds
+[00:00:07]: lua_gc took 0.03 seconds
 [00:00:07]: ~ShardLuaProxy()
 [00:00:07]: ~cEventLeaderboardProxy()
 [00:00:07]: ~ItemServerLuaProxy()
@@ -948,259 +948,258 @@ Process Memory:
 [00:00:09]: loaded saveindex	
 [00:00:09]: OnFilesLoaded()	
 [00:00:09]: OnUpdatePurchaseStateComplete	
-[00:00:09]: Loading world: session/5B3136F7C2C2F037/0000000456	
+[00:00:09]: Loading world: session/0B903274C5161688/0000000453	
 [00:00:09]: Save file is at version 4.77	
 [00:00:09]: Klump load on boot started.	
 [00:00:09]: Klump files loaded: 	0	
 [00:00:09]: 	Unload FE	
 [00:00:09]: 	Unload FE done	
-[00:00:14]: Mod: workshop-100010040 (Global Pause)	Registering prefabs	
-[00:00:14]: Mod: workshop-100010040 (Global Pause)	  Registering default mod prefab	
-[00:00:14]: Mod: workshop-100010059 (Extra Equip Slots)	Registering prefabs	
-[00:00:14]: Mod: workshop-100010059 (Extra Equip Slots)	  Registering default mod prefab	
-[00:00:14]: Mod: workshop-100010062 (Health Info)	Registering prefabs	
-[00:00:14]: Mod: workshop-100010062 (Health Info)	  Registering default mod prefab	
-[00:00:14]: Mod: workshop-2199027653598513601 (阻止草变异)	Registering prefabs	
-[00:00:14]: Mod: workshop-2199027653598513601 (阻止草变异)	  Registering default mod prefab	
-[00:00:14]: Mod: workshop-2199027653598518049 (显示驯化)	Registering prefabs	
-[00:00:14]: Mod: workshop-2199027653598518049 (显示驯化)	  Registering default mod prefab	
-[00:00:14]: Mod: workshop-2199027653598514364 (墙壁永固)	Registering prefabs	
-[00:00:14]: Mod: workshop-2199027653598514364 (墙壁永固)	  Registering prefab file: prefabs/walls	
-[00:00:14]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_stone	
-[00:00:14]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_stone_item	
-[00:00:14]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_stone_item_placer	
-[00:00:14]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_wood	
-[00:00:14]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_wood_item	
-[00:00:14]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_wood_item_placer	
-[00:00:14]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_hay	
-[00:00:14]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_hay_item	
-[00:00:14]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_hay_item_placer	
-[00:00:14]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_ruins	
-[00:00:14]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_ruins_item	
-[00:00:14]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_ruins_item_placer	
-[00:00:14]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_moonrock	
-[00:00:14]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_moonrock_item	
-[00:00:14]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_moonrock_item_placer	
-[00:00:14]: Mod: workshop-2199027653598514364 (墙壁永固)	  Registering default mod prefab	
-[00:00:14]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
-[00:00:14]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
-[00:00:14]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
-[00:00:14]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
-[00:00:14]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
-[00:00:14]: Mod: workshop-100010027 (Wormhole Marks)	Registering prefabs	
-[00:00:14]: Mod: workshop-100010027 (Wormhole Marks)	  Registering default mod prefab	
-[00:00:14]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	Registering prefabs	
-[00:00:14]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	  Registering default mod prefab	
-[00:00:14]: 	LOAD BE	
-[00:00:19]: 	LOAD BE: done	
-[00:00:19]: Begin Session: 5B3136F7C2C2F037
-[00:00:19]: saving to server_temp/server_save	
-[00:00:19]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010024/minimap/storeroom.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_1.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_2.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_3.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_4.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_5.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_6.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_7.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_8.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_9.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_10.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_11.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_12.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_13.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_14.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_15.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_16.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_17.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_18.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_19.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_20.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_21.xml )
-[00:00:19]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_22.xml )
-[00:00:19]: Loading 13 new character(s)	
-[00:00:20]: Total 13 character(s) loaded	
-[00:00:21]: Loading Nav Grid	
-[00:00:21]: setting 	summerlength	15	
-[00:00:21]: setting 	isnightmaredawn	false	
-[00:00:21]: setting 	elapseddaysinseason	1	
-[00:00:21]: setting 	isfullmoon	false	
-[00:00:21]: setting 	moisture	5431.6298828125	
-[00:00:21]: setting 	springlength	20	
-[00:00:21]: setting 	isnightmarewild	false	
-[00:00:21]: setting 	moonphase	new	
-[00:00:21]: setting 	precipitationrate	0	
-[00:00:21]: setting 	iswet	false	
-[00:00:21]: setting 	isnewmoon	false	
-[00:00:21]: setting 	iswinter	false	
-[00:00:21]: setting 	israining	false	
-[00:00:21]: setting 	isnightmarewarn	false	
-[00:00:21]: setting 	precipitation	none	
-[00:00:21]: setting 	cavephase	dusk	
-[00:00:21]: setting 	moistureceil	6537.9731445313	
-[00:00:21]: setting 	isday	false	
-[00:00:21]: setting 	iscaveday	false	
-[00:00:21]: setting 	season	autumn	
-[00:00:21]: setting 	timeinphase	0.078082338968913	
-[00:00:21]: setting 	temperature	32.750525908438	
-[00:00:21]: setting 	isnightmarecalm	true	
-[00:00:21]: setting 	isnight	true	
-[00:00:21]: setting 	isdusk	false	
-[00:00:21]: setting 	iscavedusk	true	
-[00:00:21]: setting 	isautumn	true	
-[00:00:21]: setting 	issnowing	false	
-[00:00:21]: setting 	iswaxingmoon	true	
-[00:00:21]: setting 	pop	0.78609095720901	
-[00:00:21]: setting 	snowlevel	0	
-[00:00:21]: setting 	issnowcovered	false	
-[00:00:21]: setting 	autumnlength	20	
-[00:00:21]: setting 	phase	night	
-[00:00:21]: setting 	nightmaretime	93.435806473169	
-[00:00:21]: setting 	winterlength	15	
-[00:00:21]: setting 	isspring	false	
-[00:00:21]: setting 	nightmarephase	calm	
-[00:00:21]: setting 	remainingdaysinseason	19	
-[00:00:21]: setting 	cycles	421	
-[00:00:21]: setting 	iscavenight	false	
-[00:00:21]: setting 	nightmaretimeinphase	0.25954390686991	
-[00:00:21]: setting 	wetness	0	
-[00:00:21]: setting 	time	0.58202058474223	
-[00:00:21]: setting 	issummer	false	
-[00:00:21]: [Shard] Slave is waiting for LUA...
-[00:00:24]: Reconstructing topology	
-[00:00:24]: 	...Sorting points	
-[00:00:24]: 	...Sorting edges	
-[00:00:24]: 	...Connecting nodes	
-[00:00:24]: 	...Validating connections	
-[00:00:25]: 	...Housekeeping	
-[00:00:25]: 	...Done!	
-[00:00:25]: 1 uploads added to server. From server_temp
-[00:00:25]: About to start a shard with these settings:
-[00:00:25]:   ShardName: Caves
-[00:00:25]:   ShardID: 3918349408
-[00:00:25]:   ShardRole: SLAVE
-[00:00:25]:   MasterHost: 127.0.0.1
-[00:00:25]:   MasterBind: (null)
-[00:00:25]:   MasterPort: 10888
-[00:00:25]: [Shard] Connecting to master...
-[00:00:25]: Telling Client our new session identifier: 5B3136F7C2C2F037
-[00:00:25]: ModIndex: Load sequence finished successfully.	
-[00:00:25]: Reset() returning
-[00:00:25]: [Rail] Creating game server...
-[00:00:25]: [Rail] Done.
-[00:00:25]: [Shard] Connection to master failed. Waiting to reconnect...
-[00:00:25]: Validating portal[5] <-> 1[5] (inactive)	
-[00:00:25]: Validating portal[9] <-> 1[9] (inactive)	
-[00:00:25]: Validating portal[7] <-> 1[7] (inactive)	
-[00:00:25]: Validating portal[2] <-> 1[2] (inactive)	
-[00:00:25]: Validating portal[10] <-> 1[10] (inactive)	
-[00:00:25]: Validating portal[3] <-> 1[3] (inactive)	
-[00:00:25]: Validating portal[4] <-> 1[4] (inactive)	
-[00:00:25]: Validating portal[6] <-> 1[6] (inactive)	
-[00:00:25]: Validating portal[8] <-> 1[8] (inactive)	
-[00:00:25]: Validating portal[1] <-> 1[1] (inactive)	
-[00:00:28]: [Rail] Game server created.
-[00:00:28]: [P2P] Setting rail id 90071997594403213
-[00:00:28]: [Rail] WARNING: Spent 2983 milliseconds in rail calls in the last 3.32 seconds
-[00:00:28]:     RailLibrary::RailFireEvents: 0ms
-[00:00:30]: About to start a shard with these settings:
-[00:00:30]:   ShardName: Caves
-[00:00:30]:   ShardID: 3918349408
-[00:00:30]:   ShardRole: SLAVE
-[00:00:30]:   MasterHost: 127.0.0.1
-[00:00:30]:   MasterBind: (null)
-[00:00:30]:   MasterPort: 10888
-[00:00:30]: [Shard] Connecting to master...
-[00:00:30]: [Shard] Sending slave information to master...
-[00:00:35]: Registering slave in China lobby
-[00:00:36]: [Shard] Slave is now ready!
-[00:00:36]: World 1 is now connected	
-[00:00:36]: Validating portal[5] <-> 1[5] (active)	
-[00:00:36]: Validating portal[9] <-> 1[9] (active)	
-[00:00:36]: Validating portal[7] <-> 1[7] (active)	
-[00:00:36]: Validating portal[2] <-> 1[2] (active)	
-[00:00:36]: Validating portal[10] <-> 1[10] (active)	
-[00:00:36]: Validating portal[3] <-> 1[3] (active)	
-[00:00:36]: Validating portal[4] <-> 1[4] (active)	
-[00:00:36]: Validating portal[6] <-> 1[6] (active)	
-[00:00:36]: Validating portal[8] <-> 1[8] (active)	
-[00:00:36]: Validating portal[1] <-> 1[1] (active)	
-[00:00:37]: [Shard] Slave LUA is now ready!
-[00:00:37]: [IPC] Signal 'DST_Slave_Ready' opened  #0000064C
-[00:00:37]: [IPC] Sending signal... #0000064C
+[00:00:17]: Mod: workshop-100010040 (Global Pause)	Registering prefabs	
+[00:00:17]: Mod: workshop-100010040 (Global Pause)	  Registering default mod prefab	
+[00:00:17]: Mod: workshop-100010059 (Extra Equip Slots)	Registering prefabs	
+[00:00:17]: Mod: workshop-100010059 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:17]: Mod: workshop-100010062 (Health Info)	Registering prefabs	
+[00:00:17]: Mod: workshop-100010062 (Health Info)	  Registering default mod prefab	
+[00:00:17]: Mod: workshop-2199027653598513601 (阻止草变异)	Registering prefabs	
+[00:00:17]: Mod: workshop-2199027653598513601 (阻止草变异)	  Registering default mod prefab	
+[00:00:17]: Mod: workshop-2199027653598518049 (显示驯化)	Registering prefabs	
+[00:00:17]: Mod: workshop-2199027653598518049 (显示驯化)	  Registering default mod prefab	
+[00:00:17]: Mod: workshop-2199027653598514364 (墙壁永固)	Registering prefabs	
+[00:00:17]: Mod: workshop-2199027653598514364 (墙壁永固)	  Registering prefab file: prefabs/walls	
+[00:00:17]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_stone	
+[00:00:17]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_stone_item	
+[00:00:17]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_stone_item_placer	
+[00:00:17]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_wood	
+[00:00:17]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_wood_item	
+[00:00:17]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_wood_item_placer	
+[00:00:17]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_hay	
+[00:00:17]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_hay_item	
+[00:00:17]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_hay_item_placer	
+[00:00:17]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_ruins	
+[00:00:17]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_ruins_item	
+[00:00:17]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_ruins_item_placer	
+[00:00:17]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_moonrock	
+[00:00:17]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_moonrock_item	
+[00:00:17]: Mod: workshop-2199027653598514364 (墙壁永固)	    wall_moonrock_item_placer	
+[00:00:17]: Mod: workshop-2199027653598514364 (墙壁永固)	  Registering default mod prefab	
+[00:00:17]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:00:17]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:00:17]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
+[00:00:17]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
+[00:00:17]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
+[00:00:17]: Mod: workshop-100010027 (Wormhole Marks)	Registering prefabs	
+[00:00:17]: Mod: workshop-100010027 (Wormhole Marks)	  Registering default mod prefab	
+[00:00:17]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	Registering prefabs	
+[00:00:17]: Mod: workshop-2199027653598514255 (Lazy Lazy Deserter)	  Registering default mod prefab	
+[00:00:17]: 	LOAD BE	
+[00:00:23]: 	LOAD BE: done	
+[00:00:23]: Begin Session: 0B903274C5161688
+[00:00:23]: saving to server_temp/server_save	
+[00:00:23]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010024/minimap/storeroom.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_1.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_2.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_3.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_4.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_5.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_6.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_7.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_8.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_9.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_10.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_11.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_12.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_13.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_14.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_15.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_16.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_17.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_18.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_19.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_20.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_21.xml )
+[00:00:23]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_22.xml )
+[00:00:23]: Loading 13 new character(s)	
+[00:00:24]: Total 13 character(s) loaded	
+[00:00:24]: Loading Nav Grid	
+[00:00:24]: setting 	summerlength	15	
+[00:00:24]: setting 	isnightmaredawn	false	
+[00:00:24]: setting 	elapseddaysinseason	14	
+[00:00:24]: setting 	isfullmoon	false	
+[00:00:24]: setting 	moisture	5105.5458984375	
+[00:00:24]: setting 	springlength	20	
+[00:00:24]: setting 	isnightmarewild	false	
+[00:00:24]: setting 	moonphase	quarter	
+[00:00:24]: setting 	precipitationrate	0	
+[00:00:24]: setting 	iswet	false	
+[00:00:24]: setting 	isnewmoon	false	
+[00:00:24]: setting 	iswinter	false	
+[00:00:24]: setting 	israining	false	
+[00:00:24]: setting 	isnightmarewarn	false	
+[00:00:24]: setting 	precipitation	none	
+[00:00:24]: setting 	cavephase	day	
+[00:00:24]: setting 	moistureceil	8806.4990234375	
+[00:00:24]: setting 	isday	true	
+[00:00:24]: setting 	iscaveday	true	
+[00:00:24]: setting 	season	summer	
+[00:00:24]: setting 	timeinphase	0.87479014078776	
+[00:00:24]: setting 	temperature	65.072198758415	
+[00:00:24]: setting 	isnightmarecalm	false	
+[00:00:24]: setting 	isnight	false	
+[00:00:24]: setting 	isdusk	false	
+[00:00:24]: setting 	iscavedusk	false	
+[00:00:24]: setting 	isautumn	false	
+[00:00:24]: setting 	issnowing	false	
+[00:00:24]: setting 	iswaxingmoon	false	
+[00:00:24]: setting 	pop	0.14661002884809	
+[00:00:24]: setting 	snowlevel	0	
+[00:00:24]: setting 	issnowcovered	false	
+[00:00:24]: setting 	autumnlength	20	
+[00:00:24]: setting 	phase	day	
+[00:00:24]: setting 	nightmaretime	0	
+[00:00:24]: setting 	winterlength	15	
+[00:00:24]: setting 	isspring	false	
+[00:00:24]: setting 	nightmarephase	none	
+[00:00:24]: setting 	remainingdaysinseason	1	
+[00:00:24]: setting 	cycles	419	
+[00:00:24]: setting 	iscavenight	false	
+[00:00:24]: setting 	nightmaretimeinphase	0	
+[00:00:24]: setting 	wetness	0	
+[00:00:24]: setting 	time	0.54674383799235	
+[00:00:24]: setting 	issummer	true	
+[00:00:24]: OVERRIDE: setting	disease_delay	to	none	
+[00:00:33]: Reconstructing topology	
+[00:00:33]: 	...Sorting points	
+[00:00:33]: 	...Sorting edges	
+[00:00:33]: 	...Connecting nodes	
+[00:00:33]: 	...Validating connections	
+[00:00:33]: 	...Housekeeping	
+[00:00:33]: 	...Done!	
+[00:00:33]: 1 uploads added to server. From server_temp
+[00:00:33]: About to start a shard with these settings:
+[00:00:33]:   ShardName: [SHDMASTER]
+[00:00:33]:   ShardID: 1
+[00:00:33]:   ShardRole: MASTER
+[00:00:33]:   MasterHost: (null)
+[00:00:33]:   MasterBind: 127.0.0.1
+[00:00:33]:   MasterPort: 10888
+[00:00:33]: [Shard] Starting master server
+[00:00:33]: [Warning] Could not confirm port 10888 is open in the firewall. 
+[00:00:33]: [Shard] Shard server started on port: 10888
+[00:00:33]: [IPC] Signal 'DST_Master_Ready' opened  #0000064C
+[00:00:33]: [IPC] Sending signal... #0000064C
+[00:00:33]: Telling Client our new session identifier: 0B903274C5161688
+[00:00:33]: ModIndex: Load sequence finished successfully.	
+[00:00:33]: Reset() returning
+[00:00:33]: [Rail] Creating game server...
+[00:00:33]: [Rail] Done.
+[00:00:34]: Validating portal[3] <-> 3918349408[3] (inactive)	
+[00:00:34]: Validating portal[6] <-> 3918349408[6] (inactive)	
+[00:00:34]: Validating portal[9] <-> 3918349408[9] (inactive)	
+[00:00:34]: Validating portal[2] <-> 3918349408[2] (inactive)	
+[00:00:34]: Validating portal[4] <-> 3918349408[4] (inactive)	
+[00:00:34]: Validating portal[8] <-> 3918349408[8] (inactive)	
+[00:00:34]: Validating portal[7] <-> 3918349408[7] (inactive)	
+[00:00:34]: Validating portal[5] <-> 3918349408[5] (inactive)	
+[00:00:34]: Validating portal[10] <-> 3918349408[10] (inactive)	
+[00:00:34]: Validating portal[1] <-> 3918349408[1] (inactive)	
 [00:00:37]: Sim paused
-[00:00:42]: [Rail] Reporting played with: "彡粼" (R:76561197970823881).
-[00:00:51]: Sim unpaused
-[00:05:35]: Registering slave in China lobby
-[00:10:35]: Registering slave in China lobby
-[00:15:35]: Registering slave in China lobby
-[00:20:35]: Registering slave in China lobby
-[00:25:35]: Registering slave in China lobby
-[00:30:07]: [200] Account Communication Success (6)
-[00:30:07]: Received (KU_3xJ72Cx7) from TokenPurpose
-[00:30:35]: Registering slave in China lobby
-[00:30:47]: CURL ERROR: (metric.kleientertainment.com) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
-[00:35:35]: Registering slave in China lobby
-[00:40:35]: Registering slave in China lobby
-[00:45:35]: Registering slave in China lobby
-[00:45:47]: CURL ERROR: (metric.kleientertainment.com) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
-[00:50:35]: Registering slave in China lobby
-[00:55:35]: Registering slave in China lobby
-[00:55:47]: CURL ERROR: (metric.kleientertainment.com) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
-[01:00:07]: [200] Account Communication Success (6)
-[01:00:07]: Received (KU_3xJ72Cx7) from TokenPurpose
-[01:00:35]: Registering slave in China lobby
-[01:05:35]: Registering slave in China lobby
-[01:05:47]: CURL ERROR: (metric.kleientertainment.com) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
-[01:10:35]: Registering slave in China lobby
-[01:15:35]: Registering slave in China lobby
-[01:20:35]: Registering slave in China lobby
-[01:25:35]: Registering slave in China lobby
-[01:30:07]: [200] Account Communication Success (6)
-[01:30:07]: Received (KU_3xJ72Cx7) from TokenPurpose
-[01:30:35]: Registering slave in China lobby
-[01:35:35]: Registering slave in China lobby
-[01:40:35]: Registering slave in China lobby
-[01:40:46]: CURL ERROR: (metric.kleientertainment.com) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
-[01:45:35]: Registering slave in China lobby
-[01:45:46]: CURL ERROR: (metric.kleientertainment.com) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
-[01:50:35]: Registering slave in China lobby
-[01:55:35]: Registering slave in China lobby
-[02:00:07]: [200] Account Communication Success (6)
-[02:00:07]: Received (KU_3xJ72Cx7) from TokenPurpose
-[02:00:35]: Registering slave in China lobby
-[02:05:35]: Registering slave in China lobby
-[02:05:46]: CURL ERROR: (metric.kleientertainment.com) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
-[02:10:35]: Registering slave in China lobby
-[02:12:39]: [Shard] We have been disconnected from the master. Waiting to reconnect...
-[02:12:39]: Sim paused
-[02:12:44]: About to start a shard with these settings:
-[02:12:44]:   ShardName: Caves
-[02:12:44]:   ShardID: 3918349408
-[02:12:44]:   ShardRole: SLAVE
-[02:12:44]:   MasterHost: 127.0.0.1
-[02:12:44]:   MasterBind: (null)
-[02:12:44]:   MasterPort: 10888
-[02:12:44]: [Shard] Connecting to master...
-[02:12:46]: [IPC] Received shutdown signal.
-[02:12:46]: Serializing world: session/5B3136F7C2C2F037/0000000457
-[02:12:46]: Truncating to snapshot #457...
-[02:12:46]:  - session/5B3136F7C2C2F037/0000000451
-[02:12:46]:  - session/5B3136F7C2C2F037/A7GFMJ3GHJM7/0000000451
-[02:12:46]:    2 file(s) removed
-[02:12:46]: [Shard] Stopping shard mode
-[02:12:46]: Collecting garbage...
-[02:12:46]: lua_gc took 0.10 seconds
-[02:12:46]: ~ShardLuaProxy()
-[02:12:46]: ~cEventLeaderboardProxy()
-[02:12:46]: ~ItemServerLuaProxy()
-[02:12:46]: ~InventoryLuaProxy()
-[02:12:46]: ~NetworkLuaProxy()
-[02:12:46]: ~SimLuaProxy()
-[02:12:46]: lua_close took 0.17 seconds
-[02:12:46]: CurlRequestManager::ClientThread::Main() complete
-[02:12:46]: HttpClient2 discarded 0 callbacks.
-[02:12:46]: [Rail] Shutting down Rail
-[02:12:51]: [Rail] WARNING: Spent 4571 milliseconds in RailLibrary::RailFinalize
-[02:12:51]: Shutting down
+[00:00:37]: Registering master server in China lobby
+[00:00:37]: [Rail] Game server created.
+[00:00:37]: [P2P] Setting rail id 90071997593463613
+[00:00:37]: [Rail] WARNING: Spent 2838 milliseconds in rail calls in the last 3.30 seconds
+[00:00:37]:     RailLibrary::RailFireEvents: 0ms
+[00:00:37]: [Rail] Register to server list success.
+[00:00:37]: [Shard] Slave Caves(3918349408) connected: [LAN] 127.0.0.1
+[00:00:38]: [Shard] Slave Caves(3918349408) ready!
+[00:00:38]: World 3918349408 is now connected	
+[00:00:38]: Validating portal[3] <-> 3918349408[3] (active)	
+[00:00:38]: Validating portal[6] <-> 3918349408[6] (disabled)	
+[00:00:38]: Validating portal[9] <-> 3918349408[9] (disabled)	
+[00:00:38]: Validating portal[2] <-> 3918349408[2] (disabled)	
+[00:00:38]: Validating portal[4] <-> 3918349408[4] (active)	
+[00:00:38]: Validating portal[8] <-> 3918349408[8] (active)	
+[00:00:38]: Validating portal[7] <-> 3918349408[7] (active)	
+[00:00:38]: Validating portal[5] <-> 3918349408[5] (disabled)	
+[00:00:38]: Validating portal[10] <-> 3918349408[10] (active)	
+[00:00:38]: Validating portal[1] <-> 3918349408[1] (active)	
+[00:00:40]: New incoming connection 127.0.0.1|54340 <2968533029785446306>
+[00:00:40]: Client connected from [LAN] 127.0.0.1|54340 <2968533029785446306>
+[00:00:40]: ValidateGameSessionToken pgs-sing^KU_3xJ72Cx7^DontStarveTogether^iTzTnhfVWs6+W4FBJ6iZa43as2I9LUPXprJgSf1kZVE= for <2968533029785446306>
+[00:00:40]: Client authenticated: (KU_3xJ72Cx7) 彡粼
+[00:00:43]: There is no active event to validate against.
+[00:00:43]: [Shard] Read save location file for (KU_3xJ72Cx7)
+[00:00:43]: [Shard] Forwarding player to Caves(3918349408)
+[00:00:43]: [Shard] Begin migration #1 for (KU_3xJ72Cx7)
+[00:00:43]: [Shard] #1 [SHDMASTER](1) -> Caves(3918349408)
+[00:00:43]: [Rail] Reporting played with: "彡粼" (R:76561197970823881).
+[00:00:43]: [Rail] Reporting player join "彡粼" (R:76561197970823881).
+[00:00:43]: Sim unpaused
+[00:00:43]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:00:43]: [Shard] (KU_3xJ72Cx7) disconnected from [SHDMASTER](1)
+[00:00:47]: Registering master server in China lobby
+[00:00:48]: [Shard] Completed migration #1 for player (KU_3xJ72Cx7)
+[00:00:48]: [Shard] Writing save location file for (KU_3xJ72Cx7)
+[00:00:52]: SimLuaProxy::QueryServer()
+[00:00:53]: CURL ERROR: (dst-translations.1gb.ru) Recv failure: Connection was reset
+[00:00:53]: ----------------- HEALTH INFO WARNING ------------------	
+[00:00:53]: Please, show this log message to authors of Health Info mod.	
+[00:00:53]: Unknown Prefabs: fence/fence_gate	
+[00:00:53]: The mod should be fixed to support these prefabs.	
+[00:00:53]: Also you can change settings of the Health Info mod to be more useful but less compatible.	
+[00:00:53]: If you are mod developer, you can add the tag "healthinfo" to you prefab:	
+[00:00:53]: inst:AddTag("healthinfo")	
+[00:00:53]: Add tags before this line: inst.entity:SetPristine()	
+[00:00:53]: Thanks!	
+[00:00:53]: --------------------------------------------------------	
+[00:00:59]: Registering master server in China lobby
+[00:01:23]: [Shard] Begin migration #2 for (KU_3xJ72Cx7)
+[00:01:23]: [Shard] #2 Caves(3918349408) -> [SHDMASTER](1)
+[00:01:23]: [Shard] #2 -> session/0B903274C5161688/A7GFMJ3GHJM7/0000000454
+[00:01:23]: [Shard] Received migration #2 data for (KU_3xJ72Cx7)
+[00:01:23]: [Shard] (KU_3xJ72Cx7) disconnected from Caves(3918349408)
+[00:01:25]: New incoming connection 127.0.0.1|52772 <8205390452897285993>
+[00:01:25]: Client connected from [LAN] 127.0.0.1|52772 <8205390452897285993>
+[00:01:25]: ValidateGameSessionToken pgs-sing^KU_3xJ72Cx7^DontStarveTogether^jWudmiU8xpxfdsMsoYuTuVsVMZF1zHX9Ndsesp4cFyk= for <8205390452897285993>
+[00:01:25]: Client authenticated: (KU_3xJ72Cx7) 彡粼
+[00:01:25]: [Shard] Completed incoming migration #2 for (KU_3xJ72Cx7)
+[00:01:25]: [Shard] Completed migration #2 for player (KU_3xJ72Cx7)
+[00:01:25]: [Shard] Writing save location file for (KU_3xJ72Cx7)
+[00:01:33]: Resuming user: session/0B903274C5161688/A7GFMJ3GHJM7/0000000454
+[00:01:33]: Player will spawn close to portal #1	
+[00:01:33]: Spawning player at: [Load] (-42.06, 0.00, -83.91)	
+[00:01:36]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:01:36]: toggling	
+[00:01:40]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(GPTogglePause())
+[00:01:40]: toggling	
+[00:01:40]: OnGPUnpause	
+[00:04:25]: Serializing user: session/0B903274C5161688/A7GFMJ3GHJM7/0000000454
+[00:04:25]: Serializing world: session/0B903274C5161688/0000000454
+[00:04:29]: Registering master server in China lobby
+[00:04:36]: CURL ERROR: (metric.kleientertainment.com) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
+[00:04:55]: [Shard] (KU_3xJ72Cx7) disconnected from [SHDMASTER](1)
+[00:04:55]: [Rail] Reporting player quit "彡粼" (R:76561197970823881).
+[00:04:55]: [IPC] Received shutdown signal.
+[00:04:55]: Serializing user: session/0B903274C5161688/A7GFMJ3GHJM7/0000000455
+[00:04:56]: Serializing world: session/0B903274C5161688/0000000455
+[00:04:56]: Truncating to snapshot #455...
+[00:04:56]:  - session/0B903274C5161688/0000000448
+[00:04:56]:  - session/0B903274C5161688/0000000449
+[00:04:56]:    2 file(s) removed
+[00:04:56]: Removing server from China lobby
+[00:04:56]: [Shard] Stopping shard mode
+[00:04:56]: Collecting garbage...
+[00:04:56]: lua_gc took 0.18 seconds
+[00:04:56]: ~ShardLuaProxy()
+[00:04:56]: ~cEventLeaderboardProxy()
+[00:04:56]: ~ItemServerLuaProxy()
+[00:04:56]: ~InventoryLuaProxy()
+[00:04:56]: ~NetworkLuaProxy()
+[00:04:56]: ~SimLuaProxy()
+[00:04:56]: Cancelling LuaQueryCallback handle [26]
+[00:04:57]: lua_close took 0.38 seconds
+[00:04:57]: CurlRequestManager::ClientThread::Main() complete
+[00:04:57]: HttpClient2 discarded 1 callbacks.
+[00:04:57]: [Rail] Shutting down Rail
+[00:05:03]: [Rail] WARNING: Spent 5778 milliseconds in RailLibrary::RailFinalize
+[00:05:03]: Shutting down
