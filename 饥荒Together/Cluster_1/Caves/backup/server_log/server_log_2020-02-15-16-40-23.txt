@@ -1,0 +1,2266 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 35%
+	Available Physical Memory: 10486m/16244m
+	Available Page File: 8377m/17268m
+	Available Virtual Memory: 4006m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 11m
+	Working Set Size: 11m
+	Quota Peak Page Pool Usage: 168k
+	Quota Page Pool Usage: 165k
+	Quota Peak Non Paged Pool Usage:16k
+	Quota Non Paged Pool Usage: 15k
+	Page File Usage: 3m
+	Peak Page File Usage: 3m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogetherRail/76561197970823881/Cluster_1/Caves/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 393560
+[00:00:00]: Current time: Sat Feb 15 15:18:59 2020
+
+[00:00:00]: Don't Starve Together: 393560 WIN32
+[00:00:00]: Build Date: 5084
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 19216 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogetherRail -cluster Cluster_1 -fo -ownernetid R:76561197970823881 -ownerdir 76561197970823881 -backup_log_count 10 -backup_log_period 0 -shard Caves -sigprefix DST_Slave -region China --rail_platform_type=1 --rail_app_type=2 --rail_channel_id=1600039216 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: [Rail] Initializing Rail (2000004)
+[00:00:00]: [Rail] Rail SDK version 1.9.11.0
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (14880)
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: ProfileIndex:2.93
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: THREAD - started 'Ping Job Thread' (14740)
+[00:00:00]: Platform: 4
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:16]: Authorized application E:\Games\WeGame_bought\rail_apps\
+[00:00:16]: WindowsFirewall - Application already authorized
+[00:00:16]: Overriding region to China
+[00:00:16]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/76561197970823881/client_save/blocklist.txt (Failure)
+[00:00:16]: THREAD - started 'StreamInput' (11512)
+[00:00:16]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/76561197970823881/client_save/adminlist.txt (Failure)
+[00:00:16]: OnLoadUserIdList: APP:Klei//DoNotStarveTogetherRail/76561197970823881/client_save/whitelist.txt (Failure)
+[00:00:16]: Offline user ID: RU_76561197970823881
+[00:00:16]: Token retrieved from: APP:Klei//DoNotStarveTogetherRail/76561197970823881/Cluster_1/cluster_token.txt
+[00:00:16]: Token retrieved from: APP:Klei//DoNotStarveTogetherRail/76561197970823881/Cluster_1/cluster_token.txt
+[00:00:16]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 家庭中文版
+    version                   10.0.18362
+    architecture              64 位
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  4
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz
+    manufacturer              GenuineIntel
+    clockSpeed                2304
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    name                      NVIDIA GeForce GTX 1050
+    driverDate                20180624000000.000000-000
+    megsOfRam                 4095
+    refreshRate               0
+    videoModeDescription      
+    driverVersion             24.21.13.9836
+
+[00:00:16]: cGame::InitializeOnMainThread
+[00:00:16]: Renderer initialize: Okay
+[00:00:16]: AnimManager initialize: Okay
+[00:00:16]: Buffers initialize: Okay
+[00:00:16]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:16]: GameSpecific initialize: Okay
+[00:00:16]: cGame::StartPlaying
+[00:00:16]: LOADING LUA
+[00:00:16]: DoLuaFile scripts/main.lua
+[00:00:16]: DoLuaFile loading buffer scripts/main.lua
+[00:00:16]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:00:17]:   taskgrouplist:	default	联机版	
+[00:00:17]:   taskgrouplist:	classic	经典	
+[00:00:17]:   taskgrouplist:	cave_default	地下	
+[00:00:17]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:17]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:17]: running main.lua
+	
+[00:00:17]: loaded modindex	
+[00:00:17]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:17]: DownloadMods(0)
+[00:00:17]: modoverrides.lua enabling workshop-100010040	
+[00:00:17]: modoverrides.lua enabling workshop-2199027653598513601	
+[00:00:17]: modoverrides.lua enabling workshop-100010059	
+[00:00:17]: modoverrides.lua enabling workshop-100010021	
+[00:00:17]: modoverrides.lua enabling workshop-100010024	
+[00:00:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010021	
+[00:00:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:00:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010040	
+[00:00:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010059	
+[00:00:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598513601	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-100010021_CLIENT	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:17]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:17]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:17]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:17]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:17]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:17]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:00:17]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:00:17]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:00:17]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:00:17]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:17]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:17]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:17]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:17]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:17]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:17]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:17]: Loading mod: workshop-100010021 (提示属性显示) Version:0.186.h.1	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-100010024_CLIENT	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:17]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:17]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:17]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:17]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:17]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:17]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:00:17]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:00:17]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:00:17]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:00:17]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:17]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:17]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:17]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:17]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:17]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:17]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:17]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-100010040_CLIENT	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:17]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:17]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:17]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:17]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:17]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:17]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:00:17]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:00:17]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:00:17]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:00:17]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:17]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:17]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:17]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:17]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:17]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:17]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:17]: Loading mod: workshop-100010040 (Global Pause) Version:1.3.2	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-100010059_CLIENT	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:17]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:17]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:17]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:17]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:17]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:17]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:00:17]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:00:17]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:00:17]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:00:17]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:17]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:17]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:17]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:17]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:17]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:17]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:17]: Loading mod: workshop-100010059 (Extra Equip Slots) Version:1.8.0	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-2199027653598513601_CLIENT	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:17]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:17]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:17]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:17]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:17]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:17]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:00:17]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:00:17]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:00:17]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:00:17]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:17]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:17]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:17]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:17]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:17]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:17]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:17]: Loading mod: workshop-2199027653598513601 (阻止草变异) Version:1.1 (Old API! (mod: 2 game: 10) )	
+[00:00:17]: Mod: workshop-100010040 (Global Pause)	Loading modworldgenmain.lua	
+[00:00:17]: Mod: workshop-100010040 (Global Pause)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:17]: Mod: workshop-100010040 (Global Pause)	Loading modmain.lua	
+[00:00:17]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:17]: Mod: workshop-100010059 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:17]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:17]: Mod: workshop-100010021 (提示属性显示)	Loading modworldgenmain.lua	
+[00:00:17]: Mod: workshop-100010021 (提示属性显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:17]: Mod: workshop-100010021 (提示属性显示)	Loading modmain.lua	
+[00:00:17]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modworldgenmain.lua	
+[00:00:17]: Mod: workshop-2199027653598513601 (阻止草变异)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:17]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modmain.lua	
+[00:00:18]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:00:18]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:19]: LOADING LUA SUCCESS
+[00:00:19]: Registering mod namespace "globalpause"
+[00:00:19]: Registering mod namespace "showmehint"
+[00:00:19]: Registering mod namespace "showme"
+[00:00:19]: PlayerDeaths could not load morgue	
+[00:00:19]: PlayerHistory could not load player_history	
+[00:00:19]: ServerPreferences could not load server_preferences	
+[00:00:19]: bloom_enabled	false	
+[00:00:19]: loaded saveindex	
+[00:00:19]: OnFilesLoaded()	
+[00:00:19]: OnUpdatePurchaseStateComplete	
+[00:00:19]: Klump load on boot started.	
+[00:00:19]: Klump files loaded: 	0	
+[00:00:20]: Mod: workshop-100010040 (Global Pause)	Registering prefabs	
+[00:00:20]: Mod: workshop-100010040 (Global Pause)	  Registering default mod prefab	
+[00:00:20]: Mod: workshop-100010059 (Extra Equip Slots)	Registering prefabs	
+[00:00:20]: Mod: workshop-100010059 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:20]: Mod: workshop-100010021 (提示属性显示)	Registering prefabs	
+[00:00:20]: Mod: workshop-100010021 (提示属性显示)	  Registering default mod prefab	
+[00:00:20]: Mod: workshop-2199027653598513601 (阻止草变异)	Registering prefabs	
+[00:00:20]: Mod: workshop-2199027653598513601 (阻止草变异)	  Registering default mod prefab	
+[00:00:20]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:00:20]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:00:21]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
+[00:00:21]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
+[00:00:21]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
+[00:00:21]: 	Load FE	
+[00:00:21]: 	Load FE: done	
+[00:00:21]: THREAD - started 'FilesExistAsyncThread' (17572)
+[00:00:21]: FilesExistAsyncThread started (14410 files)...
+[00:00:21]: Check for write access: TRUE
+[00:00:21]: Check for read access: TRUE
+[00:00:21]: ModIndex: Load sequence finished successfully.	
+[00:00:21]: Reset() returning
+[00:00:21]: [IPC] Signal 'DST_Slave_Kill' opened  #0000052C
+[00:00:21]: [IPC] Registering handler for signal #0000052C
+[00:00:21]: [IPC] Handle #0000052C added to the Eventhandles
+[00:00:21]: [IPC] Signal 'DST_Slave_Starting' opened  #00000584
+[00:00:21]: [IPC] Sending signal... #00000584
+[00:00:22]: [200] Account Communication Success (6)
+[00:00:22]: Received (KU_3xJ72Cx7) from TokenPurpose
+[00:00:22]: Starting Dedicated Server Game	
+[00:00:22]: Network tick rate: U=15(2), D=0
+[00:00:22]: ... FilesExistAsyncThread complete
+[00:00:22]: About to start a server with the following settings:
+[00:00:22]:   Dedicated: true
+[00:00:22]:   Online: true
+[00:00:22]:   Passworded: false
+[00:00:22]:   ServerPort: 10998
+[00:00:22]:   SteamAuthPort: 8766
+[00:00:22]:   SteamMasterServerPort: 27016
+[00:00:22]:   ClanID: false
+[00:00:22]:   ClanOnly: false
+[00:00:22]:   ClanAdmin: false
+[00:00:22]:   LanOnly: false
+[00:00:22]:   FriendsOnly: true
+[00:00:22]:   EnableAutosaver: true
+[00:00:22]:   EncodeUserPath: true
+[00:00:22]:   PVP: false
+[00:00:22]:   MaxPlayers: 6
+[00:00:22]:   GameMode: survival
+[00:00:22]:   OverridenDNS: 
+[00:00:22]:   PauseWhenEmpty: true
+[00:00:22]:   IdleTimeout: 1800s
+[00:00:22]:   VoteEnabled: false
+[00:00:22]:   InternetBroadcasting: true
+[00:00:22]:   Intent: cooperative
+[00:00:22]: [Warning] Could not confirm port 10998 is open in the firewall. 
+[00:00:22]: Could not load mod_config_data/modconfiguration_workshop-100010040	
+[00:00:22]: Could not load mod_config_data/modconfiguration_workshop-100010021	
+[00:00:22]: Could not load mod_config_data/modconfiguration_workshop-100010024	
+[00:00:22]: Could not load mod_config_data/modconfiguration_workshop-100010059	
+[00:00:22]: Online Server Started on port: 10998
+[00:00:22]: [Rail] Punchthrough start.
+[00:00:22]: Collecting garbage...
+[00:00:22]: lua_gc took 0.03 seconds
+[00:00:22]: ~ShardLuaProxy()
+[00:00:22]: ~cEventLeaderboardProxy()
+[00:00:22]: ~ItemServerLuaProxy()
+[00:00:22]: ~InventoryLuaProxy()
+[00:00:22]: ~NetworkLuaProxy()
+[00:00:22]: ~SimLuaProxy()
+[00:00:22]: Cancelling LuaQueryCallback handle [1]
+[00:00:22]: lua_close took 0.05 seconds
+[00:00:22]: ReleaseAll
+[00:00:22]: ReleaseAll Finished
+[00:00:22]: cGame::StartPlaying
+[00:00:22]: LOADING LUA
+[00:00:22]: DoLuaFile scripts/main.lua
+[00:00:22]: DoLuaFile loading buffer scripts/main.lua
+[00:00:22]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:00:23]:   taskgrouplist:	default	联机版	
+[00:00:23]:   taskgrouplist:	classic	经典	
+[00:00:23]:   taskgrouplist:	cave_default	地下	
+[00:00:23]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:23]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:23]: running main.lua
+	
+[00:00:23]: unloading prefabs for mod MOD_workshop-100010040	
+[00:00:23]: unloading prefabs for mod MOD_workshop-100010059	
+[00:00:23]: unloading prefabs for mod MOD_workshop-100010021	
+[00:00:23]: unloading prefabs for mod MOD_workshop-2199027653598513601	
+[00:00:23]: unloading prefabs for mod MOD_workshop-100010024	
+[00:00:23]: loaded modindex	
+[00:00:23]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:24]: modoverrides.lua enabling workshop-100010040	
+[00:00:24]: modoverrides.lua enabling workshop-2199027653598513601	
+[00:00:24]: modoverrides.lua enabling workshop-100010059	
+[00:00:24]: modoverrides.lua enabling workshop-100010021	
+[00:00:24]: modoverrides.lua enabling workshop-100010024	
+[00:00:24]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010021	
+[00:00:24]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:00:24]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010040	
+[00:00:24]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010059	
+[00:00:24]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598513601	
+[00:00:24]: Could not load mod_config_data/modconfiguration_workshop-100010021	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:24]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:24]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:24]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:24]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:24]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:24]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:00:24]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:00:24]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:00:24]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:00:24]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:24]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:24]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:24]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:24]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:24]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:24]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:24]: Loading mod: workshop-100010021 (提示属性显示) Version:0.186.h.1	
+[00:00:24]: Could not load mod_config_data/modconfiguration_workshop-100010024	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:24]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:24]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:24]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:24]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:24]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:24]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:00:24]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:00:24]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:00:24]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:00:24]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:24]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:24]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:24]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:24]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:24]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:24]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:24]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:00:24]: Could not load mod_config_data/modconfiguration_workshop-100010040	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:24]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:24]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:24]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:24]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:24]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:24]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:00:24]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:00:24]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:00:24]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:00:24]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:24]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:24]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:24]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:24]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:24]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:24]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:24]: Loading mod: workshop-100010040 (Global Pause) Version:1.3.2	
+[00:00:24]: Could not load mod_config_data/modconfiguration_workshop-100010059	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:24]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:24]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:24]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:24]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:24]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:24]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:00:24]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:00:24]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:00:24]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:00:24]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:24]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:24]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:24]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:24]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:24]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:24]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:24]: Loading mod: workshop-100010059 (Extra Equip Slots) Version:1.8.0	
+[00:00:24]: Could not load mod_config_data/modconfiguration_workshop-2199027653598513601	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:24]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:24]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:24]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:24]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:24]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:24]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:00:24]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:00:24]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:00:24]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:00:24]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:24]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:00:24]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:24]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:24]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:24]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:24]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:00:24]: Loading mod: workshop-2199027653598513601 (阻止草变异) Version:1.1 (Old API! (mod: 2 game: 10) )	
+[00:00:24]: Mod: workshop-100010040 (Global Pause)	Loading modworldgenmain.lua	
+[00:00:24]: Mod: workshop-100010040 (Global Pause)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:24]: Mod: workshop-100010040 (Global Pause)	Loading modmain.lua	
+[00:00:24]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:24]: Mod: workshop-100010059 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:24]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:24]: Mod: workshop-100010021 (提示属性显示)	Loading modworldgenmain.lua	
+[00:00:24]: Mod: workshop-100010021 (提示属性显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:24]: Mod: workshop-100010021 (提示属性显示)	Loading modmain.lua	
+[00:00:24]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modworldgenmain.lua	
+[00:00:24]: Mod: workshop-2199027653598513601 (阻止草变异)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:24]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modmain.lua	
+[00:00:24]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:00:24]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:24]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:00:24]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:24]: LOADING LUA SUCCESS
+[00:00:24]: Registering mod namespace "globalpause"
+[00:00:24]: Registering mod namespace "showmehint"
+[00:00:24]: Registering mod namespace "showme"
+[00:00:24]: PlayerDeaths could not load morgue	
+[00:00:24]: PlayerHistory could not load player_history	
+[00:00:24]: ServerPreferences could not load server_preferences	
+[00:00:24]: bloom_enabled	false	
+[00:00:24]: loaded saveindex	
+[00:00:24]: OnFilesLoaded()	
+[00:00:24]: OnUpdatePurchaseStateComplete	
+[00:00:24]: Loading world: session/5B3136F7C2C2F037/0000000499	
+[00:00:24]: Save file is at version 5.031	
+[00:00:24]: Klump load on boot started.	
+[00:00:24]: Klump files loaded: 	0	
+[00:00:24]: 	Unload FE	
+[00:00:24]: 	Unload FE done	
+[00:00:25]: Mod: workshop-100010040 (Global Pause)	Registering prefabs	
+[00:00:25]: Mod: workshop-100010040 (Global Pause)	  Registering default mod prefab	
+[00:00:25]: Mod: workshop-100010059 (Extra Equip Slots)	Registering prefabs	
+[00:00:25]: Mod: workshop-100010059 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:25]: Mod: workshop-100010021 (提示属性显示)	Registering prefabs	
+[00:00:25]: Mod: workshop-100010021 (提示属性显示)	  Registering default mod prefab	
+[00:00:25]: Mod: workshop-2199027653598513601 (阻止草变异)	Registering prefabs	
+[00:00:25]: Mod: workshop-2199027653598513601 (阻止草变异)	  Registering default mod prefab	
+[00:00:25]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:00:25]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:00:25]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
+[00:00:25]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
+[00:00:25]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
+[00:00:25]: 	LOAD BE	
+[00:00:28]: Could not preload undefined prefab (yotc_shrinecarrat)
+[00:00:28]: 	LOAD BE: done	
+[00:00:28]: Begin Session: 5B3136F7C2C2F037
+[00:00:28]: saving to server_temp/server_save	
+[00:00:28]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-100010024/minimap/storeroom.xml )
+[00:00:28]: Loading 16 new character(s)	
+[00:00:29]: Total 16 character(s) loaded	
+[00:00:34]: Loading Nav Grid	
+[00:00:34]: World generated on version 278364, using seed: 1540565118	
+[00:00:34]: setting 	summerlength	15	
+[00:00:34]: setting 	isnightmaredawn	false	
+[00:00:34]: setting 	elapseddaysinseason	10	
+[00:00:34]: setting 	isfullmoon	false	
+[00:00:34]: setting 	moisture	1132.3461914063	
+[00:00:34]: setting 	springlength	20	
+[00:00:34]: setting 	isnightmarewild	false	
+[00:00:34]: setting 	moonphase	new	
+[00:00:34]: setting 	precipitationrate	0	
+[00:00:34]: setting 	iswet	true	
+[00:00:34]: setting 	isnewmoon	false	
+[00:00:34]: setting 	iswinter	true	
+[00:00:34]: setting 	israining	false	
+[00:00:34]: setting 	isnightmarewarn	false	
+[00:00:34]: setting 	precipitation	none	
+[00:00:34]: setting 	cavephase	dusk	
+[00:00:34]: setting 	moistureceil	1530.8377685547	
+[00:00:34]: setting 	isday	false	
+[00:00:34]: setting 	iscaveday	false	
+[00:00:34]: setting 	season	winter	
+[00:00:34]: setting 	timeinphase	0.97328163146973	
+[00:00:34]: setting 	temperature	-11.940095630659	
+[00:00:34]: setting 	isnightmarecalm	true	
+[00:00:34]: setting 	isnight	true	
+[00:00:34]: setting 	isdusk	false	
+[00:00:34]: setting 	iscavedusk	true	
+[00:00:34]: setting 	isautumn	false	
+[00:00:34]: setting 	issnowing	false	
+[00:00:34]: setting 	iswaxingmoon	true	
+[00:00:34]: setting 	pop	0.084805487281952	
+[00:00:34]: setting 	snowlevel	0	
+[00:00:34]: setting 	issnowcovered	false	
+[00:00:34]: setting 	autumnlength	20	
+[00:00:34]: setting 	phase	night	
+[00:00:34]: setting 	nightmaretime	196.68782816848	
+[00:00:34]: setting 	winterlength	15	
+[00:00:34]: setting 	isspring	false	
+[00:00:34]: setting 	nightmarephase	calm	
+[00:00:34]: setting 	remainingdaysinseason	5	
+[00:00:34]: setting 	cycles	450	
+[00:00:34]: setting 	iscavenight	false	
+[00:00:34]: setting 	nightmaretimeinphase	0.54635507824578	
+[00:00:34]: setting 	wetness	65.095489501953	
+[00:00:34]: setting 	time	0.61665050983429	
+[00:00:34]: setting 	issummer	false	
+[00:00:34]: [Shard] Slave is waiting for LUA...
+[00:00:37]: Reconstructing topology	
+[00:00:37]: 	...Sorting points	
+[00:00:37]: 	...Sorting edges	
+[00:00:37]: 	...Connecting nodes	
+[00:00:37]: 	...Validating connections	
+[00:00:37]: 	...Housekeeping	
+[00:00:37]: 	...Done!	
+[00:00:37]: 1 uploads added to server. From server_temp
+[00:00:37]: About to start a shard with these settings:
+[00:00:37]:   ShardName: Caves
+[00:00:37]:   ShardID: 3918349408
+[00:00:37]:   ShardRole: SLAVE
+[00:00:37]:   MasterHost: 127.0.0.1
+[00:00:37]:   MasterBind: (null)
+[00:00:37]:   MasterPort: 10888
+[00:00:37]: [Shard] Connecting to master...
+[00:00:37]: Telling Client our new session identifier: 5B3136F7C2C2F037
+[00:00:37]: Check for write access: TRUE
+[00:00:37]: Check for read access: TRUE
+[00:00:37]: ModIndex: Load sequence finished successfully.	
+[00:00:37]: Reset() returning
+[00:00:37]: [Rail] Creating game server...
+[00:00:37]: [Rail] Done.
+[00:00:37]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:00:37]: Validating portal[5] <-> 1[5] (inactive)	
+[00:00:37]: Validating portal[10] <-> 1[10] (inactive)	
+[00:00:37]: Validating portal[3] <-> 1[3] (inactive)	
+[00:00:37]: Validating portal[4] <-> 1[4] (inactive)	
+[00:00:37]: Validating portal[6] <-> 1[6] (inactive)	
+[00:00:37]: Validating portal[9] <-> 1[9] (inactive)	
+[00:00:37]: Validating portal[1] <-> 1[1] (inactive)	
+[00:00:37]: Validating portal[2] <-> 1[2] (inactive)	
+[00:00:37]: Validating portal[8] <-> 1[8] (inactive)	
+[00:00:37]: Validating portal[7] <-> 1[7] (inactive)	
+[00:00:41]: [Rail] Game server created.
+[00:00:41]: [P2P] Setting rail id 90071997745044305
+[00:00:41]: [Rail] WARNING: Spent 3190 milliseconds in rail calls in the last 3.59 seconds
+[00:00:41]:     RailLibrary::RailFireEvents: 0ms
+[00:00:42]: CURL ERROR: (dst.metrics.klei.com) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
+[00:00:42]: CURL ERROR: (dst.metrics.klei.com) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
+[00:00:42]: About to start a shard with these settings:
+[00:00:42]:   ShardName: Caves
+[00:00:42]:   ShardID: 3918349408
+[00:00:42]:   ShardRole: SLAVE
+[00:00:42]:   MasterHost: 127.0.0.1
+[00:00:42]:   MasterBind: (null)
+[00:00:42]:   MasterPort: 10888
+[00:00:42]: [Shard] Connecting to master...
+[00:00:43]: [Shard] Sending slave information to master...
+[00:00:48]: Registering slave in China lobby
+[00:00:49]: [Shard] Slave is now ready!
+[00:00:49]: World 1 is now connected	
+[00:00:49]: Validating portal[5] <-> 1[5] (active)	
+[00:00:49]: Validating portal[10] <-> 1[10] (active)	
+[00:00:49]: Validating portal[3] <-> 1[3] (active)	
+[00:00:49]: Validating portal[4] <-> 1[4] (active)	
+[00:00:49]: Validating portal[6] <-> 1[6] (active)	
+[00:00:49]: Validating portal[9] <-> 1[9] (active)	
+[00:00:49]: Validating portal[1] <-> 1[1] (active)	
+[00:00:49]: Validating portal[2] <-> 1[2] (active)	
+[00:00:49]: Validating portal[8] <-> 1[8] (active)	
+[00:00:49]: Validating portal[7] <-> 1[7] (active)	
+[00:00:50]: [Shard] Slave LUA is now ready!
+[00:00:50]: [IPC] Signal 'DST_Slave_Ready' opened  #00000620
+[00:00:50]: [IPC] Sending signal... #00000620
+[00:00:50]: Sim paused
+[00:01:05]: [Rail] Reporting played with: "彡粼" (R:76561197970823881).
+[00:01:15]: Sim unpaused
+[00:01:44]: World 1 is now disconnected	
+[00:01:44]: Validating portal[5] <-> 1[5] (inactive)	
+[00:01:44]: Validating portal[10] <-> 1[10] (inactive)	
+[00:01:44]: Validating portal[3] <-> 1[3] (inactive)	
+[00:01:44]: Validating portal[4] <-> 1[4] (inactive)	
+[00:01:44]: Validating portal[6] <-> 1[6] (inactive)	
+[00:01:44]: Validating portal[9] <-> 1[9] (inactive)	
+[00:01:44]: Validating portal[1] <-> 1[1] (inactive)	
+[00:01:44]: Validating portal[2] <-> 1[2] (inactive)	
+[00:01:44]: Validating portal[8] <-> 1[8] (inactive)	
+[00:01:44]: Validating portal[7] <-> 1[7] (inactive)	
+[00:01:44]: Sim paused
+[00:02:01]: Synchronizing backward to master snapshot 498	
+[00:02:01]: Truncating to snapshot #498...
+[00:02:01]:  - session/5B3136F7C2C2F037/0000000499
+[00:02:01]:    1 file(s) removed
+[00:02:01]: World 1 is now connected	
+[00:02:01]: Validating portal[5] <-> 1[5] (active)	
+[00:02:01]: Validating portal[10] <-> 1[10] (active)	
+[00:02:01]: Validating portal[3] <-> 1[3] (active)	
+[00:02:01]: Validating portal[4] <-> 1[4] (active)	
+[00:02:01]: Validating portal[6] <-> 1[6] (active)	
+[00:02:01]: Validating portal[9] <-> 1[9] (active)	
+[00:02:01]: Validating portal[1] <-> 1[1] (active)	
+[00:02:01]: Validating portal[2] <-> 1[2] (active)	
+[00:02:01]: Validating portal[8] <-> 1[8] (active)	
+[00:02:01]: Validating portal[7] <-> 1[7] (active)	
+[00:02:01]: Sim unpaused
+[00:02:01]: Collecting garbage...
+[00:02:01]: lua_gc took 0.10 seconds
+[00:02:01]: ~ShardLuaProxy()
+[00:02:01]: ~cEventLeaderboardProxy()
+[00:02:01]: ~ItemServerLuaProxy()
+[00:02:01]: ~InventoryLuaProxy()
+[00:02:01]: ~NetworkLuaProxy()
+[00:02:01]: ~SimLuaProxy()
+[00:02:01]: lua_close took 0.24 seconds
+[00:02:01]: ReleaseAll
+[00:02:01]: ReleaseAll Finished
+[00:02:01]: cGame::StartPlaying
+[00:02:01]: LOADING LUA
+[00:02:01]: DoLuaFile scripts/main.lua
+[00:02:01]: DoLuaFile loading buffer scripts/main.lua
+[00:02:01]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:02:02]:   taskgrouplist:	default	联机版	
+[00:02:02]:   taskgrouplist:	classic	经典	
+[00:02:02]:   taskgrouplist:	cave_default	地下	
+[00:02:02]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:02:02]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:02:02]: running main.lua
+	
+[00:02:02]: unloading prefabs for mod MOD_workshop-100010040	
+[00:02:02]: unloading prefabs for mod MOD_workshop-100010059	
+[00:02:02]: unloading prefabs for mod MOD_workshop-100010021	
+[00:02:02]: unloading prefabs for mod MOD_workshop-2199027653598513601	
+[00:02:02]: unloading prefabs for mod MOD_workshop-100010024	
+[00:02:02]: loaded modindex	
+[00:02:02]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:02:02]: modoverrides.lua enabling workshop-100010040	
+[00:02:02]: modoverrides.lua enabling workshop-2199027653598513601	
+[00:02:02]: modoverrides.lua enabling workshop-100010059	
+[00:02:02]: modoverrides.lua enabling workshop-100010021	
+[00:02:02]: modoverrides.lua enabling workshop-100010024	
+[00:02:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010021	
+[00:02:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:02:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010040	
+[00:02:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010059	
+[00:02:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598513601	
+[00:02:02]: Could not load mod_config_data/modconfiguration_workshop-100010021	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:02:02]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:02:02]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:02:02]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:02:02]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:02:02]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:02:02]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:02:02]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:02:02]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:02:02]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:02:02]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:02:02]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:02:02]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:02:02]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:02:02]: Overriding mod workshop-100010024's option Position with value Center	
+[00:02:02]: Overriding mod workshop-100010024's option Language with value En	
+[00:02:02]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:02:02]: Loading mod: workshop-100010021 (提示属性显示) Version:0.186.h.1	
+[00:02:02]: Could not load mod_config_data/modconfiguration_workshop-100010024	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:02:02]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:02:02]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:02:02]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:02:02]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:02:02]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:02:02]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:02:02]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:02:02]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:02:02]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:02:02]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:02:02]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:02:02]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:02:02]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:02:02]: Overriding mod workshop-100010024's option Position with value Center	
+[00:02:02]: Overriding mod workshop-100010024's option Language with value En	
+[00:02:02]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:02:02]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:02:02]: Could not load mod_config_data/modconfiguration_workshop-100010040	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:02:02]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:02:02]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:02:02]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:02:02]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:02:02]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:02:02]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:02:02]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:02:02]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:02:02]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:02:02]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:02:02]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:02:02]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:02:02]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:02:02]: Overriding mod workshop-100010024's option Position with value Center	
+[00:02:02]: Overriding mod workshop-100010024's option Language with value En	
+[00:02:02]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:02:02]: Loading mod: workshop-100010040 (Global Pause) Version:1.3.2	
+[00:02:02]: Could not load mod_config_data/modconfiguration_workshop-100010059	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:02:02]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:02:02]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:02:02]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:02:02]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:02:02]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:02:02]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:02:02]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:02:02]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:02:02]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:02:02]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:02:02]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:02:02]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:02:02]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:02:02]: Overriding mod workshop-100010024's option Position with value Center	
+[00:02:02]: Overriding mod workshop-100010024's option Language with value En	
+[00:02:02]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:02:02]: Loading mod: workshop-100010059 (Extra Equip Slots) Version:1.8.0	
+[00:02:02]: Could not load mod_config_data/modconfiguration_workshop-2199027653598513601	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:02:02]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:02:02]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:02:02]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:02:02]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:02:02]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:02:02]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:02:02]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:02:02]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:02:02]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:02:02]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:02:02]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:02:02]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:02:02]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:02:02]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:02:02]: Overriding mod workshop-100010024's option Position with value Center	
+[00:02:02]: Overriding mod workshop-100010024's option Language with value En	
+[00:02:02]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:02:02]: Loading mod: workshop-2199027653598513601 (阻止草变异) Version:1.1 (Old API! (mod: 2 game: 10) )	
+[00:02:02]: Mod: workshop-100010040 (Global Pause)	Loading modworldgenmain.lua	
+[00:02:02]: Mod: workshop-100010040 (Global Pause)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:02:02]: Mod: workshop-100010040 (Global Pause)	Loading modmain.lua	
+[00:02:02]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:02:02]: Mod: workshop-100010059 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:02:02]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modmain.lua	
+[00:02:02]: Mod: workshop-100010021 (提示属性显示)	Loading modworldgenmain.lua	
+[00:02:02]: Mod: workshop-100010021 (提示属性显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:02:02]: Mod: workshop-100010021 (提示属性显示)	Loading modmain.lua	
+[00:02:02]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modworldgenmain.lua	
+[00:02:02]: Mod: workshop-2199027653598513601 (阻止草变异)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:02:02]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modmain.lua	
+[00:02:02]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:02:02]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:02:02]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:02:03]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:02:03]: LOADING LUA SUCCESS
+[00:02:03]: Registering mod namespace "globalpause"
+[00:02:03]: Registering mod namespace "showmehint"
+[00:02:03]: Registering mod namespace "showme"
+[00:02:03]: PlayerDeaths could not load morgue	
+[00:02:03]: PlayerHistory could not load player_history	
+[00:02:03]: ServerPreferences could not load server_preferences	
+[00:02:03]: bloom_enabled	false	
+[00:02:03]: loaded saveindex	
+[00:02:03]: OnFilesLoaded()	
+[00:02:03]: OnUpdatePurchaseStateComplete	
+[00:02:03]: Loading world: session/5B3136F7C2C2F037/0000000498	
+[00:02:03]: Save file is at version 5.031	
+[00:02:03]: Klump load on boot started.	
+[00:02:03]: Klump files loaded: 	0	
+[00:02:03]: 	Unload characters	
+[00:02:03]: 	BE assets already loaded	
+[00:02:04]: Mod: workshop-100010040 (Global Pause)	Registering prefabs	
+[00:02:04]: Mod: workshop-100010040 (Global Pause)	  Registering default mod prefab	
+[00:02:04]: Mod: workshop-100010059 (Extra Equip Slots)	Registering prefabs	
+[00:02:04]: Mod: workshop-100010059 (Extra Equip Slots)	  Registering default mod prefab	
+[00:02:04]: Mod: workshop-100010021 (提示属性显示)	Registering prefabs	
+[00:02:04]: Mod: workshop-100010021 (提示属性显示)	  Registering default mod prefab	
+[00:02:04]: Mod: workshop-2199027653598513601 (阻止草变异)	Registering prefabs	
+[00:02:04]: Mod: workshop-2199027653598513601 (阻止草变异)	  Registering default mod prefab	
+[00:02:04]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:02:04]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:02:04]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
+[00:02:04]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
+[00:02:04]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
+[00:02:04]: Begin Session: 5B3136F7C2C2F037
+[00:02:04]: Stomping previously assigned session identifier, two loads issued.
+[00:02:04]: saving to server_temp/server_save	
+[00:02:04]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:02:04]: MiniMapComponent::AddAtlas( ../mods/workshop-100010024/minimap/storeroom.xml )
+[00:02:04]: Loading 16 new character(s)	
+[00:02:05]: Total 16 character(s) loaded	
+[00:02:09]: Loading Nav Grid	
+[00:02:09]: World generated on version 278364, using seed: 1540565118	
+[00:02:09]: setting 	summerlength	15	
+[00:02:09]: setting 	isnightmaredawn	true	
+[00:02:09]: setting 	elapseddaysinseason	10	
+[00:02:09]: setting 	isfullmoon	false	
+[00:02:09]: setting 	moisture	1577.5985107422	
+[00:02:09]: setting 	springlength	20	
+[00:02:09]: setting 	isnightmarewild	false	
+[00:02:09]: setting 	moonphase	new	
+[00:02:09]: setting 	precipitationrate	0	
+[00:02:09]: setting 	iswet	true	
+[00:02:09]: setting 	isnewmoon	false	
+[00:02:09]: setting 	iswinter	true	
+[00:02:09]: setting 	israining	false	
+[00:02:09]: setting 	isnightmarewarn	false	
+[00:02:09]: setting 	precipitation	none	
+[00:02:09]: setting 	cavephase	day	
+[00:02:09]: setting 	moistureceil	1603.7012939453	
+[00:02:09]: setting 	isday	false	
+[00:02:09]: setting 	iscaveday	true	
+[00:02:09]: setting 	season	winter	
+[00:02:09]: setting 	timeinphase	0.0072420247395834	
+[00:02:09]: setting 	temperature	-11.821148381704	
+[00:02:09]: setting 	isnightmarecalm	false	
+[00:02:09]: setting 	isnight	true	
+[00:02:09]: setting 	isdusk	false	
+[00:02:09]: setting 	iscavedusk	false	
+[00:02:09]: setting 	isautumn	false	
+[00:02:09]: setting 	issnowing	false	
+[00:02:09]: setting 	iswaxingmoon	true	
+[00:02:09]: setting 	pop	0.95039560061771	
+[00:02:09]: setting 	snowlevel	0	
+[00:02:09]: setting 	issnowcovered	false	
+[00:02:09]: setting 	autumnlength	20	
+[00:02:09]: setting 	phase	night	
+[00:02:09]: setting 	nightmaretime	613.01371769693	
+[00:02:09]: setting 	winterlength	15	
+[00:02:09]: setting 	isspring	false	
+[00:02:09]: setting 	nightmarephase	dawn	
+[00:02:09]: setting 	remainingdaysinseason	5	
+[00:02:09]: setting 	cycles	450	
+[00:02:09]: setting 	iscavenight	false	
+[00:02:09]: setting 	nightmaretimeinphase	0.21689529494885	
+[00:02:09]: setting 	wetness	47.66467666626	
+[00:02:09]: setting 	time	0.0022631327311198	
+[00:02:09]: setting 	issummer	false	
+[00:02:13]: Reconstructing topology	
+[00:02:13]: 	...Sorting points	
+[00:02:13]: 	...Sorting edges	
+[00:02:13]: 	...Connecting nodes	
+[00:02:13]: 	...Validating connections	
+[00:02:13]: 	...Housekeeping	
+[00:02:13]: 	...Done!	
+[00:02:13]: 1 uploads added to server. From server_temp
+[00:02:13]: World 1 is now connected	
+[00:02:13]: Telling Client our new session identifier: 5B3136F7C2C2F037
+[00:02:13]: Check for write access: TRUE
+[00:02:13]: Check for read access: TRUE
+[00:02:13]: ModIndex: Load sequence finished successfully.	
+[00:02:13]: Reset() returning
+[00:02:13]: Validating portal[4] <-> 1[4] (active)	
+[00:02:13]: Validating portal[8] <-> 1[8] (active)	
+[00:02:13]: Validating portal[1] <-> 1[1] (active)	
+[00:02:13]: Validating portal[6] <-> 1[6] (active)	
+[00:02:13]: Validating portal[5] <-> 1[5] (active)	
+[00:02:13]: Validating portal[3] <-> 1[3] (active)	
+[00:02:13]: Validating portal[9] <-> 1[9] (active)	
+[00:02:13]: Validating portal[10] <-> 1[10] (active)	
+[00:02:13]: Validating portal[2] <-> 1[2] (active)	
+[00:02:13]: Validating portal[7] <-> 1[7] (active)	
+[00:02:18]: CURL ERROR: (dst.metrics.klei.com) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
+[00:05:48]: Registering slave in China lobby
+[00:10:29]: Serializing world: session/5B3136F7C2C2F037/0000000499
+[00:10:48]: Registering slave in China lobby
+[00:15:48]: Registering slave in China lobby
+[00:18:30]: Serializing world: session/5B3136F7C2C2F037/0000000500
+[00:18:30]: Truncating to snapshot #500...
+[00:18:30]:  - session/5B3136F7C2C2F037/0000000494
+[00:18:30]:  - session/5B3136F7C2C2F037/A7GFMJ3GHJM7/0000000493
+[00:18:30]:    2 file(s) removed
+[00:18:32]: World 1 is now disconnected	
+[00:18:32]: Validating portal[4] <-> 1[4] (inactive)	
+[00:18:32]: Validating portal[8] <-> 1[8] (inactive)	
+[00:18:32]: Validating portal[1] <-> 1[1] (inactive)	
+[00:18:32]: Validating portal[6] <-> 1[6] (inactive)	
+[00:18:32]: Validating portal[5] <-> 1[5] (inactive)	
+[00:18:32]: Validating portal[3] <-> 1[3] (inactive)	
+[00:18:32]: Validating portal[9] <-> 1[9] (inactive)	
+[00:18:32]: Validating portal[10] <-> 1[10] (inactive)	
+[00:18:32]: Validating portal[2] <-> 1[2] (inactive)	
+[00:18:32]: Validating portal[7] <-> 1[7] (inactive)	
+[00:18:32]: Sim paused
+[00:18:48]: Synchronizing backward to master snapshot 499	
+[00:18:48]: Truncating to snapshot #499...
+[00:18:48]:  - session/5B3136F7C2C2F037/0000000500
+[00:18:48]:    1 file(s) removed
+[00:18:48]: World 1 is now connected	
+[00:18:48]: Validating portal[4] <-> 1[4] (active)	
+[00:18:48]: Validating portal[8] <-> 1[8] (active)	
+[00:18:48]: Validating portal[1] <-> 1[1] (active)	
+[00:18:48]: Validating portal[6] <-> 1[6] (active)	
+[00:18:48]: Validating portal[5] <-> 1[5] (active)	
+[00:18:48]: Validating portal[3] <-> 1[3] (active)	
+[00:18:48]: Validating portal[9] <-> 1[9] (active)	
+[00:18:48]: Validating portal[10] <-> 1[10] (active)	
+[00:18:48]: Validating portal[2] <-> 1[2] (active)	
+[00:18:48]: Validating portal[7] <-> 1[7] (active)	
+[00:18:48]: Sim unpaused
+[00:18:48]: Collecting garbage...
+[00:18:48]: lua_gc took 0.12 seconds
+[00:18:49]: ~ShardLuaProxy()
+[00:18:49]: ~cEventLeaderboardProxy()
+[00:18:49]: ~ItemServerLuaProxy()
+[00:18:49]: ~InventoryLuaProxy()
+[00:18:49]: ~NetworkLuaProxy()
+[00:18:49]: ~SimLuaProxy()
+[00:18:49]: lua_close took 0.25 seconds
+[00:18:49]: ReleaseAll
+[00:18:49]: ReleaseAll Finished
+[00:18:49]: cGame::StartPlaying
+[00:18:49]: LOADING LUA
+[00:18:49]: DoLuaFile scripts/main.lua
+[00:18:49]: DoLuaFile loading buffer scripts/main.lua
+[00:18:49]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:18:50]:   taskgrouplist:	default	联机版	
+[00:18:50]:   taskgrouplist:	classic	经典	
+[00:18:50]:   taskgrouplist:	cave_default	地下	
+[00:18:50]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:18:50]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:18:50]: running main.lua
+	
+[00:18:50]: unloading prefabs for mod MOD_workshop-100010040	
+[00:18:50]: unloading prefabs for mod MOD_workshop-100010059	
+[00:18:50]: unloading prefabs for mod MOD_workshop-100010021	
+[00:18:50]: unloading prefabs for mod MOD_workshop-2199027653598513601	
+[00:18:50]: unloading prefabs for mod MOD_workshop-100010024	
+[00:18:50]: loaded modindex	
+[00:18:50]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:18:50]: modoverrides.lua enabling workshop-100010040	
+[00:18:50]: modoverrides.lua enabling workshop-2199027653598513601	
+[00:18:50]: modoverrides.lua enabling workshop-100010059	
+[00:18:50]: modoverrides.lua enabling workshop-100010021	
+[00:18:50]: modoverrides.lua enabling workshop-100010024	
+[00:18:50]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010021	
+[00:18:50]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:18:50]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010040	
+[00:18:50]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010059	
+[00:18:50]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598513601	
+[00:18:50]: Could not load mod_config_data/modconfiguration_workshop-100010021	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:18:50]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:18:50]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:18:50]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:18:50]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:18:50]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:18:50]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:18:50]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:18:50]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:18:50]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:18:50]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:18:50]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:18:50]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:18:50]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:18:50]: Overriding mod workshop-100010024's option Position with value Center	
+[00:18:50]: Overriding mod workshop-100010024's option Language with value En	
+[00:18:50]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:18:50]: Loading mod: workshop-100010021 (提示属性显示) Version:0.186.h.1	
+[00:18:50]: Could not load mod_config_data/modconfiguration_workshop-100010024	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:18:50]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:18:50]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:18:50]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:18:50]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:18:50]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:18:50]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:18:50]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:18:50]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:18:50]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:18:50]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:18:50]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:18:50]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:18:50]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:18:50]: Overriding mod workshop-100010024's option Position with value Center	
+[00:18:50]: Overriding mod workshop-100010024's option Language with value En	
+[00:18:50]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:18:50]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:18:50]: Could not load mod_config_data/modconfiguration_workshop-100010040	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:18:50]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:18:50]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:18:50]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:18:50]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:18:50]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:18:50]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:18:50]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:18:50]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:18:50]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:18:50]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:18:50]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:18:50]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:18:50]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:18:50]: Overriding mod workshop-100010024's option Position with value Center	
+[00:18:50]: Overriding mod workshop-100010024's option Language with value En	
+[00:18:50]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:18:50]: Loading mod: workshop-100010040 (Global Pause) Version:1.3.2	
+[00:18:50]: Could not load mod_config_data/modconfiguration_workshop-100010059	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:18:50]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:18:50]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:18:50]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:18:50]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:18:50]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:18:50]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:18:50]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:18:50]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:18:50]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:18:50]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:18:50]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:18:50]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:18:50]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:18:50]: Overriding mod workshop-100010024's option Position with value Center	
+[00:18:50]: Overriding mod workshop-100010024's option Language with value En	
+[00:18:50]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:18:50]: Loading mod: workshop-100010059 (Extra Equip Slots) Version:1.8.0	
+[00:18:50]: Could not load mod_config_data/modconfiguration_workshop-2199027653598513601	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:18:50]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:18:50]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:18:50]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:18:50]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:18:50]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:18:50]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:18:50]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:18:50]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:18:50]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:18:50]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:18:50]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:18:50]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:18:50]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:18:50]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:18:50]: Overriding mod workshop-100010024's option Position with value Center	
+[00:18:50]: Overriding mod workshop-100010024's option Language with value En	
+[00:18:50]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:18:50]: Loading mod: workshop-2199027653598513601 (阻止草变异) Version:1.1 (Old API! (mod: 2 game: 10) )	
+[00:18:50]: Mod: workshop-100010040 (Global Pause)	Loading modworldgenmain.lua	
+[00:18:50]: Mod: workshop-100010040 (Global Pause)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:18:50]: Mod: workshop-100010040 (Global Pause)	Loading modmain.lua	
+[00:18:50]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:18:50]: Mod: workshop-100010059 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:18:50]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modmain.lua	
+[00:18:50]: Mod: workshop-100010021 (提示属性显示)	Loading modworldgenmain.lua	
+[00:18:50]: Mod: workshop-100010021 (提示属性显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:18:50]: Mod: workshop-100010021 (提示属性显示)	Loading modmain.lua	
+[00:18:50]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modworldgenmain.lua	
+[00:18:50]: Mod: workshop-2199027653598513601 (阻止草变异)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:18:50]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modmain.lua	
+[00:18:50]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:18:50]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:18:50]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:18:50]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:18:50]: LOADING LUA SUCCESS
+[00:18:50]: Registering mod namespace "globalpause"
+[00:18:50]: Registering mod namespace "showmehint"
+[00:18:50]: Registering mod namespace "showme"
+[00:18:50]: PlayerDeaths could not load morgue	
+[00:18:50]: PlayerHistory could not load player_history	
+[00:18:50]: ServerPreferences could not load server_preferences	
+[00:18:50]: bloom_enabled	false	
+[00:18:50]: loaded saveindex	
+[00:18:50]: OnFilesLoaded()	
+[00:18:50]: OnUpdatePurchaseStateComplete	
+[00:18:50]: Loading world: session/5B3136F7C2C2F037/0000000499	
+[00:18:50]: Save file is at version 5.031	
+[00:18:50]: Klump load on boot started.	
+[00:18:50]: Klump files loaded: 	0	
+[00:18:51]: 	Unload characters	
+[00:18:51]: 	BE assets already loaded	
+[00:18:51]: Mod: workshop-100010040 (Global Pause)	Registering prefabs	
+[00:18:51]: Mod: workshop-100010040 (Global Pause)	  Registering default mod prefab	
+[00:18:51]: Mod: workshop-100010059 (Extra Equip Slots)	Registering prefabs	
+[00:18:51]: Mod: workshop-100010059 (Extra Equip Slots)	  Registering default mod prefab	
+[00:18:51]: Mod: workshop-100010021 (提示属性显示)	Registering prefabs	
+[00:18:51]: Mod: workshop-100010021 (提示属性显示)	  Registering default mod prefab	
+[00:18:51]: Mod: workshop-2199027653598513601 (阻止草变异)	Registering prefabs	
+[00:18:51]: Mod: workshop-2199027653598513601 (阻止草变异)	  Registering default mod prefab	
+[00:18:51]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:18:51]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:18:51]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
+[00:18:51]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
+[00:18:51]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
+[00:18:51]: Begin Session: 5B3136F7C2C2F037
+[00:18:51]: Stomping previously assigned session identifier, two loads issued.
+[00:18:52]: saving to server_temp/server_save	
+[00:18:52]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:18:52]: MiniMapComponent::AddAtlas( ../mods/workshop-100010024/minimap/storeroom.xml )
+[00:18:52]: Loading 16 new character(s)	
+[00:18:52]: Total 16 character(s) loaded	
+[00:18:57]: Loading Nav Grid	
+[00:18:57]: World generated on version 278364, using seed: 1540565118	
+[00:18:57]: setting 	summerlength	15	
+[00:18:57]: setting 	isnightmaredawn	false	
+[00:18:57]: setting 	elapseddaysinseason	11	
+[00:18:57]: setting 	isfullmoon	false	
+[00:18:57]: setting 	moisture	876.83386230469	
+[00:18:57]: setting 	springlength	20	
+[00:18:57]: setting 	isnightmarewild	false	
+[00:18:57]: setting 	moonphase	new	
+[00:18:57]: setting 	precipitationrate	0	
+[00:18:57]: setting 	iswet	true	
+[00:18:57]: setting 	isnewmoon	false	
+[00:18:57]: setting 	iswinter	true	
+[00:18:57]: setting 	israining	false	
+[00:18:57]: setting 	isnightmarewarn	false	
+[00:18:57]: setting 	precipitation	none	
+[00:18:57]: setting 	cavephase	day	
+[00:18:57]: setting 	moistureceil	1913.2614746094	
+[00:18:57]: setting 	isday	false	
+[00:18:57]: setting 	iscaveday	true	
+[00:18:57]: setting 	season	winter	
+[00:18:57]: setting 	timeinphase	0.0066795857747396	
+[00:18:57]: setting 	temperature	-10.313681357007	
+[00:18:57]: setting 	isnightmarecalm	true	
+[00:18:57]: setting 	isnight	true	
+[00:18:57]: setting 	isdusk	false	
+[00:18:57]: setting 	iscavedusk	false	
+[00:18:57]: setting 	isautumn	false	
+[00:18:57]: setting 	issnowing	false	
+[00:18:57]: setting 	iswaxingmoon	true	
+[00:18:57]: setting 	pop	0.07642447762337	
+[00:18:57]: setting 	snowlevel	0	
+[00:18:57]: setting 	issnowcovered	false	
+[00:18:57]: setting 	autumnlength	20	
+[00:18:57]: setting 	phase	night	
+[00:18:57]: setting 	nightmaretime	347.93429062171	
+[00:18:57]: setting 	winterlength	15	
+[00:18:57]: setting 	isspring	false	
+[00:18:57]: setting 	nightmarephase	calm	
+[00:18:57]: setting 	remainingdaysinseason	4	
+[00:18:57]: setting 	cycles	451	
+[00:18:57]: setting 	iscavenight	false	
+[00:18:57]: setting 	nightmaretimeinphase	0.96648414061585	
+[00:18:57]: setting 	wetness	65.156951904297	
+[00:18:57]: setting 	time	0.0020873705546061	
+[00:18:57]: setting 	issummer	false	
+[00:19:00]: Reconstructing topology	
+[00:19:00]: 	...Sorting points	
+[00:19:00]: 	...Sorting edges	
+[00:19:00]: 	...Connecting nodes	
+[00:19:00]: 	...Validating connections	
+[00:19:01]: 	...Housekeeping	
+[00:19:01]: 	...Done!	
+[00:19:01]: 1 uploads added to server. From server_temp
+[00:19:01]: World 1 is now connected	
+[00:19:01]: Telling Client our new session identifier: 5B3136F7C2C2F037
+[00:19:01]: Check for write access: TRUE
+[00:19:01]: Check for read access: TRUE
+[00:19:01]: ModIndex: Load sequence finished successfully.	
+[00:19:01]: Reset() returning
+[00:19:01]: Validating portal[7] <-> 1[7] (active)	
+[00:19:01]: Validating portal[6] <-> 1[6] (active)	
+[00:19:01]: Validating portal[2] <-> 1[2] (active)	
+[00:19:01]: Validating portal[1] <-> 1[1] (active)	
+[00:19:01]: Validating portal[5] <-> 1[5] (active)	
+[00:19:01]: Validating portal[4] <-> 1[4] (active)	
+[00:19:01]: Validating portal[8] <-> 1[8] (active)	
+[00:19:01]: Validating portal[3] <-> 1[3] (active)	
+[00:19:01]: Validating portal[10] <-> 1[10] (active)	
+[00:19:01]: Validating portal[9] <-> 1[9] (active)	
+[00:20:48]: Registering slave in China lobby
+[00:21:53]: World 1 is now disconnected	
+[00:21:53]: Validating portal[7] <-> 1[7] (inactive)	
+[00:21:53]: Validating portal[6] <-> 1[6] (inactive)	
+[00:21:53]: Validating portal[2] <-> 1[2] (inactive)	
+[00:21:53]: Validating portal[1] <-> 1[1] (inactive)	
+[00:21:53]: Validating portal[5] <-> 1[5] (inactive)	
+[00:21:53]: Validating portal[4] <-> 1[4] (inactive)	
+[00:21:53]: Validating portal[8] <-> 1[8] (inactive)	
+[00:21:53]: Validating portal[3] <-> 1[3] (inactive)	
+[00:21:53]: Validating portal[10] <-> 1[10] (inactive)	
+[00:21:53]: Validating portal[9] <-> 1[9] (inactive)	
+[00:21:53]: Sim paused
+[00:22:09]: Synchronizing backward to master snapshot 499	
+[00:22:09]: World 1 is now connected	
+[00:22:09]: Validating portal[7] <-> 1[7] (active)	
+[00:22:09]: Validating portal[6] <-> 1[6] (active)	
+[00:22:09]: Validating portal[2] <-> 1[2] (active)	
+[00:22:09]: Validating portal[1] <-> 1[1] (active)	
+[00:22:09]: Validating portal[5] <-> 1[5] (active)	
+[00:22:09]: Validating portal[4] <-> 1[4] (active)	
+[00:22:09]: Validating portal[8] <-> 1[8] (active)	
+[00:22:09]: Validating portal[3] <-> 1[3] (active)	
+[00:22:09]: Validating portal[10] <-> 1[10] (active)	
+[00:22:09]: Validating portal[9] <-> 1[9] (active)	
+[00:22:09]: Sim unpaused
+[00:22:09]: Collecting garbage...
+[00:22:09]: lua_gc took 0.12 seconds
+[00:22:09]: ~ShardLuaProxy()
+[00:22:09]: ~cEventLeaderboardProxy()
+[00:22:09]: ~ItemServerLuaProxy()
+[00:22:09]: ~InventoryLuaProxy()
+[00:22:09]: ~NetworkLuaProxy()
+[00:22:09]: ~SimLuaProxy()
+[00:22:10]: lua_close took 0.25 seconds
+[00:22:10]: ReleaseAll
+[00:22:10]: ReleaseAll Finished
+[00:22:10]: cGame::StartPlaying
+[00:22:10]: LOADING LUA
+[00:22:10]: DoLuaFile scripts/main.lua
+[00:22:10]: DoLuaFile loading buffer scripts/main.lua
+[00:22:10]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:22:11]:   taskgrouplist:	default	联机版	
+[00:22:11]:   taskgrouplist:	classic	经典	
+[00:22:11]:   taskgrouplist:	cave_default	地下	
+[00:22:11]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:22:11]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:22:11]: running main.lua
+	
+[00:22:11]: unloading prefabs for mod MOD_workshop-100010040	
+[00:22:11]: unloading prefabs for mod MOD_workshop-100010059	
+[00:22:11]: unloading prefabs for mod MOD_workshop-100010021	
+[00:22:11]: unloading prefabs for mod MOD_workshop-2199027653598513601	
+[00:22:11]: unloading prefabs for mod MOD_workshop-100010024	
+[00:22:11]: loaded modindex	
+[00:22:11]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:22:11]: modoverrides.lua enabling workshop-100010040	
+[00:22:11]: modoverrides.lua enabling workshop-2199027653598513601	
+[00:22:11]: modoverrides.lua enabling workshop-100010059	
+[00:22:11]: modoverrides.lua enabling workshop-100010021	
+[00:22:11]: modoverrides.lua enabling workshop-100010024	
+[00:22:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010021	
+[00:22:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:22:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010040	
+[00:22:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010059	
+[00:22:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598513601	
+[00:22:11]: Could not load mod_config_data/modconfiguration_workshop-100010021	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:22:11]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:22:11]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:22:11]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:22:11]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:22:11]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:22:11]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:22:11]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:22:11]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:22:11]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:22:11]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:22:11]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:22:11]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:22:11]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:22:11]: Overriding mod workshop-100010024's option Position with value Center	
+[00:22:11]: Overriding mod workshop-100010024's option Language with value En	
+[00:22:11]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:22:11]: Loading mod: workshop-100010021 (提示属性显示) Version:0.186.h.1	
+[00:22:11]: Could not load mod_config_data/modconfiguration_workshop-100010024	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:22:11]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:22:11]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:22:11]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:22:11]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:22:11]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:22:11]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:22:11]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:22:11]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:22:11]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:22:11]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:22:11]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:22:11]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:22:11]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:22:11]: Overriding mod workshop-100010024's option Position with value Center	
+[00:22:11]: Overriding mod workshop-100010024's option Language with value En	
+[00:22:11]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:22:11]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:22:11]: Could not load mod_config_data/modconfiguration_workshop-100010040	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:22:11]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:22:11]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:22:11]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:22:11]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:22:11]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:22:11]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:22:11]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:22:11]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:22:11]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:22:11]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:22:11]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:22:11]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:22:11]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:22:11]: Overriding mod workshop-100010024's option Position with value Center	
+[00:22:11]: Overriding mod workshop-100010024's option Language with value En	
+[00:22:11]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:22:11]: Loading mod: workshop-100010040 (Global Pause) Version:1.3.2	
+[00:22:11]: Could not load mod_config_data/modconfiguration_workshop-100010059	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:22:11]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:22:11]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:22:11]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:22:11]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:22:11]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:22:11]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:22:11]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:22:11]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:22:11]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:22:11]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:22:11]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:22:11]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:22:11]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:22:11]: Overriding mod workshop-100010024's option Position with value Center	
+[00:22:11]: Overriding mod workshop-100010024's option Language with value En	
+[00:22:11]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:22:11]: Loading mod: workshop-100010059 (Extra Equip Slots) Version:1.8.0	
+[00:22:11]: Could not load mod_config_data/modconfiguration_workshop-2199027653598513601	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:22:11]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:22:11]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:22:11]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:22:11]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:22:11]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:22:11]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:22:11]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:22:11]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:22:11]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:22:11]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:22:11]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:22:11]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:22:11]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:22:11]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:22:11]: Overriding mod workshop-100010024's option Position with value Center	
+[00:22:11]: Overriding mod workshop-100010024's option Language with value En	
+[00:22:11]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:22:11]: Loading mod: workshop-2199027653598513601 (阻止草变异) Version:1.1 (Old API! (mod: 2 game: 10) )	
+[00:22:11]: Mod: workshop-100010040 (Global Pause)	Loading modworldgenmain.lua	
+[00:22:11]: Mod: workshop-100010040 (Global Pause)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:22:11]: Mod: workshop-100010040 (Global Pause)	Loading modmain.lua	
+[00:22:11]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:22:11]: Mod: workshop-100010059 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:22:11]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modmain.lua	
+[00:22:11]: Mod: workshop-100010021 (提示属性显示)	Loading modworldgenmain.lua	
+[00:22:11]: Mod: workshop-100010021 (提示属性显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:22:11]: Mod: workshop-100010021 (提示属性显示)	Loading modmain.lua	
+[00:22:11]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modworldgenmain.lua	
+[00:22:11]: Mod: workshop-2199027653598513601 (阻止草变异)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:22:11]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modmain.lua	
+[00:22:11]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:22:11]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:22:11]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:22:11]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:22:11]: LOADING LUA SUCCESS
+[00:22:11]: Registering mod namespace "globalpause"
+[00:22:11]: Registering mod namespace "showmehint"
+[00:22:11]: Registering mod namespace "showme"
+[00:22:11]: PlayerDeaths could not load morgue	
+[00:22:11]: PlayerHistory could not load player_history	
+[00:22:11]: ServerPreferences could not load server_preferences	
+[00:22:11]: bloom_enabled	false	
+[00:22:11]: loaded saveindex	
+[00:22:11]: OnFilesLoaded()	
+[00:22:11]: OnUpdatePurchaseStateComplete	
+[00:22:11]: Loading world: session/5B3136F7C2C2F037/0000000499	
+[00:22:11]: Save file is at version 5.031	
+[00:22:11]: Klump load on boot started.	
+[00:22:11]: Klump files loaded: 	0	
+[00:22:11]: 	Unload characters	
+[00:22:11]: 	BE assets already loaded	
+[00:22:12]: Mod: workshop-100010040 (Global Pause)	Registering prefabs	
+[00:22:12]: Mod: workshop-100010040 (Global Pause)	  Registering default mod prefab	
+[00:22:12]: Mod: workshop-100010059 (Extra Equip Slots)	Registering prefabs	
+[00:22:12]: Mod: workshop-100010059 (Extra Equip Slots)	  Registering default mod prefab	
+[00:22:12]: Mod: workshop-100010021 (提示属性显示)	Registering prefabs	
+[00:22:12]: Mod: workshop-100010021 (提示属性显示)	  Registering default mod prefab	
+[00:22:12]: Mod: workshop-2199027653598513601 (阻止草变异)	Registering prefabs	
+[00:22:12]: Mod: workshop-2199027653598513601 (阻止草变异)	  Registering default mod prefab	
+[00:22:12]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:22:12]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:22:12]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
+[00:22:12]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
+[00:22:12]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
+[00:22:12]: Begin Session: 5B3136F7C2C2F037
+[00:22:12]: Stomping previously assigned session identifier, two loads issued.
+[00:22:12]: saving to server_temp/server_save	
+[00:22:13]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:22:13]: MiniMapComponent::AddAtlas( ../mods/workshop-100010024/minimap/storeroom.xml )
+[00:22:13]: Loading 16 new character(s)	
+[00:22:13]: Total 16 character(s) loaded	
+[00:22:18]: Loading Nav Grid	
+[00:22:18]: World generated on version 278364, using seed: 1540565118	
+[00:22:18]: setting 	summerlength	15	
+[00:22:18]: setting 	isnightmaredawn	false	
+[00:22:18]: setting 	elapseddaysinseason	11	
+[00:22:18]: setting 	isfullmoon	false	
+[00:22:18]: setting 	moisture	876.83386230469	
+[00:22:18]: setting 	springlength	20	
+[00:22:18]: setting 	isnightmarewild	false	
+[00:22:18]: setting 	moonphase	new	
+[00:22:18]: setting 	precipitationrate	0	
+[00:22:18]: setting 	iswet	true	
+[00:22:18]: setting 	isnewmoon	false	
+[00:22:18]: setting 	iswinter	true	
+[00:22:18]: setting 	israining	false	
+[00:22:18]: setting 	isnightmarewarn	false	
+[00:22:18]: setting 	precipitation	none	
+[00:22:18]: setting 	cavephase	day	
+[00:22:18]: setting 	moistureceil	1913.2614746094	
+[00:22:18]: setting 	isday	false	
+[00:22:18]: setting 	iscaveday	true	
+[00:22:18]: setting 	season	winter	
+[00:22:18]: setting 	timeinphase	0.0066795857747396	
+[00:22:18]: setting 	temperature	-10.313681357007	
+[00:22:18]: setting 	isnightmarecalm	true	
+[00:22:18]: setting 	isnight	true	
+[00:22:18]: setting 	isdusk	false	
+[00:22:18]: setting 	iscavedusk	false	
+[00:22:18]: setting 	isautumn	false	
+[00:22:18]: setting 	issnowing	false	
+[00:22:18]: setting 	iswaxingmoon	true	
+[00:22:18]: setting 	pop	0.07642447762337	
+[00:22:18]: setting 	snowlevel	0	
+[00:22:18]: setting 	issnowcovered	false	
+[00:22:18]: setting 	autumnlength	20	
+[00:22:18]: setting 	phase	night	
+[00:22:18]: setting 	nightmaretime	347.93429062171	
+[00:22:18]: setting 	winterlength	15	
+[00:22:18]: setting 	isspring	false	
+[00:22:18]: setting 	nightmarephase	calm	
+[00:22:18]: setting 	remainingdaysinseason	4	
+[00:22:18]: setting 	cycles	451	
+[00:22:18]: setting 	iscavenight	false	
+[00:22:18]: setting 	nightmaretimeinphase	0.96648414061585	
+[00:22:18]: setting 	wetness	65.156951904297	
+[00:22:18]: setting 	time	0.0020873705546061	
+[00:22:18]: setting 	issummer	false	
+[00:22:21]: Reconstructing topology	
+[00:22:21]: 	...Sorting points	
+[00:22:21]: 	...Sorting edges	
+[00:22:21]: 	...Connecting nodes	
+[00:22:21]: 	...Validating connections	
+[00:22:22]: 	...Housekeeping	
+[00:22:22]: 	...Done!	
+[00:22:22]: 1 uploads added to server. From server_temp
+[00:22:22]: World 1 is now connected	
+[00:22:22]: Telling Client our new session identifier: 5B3136F7C2C2F037
+[00:22:22]: Check for write access: TRUE
+[00:22:22]: Check for read access: TRUE
+[00:22:22]: ModIndex: Load sequence finished successfully.	
+[00:22:22]: Reset() returning
+[00:22:22]: Validating portal[4] <-> 1[4] (active)	
+[00:22:22]: Validating portal[8] <-> 1[8] (active)	
+[00:22:22]: Validating portal[3] <-> 1[3] (active)	
+[00:22:22]: Validating portal[9] <-> 1[9] (active)	
+[00:22:22]: Validating portal[6] <-> 1[6] (active)	
+[00:22:22]: Validating portal[7] <-> 1[7] (active)	
+[00:22:22]: Validating portal[10] <-> 1[10] (active)	
+[00:22:22]: Validating portal[5] <-> 1[5] (active)	
+[00:22:22]: Validating portal[1] <-> 1[1] (active)	
+[00:22:22]: Validating portal[2] <-> 1[2] (active)	
+[00:25:48]: Registering slave in China lobby
+[00:26:04]: World 1 is now disconnected	
+[00:26:04]: Validating portal[4] <-> 1[4] (inactive)	
+[00:26:04]: Validating portal[8] <-> 1[8] (inactive)	
+[00:26:04]: Validating portal[3] <-> 1[3] (inactive)	
+[00:26:04]: Validating portal[9] <-> 1[9] (inactive)	
+[00:26:04]: Validating portal[6] <-> 1[6] (inactive)	
+[00:26:04]: Validating portal[7] <-> 1[7] (inactive)	
+[00:26:04]: Validating portal[10] <-> 1[10] (inactive)	
+[00:26:04]: Validating portal[5] <-> 1[5] (inactive)	
+[00:26:04]: Validating portal[1] <-> 1[1] (inactive)	
+[00:26:04]: Validating portal[2] <-> 1[2] (inactive)	
+[00:26:04]: Sim paused
+[00:26:22]: Synchronizing backward to master snapshot 499	
+[00:26:22]: World 1 is now connected	
+[00:26:22]: Validating portal[4] <-> 1[4] (active)	
+[00:26:22]: Validating portal[8] <-> 1[8] (active)	
+[00:26:22]: Validating portal[3] <-> 1[3] (active)	
+[00:26:22]: Validating portal[9] <-> 1[9] (active)	
+[00:26:22]: Validating portal[6] <-> 1[6] (active)	
+[00:26:22]: Validating portal[7] <-> 1[7] (active)	
+[00:26:22]: Validating portal[10] <-> 1[10] (active)	
+[00:26:22]: Validating portal[5] <-> 1[5] (active)	
+[00:26:22]: Validating portal[1] <-> 1[1] (active)	
+[00:26:22]: Validating portal[2] <-> 1[2] (active)	
+[00:26:22]: Sim unpaused
+[00:26:22]: Collecting garbage...
+[00:26:22]: lua_gc took 0.12 seconds
+[00:26:22]: ~ShardLuaProxy()
+[00:26:22]: ~cEventLeaderboardProxy()
+[00:26:22]: ~ItemServerLuaProxy()
+[00:26:22]: ~InventoryLuaProxy()
+[00:26:22]: ~NetworkLuaProxy()
+[00:26:22]: ~SimLuaProxy()
+[00:26:22]: lua_close took 0.25 seconds
+[00:26:22]: ReleaseAll
+[00:26:22]: ReleaseAll Finished
+[00:26:22]: cGame::StartPlaying
+[00:26:22]: LOADING LUA
+[00:26:22]: DoLuaFile scripts/main.lua
+[00:26:22]: DoLuaFile loading buffer scripts/main.lua
+[00:26:22]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:26:23]:   taskgrouplist:	default	联机版	
+[00:26:23]:   taskgrouplist:	classic	经典	
+[00:26:23]:   taskgrouplist:	cave_default	地下	
+[00:26:23]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:26:23]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:26:23]: running main.lua
+	
+[00:26:23]: unloading prefabs for mod MOD_workshop-100010040	
+[00:26:23]: unloading prefabs for mod MOD_workshop-100010059	
+[00:26:23]: unloading prefabs for mod MOD_workshop-100010021	
+[00:26:23]: unloading prefabs for mod MOD_workshop-2199027653598513601	
+[00:26:23]: unloading prefabs for mod MOD_workshop-100010024	
+[00:26:23]: loaded modindex	
+[00:26:23]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:26:23]: modoverrides.lua enabling workshop-100010040	
+[00:26:23]: modoverrides.lua enabling workshop-2199027653598513601	
+[00:26:23]: modoverrides.lua enabling workshop-100010059	
+[00:26:23]: modoverrides.lua enabling workshop-100010021	
+[00:26:23]: modoverrides.lua enabling workshop-100010024	
+[00:26:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010021	
+[00:26:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:26:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010040	
+[00:26:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010059	
+[00:26:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598513601	
+[00:26:23]: Could not load mod_config_data/modconfiguration_workshop-100010021	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:26:23]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:26:23]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:26:23]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:26:23]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:26:23]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:26:23]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:26:23]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:26:23]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:26:23]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:26:23]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:26:23]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:26:23]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:26:23]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:26:23]: Overriding mod workshop-100010024's option Position with value Center	
+[00:26:23]: Overriding mod workshop-100010024's option Language with value En	
+[00:26:23]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:26:23]: Loading mod: workshop-100010021 (提示属性显示) Version:0.186.h.1	
+[00:26:23]: Could not load mod_config_data/modconfiguration_workshop-100010024	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:26:23]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:26:23]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:26:23]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:26:23]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:26:23]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:26:23]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:26:23]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:26:23]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:26:23]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:26:23]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:26:23]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:26:23]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:26:23]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:26:23]: Overriding mod workshop-100010024's option Position with value Center	
+[00:26:23]: Overriding mod workshop-100010024's option Language with value En	
+[00:26:23]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:26:23]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:26:23]: Could not load mod_config_data/modconfiguration_workshop-100010040	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:26:23]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:26:23]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:26:23]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:26:23]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:26:23]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:26:23]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:26:23]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:26:23]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:26:23]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:26:23]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:26:23]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:26:23]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:26:23]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:26:23]: Overriding mod workshop-100010024's option Position with value Center	
+[00:26:23]: Overriding mod workshop-100010024's option Language with value En	
+[00:26:23]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:26:23]: Loading mod: workshop-100010040 (Global Pause) Version:1.3.2	
+[00:26:23]: Could not load mod_config_data/modconfiguration_workshop-100010059	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:26:23]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:26:23]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:26:23]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:26:23]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:26:23]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:26:23]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:26:23]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:26:23]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:26:23]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:26:23]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:26:23]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:26:23]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:26:23]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:26:23]: Overriding mod workshop-100010024's option Position with value Center	
+[00:26:23]: Overriding mod workshop-100010024's option Language with value En	
+[00:26:23]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:26:23]: Loading mod: workshop-100010059 (Extra Equip Slots) Version:1.8.0	
+[00:26:23]: Could not load mod_config_data/modconfiguration_workshop-2199027653598513601	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:26:23]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:26:23]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:26:23]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:26:23]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:26:23]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:26:23]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:26:23]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:26:23]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:26:23]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:26:23]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:26:23]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:26:23]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:26:23]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:26:23]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:26:23]: Overriding mod workshop-100010024's option Position with value Center	
+[00:26:23]: Overriding mod workshop-100010024's option Language with value En	
+[00:26:23]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:26:23]: Loading mod: workshop-2199027653598513601 (阻止草变异) Version:1.1 (Old API! (mod: 2 game: 10) )	
+[00:26:23]: Mod: workshop-100010040 (Global Pause)	Loading modworldgenmain.lua	
+[00:26:23]: Mod: workshop-100010040 (Global Pause)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:26:23]: Mod: workshop-100010040 (Global Pause)	Loading modmain.lua	
+[00:26:23]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:26:23]: Mod: workshop-100010059 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:26:23]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modmain.lua	
+[00:26:23]: Mod: workshop-100010021 (提示属性显示)	Loading modworldgenmain.lua	
+[00:26:23]: Mod: workshop-100010021 (提示属性显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:26:23]: Mod: workshop-100010021 (提示属性显示)	Loading modmain.lua	
+[00:26:23]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modworldgenmain.lua	
+[00:26:23]: Mod: workshop-2199027653598513601 (阻止草变异)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:26:23]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modmain.lua	
+[00:26:23]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:26:23]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:26:23]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:26:24]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:26:24]: LOADING LUA SUCCESS
+[00:26:24]: Registering mod namespace "globalpause"
+[00:26:24]: Registering mod namespace "showmehint"
+[00:26:24]: Registering mod namespace "showme"
+[00:26:24]: PlayerDeaths could not load morgue	
+[00:26:24]: PlayerHistory could not load player_history	
+[00:26:24]: ServerPreferences could not load server_preferences	
+[00:26:24]: bloom_enabled	false	
+[00:26:24]: loaded saveindex	
+[00:26:24]: OnFilesLoaded()	
+[00:26:24]: OnUpdatePurchaseStateComplete	
+[00:26:24]: Loading world: session/5B3136F7C2C2F037/0000000499	
+[00:26:24]: Save file is at version 5.031	
+[00:26:24]: Klump load on boot started.	
+[00:26:24]: Klump files loaded: 	0	
+[00:26:24]: 	Unload characters	
+[00:26:24]: 	BE assets already loaded	
+[00:26:25]: Mod: workshop-100010040 (Global Pause)	Registering prefabs	
+[00:26:25]: Mod: workshop-100010040 (Global Pause)	  Registering default mod prefab	
+[00:26:25]: Mod: workshop-100010059 (Extra Equip Slots)	Registering prefabs	
+[00:26:25]: Mod: workshop-100010059 (Extra Equip Slots)	  Registering default mod prefab	
+[00:26:25]: Mod: workshop-100010021 (提示属性显示)	Registering prefabs	
+[00:26:25]: Mod: workshop-100010021 (提示属性显示)	  Registering default mod prefab	
+[00:26:25]: Mod: workshop-2199027653598513601 (阻止草变异)	Registering prefabs	
+[00:26:25]: Mod: workshop-2199027653598513601 (阻止草变异)	  Registering default mod prefab	
+[00:26:25]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:26:25]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:26:25]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
+[00:26:25]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
+[00:26:25]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
+[00:26:25]: Begin Session: 5B3136F7C2C2F037
+[00:26:25]: Stomping previously assigned session identifier, two loads issued.
+[00:26:25]: saving to server_temp/server_save	
+[00:26:25]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:26:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010024/minimap/storeroom.xml )
+[00:26:25]: Loading 16 new character(s)	
+[00:26:26]: Total 16 character(s) loaded	
+[00:26:30]: Loading Nav Grid	
+[00:26:30]: World generated on version 278364, using seed: 1540565118	
+[00:26:30]: setting 	summerlength	15	
+[00:26:30]: setting 	isnightmaredawn	false	
+[00:26:30]: setting 	elapseddaysinseason	11	
+[00:26:30]: setting 	isfullmoon	false	
+[00:26:30]: setting 	moisture	876.83386230469	
+[00:26:30]: setting 	springlength	20	
+[00:26:30]: setting 	isnightmarewild	false	
+[00:26:30]: setting 	moonphase	new	
+[00:26:30]: setting 	precipitationrate	0	
+[00:26:30]: setting 	iswet	true	
+[00:26:30]: setting 	isnewmoon	false	
+[00:26:30]: setting 	iswinter	true	
+[00:26:30]: setting 	israining	false	
+[00:26:30]: setting 	isnightmarewarn	false	
+[00:26:30]: setting 	precipitation	none	
+[00:26:30]: setting 	cavephase	day	
+[00:26:30]: setting 	moistureceil	1913.2614746094	
+[00:26:30]: setting 	isday	false	
+[00:26:30]: setting 	iscaveday	true	
+[00:26:30]: setting 	season	winter	
+[00:26:30]: setting 	timeinphase	0.0066795857747396	
+[00:26:30]: setting 	temperature	-10.313681357007	
+[00:26:30]: setting 	isnightmarecalm	true	
+[00:26:30]: setting 	isnight	true	
+[00:26:30]: setting 	isdusk	false	
+[00:26:30]: setting 	iscavedusk	false	
+[00:26:30]: setting 	isautumn	false	
+[00:26:30]: setting 	issnowing	false	
+[00:26:30]: setting 	iswaxingmoon	true	
+[00:26:30]: setting 	pop	0.07642447762337	
+[00:26:30]: setting 	snowlevel	0	
+[00:26:30]: setting 	issnowcovered	false	
+[00:26:30]: setting 	autumnlength	20	
+[00:26:30]: setting 	phase	night	
+[00:26:30]: setting 	nightmaretime	347.93429062171	
+[00:26:30]: setting 	winterlength	15	
+[00:26:30]: setting 	isspring	false	
+[00:26:30]: setting 	nightmarephase	calm	
+[00:26:30]: setting 	remainingdaysinseason	4	
+[00:26:30]: setting 	cycles	451	
+[00:26:30]: setting 	iscavenight	false	
+[00:26:30]: setting 	nightmaretimeinphase	0.96648414061585	
+[00:26:30]: setting 	wetness	65.156951904297	
+[00:26:30]: setting 	time	0.0020873705546061	
+[00:26:30]: setting 	issummer	false	
+[00:26:34]: Reconstructing topology	
+[00:26:34]: 	...Sorting points	
+[00:26:34]: 	...Sorting edges	
+[00:26:34]: 	...Connecting nodes	
+[00:26:34]: 	...Validating connections	
+[00:26:34]: 	...Housekeeping	
+[00:26:34]: 	...Done!	
+[00:26:34]: 1 uploads added to server. From server_temp
+[00:26:34]: World 1 is now connected	
+[00:26:34]: Telling Client our new session identifier: 5B3136F7C2C2F037
+[00:26:34]: Check for write access: TRUE
+[00:26:34]: Check for read access: TRUE
+[00:26:34]: ModIndex: Load sequence finished successfully.	
+[00:26:34]: Reset() returning
+[00:26:35]: Validating portal[9] <-> 1[9] (active)	
+[00:26:35]: Validating portal[1] <-> 1[1] (active)	
+[00:26:35]: Validating portal[8] <-> 1[8] (active)	
+[00:26:35]: Validating portal[5] <-> 1[5] (active)	
+[00:26:35]: Validating portal[7] <-> 1[7] (active)	
+[00:26:35]: Validating portal[10] <-> 1[10] (active)	
+[00:26:35]: Validating portal[6] <-> 1[6] (active)	
+[00:26:35]: Validating portal[3] <-> 1[3] (active)	
+[00:26:35]: Validating portal[2] <-> 1[2] (active)	
+[00:26:35]: Validating portal[4] <-> 1[4] (active)	
+[00:26:39]: World 1 is now disconnected	
+[00:26:39]: Validating portal[9] <-> 1[9] (inactive)	
+[00:26:39]: Validating portal[1] <-> 1[1] (inactive)	
+[00:26:39]: Validating portal[8] <-> 1[8] (inactive)	
+[00:26:39]: Validating portal[5] <-> 1[5] (inactive)	
+[00:26:39]: Validating portal[7] <-> 1[7] (inactive)	
+[00:26:39]: Validating portal[10] <-> 1[10] (inactive)	
+[00:26:39]: Validating portal[6] <-> 1[6] (inactive)	
+[00:26:39]: Validating portal[3] <-> 1[3] (inactive)	
+[00:26:39]: Validating portal[2] <-> 1[2] (inactive)	
+[00:26:39]: Validating portal[4] <-> 1[4] (inactive)	
+[00:26:39]: Sim paused
+[00:26:39]: CURL ERROR: (dst.metrics.klei.com) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
+[00:26:56]: Synchronizing backward to master snapshot 498	
+[00:26:56]: Truncating to snapshot #498...
+[00:26:56]:  - session/5B3136F7C2C2F037/0000000499
+[00:26:56]:    1 file(s) removed
+[00:26:56]: World 1 is now connected	
+[00:26:56]: Validating portal[9] <-> 1[9] (active)	
+[00:26:56]: Validating portal[1] <-> 1[1] (active)	
+[00:26:56]: Validating portal[8] <-> 1[8] (active)	
+[00:26:56]: Validating portal[5] <-> 1[5] (active)	
+[00:26:56]: Validating portal[7] <-> 1[7] (active)	
+[00:26:56]: Validating portal[10] <-> 1[10] (active)	
+[00:26:56]: Validating portal[6] <-> 1[6] (active)	
+[00:26:56]: Validating portal[3] <-> 1[3] (active)	
+[00:26:56]: Validating portal[2] <-> 1[2] (active)	
+[00:26:56]: Validating portal[4] <-> 1[4] (active)	
+[00:26:56]: Sim unpaused
+[00:26:56]: Collecting garbage...
+[00:26:57]: lua_gc took 0.13 seconds
+[00:26:57]: ~ShardLuaProxy()
+[00:26:57]: ~cEventLeaderboardProxy()
+[00:26:57]: ~ItemServerLuaProxy()
+[00:26:57]: ~InventoryLuaProxy()
+[00:26:57]: ~NetworkLuaProxy()
+[00:26:57]: ~SimLuaProxy()
+[00:26:57]: lua_close took 0.24 seconds
+[00:26:57]: ReleaseAll
+[00:26:57]: ReleaseAll Finished
+[00:26:57]: cGame::StartPlaying
+[00:26:57]: LOADING LUA
+[00:26:57]: DoLuaFile scripts/main.lua
+[00:26:57]: DoLuaFile loading buffer scripts/main.lua
+[00:26:57]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:26:58]:   taskgrouplist:	default	联机版	
+[00:26:58]:   taskgrouplist:	classic	经典	
+[00:26:58]:   taskgrouplist:	cave_default	地下	
+[00:26:58]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:26:58]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:26:58]: running main.lua
+	
+[00:26:58]: unloading prefabs for mod MOD_workshop-100010040	
+[00:26:58]: unloading prefabs for mod MOD_workshop-100010059	
+[00:26:58]: unloading prefabs for mod MOD_workshop-100010021	
+[00:26:58]: unloading prefabs for mod MOD_workshop-2199027653598513601	
+[00:26:58]: unloading prefabs for mod MOD_workshop-100010024	
+[00:26:58]: loaded modindex	
+[00:26:58]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:26:58]: modoverrides.lua enabling workshop-100010040	
+[00:26:58]: modoverrides.lua enabling workshop-2199027653598513601	
+[00:26:58]: modoverrides.lua enabling workshop-100010059	
+[00:26:58]: modoverrides.lua enabling workshop-100010021	
+[00:26:58]: modoverrides.lua enabling workshop-100010024	
+[00:26:58]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010021	
+[00:26:58]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:26:58]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010040	
+[00:26:58]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010059	
+[00:26:58]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598513601	
+[00:26:58]: Could not load mod_config_data/modconfiguration_workshop-100010021	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:26:58]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:26:58]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:26:58]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:26:58]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:26:58]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:26:58]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:26:58]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:26:58]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:26:58]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:26:58]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:26:58]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:26:58]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:26:58]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:26:58]: Overriding mod workshop-100010024's option Position with value Center	
+[00:26:58]: Overriding mod workshop-100010024's option Language with value En	
+[00:26:58]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:26:58]: Loading mod: workshop-100010021 (提示属性显示) Version:0.186.h.1	
+[00:26:58]: Could not load mod_config_data/modconfiguration_workshop-100010024	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:26:58]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:26:58]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:26:58]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:26:58]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:26:58]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:26:58]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:26:58]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:26:58]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:26:58]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:26:58]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:26:58]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:26:58]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:26:58]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:26:58]: Overriding mod workshop-100010024's option Position with value Center	
+[00:26:58]: Overriding mod workshop-100010024's option Language with value En	
+[00:26:58]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:26:58]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:26:58]: Could not load mod_config_data/modconfiguration_workshop-100010040	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:26:58]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:26:58]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:26:58]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:26:58]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:26:58]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:26:58]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:26:58]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:26:58]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:26:58]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:26:58]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:26:58]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:26:58]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:26:58]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:26:58]: Overriding mod workshop-100010024's option Position with value Center	
+[00:26:58]: Overriding mod workshop-100010024's option Language with value En	
+[00:26:58]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:26:58]: Loading mod: workshop-100010040 (Global Pause) Version:1.3.2	
+[00:26:58]: Could not load mod_config_data/modconfiguration_workshop-100010059	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:26:58]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:26:58]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:26:58]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:26:58]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:26:58]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:26:58]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:26:58]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:26:58]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:26:58]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:26:58]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:26:58]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:26:58]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:26:58]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:26:58]: Overriding mod workshop-100010024's option Position with value Center	
+[00:26:58]: Overriding mod workshop-100010024's option Language with value En	
+[00:26:58]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:26:58]: Loading mod: workshop-100010059 (Extra Equip Slots) Version:1.8.0	
+[00:26:58]: Could not load mod_config_data/modconfiguration_workshop-2199027653598513601	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:26:58]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:26:58]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:26:58]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:26:58]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:26:58]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:26:58]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598513601	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010021	
+[00:26:58]: Overriding mod workshop-100010021's option food_order with value 0	
+[00:26:58]: Overriding mod workshop-100010021's option show_food_units with value -1	
+[00:26:58]: Overriding mod workshop-100010021's option food_estimation with value -1	
+[00:26:58]: Overriding mod workshop-100010021's option food_style with value 0	
+[00:26:58]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:26:58]: Overriding mod workshop-100010024's option FoodSpoilage with value 1	
+[00:26:58]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:26:58]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:26:58]: Overriding mod workshop-100010024's option Position with value Center	
+[00:26:58]: Overriding mod workshop-100010024's option Language with value En	
+[00:26:58]: Overriding mod workshop-100010024's option Craft with value Normal	
+[00:26:58]: Loading mod: workshop-2199027653598513601 (阻止草变异) Version:1.1 (Old API! (mod: 2 game: 10) )	
+[00:26:58]: Mod: workshop-100010040 (Global Pause)	Loading modworldgenmain.lua	
+[00:26:58]: Mod: workshop-100010040 (Global Pause)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:26:58]: Mod: workshop-100010040 (Global Pause)	Loading modmain.lua	
+[00:26:58]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:26:58]: Mod: workshop-100010059 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:26:58]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modmain.lua	
+[00:26:58]: Mod: workshop-100010021 (提示属性显示)	Loading modworldgenmain.lua	
+[00:26:58]: Mod: workshop-100010021 (提示属性显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:26:58]: Mod: workshop-100010021 (提示属性显示)	Loading modmain.lua	
+[00:26:58]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modworldgenmain.lua	
+[00:26:58]: Mod: workshop-2199027653598513601 (阻止草变异)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:26:58]: Mod: workshop-2199027653598513601 (阻止草变异)	Loading modmain.lua	
+[00:26:58]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:26:58]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:26:58]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:26:59]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:26:59]: LOADING LUA SUCCESS
+[00:26:59]: Registering mod namespace "globalpause"
+[00:26:59]: Registering mod namespace "showmehint"
+[00:26:59]: Registering mod namespace "showme"
+[00:26:59]: PlayerDeaths could not load morgue	
+[00:26:59]: PlayerHistory could not load player_history	
+[00:26:59]: ServerPreferences could not load server_preferences	
+[00:26:59]: bloom_enabled	false	
+[00:26:59]: loaded saveindex	
+[00:26:59]: OnFilesLoaded()	
+[00:26:59]: OnUpdatePurchaseStateComplete	
+[00:26:59]: Loading world: session/5B3136F7C2C2F037/0000000498	
+[00:26:59]: Save file is at version 5.031	
+[00:26:59]: Klump load on boot started.	
+[00:26:59]: Klump files loaded: 	0	
+[00:26:59]: 	Unload characters	
+[00:26:59]: 	BE assets already loaded	
+[00:27:00]: Mod: workshop-100010040 (Global Pause)	Registering prefabs	
+[00:27:00]: Mod: workshop-100010040 (Global Pause)	  Registering default mod prefab	
+[00:27:00]: Mod: workshop-100010059 (Extra Equip Slots)	Registering prefabs	
+[00:27:00]: Mod: workshop-100010059 (Extra Equip Slots)	  Registering default mod prefab	
+[00:27:00]: Mod: workshop-100010021 (提示属性显示)	Registering prefabs	
+[00:27:00]: Mod: workshop-100010021 (提示属性显示)	  Registering default mod prefab	
+[00:27:00]: Mod: workshop-2199027653598513601 (阻止草变异)	Registering prefabs	
+[00:27:00]: Mod: workshop-2199027653598513601 (阻止草变异)	  Registering default mod prefab	
+[00:27:00]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:27:00]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:27:00]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
+[00:27:00]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
+[00:27:00]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
+[00:27:00]: Begin Session: 5B3136F7C2C2F037
+[00:27:00]: Stomping previously assigned session identifier, two loads issued.
+[00:27:00]: saving to server_temp/server_save	
+[00:27:00]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:27:00]: MiniMapComponent::AddAtlas( ../mods/workshop-100010024/minimap/storeroom.xml )
+[00:27:00]: Loading 16 new character(s)	
+[00:27:00]: Total 16 character(s) loaded	
+[00:27:05]: Loading Nav Grid	
+[00:27:05]: World generated on version 278364, using seed: 1540565118	
+[00:27:05]: setting 	summerlength	15	
+[00:27:05]: setting 	isnightmaredawn	true	
+[00:27:05]: setting 	elapseddaysinseason	10	
+[00:27:05]: setting 	isfullmoon	false	
+[00:27:05]: setting 	moisture	1577.5985107422	
+[00:27:05]: setting 	springlength	20	
+[00:27:05]: setting 	isnightmarewild	false	
+[00:27:05]: setting 	moonphase	new	
+[00:27:05]: setting 	precipitationrate	0	
+[00:27:05]: setting 	iswet	true	
+[00:27:05]: setting 	isnewmoon	false	
+[00:27:05]: setting 	iswinter	true	
+[00:27:05]: setting 	israining	false	
+[00:27:05]: setting 	isnightmarewarn	false	
+[00:27:05]: setting 	precipitation	none	
+[00:27:05]: setting 	cavephase	day	
+[00:27:05]: setting 	moistureceil	1603.7012939453	
+[00:27:05]: setting 	isday	false	
+[00:27:05]: setting 	iscaveday	true	
+[00:27:05]: setting 	season	winter	
+[00:27:05]: setting 	timeinphase	0.0072420247395834	
+[00:27:05]: setting 	temperature	-11.821148381704	
+[00:27:05]: setting 	isnightmarecalm	false	
+[00:27:05]: setting 	isnight	true	
+[00:27:05]: setting 	isdusk	false	
+[00:27:05]: setting 	iscavedusk	false	
+[00:27:05]: setting 	isautumn	false	
+[00:27:05]: setting 	issnowing	false	
+[00:27:05]: setting 	iswaxingmoon	true	
+[00:27:05]: setting 	pop	0.95039560061771	
+[00:27:05]: setting 	snowlevel	0	
+[00:27:05]: setting 	issnowcovered	false	
+[00:27:05]: setting 	autumnlength	20	
+[00:27:05]: setting 	phase	night	
+[00:27:05]: setting 	nightmaretime	613.01371769693	
+[00:27:05]: setting 	winterlength	15	
+[00:27:05]: setting 	isspring	false	
+[00:27:05]: setting 	nightmarephase	dawn	
+[00:27:05]: setting 	remainingdaysinseason	5	
+[00:27:05]: setting 	cycles	450	
+[00:27:05]: setting 	iscavenight	false	
+[00:27:05]: setting 	nightmaretimeinphase	0.21689529494885	
+[00:27:05]: setting 	wetness	47.66467666626	
+[00:27:05]: setting 	time	0.0022631327311198	
+[00:27:05]: setting 	issummer	false	
+[00:27:09]: Reconstructing topology	
+[00:27:09]: 	...Sorting points	
+[00:27:09]: 	...Sorting edges	
+[00:27:09]: 	...Connecting nodes	
+[00:27:09]: 	...Validating connections	
+[00:27:09]: 	...Housekeeping	
+[00:27:09]: 	...Done!	
+[00:27:09]: 1 uploads added to server. From server_temp
+[00:27:09]: World 1 is now connected	
+[00:27:09]: Telling Client our new session identifier: 5B3136F7C2C2F037
+[00:27:09]: Check for write access: TRUE
+[00:27:09]: Check for read access: TRUE
+[00:27:09]: ModIndex: Load sequence finished successfully.	
+[00:27:09]: Reset() returning
+[00:27:09]: Validating portal[6] <-> 1[6] (active)	
+[00:27:09]: Validating portal[10] <-> 1[10] (active)	
+[00:27:09]: Validating portal[3] <-> 1[3] (active)	
+[00:27:09]: Validating portal[4] <-> 1[4] (active)	
+[00:27:09]: Validating portal[9] <-> 1[9] (active)	
+[00:27:09]: Validating portal[7] <-> 1[7] (active)	
+[00:27:09]: Validating portal[1] <-> 1[1] (active)	
+[00:27:09]: Validating portal[8] <-> 1[8] (active)	
+[00:27:09]: Validating portal[5] <-> 1[5] (active)	
+[00:27:09]: Validating portal[2] <-> 1[2] (active)	
+[00:27:14]: CURL ERROR: (dst.metrics.klei.com) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
+[00:28:54]: [Shard] #1 -> session/5B3136F7C2C2F037/A7GFMJ3GHJM7/0000000499
+[00:28:54]: [Shard] Received migration #1 data for (KU_3xJ72Cx7)
+[00:28:57]: New incoming connection 127.0.0.1|50844 <3051820627856333943>
+[00:28:57]: Client connected from [LAN] 127.0.0.1|50844 <3051820627856333943>
+[00:28:57]: ValidateGameSessionToken pgs-usc^KU_3xJ72Cx7^DontStarveTogether^tHGETjytXWcZPQkHGDLq1UCIIF5r5bqgECwYNterjZ0= for <3051820627856333943>
+[00:29:00]: Client authenticated: (KU_3xJ72Cx7) 彡粼
+[00:29:00]: [Shard] Completed incoming migration #1 for (KU_3xJ72Cx7)
+[00:29:13]: Resuming user: session/5B3136F7C2C2F037/A7GFMJ3GHJM7/0000000499
+[00:29:13]: Could not find anim build FROMNUM
+[00:29:13]: Could not find anim build FROMNUM
+[00:29:13]: Could not find anim build FROMNUM
+[00:29:13]: Player will spawn close to portal #1	
+[00:29:13]: Spawning player at: [Load] (-4.58, 0.00, 581.43)	
+[00:29:24]: [(KU_3xJ72Cx7) 彡粼] ReceiveRemoteExecute(local p = UserToPlayer('KU_3xJ72Cx7') local me = UserToPlayer("KU_3xJ72Cx7") local builder = p.components.builder if builder and me and me.components.talker then me.components.talker:Say(builder.freebuildmode and STRINGS.UI.MODSSCREEN.STATUS.DISABLED_MANUAL or STRINGS.UI.MODSSCREEN.STATUS.WORKING_NORMALLY) builder:GiveAllRecipes() end) @(3.11, 588.69)
+[00:30:02]: Activating portal[1] to 1	
+[00:30:02]: Serializing user: session/5B3136F7C2C2F037/A7GFMJ3GHJM7/0000000499
+[00:30:02]: [Shard] Migration request: (KU_3xJ72Cx7) to [SHDMASTER](1)
+[00:30:02]: [Shard] #2 <- session/5B3136F7C2C2F037/A7GFMJ3GHJM7/0000000499
+[00:30:03]: Ignored request to resume during migration
+[00:30:03]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:30:22]: [200] Account Communication Success (6)
+[00:30:22]: Received (KU_3xJ72Cx7) from TokenPurpose
+[00:30:48]: Registering slave in China lobby
+[00:31:28]: Sim paused
+[00:31:33]: Sim unpaused
+[00:35:09]: Serializing world: session/5B3136F7C2C2F037/0000000499
+[00:35:48]: Registering slave in China lobby
+[00:40:48]: Registering slave in China lobby
+[00:43:09]: Serializing world: session/5B3136F7C2C2F037/0000000500
+[00:45:48]: Registering slave in China lobby
+[00:47:20]: CURL ERROR: (dst.metrics.klei.com) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
+[00:50:48]: Registering slave in China lobby
+[00:51:10]: Serializing world: session/5B3136F7C2C2F037/0000000501
+[00:51:10]: Truncating to snapshot #501...
+[00:51:10]:  - session/5B3136F7C2C2F037/0000000495
+[00:51:10]:    1 file(s) removed
+[00:55:48]: Registering slave in China lobby
+[00:59:10]: Serializing world: session/5B3136F7C2C2F037/0000000502
+[00:59:10]: Truncating to snapshot #502...
+[00:59:10]:  - session/5B3136F7C2C2F037/0000000496
+[00:59:10]:    1 file(s) removed
+[01:00:22]: [200] Account Communication Success (6)
+[01:00:22]: Received (KU_3xJ72Cx7) from TokenPurpose
+[01:00:32]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[01:00:32]: Sim paused
+[01:00:37]: About to start a shard with these settings:
+[01:00:37]:   ShardName: Caves
+[01:00:37]:   ShardID: 3918349408
+[01:00:37]:   ShardRole: SLAVE
+[01:00:37]:   MasterHost: 127.0.0.1
+[01:00:37]:   MasterBind: (null)
+[01:00:37]:   MasterPort: 10888
+[01:00:37]: [Shard] Connecting to master...
+[01:00:39]: [IPC] Received shutdown signal.
+[01:00:39]: Serializing world: session/5B3136F7C2C2F037/0000000503
+[01:00:39]: Truncating to snapshot #503...
+[01:00:39]:  - session/5B3136F7C2C2F037/0000000497
+[01:00:39]:    1 file(s) removed
+[01:00:40]: [Shard] Stopping shard mode
+[01:00:40]: Collecting garbage...
+[01:00:40]: lua_gc took 0.11 seconds
+[01:00:40]: ~ShardLuaProxy()
+[01:00:40]: ~cEventLeaderboardProxy()
+[01:00:40]: ~ItemServerLuaProxy()
+[01:00:40]: ~InventoryLuaProxy()
+[01:00:40]: ~NetworkLuaProxy()
+[01:00:40]: ~SimLuaProxy()
+[01:00:40]: lua_close took 0.19 seconds
+[01:00:40]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:00:40]: CurlRequestManager::ClientThread::Main() complete
+[01:00:40]: HttpClient2 discarded 0 callbacks.
+[01:00:40]: [Rail] Shutting down Rail
+[01:00:41]: Shutting down

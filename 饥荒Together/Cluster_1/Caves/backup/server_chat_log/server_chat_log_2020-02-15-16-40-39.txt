@@ -1,0 +1,7 @@
+[00:01:14]: [Join Announcement] 彡粼
+[00:01:39]: [Vote Announcement] rollback passed
+[00:18:27]: [Vote Announcement] rollback passed
+[00:21:48]: [Vote Announcement] rollback passed
+[00:25:59]: [Vote Announcement] rollback passed
+[00:26:34]: [Vote Announcement] rollback passed
+[01:00:31]: [Leave Announcement] 彡粼

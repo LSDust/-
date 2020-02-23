@@ -1,4 +1,2 @@
-[00:00:50]: [Join Announcement] 彡粼
-[01:01:42]: [Skin Announcement] 彡粼 profileflair_phonograph
-[02:12:30]: [Skin Announcement] 彡粼 body_wes_shadow
-[02:12:38]: [Leave Announcement] 彡粼
+[00:01:05]: [Join Announcement] 彡粼
+[00:02:56]: [Leave Announcement] 彡粼

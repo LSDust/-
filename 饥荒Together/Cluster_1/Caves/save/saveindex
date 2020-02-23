@@ -5,15 +5,15 @@ KLEI     1 return {
       enabled_mods={  },
       server={
         clan={ admin=false, id="", only=false },
-        description="密码是班级",
+        description="",
         encode_user_path=true,
         game_mode="survival",
         intention="cooperative",
         max_players=6,
         name="彡粼的世界",
         online_mode=true,
-        password="142",
-        privacy_type=0,
+        password="",
+        privacy_type=1,
         pvp=false,
         server_language="zhr" 
       },
@@ -82,7 +82,7 @@ KLEI     1 return {
             },
             required_prefabs={ "multiplayer_portal" },
             substitutes={  },
-            version=3 
+            version=4 
           } 
         } 
       } 
@@ -104,7 +104,11 @@ KLEI     1 return {
             ordered_story_setpieces={ "Sculptures_1", "Maxwell5" },
             override_level_string=false,
             overrides={
+              has_ocean=true,
+              keep_disconnected_tiles=true,
               layout_mode="LinkNodesByKeys",
+              no_joining_islands=true,
+              no_wormholes_to_disconnected_tiles=true,
               roads="default",
               season_start="default",
               start_location="default",
@@ -135,7 +139,7 @@ KLEI     1 return {
             },
             required_prefabs={ "multiplayer_portal" },
             substitutes={  },
-            version=3 
+            version=4 
           } 
         } 
       } 
@@ -157,7 +161,11 @@ KLEI     1 return {
             ordered_story_setpieces={ "Sculptures_1", "Maxwell5" },
             override_level_string=false,
             overrides={
+              has_ocean=true,
+              keep_disconnected_tiles=true,
               layout_mode="LinkNodesByKeys",
+              no_joining_islands=true,
+              no_wormholes_to_disconnected_tiles=true,
               roads="default",
               season_start="default",
               start_location="default",
@@ -188,7 +196,7 @@ KLEI     1 return {
             },
             required_prefabs={ "multiplayer_portal" },
             substitutes={  },
-            version=3 
+            version=4 
           } 
         } 
       } 
@@ -210,7 +218,11 @@ KLEI     1 return {
             ordered_story_setpieces={ "Sculptures_1", "Maxwell5" },
             override_level_string=false,
             overrides={
+              has_ocean=true,
+              keep_disconnected_tiles=true,
               layout_mode="LinkNodesByKeys",
+              no_joining_islands=true,
+              no_wormholes_to_disconnected_tiles=true,
               roads="default",
               season_start="default",
               start_location="default",
@@ -241,7 +253,7 @@ KLEI     1 return {
             },
             required_prefabs={ "multiplayer_portal" },
             substitutes={  },
-            version=3 
+            version=4 
           } 
         } 
       } 
@@ -263,7 +275,11 @@ KLEI     1 return {
             ordered_story_setpieces={ "Sculptures_1", "Maxwell5" },
             override_level_string=false,
             overrides={
+              has_ocean=true,
+              keep_disconnected_tiles=true,
               layout_mode="LinkNodesByKeys",
+              no_joining_islands=true,
+              no_wormholes_to_disconnected_tiles=true,
               roads="default",
               season_start="default",
               start_location="default",
@@ -294,11 +310,11 @@ KLEI     1 return {
             },
             required_prefabs={ "multiplayer_portal" },
             substitutes={  },
-            version=3 
+            version=4 
           } 
         } 
       } 
     } 
   },
-  version=3 
+  version=4 
 }
