@@ -1,0 +1,37 @@
+[00:01:28]: [Join Announcement] 彡粼
+[00:02:25]: [Skin Announcement] 彡粼 legs_tweed_knickerbocker_grey_steel
+[01:19:44]: [Skin Announcement] 彡粼 body_buttons_teal_jade
+[01:51:01]: [Death Announcement] 彡粼 死于： 洞穴蠕虫. 他变成了可怕的鬼魂！
+[01:51:07]: [Vote Announcement] rollback passed
+[02:34:18]: [Skin Announcement] 彡粼 body_outerwear_quilted_red_cardinal
+[03:27:00]: [Death Announcement] 彡粼 死于： 蜘蛛. 他变成了可怕的鬼魂！
+[03:27:07]: [Vote Announcement] rollback passed
+[03:35:09]: [Skin Announcement] 彡粼 feet_sneakers_tan_beefalo
+[03:51:58]: [Death Announcement] 彡粼 死于： 独眼巨鹿. 他变成了可怕的鬼魂！
+[03:52:03]: [Vote Announcement] rollback passed
+[04:30:57]: [Skin Announcement] 彡粼 legs_waxwell_magma
+[04:51:33]: [Vote Announcement] rollback passed
+[05:47:46]: [Skin Announcement] 彡粼 body_coatdress_red_higgsbury
+[06:18:31]: [Vote Announcement] rollback passed
+[06:18:59]: [Vote Announcement] rollback passed
+[07:00:01]: [Skin Announcement] 彡粼 hand_beltedgloves_navy_ocean
+[07:10:38]: [Death Announcement] 彡粼 死于： 鹿鸭. 他变成了可怕的鬼魂！
+[07:10:44]: [Vote Announcement] rollback passed
+[08:13:45]: [Skin Announcement] 彡粼 body_flannel_red_higgsbury
+[08:56:01]: [Death Announcement] 彡粼 死于： 蜘蛛女王. 他变成了可怕的鬼魂！
+[08:56:07]: [Vote Announcement] rollback passed
+[09:38:56]: [Vote Announcement] rollback passed
+[09:47:20]: [Vote Announcement] rollback passed
+[10:19:32]: [Vote Announcement] rollback passed
+[10:26:37]: [Death Announcement] 彡粼 死于： 火猎犬. 他变成了可怕的鬼魂！
+[10:26:41]: [Vote Announcement] rollback passed
+[10:50:33]: [Vote Announcement] rollback passed
+[10:55:31]: [Death Announcement] 彡粼 死于： 蜘蛛女王. 他变成了可怕的鬼魂！
+[10:55:36]: [Vote Announcement] rollback passed
+[10:58:46]: [Death Announcement] 彡粼 死于： 蜘蛛战士. 他变成了可怕的鬼魂！
+[10:58:51]: [Vote Announcement] rollback passed
+[11:05:49]: [Death Announcement] 彡粼 死于： 蜘蛛女王. 他变成了可怕的鬼魂！
+[11:05:56]: [Vote Announcement] rollback passed
+[11:10:56]: [Death Announcement] 彡粼 死于： 蜘蛛战士. 他变成了可怕的鬼魂！
+[11:11:02]: [Vote Announcement] rollback passed
+[12:02:21]: [Leave Announcement] 彡粼

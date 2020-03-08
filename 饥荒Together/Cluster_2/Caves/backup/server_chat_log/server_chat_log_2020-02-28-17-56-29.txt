@@ -1,0 +1,12 @@
+[00:01:00]: [Join Announcement] 彡粼
+[00:07:40]: [Vote Announcement] rollback passed
+[00:12:18]: [Vote Announcement] rollback passed
+[00:19:03]: [Vote Announcement] rollback passed
+[00:24:10]: [Vote Announcement] rollback passed
+[00:28:10]: [Vote Announcement] rollback passed
+[00:31:48]: [Vote Announcement] rollback passed
+[00:35:11]: [Vote Announcement] rollback passed
+[00:43:06]: [Vote Announcement] rollback passed
+[00:57:53]: [Death Announcement] 彡粼 死于： 蜘蛛女王. 他变成了可怕的鬼魂！
+[00:57:58]: [Vote Announcement] rollback passed
+[02:28:45]: [Leave Announcement] 彡粼

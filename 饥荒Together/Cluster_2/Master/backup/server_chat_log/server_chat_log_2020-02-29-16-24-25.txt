@@ -1,0 +1,19 @@
+[00:01:17]: [Join Announcement] 彡粼
+[00:19:34]: [Skin Announcement] 彡粼 legs_wormwood_rose
+[00:43:25]: [Vote Announcement] rollback passed
+[00:58:02]: [Vote Announcement] rollback passed
+[01:02:16]: [Vote Announcement] rollback passed
+[01:06:05]: [Vote Announcement] rollback passed
+[01:07:07]: [Vote Announcement] rollback passed
+[01:09:49]: [Vote Announcement] rollback passed
+[01:38:43]: [Skin Announcement] 彡粼 body_wendy_creepy
+[01:42:50]: [Vote Announcement] rollback passed
+[02:02:46]: [Vote Announcement] rollback passed
+[02:06:17]: [Vote Announcement] rollback passed
+[02:08:46]: [Vote Announcement] rollback passed
+[02:11:42]: [Vote Announcement] rollback passed
+[02:15:42]: [Vote Announcement] rollback passed
+[02:19:54]: [Vote Announcement] rollback passed
+[02:35:29]: [Death Announcement] 彡粼 死于： 蜘蛛女王. 他变成了可怕的鬼魂！
+[02:35:33]: [Vote Announcement] rollback passed
+[02:42:18]: [Leave Announcement] 彡粼

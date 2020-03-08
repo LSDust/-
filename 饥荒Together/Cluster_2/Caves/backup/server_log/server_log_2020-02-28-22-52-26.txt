@@ -1,0 +1,883 @@
+[00:00:01]: 
+System Memory:
+	Memory Load: 43%
+	Available Physical Memory: 9258m/16244m
+	Available Page File: 4960m/17270m
+	Available Virtual Memory: 4006m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:01]: 
+Process Memory:
+	Peak Working Set Size: 11m
+	Working Set Size: 11m
+	Quota Peak Page Pool Usage: 168k
+	Quota Page Pool Usage: 165k
+	Quota Peak Non Paged Pool Usage:16k
+	Quota Non Paged Pool Usage: 15k
+	Page File Usage: 4m
+	Peak Page File Usage: 4m
+[00:00:01]: PersistRootStorage is now APP:Klei//DoNotStarveTogetherRail/76561197970823881/Cluster_2/Caves/ 
+[00:00:01]: Starting Up
+[00:00:01]: Version: 393560
+[00:00:01]: Current time: Fri Feb 28 17:56:13 2020
+
+[00:00:01]: Don't Starve Together: 393560 WIN32
+[00:00:01]: Build Date: 5084
+[00:00:01]: Mode: 32-bit
+[00:00:01]: Parsing command line
+[00:00:01]: Command Line Arguments: -monitor_parent_process 27912 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogetherRail -cluster Cluster_2 -fo -ownernetid R:76561197970823881 -ownerdir 76561197970823881 -backup_log_count 10 -backup_log_period 0 -shard Caves -sigprefix DST_Slave -region China --rail_platform_type=1 --rail_app_type=2 --rail_channel_id=1600047912 
+[00:00:01]: Initializing distribution platform
+[00:00:01]: [Rail] Initializing Rail (2000004)
+[00:00:01]: [Rail] Rail SDK version 1.9.11.0
+[00:00:01]: ....Done
+[00:00:01]: Fixing DPI
+[00:00:01]: ...Done
+[00:00:01]: THREAD - started 'GAClient' (612)
+[00:00:01]: Mounting file system databundles/klump.zip successful.
+[00:00:01]: CurlRequestManager::ClientThread::Main()
+[00:00:01]: Mounting file system databundles/shaders.zip successful.
+[00:00:01]: Mounting file system databundles/fonts.zip successful.
+[00:00:01]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:01]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:01]: Mounting file system databundles/images.zip successful.
+[00:00:01]: Mounting file system databundles/scripts.zip successful.
+[00:00:01]: ProfileIndex:13.03
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: THREAD - started 'Ping Job Thread' (19712)
+[00:00:01]: Platform: 4
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:17]: Authorized application E:\Games\WeGame_bought\rail_apps\
+[00:00:17]: WindowsFirewall - Application already authorized
+[00:00:17]: Overriding region to China
+[00:00:17]: THREAD - started 'StreamInput' (16160)
+[00:00:17]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/76561197970823881/client_save/blocklist.txt (Failure)
+[00:00:17]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/76561197970823881/client_save/adminlist.txt (Failure)
+[00:00:17]: OnLoadUserIdList: APP:Klei//DoNotStarveTogetherRail/76561197970823881/client_save/whitelist.txt (Failure)
+[00:00:17]: Offline user ID: RU_76561197970823881
+[00:00:17]: Token retrieved from: APP:Klei//DoNotStarveTogetherRail/76561197970823881/Cluster_2/cluster_token.txt
+[00:00:17]: Token retrieved from: APP:Klei//DoNotStarveTogetherRail/76561197970823881/Cluster_2/cluster_token.txt
+[00:00:17]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 家庭中文版
+    version                   10.0.18362
+    architecture              64 位
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  4
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz
+    manufacturer              GenuineIntel
+    clockSpeed                2304
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    name                      NVIDIA GeForce GTX 1050
+    driverDate                20180624000000.000000-000
+    megsOfRam                 4095
+    refreshRate               0
+    videoModeDescription      
+    driverVersion             24.21.13.9836
+
+[00:00:17]: cGame::InitializeOnMainThread
+[00:00:17]: Renderer initialize: Okay
+[00:00:17]: AnimManager initialize: Okay
+[00:00:17]: Buffers initialize: Okay
+[00:00:17]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:17]: GameSpecific initialize: Okay
+[00:00:17]: cGame::StartPlaying
+[00:00:17]: LOADING LUA
+[00:00:17]: DoLuaFile scripts/main.lua
+[00:00:17]: DoLuaFile loading buffer scripts/main.lua
+[00:00:17]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:00:20]:   taskgrouplist:	default	联机版	
+[00:00:20]:   taskgrouplist:	classic	经典	
+[00:00:20]:   taskgrouplist:	cave_default	地下	
+[00:00:20]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:20]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:20]: running main.lua
+	
+[00:00:20]: loaded modindex	
+[00:00:20]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:20]: DownloadMods(0)
+[00:00:20]: modoverrides.lua enabling workshop-2199027653598520427	
+[00:00:20]: modoverrides.lua enabling workshop-2199027653598524334	
+[00:00:20]: modoverrides.lua enabling workshop-100010040	
+[00:00:20]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010040	
+[00:00:20]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598520427	
+[00:00:20]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598524334	
+[00:00:20]: Could not load mod_config_data/modconfiguration_workshop-100010040_CLIENT	
+[00:00:20]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598520427	
+[00:00:20]: Overriding mod workshop-2199027653598520427's option Skillbadge with value true	
+[00:00:20]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598524334	
+[00:00:20]: Overriding mod workshop-2199027653598524334's option Language with value false	
+[00:00:20]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:20]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:20]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:20]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:20]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:20]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:20]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:20]: Loading mod: workshop-100010040 (Global Pause) Version:1.3.2	
+[00:00:20]: Could not load mod_config_data/modconfiguration_workshop-2199027653598520427_CLIENT	
+[00:00:20]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598520427	
+[00:00:20]: Overriding mod workshop-2199027653598520427's option Skillbadge with value true	
+[00:00:20]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598524334	
+[00:00:20]: Overriding mod workshop-2199027653598524334's option Language with value false	
+[00:00:20]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:20]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:20]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:20]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:20]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:20]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:20]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:20]: Loading mod: workshop-2199027653598520427 (Myth characters-神话人物) Version:1.0.6	
+[00:00:20]: Could not load mod_config_data/modconfiguration_workshop-2199027653598524334_CLIENT	
+[00:00:20]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598520427	
+[00:00:20]: Overriding mod workshop-2199027653598520427's option Skillbadge with value true	
+[00:00:20]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598524334	
+[00:00:20]: Overriding mod workshop-2199027653598524334's option Language with value false	
+[00:00:20]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:20]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:20]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:20]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:20]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:20]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:20]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:20]: Loading mod: workshop-2199027653598524334 (Myth Words-神话书说) Version:1.0.4	
+[00:00:20]: Mod: workshop-100010040 (Global Pause)	Loading modworldgenmain.lua	
+[00:00:20]: Mod: workshop-100010040 (Global Pause)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:20]: Mod: workshop-100010040 (Global Pause)	Loading modmain.lua	
+[00:00:20]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	Loading modworldgenmain.lua	
+[00:00:20]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:20]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	Loading modmain.lua	
+[00:00:20]: modimport: ../mods/workshop-2199027653598524334/main/sg	
+[00:00:20]: modimport: ../mods/workshop-2199027653598524334/main/actions	
+[00:00:20]: modimport: ../mods/workshop-2199027653598524334/main/containers	
+[00:00:20]: modimport: ../mods/workshop-2199027653598524334/main/equips	
+[00:00:20]: modimport: ../mods/workshop-2199027653598524334/main/foods	
+[00:00:21]: modimport: ../mods/workshop-2199027653598524334/main/flag	
+[00:00:21]: modimport: ../mods/workshop-2199027653598524334/main/laozi	
+[00:00:21]: modimport: ../mods/workshop-2199027653598524334/main/peach	
+[00:00:21]: modimport: ../mods/workshop-2199027653598524334/main/pills	
+[00:00:21]: modimport: ../mods/workshop-2199027653598524334/main/plantable	
+[00:00:21]: modimport: ../mods/workshop-2199027653598524334/main/blackbear	
+[00:00:21]: modimport: ../mods/workshop-2199027653598524334/main/rhino	
+[00:00:21]: modimport: ../mods/workshop-2199027653598524334/main/etc	
+[00:00:21]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	Loading modworldgenmain.lua	
+[00:00:21]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:21]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	Loading modmain.lua	
+[00:00:21]: modimport: ../mods/workshop-2199027653598520427/main/monkey_king	
+[00:00:21]: modimport: ../mods/workshop-2199027653598520427/main/neza	
+[00:00:21]: modimport: ../mods/workshop-2199027653598520427/main/white_bone	
+[00:00:21]: modimport: ../mods/workshop-2199027653598520427/skin.lua	
+[00:00:21]: modimport: ../mods/workshop-2199027653598520427/skinui.lua	
+[00:00:21]: SimLuaProxy::QueryServer()
+[00:00:22]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:24]: LOADING LUA SUCCESS
+[00:00:24]: Registering mod namespace "monkey_king"
+[00:00:24]: Registering mod namespace "globalpause"
+[00:00:24]: Registering mod namespace "white_bone"
+[00:00:24]: PlayerDeaths could not load morgue	
+[00:00:24]: PlayerHistory could not load player_history	
+[00:00:24]: ServerPreferences could not load server_preferences	
+[00:00:24]: bloom_enabled	false	
+[00:00:24]: loaded saveindex	
+[00:00:24]: OnFilesLoaded()	
+[00:00:24]: OnUpdatePurchaseStateComplete	
+[00:00:24]: Klump load on boot started.	
+[00:00:24]: Klump files loaded: 	0	
+[00:00:27]: Mod: workshop-100010040 (Global Pause)	Registering prefabs	
+[00:00:27]: Mod: workshop-100010040 (Global Pause)	  Registering default mod prefab	
+[00:00:27]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	Registering prefabs	
+[00:00:27]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/mk_items	
+[00:00:27]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_hualing	
+[00:00:27]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_longpi	
+[00:00:27]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_huoyuan	
+[00:00:27]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/bananafan	
+[00:00:27]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    bananafan	
+[00:00:27]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/armor_mk	
+[00:00:27]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    cassock	
+[00:00:27]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    kam_lan_cassock	
+[00:00:27]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    golden_armor_mk	
+[00:00:27]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/hat_mk	
+[00:00:27]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    golden_hat_mk	
+[00:00:27]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/xzhat_mk	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    xzhat_mk	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/myth_foods	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_wine	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_omelet	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_soup	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    honey_pie	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    vegetarian_food	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_banquet	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_wine_spice_salt	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    honey_pie_spice_chili	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_omelet_spice_sugar	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_wine_spice_sugar	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    vegetarian_food_spice_garlic	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_banquet_spice_garlic	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_wine_spice_garlic	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_banquet_spice_sugar	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_banquet_spice_salt	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    honey_pie_spice_garlic	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    honey_pie_spice_salt	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    honey_pie_spice_sugar	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_soup_spice_salt	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_soup_spice_garlic	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_banquet_spice_chili	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_omelet_spice_garlic	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    vegetarian_food_spice_sugar	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    vegetarian_food_spice_salt	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_soup_spice_chili	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    vegetarian_food_spice_chili	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_wine_spice_chili	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_soup_spice_sugar	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_omelet_spice_chili	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_omelet_spice_salt	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/mk_battle_flag	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_battle_flag	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_battle_flag_item	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_battle_flag_fx	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_battle_flag_item_placer	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/laozi	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    laozi	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/laozi_sp	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    laozi_sp	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/mk_peach	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_placer	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    bigpeach	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_cooked	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/peach_sapling	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_sapling	
+[00:00:28]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/peachtrees	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peachtree	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peachtree_normal	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peachtree_tall	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peachtree_short	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peachtree_burnt	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peachtree_stump	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/peach_chop	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_chop	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_fall	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/alchmy_fur	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    alchmy_fur	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    alchmy_fur_placer	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/mk_firefx	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_firefx	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_firefxdie	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_firefire	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    bramblefx_mk	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/mk_cloudpuff	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_cloudpuff	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_cloudfx	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/myth_pills	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    heat_resistant_pill	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    cold_resistant_pill	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    dust_resistant_pill	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    fly_pill	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    bloodthirsty_pill	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    condensed_pill	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    armor_pill	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    thorns_pill	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/myth_buffs	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    fly_pill_buff	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    bloodthirsty_pill_buff	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    condensed_pill_buff	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    armor_pill_buff	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    wb_shadowheart_buff	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/gourd	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_cooked	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_seeds	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/wine_bottle_gourd	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    wine_bottle_gourd	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/pill_bottle_gourd	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    pill_bottle_gourd	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    pill_bottle_gourd_bb	
+[00:00:29]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/blackbear	
+[00:00:30]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    blackbear	
+[00:00:30]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/blackbear_rock	
+[00:00:30]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    blackbear_rock	
+[00:00:30]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/myth_rhino_boss	
+[00:00:30]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    rhino3_red	
+[00:00:30]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    rhino3_yellow	
+[00:00:30]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    rhino3_blue	
+[00:00:30]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    myth_rhino_come	
+[00:00:30]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/myth_rhino_desk	
+[00:00:30]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    myth_rhino_desk	
+[00:00:30]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    myth_rhino_desk_light	
+[00:00:30]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/myth_rhino_spell	
+[00:00:30]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    rhino3_spell_yellow	
+[00:00:30]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering default mod prefab	
+[00:00:32]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	Registering prefabs	
+[00:00:32]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/monkey_king	
+[00:00:32]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    monkey_king	
+[00:00:32]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/mk_jgb	
+[00:00:32]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    mk_jgb	
+[00:00:32]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    mk_jgb_fx	
+[00:00:32]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/mk_striker	
+[00:00:32]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    mk_striker	
+[00:00:32]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    mk_striker_fx	
+[00:00:32]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/monkey_start_peach	
+[00:00:32]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    monkey_start_peach	
+[00:00:32]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/neza	
+[00:00:32]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    neza	
+[00:00:32]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/neza_none	
+[00:00:32]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    neza_none	
+[00:00:32]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/armor_neza	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    nz_damask	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    nz_damask_fx	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/nz_lance	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    nz_lance	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    nz_lance_fx	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/nz_ring	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    nz_ring_shadow	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    nz_ring	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/lotus_flower	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    lotus_flower	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    lotus_flower_cooked	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/lotus_nz	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    lotus_nz	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/white_bone	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    white_bone	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/white_bone_none	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    white_bone_none	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/bone_wand	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    bone_wand	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/bone_blade	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    bone_blade	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/bone_whip	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    bone_whip	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/bone_spike	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    bonespike	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    bonespike_base	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/white_bone_fog	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    white_bone_fog	
+[00:00:33]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/bone_pet	
+[00:00:34]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    bone_pet	
+[00:00:34]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/wb_skeleton	
+[00:00:34]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    wb_skeleton_placer	
+[00:00:34]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/wb_heart	
+[00:00:34]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    wb_heart	
+[00:00:34]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/myth_skins_prefab	
+[00:00:34]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    monkey_king_none	
+[00:00:34]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    monkey_king_sea	
+[00:00:34]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    monkey_king_horse	
+[00:00:34]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    myth_skins_prefab	
+[00:00:34]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering default mod prefab	
+[00:00:39]: AnimationFile::LoadFile Failed to open anim/white_bone_raisefx.zip
+[00:00:39]: AnimationFile::LoadFile Failed to open anim/white_bone_changefx.zip
+[00:00:39]: 	Load FE	
+[00:00:40]: 	Load FE: done	
+[00:00:40]: THREAD - started 'FilesExistAsyncThread' (27228)
+[00:00:40]: FilesExistAsyncThread started (14425 files)...
+[00:00:40]: Check for write access: TRUE
+[00:00:40]: Check for read access: TRUE
+[00:00:40]: ModIndex: Load sequence finished successfully.	
+[00:00:40]: Reset() returning
+[00:00:40]: [IPC] Signal 'DST_Slave_Kill' opened  #000005E4
+[00:00:40]: [IPC] Registering handler for signal #000005E4
+[00:00:40]: [IPC] Handle #000005E4 added to the Eventhandles
+[00:00:40]: [IPC] Signal 'DST_Slave_Starting' opened  #00000600
+[00:00:40]: [IPC] Sending signal... #00000600
+[00:00:40]: link >> success	
+[00:00:40]: Error: Could not find file: anim/white_bone_changefx.zip
+[00:00:40]: Error: Could not find file: anim/white_bone_raisefx.zip
+[00:00:40]: Error: Could not find file: anim/white_bone_small_puff.zip
+[00:00:42]: ... FilesExistAsyncThread complete
+[00:00:46]: [200] Account Communication Success (6)
+[00:00:46]: Received (KU_3xJ72Cx7) from TokenPurpose
+[00:00:46]: Starting Dedicated Server Game	
+[00:00:46]: Network tick rate: U=15(2), D=0
+[00:00:46]: About to start a server with the following settings:
+[00:00:46]:   Dedicated: true
+[00:00:46]:   Online: true
+[00:00:46]:   Passworded: false
+[00:00:46]:   ServerPort: 10998
+[00:00:46]:   SteamAuthPort: 8766
+[00:00:46]:   SteamMasterServerPort: 27016
+[00:00:46]:   ClanID: false
+[00:00:46]:   ClanOnly: false
+[00:00:46]:   ClanAdmin: false
+[00:00:46]:   LanOnly: false
+[00:00:46]:   FriendsOnly: true
+[00:00:46]:   EnableAutosaver: true
+[00:00:46]:   EncodeUserPath: true
+[00:00:46]:   PVP: false
+[00:00:46]:   MaxPlayers: 6
+[00:00:46]:   GameMode: survival
+[00:00:46]:   OverridenDNS: 
+[00:00:46]:   PauseWhenEmpty: true
+[00:00:46]:   IdleTimeout: 1800s
+[00:00:46]:   VoteEnabled: false
+[00:00:46]:   InternetBroadcasting: true
+[00:00:46]:   Intent: cooperative
+[00:00:46]: [Warning] Could not confirm port 10998 is open in the firewall. 
+[00:00:46]: Could not load mod_config_data/modconfiguration_workshop-2199027653598524334	
+[00:00:46]: Could not load mod_config_data/modconfiguration_workshop-100010040	
+[00:00:46]: Could not load mod_config_data/modconfiguration_workshop-2199027653598520427	
+[00:00:46]: Online Server Started on port: 10998
+[00:00:46]: [Rail] Punchthrough start.
+[00:00:46]: Collecting garbage...
+[00:00:46]: lua_gc took 0.04 seconds
+[00:00:46]: ~ShardLuaProxy()
+[00:00:46]: ~cEventLeaderboardProxy()
+[00:00:46]: ~ItemServerLuaProxy()
+[00:00:46]: ~InventoryLuaProxy()
+[00:00:46]: ~NetworkLuaProxy()
+[00:00:46]: ~SimLuaProxy()
+[00:00:47]: lua_close took 0.09 seconds
+[00:00:47]: ReleaseAll
+[00:00:47]: ReleaseAll Finished
+[00:00:47]: cGame::StartPlaying
+[00:00:47]: LOADING LUA
+[00:00:47]: DoLuaFile scripts/main.lua
+[00:00:47]: DoLuaFile loading buffer scripts/main.lua
+[00:00:47]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:00:50]:   taskgrouplist:	default	联机版	
+[00:00:50]:   taskgrouplist:	classic	经典	
+[00:00:50]:   taskgrouplist:	cave_default	地下	
+[00:00:50]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:50]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:50]: running main.lua
+	
+[00:00:50]: unloading prefabs for mod MOD_workshop-100010040	
+[00:00:50]: unloading prefabs for mod MOD_workshop-2199027653598524334	
+[00:00:50]: unloading prefabs for mod MOD_workshop-2199027653598520427	
+[00:00:50]: loaded modindex	
+[00:00:50]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:50]: modoverrides.lua enabling workshop-2199027653598520427	
+[00:00:50]: modoverrides.lua enabling workshop-2199027653598524334	
+[00:00:50]: modoverrides.lua enabling workshop-100010040	
+[00:00:50]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010040	
+[00:00:50]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598520427	
+[00:00:50]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598524334	
+[00:00:50]: Could not load mod_config_data/modconfiguration_workshop-100010040	
+[00:00:50]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598520427	
+[00:00:50]: Overriding mod workshop-2199027653598520427's option Skillbadge with value true	
+[00:00:50]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598524334	
+[00:00:50]: Overriding mod workshop-2199027653598524334's option Language with value false	
+[00:00:50]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:50]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:50]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:50]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:50]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:50]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:50]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:50]: Loading mod: workshop-100010040 (Global Pause) Version:1.3.2	
+[00:00:50]: Could not load mod_config_data/modconfiguration_workshop-2199027653598520427	
+[00:00:50]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598520427	
+[00:00:50]: Overriding mod workshop-2199027653598520427's option Skillbadge with value true	
+[00:00:50]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598524334	
+[00:00:50]: Overriding mod workshop-2199027653598524334's option Language with value false	
+[00:00:50]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:50]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:50]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:50]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:50]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:50]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:50]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:50]: Loading mod: workshop-2199027653598520427 (Myth characters-神话人物) Version:1.0.6	
+[00:00:50]: Could not load mod_config_data/modconfiguration_workshop-2199027653598524334	
+[00:00:50]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598520427	
+[00:00:50]: Overriding mod workshop-2199027653598520427's option Skillbadge with value true	
+[00:00:50]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598524334	
+[00:00:50]: Overriding mod workshop-2199027653598524334's option Language with value false	
+[00:00:50]: applying configuration_options from modoverrides.lua to mod workshop-100010040	
+[00:00:50]: Overriding mod workshop-100010040's option AUTOPAUSECONSOLE with value false	
+[00:00:50]: Overriding mod workshop-100010040's option ENABLECLIENTPAUSE with value false	
+[00:00:50]: Overriding mod workshop-100010040's option AUTOPAUSEMAP with value false	
+[00:00:50]: Overriding mod workshop-100010040's option KEYBOARDTOGGLEKEY with value P	
+[00:00:50]: Overriding mod workshop-100010040's option ENABLEHOTKEY with value true	
+[00:00:50]: Overriding mod workshop-100010040's option AUTOPAUSESINGLEPLAYERONLY with value true	
+[00:00:50]: Loading mod: workshop-2199027653598524334 (Myth Words-神话书说) Version:1.0.4	
+[00:00:50]: Mod: workshop-100010040 (Global Pause)	Loading modworldgenmain.lua	
+[00:00:50]: Mod: workshop-100010040 (Global Pause)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:50]: Mod: workshop-100010040 (Global Pause)	Loading modmain.lua	
+[00:00:50]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	Loading modworldgenmain.lua	
+[00:00:50]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:50]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	Loading modmain.lua	
+[00:00:50]: modimport: ../mods/workshop-2199027653598524334/main/sg	
+[00:00:50]: modimport: ../mods/workshop-2199027653598524334/main/actions	
+[00:00:50]: modimport: ../mods/workshop-2199027653598524334/main/containers	
+[00:00:50]: modimport: ../mods/workshop-2199027653598524334/main/equips	
+[00:00:50]: modimport: ../mods/workshop-2199027653598524334/main/foods	
+[00:00:50]: modimport: ../mods/workshop-2199027653598524334/main/flag	
+[00:00:50]: modimport: ../mods/workshop-2199027653598524334/main/laozi	
+[00:00:50]: modimport: ../mods/workshop-2199027653598524334/main/peach	
+[00:00:50]: modimport: ../mods/workshop-2199027653598524334/main/pills	
+[00:00:50]: modimport: ../mods/workshop-2199027653598524334/main/plantable	
+[00:00:50]: modimport: ../mods/workshop-2199027653598524334/main/blackbear	
+[00:00:50]: modimport: ../mods/workshop-2199027653598524334/main/rhino	
+[00:00:50]: modimport: ../mods/workshop-2199027653598524334/main/etc	
+[00:00:50]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	Loading modworldgenmain.lua	
+[00:00:50]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:50]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	Loading modmain.lua	
+[00:00:50]: modimport: ../mods/workshop-2199027653598520427/main/monkey_king	
+[00:00:50]: modimport: ../mods/workshop-2199027653598520427/main/neza	
+[00:00:50]: modimport: ../mods/workshop-2199027653598520427/main/white_bone	
+[00:00:50]: modimport: ../mods/workshop-2199027653598520427/skin.lua	
+[00:00:50]: modimport: ../mods/workshop-2199027653598520427/skinui.lua	
+[00:00:50]: SimLuaProxy::QueryServer()
+[00:00:51]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:51]: LOADING LUA SUCCESS
+[00:00:51]: Registering mod namespace "monkey_king"
+[00:00:51]: Registering mod namespace "globalpause"
+[00:00:51]: Registering mod namespace "white_bone"
+[00:00:51]: PlayerDeaths could not load morgue	
+[00:00:51]: PlayerHistory could not load player_history	
+[00:00:51]: ServerPreferences could not load server_preferences	
+[00:00:51]: bloom_enabled	false	
+[00:00:51]: loaded saveindex	
+[00:00:51]: OnFilesLoaded()	
+[00:00:51]: OnUpdatePurchaseStateComplete	
+[00:00:51]: Loading world: session/56455F2D0A28B590/0000000095	
+[00:00:51]: Save file is at version 5.031	
+[00:00:51]: Klump load on boot started.	
+[00:00:51]: Klump files loaded: 	0	
+[00:00:52]: 	Unload FE	
+[00:00:52]: 	Unload FE done	
+[00:00:54]: Mod: workshop-100010040 (Global Pause)	Registering prefabs	
+[00:00:54]: Mod: workshop-100010040 (Global Pause)	  Registering default mod prefab	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	Registering prefabs	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/mk_items	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_hualing	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_longpi	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_huoyuan	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/bananafan	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    bananafan	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/armor_mk	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    cassock	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    kam_lan_cassock	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    golden_armor_mk	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/hat_mk	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    golden_hat_mk	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/xzhat_mk	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    xzhat_mk	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/myth_foods	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_wine	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_omelet	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_soup	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    honey_pie	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    vegetarian_food	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_banquet	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_wine_spice_salt	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    honey_pie_spice_chili	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_omelet_spice_sugar	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_wine_spice_sugar	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    vegetarian_food_spice_garlic	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_banquet_spice_garlic	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_wine_spice_garlic	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_banquet_spice_sugar	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_banquet_spice_salt	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    honey_pie_spice_garlic	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    honey_pie_spice_salt	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    honey_pie_spice_sugar	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_soup_spice_salt	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_soup_spice_garlic	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_banquet_spice_chili	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_omelet_spice_garlic	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    vegetarian_food_spice_sugar	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    vegetarian_food_spice_salt	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_soup_spice_chili	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    vegetarian_food_spice_chili	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_wine_spice_chili	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_soup_spice_sugar	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_omelet_spice_chili	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_omelet_spice_salt	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/mk_battle_flag	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_battle_flag	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_battle_flag_item	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_battle_flag_fx	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_battle_flag_item_placer	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/laozi	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    laozi	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/laozi_sp	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    laozi_sp	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/mk_peach	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_placer	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    bigpeach	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_cooked	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/peach_sapling	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_sapling	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/peachtrees	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peachtree	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peachtree_normal	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peachtree_tall	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peachtree_short	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peachtree_burnt	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peachtree_stump	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/peach_chop	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_chop	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    peach_fall	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/alchmy_fur	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    alchmy_fur	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    alchmy_fur_placer	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/mk_firefx	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_firefx	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_firefxdie	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_firefire	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    bramblefx_mk	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/mk_cloudpuff	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_cloudpuff	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    mk_cloudfx	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/myth_pills	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    heat_resistant_pill	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    cold_resistant_pill	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    dust_resistant_pill	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    fly_pill	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    bloodthirsty_pill	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    condensed_pill	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    armor_pill	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    thorns_pill	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/myth_buffs	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    fly_pill_buff	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    bloodthirsty_pill_buff	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    condensed_pill_buff	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    armor_pill_buff	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    wb_shadowheart_buff	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/gourd	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_cooked	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    gourd_seeds	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/wine_bottle_gourd	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    wine_bottle_gourd	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/pill_bottle_gourd	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    pill_bottle_gourd	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    pill_bottle_gourd_bb	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/blackbear	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    blackbear	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/blackbear_rock	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    blackbear_rock	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/myth_rhino_boss	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    rhino3_red	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    rhino3_yellow	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    rhino3_blue	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    myth_rhino_come	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/myth_rhino_desk	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    myth_rhino_desk	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    myth_rhino_desk_light	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering prefab file: prefabs/myth_rhino_spell	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	    rhino3_spell_yellow	
+[00:00:54]: Mod: workshop-2199027653598524334 (Myth Words-神话书说)	  Registering default mod prefab	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	Registering prefabs	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/monkey_king	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    monkey_king	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/mk_jgb	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    mk_jgb	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    mk_jgb_fx	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/mk_striker	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    mk_striker	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    mk_striker_fx	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/monkey_start_peach	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    monkey_start_peach	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/neza	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    neza	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/neza_none	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    neza_none	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/armor_neza	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    nz_damask	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    nz_damask_fx	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/nz_lance	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    nz_lance	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    nz_lance_fx	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/nz_ring	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    nz_ring_shadow	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    nz_ring	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/lotus_flower	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    lotus_flower	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    lotus_flower_cooked	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/lotus_nz	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    lotus_nz	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/white_bone	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    white_bone	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/white_bone_none	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    white_bone_none	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/bone_wand	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    bone_wand	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/bone_blade	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    bone_blade	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/bone_whip	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    bone_whip	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/bone_spike	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    bonespike	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    bonespike_base	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/white_bone_fog	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    white_bone_fog	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/bone_pet	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    bone_pet	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/wb_skeleton	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    wb_skeleton_placer	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/wb_heart	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    wb_heart	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering prefab file: prefabs/myth_skins_prefab	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    monkey_king_none	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    monkey_king_sea	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    monkey_king_horse	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	    myth_skins_prefab	
+[00:00:55]: Mod: workshop-2199027653598520427 (Myth characters-神话人物)	  Registering default mod prefab	
+[00:00:56]: 	LOAD BE	
+[00:01:02]: Could not preload undefined prefab (wb_skeleton)
+[00:01:02]: Could not preload undefined prefab (yotc_shrinecarrat)
+[00:01:04]: 	LOAD BE: done	
+[00:01:04]: Begin Session: 56455F2D0A28B590
+[00:01:04]: saving to server_temp/server_save	
+[00:01:04]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:01:04]: MiniMapComponent::AddAtlas( ../mods/workshop-2199027653598524334/images/map_icons/peachtree.xml )
+[00:01:04]: MiniMapComponent::AddAtlas( ../mods/workshop-2199027653598524334/images/map_icons/mk_battle_flag.xml )
+[00:01:04]: MiniMapComponent::AddAtlas( ../mods/workshop-2199027653598524334/images/map_icons/alchmy_fur.xml )
+[00:01:04]: MiniMapComponent::AddAtlas( ../mods/workshop-2199027653598524334/images/map_icons/laozi.xml )
+[00:01:04]: MiniMapComponent::AddAtlas( ../mods/workshop-2199027653598524334/images/map_icons/myth_rhino_desk.xml )
+[00:01:04]: MiniMapComponent::AddAtlas( ../mods/workshop-2199027653598520427/images/map_icons/monkey_king.xml )
+[00:01:04]: MiniMapComponent::AddAtlas( ../mods/workshop-2199027653598520427/images/map_icons/neza.xml )
+[00:01:04]: MiniMapComponent::AddAtlas( ../mods/workshop-2199027653598520427/images/map_icons/white_bone.xml )
+[00:01:04]: MiniMapComponent::AddAtlas( ../mods/workshop-2199027653598520427/images/map_icons/mk_jgb.xml )
+[00:01:04]: MiniMapComponent::AddAtlas( ../mods/workshop-2199027653598520427/images/map_icons/nz_lance.xml )
+[00:01:04]: MiniMapComponent::AddAtlas( ../mods/workshop-2199027653598520427/images/map_icons/nz_damask.xml )
+[00:01:04]: MiniMapComponent::AddAtlas( ../mods/workshop-2199027653598520427/images/map_icons/nz_ring.xml )
+[00:01:04]: Loading 19 new character(s)	
+[00:01:05]: Total 19 character(s) loaded	
+[00:01:14]: Loading Nav Grid	
+[00:01:14]: World generated on version 393560, using seed: 1582345518	
+[00:01:14]: setting 	summerlength	15	
+[00:01:14]: setting 	isnightmaredawn	false	
+[00:01:14]: setting 	elapseddaysinseason	18	
+[00:01:14]: setting 	isfullmoon	false	
+[00:01:14]: setting 	moisture	7835.3940429688	
+[00:01:14]: setting 	springlength	20	
+[00:01:14]: setting 	isnightmarewild	false	
+[00:01:14]: setting 	moonphase	new	
+[00:01:14]: setting 	precipitationrate	0	
+[00:01:14]: setting 	iswet	false	
+[00:01:14]: setting 	isnewmoon	false	
+[00:01:14]: setting 	iswinter	false	
+[00:01:14]: setting 	israining	false	
+[00:01:14]: setting 	isnightmarewarn	false	
+[00:01:14]: setting 	precipitation	none	
+[00:01:14]: setting 	cavephase	dusk	
+[00:01:14]: setting 	moistureceil	10322.366210938	
+[00:01:14]: setting 	isday	false	
+[00:01:14]: setting 	iscaveday	false	
+[00:01:14]: setting 	season	autumn	
+[00:01:14]: setting 	timeinphase	0.025132327609592	
+[00:01:14]: setting 	temperature	4.8952623448263	
+[00:01:14]: setting 	isnightmarecalm	true	
+[00:01:14]: setting 	isnight	true	
+[00:01:14]: setting 	isdusk	false	
+[00:01:14]: setting 	iscavedusk	true	
+[00:01:14]: setting 	isautumn	true	
+[00:01:14]: setting 	issnowing	false	
+[00:01:14]: setting 	iswaxingmoon	true	
+[00:01:14]: setting 	pop	0.70645023958065	
+[00:01:14]: setting 	snowlevel	0	
+[00:01:14]: setting 	issnowcovered	false	
+[00:01:14]: setting 	autumnlength	20	
+[00:01:14]: setting 	phase	night	
+[00:01:14]: setting 	nightmaretime	104.66031737762	
+[00:01:14]: setting 	winterlength	15	
+[00:01:14]: setting 	isspring	false	
+[00:01:14]: setting 	nightmarephase	calm	
+[00:01:14]: setting 	remainingdaysinseason	2	
+[00:01:14]: setting 	cycles	88	
+[00:01:14]: setting 	iscavenight	false	
+[00:01:14]: setting 	nightmaretimeinphase	0.29072310382671	
+[00:01:14]: setting 	wetness	0	
+[00:01:14]: setting 	time	0.4469246228536	
+[00:01:14]: setting 	issummer	false	
+[00:01:14]: [Shard] Slave is waiting for LUA...
+[00:01:15]: Event data unavailable: lavaarena_event_server/prefabs/weaponsparks
+[00:01:23]: Reconstructing topology	
+[00:01:23]: 	...Sorting points	
+[00:01:23]: 	...Sorting edges	
+[00:01:23]: 	...Connecting nodes	
+[00:01:23]: 	...Validating connections	
+[00:01:24]: 	...Housekeeping	
+[00:01:24]: 	...Done!	
+[00:01:24]: 1 uploads added to server. From server_temp
+[00:01:24]: About to start a shard with these settings:
+[00:01:24]:   ShardName: Caves
+[00:01:24]:   ShardID: 165675027
+[00:01:24]:   ShardRole: SLAVE
+[00:01:24]:   MasterHost: 127.0.0.1
+[00:01:24]:   MasterBind: (null)
+[00:01:24]:   MasterPort: 10888
+[00:01:24]: [Shard] Connecting to master...
+[00:01:24]: Telling Client our new session identifier: 56455F2D0A28B590
+[00:01:24]: Check for write access: TRUE
+[00:01:24]: Check for read access: TRUE
+[00:01:24]: ModIndex: Load sequence finished successfully.	
+[00:01:24]: Reset() returning
+[00:01:24]: link >> success	
+[00:01:24]: [Rail] Creating game server...
+[00:01:24]: [Rail] Done.
+[00:01:24]: [Shard] Sending slave information to master...
+[00:01:24]: Validating portal[7] <-> 1[7] (inactive)	
+[00:01:24]: Validating portal[1] <-> 1[1] (inactive)	
+[00:01:24]: Validating portal[3] <-> 1[3] (inactive)	
+[00:01:24]: Validating portal[6] <-> 1[6] (inactive)	
+[00:01:24]: Validating portal[10] <-> 1[10] (inactive)	
+[00:01:24]: Validating portal[9] <-> 1[9] (inactive)	
+[00:01:24]: Validating portal[8] <-> 1[8] (inactive)	
+[00:01:25]: Validating portal[5] <-> 1[5] (inactive)	
+[00:01:25]: Validating portal[4] <-> 1[4] (inactive)	
+[00:01:25]: Validating portal[2] <-> 1[2] (inactive)	
+[00:01:27]: [Rail] Game server created.
+[00:01:27]: [P2P] Setting rail id 90071997761469335
+[00:01:27]: Registering slave in China lobby
+[00:01:28]: [Rail] WARNING: Spent 2910 milliseconds in rail calls in the last 3.50 seconds
+[00:01:28]:     RailLibrary::RailFireEvents: 0ms
+[00:01:28]: [Shard] Slave is now ready!
+[00:01:28]: World 1 is now connected	
+[00:01:28]: Validating portal[7] <-> 1[7] (active)	
+[00:01:28]: Validating portal[1] <-> 1[1] (active)	
+[00:01:28]: Validating portal[3] <-> 1[3] (active)	
+[00:01:28]: Validating portal[6] <-> 1[6] (active)	
+[00:01:28]: Validating portal[10] <-> 1[10] (active)	
+[00:01:28]: Validating portal[9] <-> 1[9] (active)	
+[00:01:28]: Validating portal[8] <-> 1[8] (active)	
+[00:01:28]: Validating portal[5] <-> 1[5] (active)	
+[00:01:28]: Validating portal[4] <-> 1[4] (active)	
+[00:01:28]: Validating portal[2] <-> 1[2] (active)	
+[00:01:29]: [Shard] Slave LUA is now ready!
+[00:01:29]: [IPC] Signal 'DST_Slave_Ready' opened  #000002E0
+[00:01:29]: [IPC] Sending signal... #000002E0
+[00:01:29]: Sim paused
+[00:01:39]: [Rail] Reporting played with: "彡粼" (R:76561197970823881).
+[00:02:03]: Sim unpaused
+[00:02:56]: SimLuaProxy::QueryServer()
+[00:03:51]: SimLuaProxy::QueryServer()
+[00:04:05]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[00:04:05]: Sim paused
+[00:04:10]: About to start a shard with these settings:
+[00:04:10]:   ShardName: Caves
+[00:04:10]:   ShardID: 165675027
+[00:04:10]:   ShardRole: SLAVE
+[00:04:10]:   MasterHost: 127.0.0.1
+[00:04:10]:   MasterBind: (null)
+[00:04:10]:   MasterPort: 10888
+[00:04:10]: [Shard] Connecting to master...
+[00:04:13]: [IPC] Received shutdown signal.
+[00:04:13]: Serializing world: session/56455F2D0A28B590/0000000096
+[00:04:13]: Truncating to snapshot #96...
+[00:04:13]:  - session/56455F2D0A28B590/0000000090
+[00:04:13]:    1 file(s) removed
+[00:04:14]: [Shard] Stopping shard mode
+[00:04:14]: Collecting garbage...
+[00:04:14]: lua_gc took 0.24 seconds
+[00:04:14]: ~ShardLuaProxy()
+[00:04:14]: ~cEventLeaderboardProxy()
+[00:04:14]: ~ItemServerLuaProxy()
+[00:04:14]: ~InventoryLuaProxy()
+[00:04:14]: ~NetworkLuaProxy()
+[00:04:14]: ~SimLuaProxy()
+[00:04:15]: lua_close took 0.38 seconds
+[00:04:15]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:04:15]: CurlRequestManager::ClientThread::Main() complete
+[00:04:15]: HttpClient2 discarded 0 callbacks.
+[00:04:15]: [Rail] Shutting down Rail
+[00:04:21]: [Rail] WARNING: Spent 6295 milliseconds in RailLibrary::RailFinalize
+[00:04:21]: Shutting down

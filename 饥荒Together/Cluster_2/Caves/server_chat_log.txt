@@ -1,0 +1,13 @@
+[00:01:10]: [Join Announcement] 彡粼
+[00:05:11]: [Vote Announcement] rollback passed
+[00:26:03]: [Vote Announcement] rollback passed
+[00:36:00]: [Vote Announcement] rollback passed
+[00:45:16]: [Death Announcement] 彡粼 死于： 发条战车. 他变成了可怕的鬼魂！
+[00:45:18]: [Vote Announcement] rollback passed
+[01:20:20]: [Skin Announcement] 彡粼 body_sweatervest_grey_silver
+[01:29:00]: [Vote Announcement] rollback passed
+[01:54:34]: [Vote Announcement] rollback passed
+[01:55:30]: [Vote Announcement] rollback passed
+[02:07:31]: [Vote Announcement] rollback passed
+[02:19:27]: [Skin Announcement] 彡粼 hand_wes_magma
+[02:41:58]: [Leave Announcement] 彡粼
