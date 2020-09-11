@@ -1,0 +1,21 @@
+[00:00:47]: [Join Announcement] 彡粼
+[00:16:36]: [Vote Announcement] rollback passed
+[00:17:08]: [Vote Announcement] rollback passed
+[00:24:32]: [Vote Announcement] regenerate passed
+[00:26:02]: [Vote Announcement] regenerate passed
+[00:32:07]: [Vote Announcement] regenerate passed
+[00:34:30]: [Vote Announcement] regenerate passed
+[00:35:53]: [Skin Announcement] 彡粼 body_trimmed_blouse_yellow_flax
+[00:38:11]: [Vote Announcement] regenerate passed
+[00:39:24]: [Vote Announcement] regenerate passed
+[00:41:10]: [Vote Announcement] regenerate passed
+[00:42:43]: [Vote Announcement] regenerate passed
+[00:43:40]: [Vote Announcement] regenerate passed
+[00:44:42]: [Vote Announcement] regenerate passed
+[00:46:02]: [Vote Announcement] regenerate passed
+[00:47:59]: [Vote Announcement] regenerate passed
+[00:49:26]: [Vote Announcement] regenerate passed
+[00:50:35]: [Vote Announcement] regenerate passed
+[00:51:53]: [Vote Announcement] regenerate passed
+[00:53:01]: [Vote Announcement] regenerate passed
+[00:55:33]: [Leave Announcement] 彡粼

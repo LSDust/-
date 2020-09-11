@@ -1,0 +1,4 @@
+[00:01:18]: [Join Announcement] 彡粼
+[00:01:50]: [Vote Announcement] regenerate passed
+[00:03:48]: [Vote Announcement] regenerate passed
+[00:10:01]: [Leave Announcement] 彡粼

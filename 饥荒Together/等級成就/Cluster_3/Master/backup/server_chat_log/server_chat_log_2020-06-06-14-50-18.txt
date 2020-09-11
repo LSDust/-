@@ -1,0 +1,21 @@
+[00:00:45]: [Join Announcement] 彡粼
+[00:18:07]: [Vote Announcement] rollback passed
+[00:19:29]: [Vote Announcement] rollback passed
+[00:44:07]: [Vote Announcement] rollback passed
+[01:10:28]: [Vote Announcement] rollback passed
+[01:11:48]: [Vote Announcement] rollback passed
+[01:12:24]: [Vote Announcement] rollback passed
+[01:30:52]: [Vote Announcement] rollback passed
+[01:34:16]: [Skin Announcement] 彡粼 body_flannel_red_higgsbury
+[02:53:15]: [Skin Announcement] 彡粼 hand_longgloves_yellow_straw
+[03:09:25]: [Death Announcement] 彡粼 死于： 红色猎犬。他变成了可怕的鬼魂！
+[03:09:33]: [Vote Announcement] rollback passed
+[03:15:24]: [Vote Announcement] rollback passed
+[03:23:39]: [Announcement] 彡粼   击杀所有的四季领主   获得成就【四季领主】
+[03:23:41]: [Death Announcement] 彡粼 死于： 沙刺。他变成了可怕的鬼魂！
+[03:23:48]: [Vote Announcement] rollback passed
+[03:29:11]: [Announcement] 彡粼   烹饪200次菜肴   获得成就【小当家】
+[03:30:32]: [Announcement] 彡粼   击杀所有的四季领主   获得成就【四季领主】
+[03:54:23]: [Announcement] 彡粼   单杀刚羊   获得成就【单杀刚羊】
+[03:58:56]: [Vote Announcement] rollback passed
+[04:00:38]: [Leave Announcement] 彡粼

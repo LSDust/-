@@ -1,0 +1,6 @@
+[00:01:49]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[00:02:12]: [Join Announcement] 彡粼
+[00:02:15]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[00:04:56]: [Death Announcement] 彡粼 死于： 克劳斯。她变成了可怕的鬼魂！
+[00:05:06]: [Vote Announcement] rollback passed
+[00:05:44]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}

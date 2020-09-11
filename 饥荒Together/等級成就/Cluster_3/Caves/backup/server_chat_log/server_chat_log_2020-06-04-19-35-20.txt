@@ -1,0 +1,38 @@
+[00:01:39]: [Join Announcement] 彡粼
+[00:04:27]: [Vote Announcement] rollback passed
+[00:32:33]: [Skin Announcement] 彡粼 feet_workboot_tan_clay
+[00:34:20]: [Vote Announcement] rollback passed
+[00:37:14]: [Vote Announcement] rollback passed
+[00:38:57]: [Vote Announcement] rollback passed
+[00:40:37]: [Vote Announcement] rollback passed
+[00:42:38]: [Vote Announcement] rollback passed
+[00:53:06]: [Vote Announcement] rollback passed
+[00:58:57]: [Vote Announcement] rollback passed
+[01:06:17]: [Vote Announcement] rollback passed
+[01:08:58]: [Vote Announcement] rollback passed
+[01:12:29]: [Vote Announcement] rollback passed
+[01:18:08]: [Vote Announcement] rollback passed
+[01:30:51]: [Announcement] 彡粼   收集了40颗月石   获得成就【月石】
+[01:38:07]: [Announcement] 彡粼   烹饪100次菜肴   获得成就【主厨】
+[01:44:06]: [Death Announcement] 彡粼 死于： 熊獾。他变成了可怕的鬼魂！
+[01:44:09]: [Vote Announcement] rollback passed
+[01:53:39]: [Vote Announcement] rollback passed
+[01:55:40]: [Skin Announcement] 彡粼 feet_wx78_gladiator
+[02:08:37]: [Vote Announcement] rollback passed
+[02:09:14]: [Vote Announcement] rollback passed
+[02:12:42]: [Vote Announcement] rollback passed
+[02:16:44]: [Death Announcement] 彡粼 死于： 熊獾。他变成了可怕的鬼魂！
+[02:16:47]: [Vote Announcement] rollback passed
+[02:21:24]: [Vote Announcement] rollback passed
+[02:26:09]: [Vote Announcement] rollback passed
+[02:28:07]: [Vote Announcement] rollback passed
+[02:30:16]: [Vote Announcement] rollback passed
+[02:34:53]: [Vote Announcement] rollback passed
+[02:38:42]: [Death Announcement] 彡粼 死于： 熊獾。他变成了可怕的鬼魂！
+[02:38:46]: [Vote Announcement] rollback passed
+[02:42:49]: [Vote Announcement] rollback passed
+[02:47:14]: [Vote Announcement] rollback passed
+[02:53:25]: [Announcement] 彡粼   击杀 10 只树精守卫   获得成就【什么?你也叫守卫】
+[03:26:19]: [Skin Announcement] 彡粼 hand_workgloves_brown_chocolate
+[03:56:43]: [Vote Announcement] rollback passed
+[04:02:43]: [Leave Announcement] 彡粼

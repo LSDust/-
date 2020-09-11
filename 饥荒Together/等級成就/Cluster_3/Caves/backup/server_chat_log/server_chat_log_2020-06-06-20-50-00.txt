@@ -1,0 +1,16 @@
+[00:00:47]: [Join Announcement] 彡粼
+[00:03:16]: [Vote Announcement] rollback passed
+[00:06:32]: [Vote Announcement] rollback passed
+[00:11:38]: [Vote Announcement] rollback passed
+[00:29:19]: [Announcement] 彡粼   与猪王交易玩具换取金块   获得成就【交易】
+[01:00:27]: [Death Announcement] 彡粼 死于： 暗影战车。他变成了可怕的鬼魂！
+[01:00:31]: [Vote Announcement] rollback passed
+[01:02:03]: [Mod Warning] Myth Words-神话书说 is out of date and needs to be updated for new users to be able to join the server.
+[01:02:04]: [Mod Warning] Myth characters- 神话人物 is out of date and needs to be updated for new users to be able to join the server.
+[01:04:03]: [Mod Warning] Myth Words-神话书说 is out of date and needs to be updated for new users to be able to join the server.
+[01:04:03]: [Mod Warning] Myth characters- 神话人物 is out of date and needs to be updated for new users to be able to join the server.
+[01:06:03]: [Mod Warning] Myth Words-神话书说 is out of date and needs to be updated for new users to be able to join the server.
+[01:06:03]: [Mod Warning] Myth characters- 神话人物 is out of date and needs to be updated for new users to be able to join the server.
+[01:08:03]: [Mod Warning] Myth Words-神话书说 is out of date and needs to be updated for new users to be able to join the server.
+[01:08:03]: [Mod Warning] Myth characters- 神话人物 is out of date and needs to be updated for new users to be able to join the server.
+[01:08:20]: [Leave Announcement] 彡粼

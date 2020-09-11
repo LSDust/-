@@ -1,0 +1,13 @@
+[00:00:53]: [Join Announcement] 彡粼
+[00:15:59]: [Death Announcement] 彡粼 死于： 蜘蛛。他变成了可怕的鬼魂！
+[00:16:02]: [Vote Announcement] rollback passed
+[00:17:07]: [Vote Announcement] rollback passed
+[00:17:39]: [Vote Announcement] rollback passed
+[00:24:58]: [Death Announcement] 彡粼 死于： 猪人。他变成了可怕的鬼魂！
+[00:25:00]: [Vote Announcement] rollback passed
+[00:33:10]: [Vote Announcement] rollback passed
+[00:47:05]: [Vote Announcement] rollback passed
+[00:50:09]: [Vote Announcement] rollback passed
+[00:52:18]: [Vote Announcement] rollback passed
+[00:57:25]: [Skin Announcement] 彡粼 feet_waxwell_nature
+[01:01:42]: [Leave Announcement] 彡粼

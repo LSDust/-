@@ -1,0 +1,21 @@
+[00:01:55]: [Join Announcement] 彡粼
+[00:04:09]: [Vote Announcement] rollback passed
+[00:08:54]: [Vote Announcement] rollback passed
+[00:16:40]: [Death Announcement] 彡粼 死于： 蜂王。他变成了可怕的鬼魂！
+[00:16:45]: [Vote Announcement] rollback passed
+[00:28:27]: [Vote Announcement] rollback passed
+[00:29:12]: [Announcement] 彡粼   击杀蜜蜂女王   获得成就【香甜的蜜蜂女王】
+[00:29:14]: [Death Announcement] 彡粼 死于： 嗡嗡蜜蜂。他变成了可怕的鬼魂！
+[00:29:38]: [Vote Announcement] rollback passed
+[00:30:22]: [Announcement] 彡粼   击杀蜜蜂女王   获得成就【香甜的蜜蜂女王】
+[00:43:33]: [Death Announcement] 彡粼 死于： 皮弗娄牛。他变成了可怕的鬼魂！
+[00:43:36]: [Vote Announcement] rollback passed
+[00:47:28]: [Vote Announcement] rollback passed
+[01:13:48]: [Death Announcement] 彡粼 死于： 龙蝇。他变成了可怕的鬼魂！
+[01:13:50]: [Vote Announcement] rollback passed
+[01:31:00]: [Death Announcement] 彡粼 死于： 龙蝇。他变成了可怕的鬼魂！
+[01:31:03]: [Vote Announcement] rollback passed
+[02:10:02]: [Announcement] 彡粼   建造500次   获得成就【建造师】
+[02:32:54]: [Vote Announcement] rollback passed
+[03:20:44]: [Announcement] 彡粼   生存超过 150天   获得成就【永恒的守候】
+[04:25:52]: [Leave Announcement] 彡粼

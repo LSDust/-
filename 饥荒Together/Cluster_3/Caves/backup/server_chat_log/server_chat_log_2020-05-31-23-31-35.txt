@@ -1,0 +1,67 @@
+[00:00:44]: [Join Announcement] 彡粼
+[00:07:15]: [Vote Announcement] rollback passed
+[00:10:17]: [Announcement] 彡粼   造成100000点伤害   获得成就【超凶】
+[00:21:58]: [Vote Announcement] rollback passed
+[00:25:54]: [Vote Announcement] rollback passed
+[00:29:55]: [Vote Announcement] rollback passed
+[00:32:05]: [Vote Announcement] rollback passed
+[00:33:33]: [Vote Announcement] rollback passed
+[00:35:30]: [Death Announcement] 彡粼 死于： 蜘蛛女王。他变成了可怕的鬼魂！
+[00:35:33]: [Vote Announcement] rollback passed
+[00:37:36]: [Death Announcement] 彡粼 死于： 蜘蛛女王。他变成了可怕的鬼魂！
+[00:37:40]: [Vote Announcement] rollback passed
+[00:44:53]: [Vote Announcement] rollback passed
+[01:02:17]: [Join Announcement] 我是八九.....你是十
+[01:02:29]: [Announcement] 我是八九.....你是十   成功进入游戏   获得成就【新的开始】
+[01:03:03]: [Skin Announcement] 彡粼 hand_shortgloves_blue_cornflower
+[01:03:20]: [Say] (KU_dwt6dtTS) 我是八九.....你是十: 
+[01:03:39]: [Leave Announcement] 我是八九.....你是十
+[01:04:29]: [Vote Announcement] rollback passed
+[01:38:32]: [Announcement] 彡粼   从冰凉的食物中降温消暑 10次   获得成就【尝食寒食】
+[01:50:12]: [Vote Announcement] rollback passed
+[01:58:50]: [Vote Announcement] rollback passed
+[02:11:07]: [Vote Announcement] rollback passed
+[02:17:48]: [Death Announcement] 彡粼 死于： 尖喙的梦魇。他变成了可怕的鬼魂！
+[02:17:50]: [Vote Announcement] rollback passed
+[02:28:39]: [Announcement] 彡粼   陷入疯狂超过 10分钟   获得成就【神经崩溃】
+[02:29:36]: [Vote Announcement] rollback passed
+[02:31:05]: [Vote Announcement] rollback passed
+[02:31:13]: [Death Announcement] 彡粼 死于： 尖喙的恐怖。他变成了可怕的鬼魂！
+[02:33:21]: [Announcement] 彡粼   陷入疯狂超过 10分钟   获得成就【神经崩溃】
+[02:34:40]: [Vote Announcement] rollback passed
+[02:36:59]: [Announcement] 彡粼   陷入疯狂超过 10分钟   获得成就【神经崩溃】
+[02:37:44]: [Vote Announcement] rollback passed
+[02:39:59]: [Announcement] 彡粼   陷入疯狂超过 10分钟   获得成就【神经崩溃】
+[02:41:22]: [Vote Announcement] rollback passed
+[02:43:35]: [Announcement] 彡粼   陷入疯狂超过 10分钟   获得成就【神经崩溃】
+[02:45:23]: [Announcement] 彡粼   躲避所有攻击而造成 9000 点伤害   获得成就【闪避点满】
+[02:56:38]: [Vote Announcement] rollback passed
+[02:59:04]: [Vote Announcement] rollback passed
+[03:02:02]: [Vote Announcement] rollback passed
+[03:08:41]: [Vote Announcement] rollback passed
+[03:13:46]: [Vote Announcement] rollback passed
+[03:23:25]: [Skin Announcement] 彡粼 hand_longgloves_grey_battleship
+[03:25:30]: [Vote Announcement] rollback passed
+[03:29:25]: [Vote Announcement] rollback passed
+[03:31:45]: [Vote Announcement] rollback passed
+[03:33:43]: [Vote Announcement] rollback passed
+[03:53:57]: [Vote Announcement] rollback passed
+[03:54:58]: [Vote Announcement] rollback passed
+[04:14:24]: [Vote Announcement] rollback passed
+[04:30:55]: [Skin Announcement] 彡粼 legs_skirt_plaid_red_ruby
+[04:48:13]: [Announcement] 彡粼   击杀 15 只洞穴猴子   获得成就【绝不投翔】
+[04:51:09]: [Announcement] 彡粼   在洞穴停留超过 90分钟   获得成就【穴居人】
+[05:01:38]: [Announcement] 彡粼   击杀远古守护者   获得成就【守护者的断角】
+[05:26:28]: [Skin Announcement] 彡粼 feet_wickerbottom_gladiator
+[05:31:13]: [Vote Announcement] rollback passed
+[05:33:39]: [Death Announcement] 彡粼 死于： 蜘蛛女王。他变成了可怕的鬼魂！
+[05:33:42]: [Vote Announcement] rollback passed
+[05:34:59]: [Death Announcement] 彡粼 死于： 蜘蛛女王。他变成了可怕的鬼魂！
+[05:35:01]: [Vote Announcement] rollback passed
+[05:36:29]: [Death Announcement] 彡粼 死于： 蜘蛛。他变成了可怕的鬼魂！
+[05:36:31]: [Vote Announcement] rollback passed
+[05:44:17]: [Announcement] 彡粼   生存超过70天   获得成就【漫长的等待】
+[05:54:26]: [Vote Announcement] rollback passed
+[06:00:01]: [Announcement] 彡粼   击杀 5 只蜘蛛女王   获得成就【你也叫女王?】
+[06:02:21]: [Announcement] 彡粼   行走超过 300分钟   获得成就【行者无疆】
+[06:07:07]: [Leave Announcement] 彡粼

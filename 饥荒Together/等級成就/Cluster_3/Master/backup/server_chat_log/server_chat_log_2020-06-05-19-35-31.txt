@@ -1,0 +1,29 @@
+[00:00:44]: [Join Announcement] 彡粼
+[00:06:42]: [Vote Announcement] rollback passed
+[00:08:53]: [Vote Announcement] rollback passed
+[00:14:37]: [Vote Announcement] rollback passed
+[00:28:40]: [Announcement] 彡粼   孵化出一只高脚鸟蛋   获得成就【年轻的叛逆者】
+[01:22:51]: [Announcement] 彡粼   承受超过100000点伤害   获得成就【乔碧萝】
+[01:22:53]: [Death Announcement] 彡粼 死于： 黑风大王。他变成了可怕的鬼魂！
+[01:22:58]: [Vote Announcement] rollback passed
+[01:52:00]: [Announcement] 彡粼   被查理杀死   获得成就【萌新】
+[02:01:47]: [Vote Announcement] rollback passed
+[02:36:54]: [Announcement] 彡粼   吃下 10个怪物千层饼   获得成就【我的内心毫无波动】
+[02:39:37]: [Vote Announcement] rollback passed
+[02:40:13]: [Announcement] 彡粼   吃下 10个怪物千层饼   获得成就【我的内心毫无波动】
+[02:44:38]: [Vote Announcement] rollback passed
+[02:45:17]: [Announcement] 彡粼   吃下 10个怪物千层饼   获得成就【我的内心毫无波动】
+[02:49:19]: [Vote Announcement] rollback passed
+[02:49:58]: [Announcement] 彡粼   吃下 10个怪物千层饼   获得成就【我的内心毫无波动】
+[02:54:53]: [Vote Announcement] rollback passed
+[02:55:31]: [Announcement] 彡粼   吃下 10个怪物千层饼   获得成就【我的内心毫无波动】
+[03:00:51]: [Announcement] 彡粼   承受超过100000点伤害   获得成就【乔碧萝】
+[03:00:53]: [Death Announcement] 彡粼 死于： 坎普斯。他变成了可怕的鬼魂！
+[03:01:00]: [Vote Announcement] rollback passed
+[03:01:37]: [Announcement] 彡粼   吃下 10个怪物千层饼   获得成就【我的内心毫无波动】
+[03:07:25]: [Announcement] 彡粼   击杀克劳斯   获得成就【克劳斯之死】
+[03:15:37]: [Announcement] 彡粼   收集了5张蓝图   获得成就【学习蓝图】
+[03:43:58]: [Announcement] 彡粼   承受超过100000点伤害   获得成就【乔碧萝】
+[03:44:06]: [Death Announcement] 彡粼 死于： 蓝色猎犬。他变成了可怕的鬼魂！
+[03:44:11]: [Vote Announcement] rollback passed
+[04:00:05]: [Leave Announcement] 彡粼

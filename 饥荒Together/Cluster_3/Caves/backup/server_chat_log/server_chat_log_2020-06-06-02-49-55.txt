@@ -1,0 +1,57 @@
+[00:01:02]: [Join Announcement] 彡粼
+[00:13:02]: [Announcement] 彡粼   承受超过100000点伤害   获得成就【乔碧萝】
+[00:16:41]: [Death Announcement] 彡粼 死于： 冻伤。他变成了可怕的鬼魂！
+[00:16:51]: [Resurrect Announcement] 彡粼 复活自： 恶作剧.
+[00:17:56]: [Vote Announcement] rollback passed
+[00:20:27]: [Vote Announcement] rollback passed
+[00:21:31]: [Announcement] 彡粼   承受超过100000点伤害   获得成就【乔碧萝】
+[00:24:42]: [Vote Announcement] rollback passed
+[00:26:01]: [Announcement] 彡粼   承受超过100000点伤害   获得成就【乔碧萝】
+[00:30:12]: [Vote Announcement] rollback passed
+[00:33:14]: [Announcement] 彡粼   承受超过100000点伤害   获得成就【乔碧萝】
+[00:36:54]: [Vote Announcement] rollback passed
+[00:37:30]: [Vote Announcement] rollback passed
+[00:41:26]: [Announcement] 彡粼   承受超过100000点伤害   获得成就【乔碧萝】
+[00:41:37]: [Vote Announcement] rollback passed
+[00:42:37]: [Announcement] 彡粼   承受超过100000点伤害   获得成就【乔碧萝】
+[00:43:30]: [Vote Announcement] rollback passed
+[00:44:58]: [Announcement] 彡粼   承受超过100000点伤害   获得成就【乔碧萝】
+[00:45:33]: [Vote Announcement] rollback passed
+[00:48:22]: [Vote Announcement] rollback passed
+[00:53:16]: [Vote Announcement] rollback passed
+[00:54:32]: [Vote Announcement] rollback passed
+[00:57:11]: [Skin Announcement] 彡粼 hand_wickerbottom_magma
+[01:29:31]: [Announcement] 彡粼   承受超过100000点伤害   获得成就【乔碧萝】
+[01:29:42]: [Death Announcement] 彡粼 死于： 独眼巨鹿。他变成了可怕的鬼魂！
+[01:29:46]: [Vote Announcement] rollback passed
+[01:32:26]: [Announcement] 彡粼   承受超过100000点伤害   获得成就【乔碧萝】
+[01:40:02]: [Vote Announcement] rollback passed
+[02:10:56]: [Skin Announcement] 彡粼 body_trimmed_blouse_white_pure
+[02:15:06]: [Vote Announcement] rollback passed
+[02:49:21]: [Announcement] 彡粼   击杀10只平静的鹿角鹅幼崽   获得成就【叫什么叫？NMSL】
+[03:09:50]: [Vote Announcement] rollback passed
+[03:11:01]: [Announcement] 彡粼   被闪电击中   获得成就【我没装B】
+[03:27:18]: [Skin Announcement] 彡粼 feet_willow_haunteddoll
+[03:43:53]: [Death Announcement] 彡粼 死于： 蓝色猎犬。他变成了可怕的鬼魂！
+[03:43:56]: [Vote Announcement] rollback passed
+[04:10:46]: [Death Announcement] 彡粼 死于： 辟暑大王。他变成了可怕的鬼魂！
+[04:10:50]: [Vote Announcement] rollback passed
+[04:11:39]: [Vote Announcement] rollback passed
+[04:12:26]: [Vote Announcement] rollback passed
+[04:15:32]: [Vote Announcement] rollback passed
+[04:16:08]: [Vote Announcement] rollback passed
+[04:16:53]: [Vote Announcement] rollback passed
+[04:17:34]: [Vote Announcement] rollback passed
+[04:31:13]: [Skin Announcement] 彡粼 legs_pinstripe_pants_red_garnet
+[04:41:24]: [Death Announcement] 彡粼 死于： 辟暑大王。他变成了可怕的鬼魂！
+[04:41:35]: [Vote Announcement] rollback passed
+[04:42:13]: [Vote Announcement] rollback passed
+[04:54:11]: [Vote Announcement] rollback passed
+[04:54:49]: [Vote Announcement] rollback passed
+[05:02:11]: [Vote Announcement] rollback passed
+[05:37:51]: [Skin Announcement] 彡粼 legs_pants_basic_grey_dark
+[06:02:08]: [Death Announcement] 彡粼 死于： 损坏的发条战车。他变成了可怕的鬼魂！
+[06:02:12]: [Vote Announcement] rollback passed
+[06:40:45]: [Announcement] 彡粼   采集 750次   获得成就【采集者】
+[06:42:37]: [Skin Announcement] 彡粼 hand_shortgloves_purple_violet
+[07:08:21]: [Leave Announcement] 彡粼

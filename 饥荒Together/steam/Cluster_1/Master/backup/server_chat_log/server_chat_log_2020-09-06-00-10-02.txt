@@ -1,0 +1,6 @@
+[00:01:11]: [Join Announcement] 彡粼
+[00:01:14]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[00:02:55]: [Death Announcement] 彡粼 死于： 中暑。她变成了可怕的鬼魂！
+[00:02:59]: [Vote Announcement] rollback passed
+[00:03:40]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[00:03:59]: [Leave Announcement] 彡粼

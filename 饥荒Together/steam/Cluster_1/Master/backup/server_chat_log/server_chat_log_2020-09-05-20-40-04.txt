@@ -1,0 +1,112 @@
+[00:01:43]: [Join Announcement] 彡粼
+[00:02:33]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[00:14:15]: [System Message] HSR"2160608936",1,"GlobalPause",1
+[00:31:03]: [Skin Announcement] 彡粼 hand_workgloves_tan_grass
+[01:26:12]: [System Message] HSR"2160608936",1,"GlobalPause",1
+[01:32:17]: [Vote Announcement] rollback passed
+[01:32:54]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[01:33:27]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[01:33:27]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[01:39:31]: [Skin Announcement] 彡粼 feet_sneakers_green_cactus
+[02:02:21]: [System Message] HSR"2160608936",1,"GlobalPause",1
+[02:03:05]: [System Message] HSR"2160608936",1,"GlobalPause",1
+[02:10:15]: [System Message] HSR"2160608936",1,"GlobalPause",1
+[02:15:56]: [System Message] HSR"2160608936",1,"GlobalPause",1
+[02:42:29]: [Skin Announcement] 彡粼 hand_woodie_nature
+[02:46:34]: [Vote Announcement] rollback passed
+[02:47:13]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[02:47:46]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[02:47:46]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[02:50:02]: [Vote Announcement] rollback passed
+[02:50:41]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[02:51:14]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[02:51:14]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[02:52:14]: [System Message] HSR"2160608936",1,"GlobalPause",1
+[02:58:55]: [Vote Announcement] rollback passed
+[02:59:34]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[03:00:06]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[03:00:06]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[03:05:03]: [Vote Announcement] rollback passed
+[03:06:31]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[03:07:04]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[03:07:04]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[03:13:03]: [Vote Announcement] rollback passed
+[03:13:41]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[03:14:13]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[03:14:13]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[03:22:03]: [System Message] HSR"2160608936",1,"GlobalPause",1
+[03:35:58]: [Vote Announcement] rollback passed
+[03:36:37]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[03:37:09]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[03:37:09]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[03:39:14]: [System Message] HSR"2160608936",1,"GlobalPause",1
+[03:44:17]: [System Message] HSR"2160608936",1,"GlobalPause",1
+[03:47:21]: [System Message] HSR"2160608936",1,"GlobalPause",1
+[03:57:11]: [Vote Announcement] rollback passed
+[03:57:51]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[03:58:25]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[03:58:25]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[03:58:57]: [Vote Announcement] rollback passed
+[03:59:40]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:00:11]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:00:11]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:00:21]: [Vote Announcement] rollback passed
+[04:01:01]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:01:33]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:01:33]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:01:55]: [Vote Announcement] rollback passed
+[04:02:33]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:03:04]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:03:04]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:09:34]: [Vote Announcement] rollback passed
+[04:10:15]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:10:47]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:10:47]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:11:08]: [Vote Announcement] rollback passed
+[04:11:47]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:12:19]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:12:19]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:12:19]: [System Message] HSR"2160608936",1,"GlobalPause",1
+[04:13:25]: [Vote Announcement] rollback passed
+[04:14:06]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:14:38]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:14:38]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:14:41]: [Vote Announcement] rollback passed
+[04:15:20]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:15:52]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:15:52]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:16:57]: [Skin Announcement] 彡粼 legs_skirt_pleated_blue_winter
+[04:20:51]: [Vote Announcement] rollback passed
+[04:21:31]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:22:04]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:22:04]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:25:44]: [Vote Announcement] rollback passed
+[04:26:25]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:26:58]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:26:58]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:27:17]: [Vote Announcement] rollback passed
+[04:27:58]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:28:30]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:28:30]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:28:30]: [System Message] HSR"2160608936",1,"GlobalPause",1
+[04:29:17]: [Vote Announcement] rollback passed
+[04:29:58]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:30:31]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:30:31]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:30:45]: [Vote Announcement] rollback passed
+[04:31:25]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:31:58]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:31:58]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:37:52]: [System Message] HSR"2160608936",1,"GlobalPause",1
+[04:46:50]: [Vote Announcement] rollback passed
+[04:47:32]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:48:04]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:48:04]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:50:21]: [Vote Announcement] rollback passed
+[04:51:03]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:51:36]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[04:51:36]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[05:06:10]: [Vote Announcement] rollback passed
+[05:06:53]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[05:07:25]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
+[05:07:25]: [System Message] HSR"2160608936",1,"GemCore",1,"2160608936",{tags={"cave"}}
