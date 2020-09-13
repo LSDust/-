@@ -1,46 +1,59 @@
-var roleHarvester = require('role.Harvester');
+// var roleHarvester = require('role.Harvester');
 var roleUpgrader = require('role.Upgrader');
 var roleBuilder = require('role.Builder');
-var spawnAction = require('structure.Spawn');
-var roleclaimer = require('role.Claimer');
+var structureIncubator = require('structure.Incubator');
+var roleClaimer = require('role.Claimer');
+var roleCarrier = require('role.Carrier');
+var roleMiner = require('role.Miner');
+var roleReserver = require('role.Reserver');
 
 module.exports.loop = function () {
     
-    spawnAction.run(Game.spawns['Spawn1']);
+    structureIncubator.run(Game.spawns['Spawn1']);
 
-    // var tower = Game.getObjectById('56d74ab2e7a181cca11ca6db');
-    // if(tower) {
-    //     var closestDamagedStructure = tower.pos.findClosestByRange(FIND_STRUCTURES, {
-    //         filter: (structure) => structure.hits < structure.hitsMax
-    //     });
-    //     if(closestDamagedStructure) {
-    //         tower.repair(closestDamagedStructure);
-    //     }
+    var tower = Game.getObjectById('5f5c4d1a73fd055335fb00f9');
+    if(tower.store.getFreeCapacity(RESOURCE_ENERGY) < 800) {
+        var closestDamagedStructure = tower.pos.findClosestByRange(FIND_STRUCTURES, {
+            filter: (structure) => structure.hits < structure.hitsMax && structure.structureType != STRUCTURE_WALL
+        });
+        if(closestDamagedStructure) {
+            tower.repair(closestDamagedStructure);
+        }
 
-    //     var closestHostile = tower.pos.findClosestByRange(FIND_HOSTILE_CREEPS);
-    //     if(closestHostile) {
-    //         tower.attack(closestHostile);
-    //     }
-    // }
+        var closestHostile = tower.pos.findClosestByRange(FIND_HOSTILE_CREEPS);
+        if(closestHostile) {
+            tower.attack(closestHostile);
+        }
+    }
     
     
     
-    var harvesterCount = _.filter(Game.creeps, (creep) => creep.memory.role == 'harvester').length;
-    // var harvesterNo = 0;
+    var MinerCount = _.filter(Game.creeps, (creep) => creep.memory.role == 'Miner').length;
+    var claimerCount = _.filter(Game.creeps, (creep) => creep.memory.role == 'claimer').length;
+    var claimerNo = 0;
     for(var name in Game.creeps) {
         var creep = Game.creeps[name];
-        if(creep.memory.role == 'harvester') {
-            roleHarvester.run(creep);
+        // if(creep.memory.role == 'harvester') {
+        //     roleHarvester.run(creep);
+        // }
+        if(creep.memory.role == 'claimer'){
+            roleClaimer.run(creep,claimerNo++);
         }
-        if(harvesterCount >= 5){
+        if(creep.memory.role == 'Miner') {
+            roleMiner.run(creep);
+        }
+        if(creep.memory.role == 'Carrier'){
+            roleCarrier.run(creep);
+        }
+        if(creep.memory.role == 'reserver'){
+            roleReserver.run(creep);
+        }
+        if(MinerCount >= 1 && claimerCount >= 4){
             if(creep.memory.role == 'builder') {
                 roleBuilder.run(creep);
             }
             if(creep.memory.role == 'upgrader') {
                 roleUpgrader.run(creep);
-            }
-            if(creep.memory.role == 'Claimer'){
-                roleclaimer.run(creep);
             }
         }
     }
