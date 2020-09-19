@@ -1,8 +1,7 @@
 module.exports = {
     run: function(creep){
-        const room23 = Game.rooms['W1S23'];
-        if (creep.room != room23) {
-            creep.moveTo(new RoomPosition(20, 49, 'W1S22'));
+        if(creep.memory.workshop != creep.room.name){
+            creep.moveTo(new RoomPosition(25, 25, creep.memory.workshop));
         }else{
             if(creep.room.controller) {
                 if(creep.reserveController(creep.room.controller) == ERR_NOT_IN_RANGE) {

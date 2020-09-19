@@ -1,84 +1,153 @@
 module.exports = {
     
-    run: function(spawnIncubator) {
+    Incubator1: function(spawnIncubator) {
 
         for(var name in Memory.creeps) {
             if(!Game.creeps[name]) {
-                console.log(Memory.creeps[name].role);
-                // if(Memory.creeps[name].role == 'builder'){
-                //     var newName = 'Builder' + Game.time;
-                //     console.log('孵化新的 Builder: ' + newName);
-                //     spawnIncubator.spawnCreep([WORK,WORK,WORK,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'builder', workshop: Memory.creeps[name].workshop, group: Memory.creeps[name].group}});
-                // }
                 delete Memory.creeps[name];
                 console.log('清除不存在的 creep memory:', name);
             }
         }
-        
-        // console.log('Harvesters: ' + harvesters.length);
-        // var harvesters = _.filter(Game.creeps, (creep) => creep.memory.role == 'harvester');
-        var upgraders = _.filter(Game.creeps, (creep) => creep.memory.role == 'upgrader');
-        var builders_W1S23 = _.filter(Game.creeps, (creep) => creep.memory.role == 'builder' && creep.memory.workshop == 'W1S23');
-        var claimers = _.filter(Game.creeps, (creep) => creep.memory.role == 'claimer');
-        var Miners = _.filter(Game.creeps, (creep) => creep.memory.role == 'Miner');
-        var Carriers_W1S22 = _.filter(Game.creeps, (creep) => creep.memory.role == 'Carrier' && creep.memory.workshop == 'W1S22');
-        var Carriers_W1S23 = _.filter(Game.creeps, (creep) => creep.memory.role == 'Carrier' && creep.memory.workshop == 'W1S23');
-        var reservers = _.filter(Game.creeps, (creep) => creep.memory.role == 'reserver');
 
-        var Incubator_level = 0;
-        if(Miners.length < 1){
-            Incubator_level = 2;    //孵化采集者最高等级
-        }else if(Carriers_W1S22.length < 2){
-            Incubator_level = 1;    //孵化运输者一级孵化等级
+        //#region CREEP工种计数
+        //调度
+        var Dispatchers_W1S22 = _.filter(Game.creeps, (creep) => creep.memory.role == 'Dispatcher' && creep.memory.workshop == 'W1S22' );
+        //采矿
+        var Miners_W1S22_G1   = _.filter(Game.creeps, (creep) => creep.memory.role == 'Miner'      && creep.memory.workshop == 'W1S22' && creep.memory.group == 1);
+        var Miners_W1S23_G1   = _.filter(Game.creeps, (creep) => creep.memory.role == 'Miner'      && creep.memory.workshop == 'W1S23' && creep.memory.group == 1);
+        var Miners_W1S23_G2   = _.filter(Game.creeps, (creep) => creep.memory.role == 'Miner'      && creep.memory.workshop == 'W1S23' && creep.memory.group == 2);
+        var Miners_W2S22_G1   = _.filter(Game.creeps, (creep) => creep.memory.role == 'Miner'      && creep.memory.workshop == 'W2S22' && creep.memory.group == 1);
+        //运输   
+        var Carriers_W1S22    = _.filter(Game.creeps, (creep) => creep.memory.role == 'Carrier'    && creep.memory.workshop == 'W1S22');
+        var Carriers_W1S23_G1 = _.filter(Game.creeps, (creep) => creep.memory.role == 'Carrier'    && creep.memory.workshop == 'W1S23' && creep.memory.group == 1);
+        var Carriers_W1S23_G2 = _.filter(Game.creeps, (creep) => creep.memory.role == 'Carrier'    && creep.memory.workshop == 'W1S23' && creep.memory.group == 2);
+        var Carriers_W2S22_G1 = _.filter(Game.creeps, (creep) => creep.memory.role == 'Carrier'    && creep.memory.workshop == 'W2S22' && creep.memory.group == 1);
+        //综合   
+        var upgraders_W2S22   = _.filter(Game.creeps, (creep) => creep.memory.role == 'upgrader'   && creep.memory.workshop == 'W2S22');
+        var upgraders         = _.filter(Game.creeps, (creep) => creep.memory.role == 'upgrader'   && creep.memory.workshop == 'W1S22');
+        var Builders_W1S23    = _.filter(Game.creeps, (creep) => creep.memory.role == 'Builder'    && creep.memory.workshop == 'W1S23');
+        var Builders_W1S22    = _.filter(Game.creeps, (creep) => creep.memory.role == 'Builder'    && creep.memory.workshop == 'W1S22');
+        var Builders_W2S22    = _.filter(Game.creeps, (creep) => creep.memory.role == 'Builder'    && creep.memory.workshop == 'W2S22');
+        //声明   
+        var reservers_W1S23   = _.filter(Game.creeps, (creep) => creep.memory.role == 'reserver'   && creep.memory.workshop == 'W1S23');
+        var reservers_W2S22   = _.filter(Game.creeps, (creep) => creep.memory.role == 'reserver'   && creep.memory.workshop == 'W2S22');
+        var Attackers         = _.filter(Game.creeps, (creep) => creep.memory.role == 'Attacker'   );
+        //#endregion
+
+        //应急孵化等级
+        var Incubator_level = 2;
+        if(Miners_W1S22_G1.length + Miners_W1S23_G1.length + Miners_W1S23_G2.length >= 3){
+            Incubator_level--;
+            if(Carriers_W1S22.length + Carriers_W1S23_G1.length + Carriers_W1S23_G2.length >= 5){
+                Incubator_level--;
+            }
+        }else{
+            console.log("最高应急孵化等级:" + Incubator_level);
         }
 
-        //栈顺序
+        //#region 栈顺序孵化
         if(Incubator_level < 1 ){
-            if(reservers.length < 1 ) {
-                var newName = 'Reserver' + Game.time;
+            //调度员
+            if(Dispatchers_W1S22.length < 1 ) {
+                var newName = 'Dispatcher_W1S22_' + Game.time;
+                console.log('孵化新的 Dispatcher: ' + newName);
+                spawnIncubator.spawnCreep([CARRY,MOVE], newName, {memory: {role: 'Dispatcher',workshop: 'W1S22'}});
+            }
+            //声明者
+            if(reservers_W2S22.length < 0 ) {
+                var newName = 'Reserver_W2S22_' + Game.time;
                 console.log('孵化新的 Reserver: ' + newName);
-                spawnIncubator.spawnCreep([CLAIM,MOVE], newName, {memory: {role: 'reserver',workshop: 'W1S23'}});
+                spawnIncubator.spawnCreep([CLAIM,CLAIM,MOVE], newName, {memory: {role: 'reserver',workshop: 'W2S22'}});
+            }
+            if(reservers_W1S23.length < 1 ) {
+                var newName = 'Reserver_W1S23_' + Game.time;
+                console.log('孵化新的 Reserver: ' + newName);
+                spawnIncubator.spawnCreep([CLAIM,CLAIM,MOVE], newName, {memory: {role: 'reserver',workshop: 'W1S23'}});
+            }
+            //全能者
+            if(upgraders_W2S22.length < 3 ) {
+                var newName = 'Upgrader_W2S22' + Game.time;
+                console.log('孵化新的 Upgrader: ' + newName);
+                // spawnIncubator.spawnCreep([WORK,WORK,WORK,WORK,WORK,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'upgrader',workshop: 'W2S22'}});
+                spawnIncubator.spawnCreep([WORK,WORK,WORK,WORK,WORK,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'upgrader',workshop: 'W2S22'}});
             }
             if(upgraders.length < 1 ) {
-                var newName = 'Upgrader' + Game.time;
+                var newName = 'Upgrader_' + Game.time;
                 console.log('孵化新的 Upgrader: ' + newName);
-                spawnIncubator.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,WORK,CARRY,MOVE], newName, {memory: {role: 'upgrader',workshop: 'W1S22'}});
+                // spawnIncubator.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,CARRY,CARRY,CARRY,CARRY,MOVE], newName, {memory: {role: 'upgrader',workshop: 'W1S22'}});
+                spawnIncubator.spawnCreep([WORK,WORK,WORK,WORK,CARRY,CARRY,MOVE,MOVE], newName, {memory: {role: 'upgrader',workshop: 'W1S22'}});
             }
-            if(builders_W1S23.length < 1 ) {
+            if(Builders_W2S22.length < 3 ) {
+                var newName = 'Builder_W2S22_' + Game.time;
+                console.log('孵化新的 Builder: ' + newName);
+                spawnIncubator.spawnCreep([WORK,WORK,WORK,WORK,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Builder', workshop: 'W2S22', group: 0}});
+            }
+            if(Builders_W1S23.length < 1 ) {
                 var newName = 'Builder_W1S23_' + Game.time;
-                console.log('孵化新的 Builder_W1S23: ' + newName);
-                spawnIncubator.spawnCreep([WORK,WORK,WORK,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'builder', workshop: 'W1S23', group: 0}});
-                //spawnIncubator.spawnCreep([WORK,WORK,WORK,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'builder', workshop: 'W1S22', group: 0}});
+                console.log('孵化新的 Builder: ' + newName);
+                spawnIncubator.spawnCreep([WORK,WORK,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE], newName, {memory: {role: 'Builder', workshop: 'W1S23', group: 0}});
+            }
+            if(Builders_W1S22.length < 2 ) {
+                var newName = 'Builder_W1S22_' + Game.time;
+                console.log('孵化新的 Builder: ' + newName);
+                spawnIncubator.spawnCreep([WORK,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE], newName, {memory: {role: 'Builder', workshop: 'W1S22', group: 0}});
             }
         }
         if(Incubator_level < 2 ) {
-            if(Carriers_W1S22.length < 2){
+            // 运输者
+            if(Carriers_W2S22_G1.length < 0){
+                var newName = 'Carrier_W2S22_' + Game.time;
+                console.log('孵化新的 Carrier: ' + newName);
+                spawnIncubator.spawnCreep([CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Carrier', workshop: 'W2S22', group :1, taking: true}});
+            }
+            if(Carriers_W1S22.length < 1){
                 var newName = 'Carrier_W1S22_' + Game.time;
-                console.log('孵化新的 Carrier_W1S22: ' + newName);
-                spawnIncubator.spawnCreep([CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE], newName, {memory: {role: 'Carrier', workshop: 'W1S22', group :1, taking: true}});
+                console.log('孵化新的 Carrier: ' + newName);
+                spawnIncubator.spawnCreep([CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE], newName, {memory: {role: 'Carrier', workshop: 'W1S22', group :1, taking: true}});
             }
-            if(Carriers_W1S23.length < 1){
-                var newName = 'Carrier_W1S23_' + Game.time;
-                console.log('孵化新的 Carrier_W1S23: ' + newName);
-                spawnIncubator.spawnCreep([CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE], newName, {memory: {role: 'Carrier',workshop: 'W1S23', group :1, taking: true}});
+            if(Carriers_W1S23_G1.length < 2){
+                var newName = 'Carrier_W1S23_G1_' + Game.time;
+                console.log('孵化新的 Carrier: ' + newName);
+                spawnIncubator.spawnCreep([CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE], newName, {memory: {role: 'Carrier',workshop: 'W1S23', group :1, taking: true}});
+            }
+            if(Carriers_W1S23_G2.length < 2){
+                var newName = 'Carrier_W1S23_G2_' + Game.time;
+                console.log('孵化新的 Carrier: ' + newName);
+                spawnIncubator.spawnCreep([CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE], newName, {memory: {role: 'Carrier',workshop: 'W1S23', group :2, taking: true}});
             }
         }
-        // if(harvesters.length < 0) {
-        //     var newName = 'Harvester' + Game.time;
-        //     console.log('孵化新的 harvester: ' + newName);
-        //     spawnIncubator.spawnCreep([WORK,WORK,WORK,CARRY,CARRY,MOVE,MOVE], newName, {memory: {role: 'harvester'}});
-        // }
-        
-        if(claimers.length < 6){
-            var newName = 'Claimer' + Game.time;
-            console.log('孵化新的 Claimer: ' + newName);
-            spawnIncubator.spawnCreep([WORK,WORK,WORK,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE], newName, {memory: {role: 'claimer',workshop: 'W1S23',group: 0}});
+        {
+            // 采矿者
+            if(Miners_W2S22_G1.length < 1){
+                var newName = 'Miner_W2S22_G1_' + Game.time;
+                console.log('孵化新的 Miner: ' + newName);
+                spawnIncubator.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,MOVE,MOVE,MOVE], newName, {memory: {role: 'Miner', workshop: 'W2S22',group:1}});
+            }
+            if(Miners_W1S22_G1.length < 1) {
+                var newName = 'Miner_W1S22_G1_' + Game.time;
+                console.log('孵化新的 Miner: ' + newName);
+                spawnIncubator.spawnCreep([WORK,WORK,WORK,WORK,WORK,MOVE,MOVE,MOVE], newName, {memory: {role: 'Miner', workshop: 'W1S22',group:1}});
+            }
+            if(Miners_W1S23_G1.length < 1) {
+                var newName = 'Miner_W1S23_G1_' + Game.time;
+                console.log('孵化新的 Miner: ' + newName);
+                spawnIncubator.spawnCreep([WORK,WORK,WORK,WORK,WORK,MOVE,MOVE,MOVE], newName, {memory: {role: 'Miner', workshop: 'W1S23',group:1}});
+            }
+            if(Miners_W1S23_G2.length < 1) {
+                var newName = 'Miner_W1S23_G2_' + Game.time;
+                console.log('孵化新的 Miner: ' + newName);
+                spawnIncubator.spawnCreep([WORK,WORK,WORK,WORK,WORK,MOVE,MOVE,MOVE], newName, {memory: {role: 'Miner', workshop: 'W1S23',group:2}});
+            }
         }
-        if(Miners.length < 1) {
-            var newName = 'Miner' + Game.time;
-            console.log('孵化新的 Miner: ' + newName);
-            spawnIncubator.spawnCreep([WORK,WORK,WORK,WORK,WORK,MOVE], newName, {memory: {role: 'Miner', workshop: 'W1S22',group:1}});
+        {
+            if(Attackers.length < 0 ) {
+                var newName = 'Attacker_' + Game.time;
+                console.log('孵化新的 Attacker: ' + newName);
+                spawnIncubator.spawnCreep([ATTACK,ATTACK,MOVE,MOVE], newName, {memory: {role: 'Attacker',workshop: 'W1S22'}});
+                // spawnIncubator.spawnCreep([CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Attacker',workshop: 'W1S22'}});
+            }
         }
+        //#endregion
         
         if(spawnIncubator.spawning) { 
             var spawningCreep = Game.creeps[spawnIncubator.spawning.name];
@@ -88,5 +157,6 @@ module.exports = {
                 spawnIncubator.pos.y, 
                 {align: 'left', opacity: 0.8});
         }
+        return Incubator_level;
     }
 };

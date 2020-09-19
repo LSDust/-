@@ -3,10 +3,10 @@ module.exports = {
 
         const room23 = Game.rooms['W1S23'];
         const room22 = Game.rooms['W1S22'];
-        var s_no = 1;
-        if(claimerNo > 1 ){
-            s_no = 0;
-        }
+        var s_no = 0;
+        // if(claimerNo > 1 ){
+        //     s_no = 0;
+        // }
         if(creep.store.getFreeCapacity() > 0) {
             // 如果不在目标房间就先往房间走
             if (creep.room != room23) {
