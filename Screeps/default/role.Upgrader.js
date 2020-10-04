@@ -27,11 +27,23 @@ var roleUpgrader = {
             // if(creep.withdraw(tower, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
             //     creep.moveTo(tower,{visualizePathStyle: {stroke: '#ffffff'}});
             // }
-            var targets = creep.room.find(FIND_STRUCTURES, {
-                filter: (structure) => {return structure.structureType == STRUCTURE_STORAGE;}
+            // console.log(creep.name+' : '+creep.ticksToLive);
+            let spawns = creep.room.find(FIND_STRUCTURES, {
+                    filter: (structure) => {
+                        return (structure.structureType == STRUCTURE_SPAWN );
+                    }
             });
-            if(creep.withdraw(targets[0], RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
-                creep.moveTo(targets[0],{visualizePathStyle: {stroke: '#ffffff'}});
+            if(creep.ticksToLive < 300 && spawns[0].spawning == null){
+                creep.moveTo(spawns[0],{visualizePathStyle: {stroke: '#ffffff'}});
+                spawns[0].renewCreep(creep);
+            }else{
+                if(spawns[0].renewCreep(creep) == ERR_BUSY || spawns[0].renewCreep(creep) == ERR_FULL || spawns[0].renewCreep(creep) == ERR_NOT_IN_RANGE)
+                {
+                    var storage = creep.room.storage;
+                    if(creep.withdraw(storage, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
+                        creep.moveTo(storage,{visualizePathStyle: {stroke: '#ffffff'}});
+                    }
+                }
             }
         }
 	}

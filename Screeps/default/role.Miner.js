@@ -2,10 +2,10 @@ module.exports = {
 
     run: function(creep) {
         if(creep.memory.workshop != creep.room.name){
-            creep.moveTo(new RoomPosition(25, 25, creep.memory.workshop));
+            creep.moveTo(new RoomPosition(25, 25, creep.memory.workshop),{reusePath: 50});
         }else{
-            var mineral = creep.room.find(FIND_MINERALS);
-            var sources = creep.room.find(FIND_SOURCES);
+            var mineral = creep.room.mineral;
+            var sources = creep.room.sources;
             let targets = mineral.concat(sources);
             if(creep.harvest(targets[creep.memory.group]) == ERR_NOT_IN_RANGE) {
                 creep.moveTo(targets[creep.memory.group], {visualizePathStyle: {stroke: '#ffaa00'}});

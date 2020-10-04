@@ -27,6 +27,7 @@ module.exports = {
                     filter: object => object.hits < object.hitsMax 
                                     && object.structureType != STRUCTURE_WALL
                                     && object.structureType != STRUCTURE_RAMPART
+                                    && object.hitsMax - object.hits >= 1000
                 });
                 repair_targets.sort((a,b) => a.hits - b.hits);
                 if(repair_targets.length > 0){
