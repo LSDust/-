@@ -78,7 +78,7 @@ var roleBuilder = {
                                 }
                             }else{
                                 //升级
-                                if(creep.upgradeController(creep.room.controller) == ERR_NOT_IN_RANGE && creep.room.controller.level > 0) {
+                                if(creep.upgradeController(creep.room.controller) == ERR_NOT_IN_RANGE) {
                                     creep.moveTo(creep.room.controller, {visualizePathStyle: {stroke: '#ffffff'}});
                                 }
                             }
@@ -91,14 +91,14 @@ var roleBuilder = {
                 // var storage = Game.getObjectById('5f5dc09b38fab07bee3a37c4');
                 let spawns = creep.room.find(FIND_STRUCTURES, {
                         filter: (structure) => {
-                            return (structure.structureType == STRUCTURE_SPAWN );
+                            return (structure.structureType == STRUCTURE_SPAWN && structure.spawning == null);
                         }
                 });
-                if(creep.ticksToLive < 300 && spawns[0].spawning == null){
+                if(creep.ticksToLive < 300 && spawns.length > 0){
                     creep.moveTo(spawns[0],{visualizePathStyle: {stroke: '#ffffff'}});
                     spawns[0].renewCreep(creep);
                 }else{
-                    if(spawns[0].renewCreep(creep) == ERR_BUSY || spawns[0].renewCreep(creep) == ERR_FULL || spawns[0].renewCreep(creep) == ERR_NOT_IN_RANGE || true)
+                    if(spawns.length == 0 || spawns[0].renewCreep(creep) == ERR_FULL || spawns[0].renewCreep(creep) == ERR_NOT_IN_RANGE || true)
                     {
                         var storage = creep.room.storage;
                         if(creep.withdraw(storage, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {

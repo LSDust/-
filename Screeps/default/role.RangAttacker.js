@@ -10,15 +10,16 @@
 module.exports = {
     run: function(creep){
         if(creep.room.name != creep.memory.workshop){
-            creep.moveTo(new RoomPosition(34, 4, creep.memory.workshop),{reusePath: 50});
+            creep.moveTo(new RoomPosition(25, 27, creep.memory.workshop),{reusePath: 50});
         }
         const targets = creep.pos.findInRange(FIND_HOSTILE_CREEPS, 3);
         if(targets.length > 0) {
             creep.rangedAttack(targets[0]);
         }else{
-            creep.moveTo(new RoomPosition(34, 4, creep.memory.workshop));
+            creep.moveTo(new RoomPosition(25, 27, creep.memory.workshop));
         }
-        // const targets = Game.getObjectById('5f7769c855d6fb474a0eb493');
+        // creep.rangedAttack(Game.getObjectById('5f6661255a3e3e98f49e0c3a'));
+        // const targets = Game.getObjectById('5f6661255a3e3e98f49e0c3a');
         // creep.rangedAttack(targets);
 
         // if( creep.memory.workshop == 'E0S22'){

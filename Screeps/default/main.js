@@ -8,6 +8,7 @@ var roleAttacker = require('role.Attacker');
 var roleRangAttacker = require('role.RangAttacker');
 var roleDispatcher = require('role.Dispatcher');
 var structureTower = require('structure.Tower');
+var structureLink = require('structure.Link');
 var Incubator = require('decision.Incubator');
 var Defense = require('decision.Defense');
 var Logistics = require('decision.Logistics');
@@ -27,12 +28,19 @@ module.exports.loop = function () {
     }else{
 	    incubator.w1S22Spawn1Incubator(Game.spawns['Spawn1']);
     }
-	incubator.w2S22Spawn1Incubator(Game.spawns['Spawn_W2S22_1'])
+    if(Game.spawns['Spawn_W2S22_1'].spawning){
+        incubator.w2S22Spawn1Incubator(Game.spawns['Spawn_W2S22_2']);
+    }else{
+        incubator.w2S22Spawn1Incubator(Game.spawns['Spawn_W2S22_1']);
+    }
 
     let defense = new Defense();
     let logistics = new Logistics();
-    var factory = Game.getObjectById('5f733b28b3f4cb155d62e2d4');
-    factory.produce(RESOURCE_OXIDANT);
+    // var factory = Game.getObjectById('5f733b28b3f4cb155d62e2d4');
+    // var factory2 = Game.getObjectById('5f7b3ceba58ab1ad45b83148');
+    // factory.produce(RESOURCE_OXIDANT);
+    // factory.produce(RESOURCE_ENERGY);
+    // factory2.produce(RESOURCE_ENERGY);
 
     // var tower = Game.getObjectById('5f5c4d1a73fd055335fb00f9');
     var towers = Game.rooms['W1S22'].find(FIND_STRUCTURES, {
@@ -52,11 +60,19 @@ module.exports.loop = function () {
         structureTower.run(towers[i]);
     }
 
-    {
-        const linkFrom = Game.rooms['W1S22'].lookForAt('structure', 40, 35)[0];
-        const linkTo   = Game.rooms['W1S22'].lookForAt('structure', 2, 31)[0];
-        linkFrom.transferEnergy(linkTo);
-    }
+    // Game.rooms['W1S22'].memory.receive_link = '5f663fbac6882b2c62b82699';
+    // let A = new Array();
+    // A[0] = '5f6f6158aa1678c79bb47f1e'
+    // let B = new Array();
+    // B[0] = '5f66fab2df9e7e43f289b41e'
+    // Game.rooms['W1S22'].memory.receive_link = A;
+    // Game.rooms['W2S22'].memory.receive_link = A;
+    // structureLink.run();
+    // {
+    //     const linkFrom = Game.rooms['W1S22'].lookForAt('structure', 40, 35)[0];
+    //     const linkTo   = Game.rooms['W1S22'].lookForAt('structure', 2, 31)[0];
+    //     linkFrom.transferEnergy(linkTo);
+    // }
     
     for(var name in Game.creeps) {
         var creep = Game.creeps[name];
@@ -81,9 +97,9 @@ module.exports.loop = function () {
         if(creep.memory.role == 'RangAttacker') {
             roleRangAttacker.run(creep);
         }
-        // if(creep.memory.role == 'Dispatcher') {
-        //     roleDispatcher.run(creep);
-        // }
+        if(creep.memory.role == 'Dispatcher') {
+            roleDispatcher.run(creep);
+        }
         if(creep.memory.role == 'Carrier_p') {
             roleCarrier_power.run(creep);
         }

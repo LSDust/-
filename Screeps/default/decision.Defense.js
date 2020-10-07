@@ -13,7 +13,7 @@ module.exports = class Defense{
         this.Defense_Level = 0;
         this.war_room = new Array();
 
-        if(Game.time % 5 == 0){
+        if(Game.time % 10 == 0){
             var i = 0;
             for(var name in Game.rooms){
                 var room = Game.rooms[name];

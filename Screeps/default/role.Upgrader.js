@@ -30,14 +30,14 @@ var roleUpgrader = {
             // console.log(creep.name+' : '+creep.ticksToLive);
             let spawns = creep.room.find(FIND_STRUCTURES, {
                     filter: (structure) => {
-                        return (structure.structureType == STRUCTURE_SPAWN );
+                        return (structure.structureType == STRUCTURE_SPAWN && structure.spawning == null);
                     }
             });
-            if(creep.ticksToLive < 300 && spawns[0].spawning == null){
+            if(creep.ticksToLive < 300 && spawns.length > 0){
                 creep.moveTo(spawns[0],{visualizePathStyle: {stroke: '#ffffff'}});
                 spawns[0].renewCreep(creep);
             }else{
-                if(spawns[0].renewCreep(creep) == ERR_BUSY || spawns[0].renewCreep(creep) == ERR_FULL || spawns[0].renewCreep(creep) == ERR_NOT_IN_RANGE)
+                if(spawns.length == 0 || spawns[0].renewCreep(creep) == ERR_FULL || spawns[0].renewCreep(creep) == ERR_NOT_IN_RANGE)
                 {
                     var storage = creep.room.storage;
                     if(creep.withdraw(storage, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
