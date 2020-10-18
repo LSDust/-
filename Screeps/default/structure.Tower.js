@@ -14,15 +14,8 @@ module.exports = {
         if(closestHostile) {
             tower.attack(closestHostile);
         }else{
-            if(tower.store.getFreeCapacity(RESOURCE_ENERGY) < 500) {
-                // var closestDamagedStructure = tower.pos.findClosestByRange(FIND_STRUCTURES, {
-                //     filter: (structure) => structure.hits < structure.hitsMax
-                //                         && structure.structureType != STRUCTURE_WALL
-                //                         // && structure.structureType != STRUCTURE_RAMPART
-                // });
-                // if(closestDamagedStructure) {
-                //     tower.repair(closestDamagedStructure);
-                // }
+            //容量大于600执行修复
+            if(tower.store.getFreeCapacity(RESOURCE_ENERGY) < 400) {
                 const repair_targets = tower.room.find(FIND_STRUCTURES, {
                     filter: object => object.hits < object.hitsMax 
                                     && object.structureType != STRUCTURE_WALL
@@ -30,8 +23,14 @@ module.exports = {
                                     && object.hitsMax - object.hits >= 1000
                 });
                 repair_targets.sort((a,b) => a.hits - b.hits);
+
+                const repair_creeps = tower.room.find(FIND_MY_CREEPS, {
+                    filter: object => object.hits < object.hitsMax 
+                });
                 if(repair_targets.length > 0){
                     tower.repair(repair_targets[0]);
+                }else if(repair_creeps.length > 0){
+                    tower.heal(repair_creeps[0]);
                 }
             }
         }

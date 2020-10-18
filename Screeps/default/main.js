@@ -8,11 +8,11 @@ var roleAttacker = require('role.Attacker');
 var roleRangAttacker = require('role.RangAttacker');
 var roleDispatcher = require('role.Dispatcher');
 var structureTower = require('structure.Tower');
-var structureLink = require('structure.Link');
 var Incubator = require('decision.Incubator');
 var Defense = require('decision.Defense');
 var Logistics = require('decision.Logistics');
 var roleCarrier_power = require('role.Carriers_power');
+var roleDepositsHarvester = require('role.DepositsHarvester');
 
 module.exports.loop = function () {
 
@@ -23,10 +23,12 @@ module.exports.loop = function () {
 
     let incubator = new Incubator();
     var Incubator_Level = incubator.incubatorLevel(Game.spawns['Spawn1']);
-    if(Game.spawns['Spawn1'].spawning){
-	    incubator.w1S22Spawn1Incubator(Game.spawns['Spawn2']);
+    if(!Game.spawns['Spawn_W1S22_1'].spawning){
+	    incubator.w1S22Spawn1Incubator(Game.spawns['Spawn_W1S22_1']);
+    }else if(!Game.spawns['Spawn_W1S22_2'].spawning){
+        incubator.w1S22Spawn1Incubator(Game.spawns['Spawn_W1S22_2']);
     }else{
-	    incubator.w1S22Spawn1Incubator(Game.spawns['Spawn1']);
+        // incubator.w1S22Spawn1Incubator(Game.spawns['Spawn1']);
     }
     if(Game.spawns['Spawn_W2S22_1'].spawning){
         incubator.w2S22Spawn1Incubator(Game.spawns['Spawn_W2S22_2']);
@@ -38,9 +40,11 @@ module.exports.loop = function () {
     let logistics = new Logistics();
     // var factory = Game.getObjectById('5f733b28b3f4cb155d62e2d4');
     // var factory2 = Game.getObjectById('5f7b3ceba58ab1ad45b83148');
-    // factory.produce(RESOURCE_OXIDANT);
     // factory.produce(RESOURCE_ENERGY);
-    // factory2.produce(RESOURCE_ENERGY);
+    // factory2.produce( RESOURCE_LEMERGIUM_BAR);
+    // factory2.produce( RESOURCE_CELL);
+    // factory.produce(RESOURCE_OXIDANT);
+    // Game.rooms['W1S22'].terminal.send(RESOURCE_ENERGY, 800, 'W2S22', '');
 
     // var tower = Game.getObjectById('5f5c4d1a73fd055335fb00f9');
     var towers = Game.rooms['W1S22'].find(FIND_STRUCTURES, {
@@ -62,11 +66,12 @@ module.exports.loop = function () {
 
     // Game.rooms['W1S22'].memory.receive_link = '5f663fbac6882b2c62b82699';
     // let A = new Array();
-    // A[0] = '5f6f6158aa1678c79bb47f1e'
+    // A[0] = '5f663fbac6882b2c62b82699'
+    // A[1] = '5f8ab7fdfd411c78f3685e60'
     // let B = new Array();
     // B[0] = '5f66fab2df9e7e43f289b41e'
+    // Game.rooms['W1S22'].memory.central_link = A;
     // Game.rooms['W1S22'].memory.receive_link = A;
-    // Game.rooms['W2S22'].memory.receive_link = A;
     // structureLink.run();
     // {
     //     const linkFrom = Game.rooms['W1S22'].lookForAt('structure', 40, 35)[0];
@@ -102,6 +107,9 @@ module.exports.loop = function () {
         }
         if(creep.memory.role == 'Carrier_p') {
             roleCarrier_power.run(creep);
+        }
+        if(creep.memory.role == 'DepositsHarvester') {
+            roleDepositsHarvester.run(creep);
         }
         if(Incubator_Level <= 1){
             

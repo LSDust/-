@@ -17,7 +17,7 @@ var roleUpgrader = {
                 creep.moveTo(new RoomPosition(25, 25, creep.memory.workshop));
             }else{
                 if(creep.upgradeController(creep.room.controller) == ERR_NOT_IN_RANGE) {
-                    creep.moveTo(creep.room.controller, {visualizePathStyle: {stroke: '#ffffff'}});
+                    creep.moveTo(creep.room.controller, {visualizePathStyle: {stroke: '#ffffff'},range: 3,reusePath: 2});
                 }
             }
             // creep.moveTo(new RoomPosition(38, 25, 'W1S22'));

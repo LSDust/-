@@ -8,8 +8,9 @@ module.exports = {
             var sources = creep.room.sources;
             let targets = mineral.concat(sources);
             if(creep.harvest(targets[creep.memory.group]) == ERR_NOT_IN_RANGE) {
-                creep.moveTo(targets[creep.memory.group], {visualizePathStyle: {stroke: '#ffaa00'}});
-            }else{
+                
+            }
+            {
                 if(creep.memory.workshop == 'W1S22' && creep.memory.group == 1){
                     creep.moveTo(new RoomPosition(34, 21, 'W1S22'));
                 }else if(creep.memory.workshop == 'W1S23'){
@@ -24,6 +25,8 @@ module.exports = {
                     creep.moveTo(new RoomPosition(36, 8, 'W3S23'));
                 }else if(creep.memory.workshop == 'W3S23' && creep.memory.group == 2){
                     creep.moveTo(new RoomPosition(39, 17, 'W3S23'));
+                }else{
+                    creep.moveTo(targets[creep.memory.group],{reusePath: 50});
                 }
             }
         }

@@ -49,7 +49,11 @@ module.exports = {
         }
         
         if(creep.memory.taking) {
-            //是否为栈顺序执行
+            
+            if(creep.ticksToLive < 50){
+                creep.suicide();
+            }
+
             const target = creep.pos.findClosestByRange(FIND_DROPPED_RESOURCES);
             if(target) {
                 if(creep.pickup(target) == ERR_NOT_IN_RANGE) {
@@ -65,17 +69,18 @@ module.exports = {
                     var targets = creep.room.find(FIND_STRUCTURES, {
                         filter: (structure) => {return structure.structureType == STRUCTURE_CONTAINER;}
                     });
-                    if(creep.withdraw(targets[creep.memory.group - 1], RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
-                        creep.moveTo(targets[creep.memory.group - 1],{visualizePathStyle: {stroke: '#ffffff'}});
+                    targets.sort((a,b) => b.store.getUsedCapacity() - a.store.getUsedCapacity());
+                    if(creep.withdraw(targets[0], RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
+                        creep.moveTo(targets[0],{visualizePathStyle: {stroke: '#ffffff'}});
                     }else{
                         creep.moveTo(target);
                     }
-                    creep.withdraw(targets[creep.memory.group - 1], 'O');
-                    creep.withdraw(targets[creep.memory.group - 1], 'L');
-                    creep.withdraw(targets[creep.memory.group - 1], 'GO');
-                    creep.withdraw(targets[creep.memory.group - 1], 'KO');
-                    creep.withdraw(targets[creep.memory.group - 1], 'ZH');
-                    creep.withdraw(targets[creep.memory.group - 1], 'UH');
+                    creep.withdraw(targets[0], 'O');
+                    creep.withdraw(targets[0], 'L');
+                    creep.withdraw(targets[0], 'GO');
+                    creep.withdraw(targets[0], 'KO');
+                    creep.withdraw(targets[0], 'ZH');
+                    creep.withdraw(targets[0], 'UH');
                 }
             }else{
                 //战备状态
@@ -91,21 +96,63 @@ module.exports = {
         }
         else {
             if(creep.memory.birthroom != creep.room.name){
-                creep.moveTo(Game.rooms[creep.memory.birthroom].receive_link[0],{visualizePathStyle: {stroke: '#ffffff'},reusePath: 40});
+                // creep.moveTo(Game.rooms[creep.memory.birthroom].receive_link[0],{visualizePathStyle: {stroke: '#ffffff'},reusePath: 40});
+                let goals = _.map(Game.rooms[creep.memory.birthroom].receive_link, function(receive_link) {
+                    return { pos: receive_link.pos, range: 1 };
+                });
+                let ret = PathFinder.search(creep.pos, goals,
+                                {
+                                    plainCost: 2,
+                                    swampCost: 10,
+                            
+                                    roomCallback: function(roomName) {
+                            
+                                    let room = Game.rooms[roomName];
+                                    // 在这个示例中，`room` 始终存在
+                                    // 但是由于 PathFinder 支持跨多房间检索
+                                    // 所以你要更加小心！
+                                    if (!room) return;
+                                    let costs = new PathFinder.CostMatrix;
+                            
+                                    room.find(FIND_STRUCTURES).forEach(function(struct) {
+                                        if (struct.structureType === STRUCTURE_ROAD) {
+                                        // 相对于平原，寻路时将更倾向于道路
+                                        costs.set(struct.pos.x, struct.pos.y, 1);
+                                        } else if (struct.structureType !== STRUCTURE_CONTAINER &&
+                                                (struct.structureType !== STRUCTURE_RAMPART ||
+                                                    !struct.my)) {
+                                        // 不能穿过无法行走的建筑
+                                        costs.set(struct.pos.x, struct.pos.y, 0xff);
+                                        }
+                                    });
+                            
+                                    // 躲避房间中的 creep
+                                    room.find(FIND_CREEPS).forEach(function(creep) {
+                                        costs.set(creep.pos.x, creep.pos.y, 0xff);
+                                    });
+                            
+                                    return costs;
+                                    },
+                                });
+                
                 // let pos = creep.memory.path[creep.memory.path_i++];
                 // creep.move(creep.pos.getDirectionTo(pos));
                 // console.log(creep.memory.path[creep.memory.path_i]);
                 // console.log(creep.name + creep.moveByPath(creep.memory.path));
                 // creep.moveByPath(creep.memory.path);
-                // creep.moveByPath(ret.path);
+                creep.moveByPath(ret.path);
             }else{
-                if(creep.memory.birthroom != creep.memory.workshop && creep.memory.workshop != 'W2S23'
-                    && creep.room.receive_link[0].store.getFreeCapacity(RESOURCE_ENERGY) != 0
-                    && Math.abs(creep.pos.y - 25) >= 22){
+                var receive_links = creep.room.receive_link;
+                receive_links.sort((a,b) => a.cooldown - b.cooldown);
+                receive_links.sort((a,b) => a.store.getUsedCapacity(RESOURCE_ENERGY) - b.store.getUsedCapacity(RESOURCE_ENERGY));
+                // console.log(receive_links);
+                if(creep.memory.birthroom != creep.memory.workshop && creep.memory.workshop != 'W2S23' 
+                    && receive_links[0].store.getFreeCapacity(RESOURCE_ENERGY) != 0
+                    && creep.pos.inRangeTo(receive_links[0], 4)
+                    && creep.store[RESOURCE_ENERGY] > 0){
                     //外矿
-                    var receive_link = creep.room.receive_link[0];
-                    if(creep.transfer(receive_link, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
-                        creep.moveTo(receive_link, {visualizePathStyle: {stroke: '#ffffff'}});
+                    if(creep.transfer(receive_links[0], RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
+                        creep.moveTo(receive_links[0], {visualizePathStyle: {stroke: '#ffffff'}});
                     }
                 }else{
                     // var targets = Game.rooms[creep.memory.birthroom].find(FIND_STRUCTURES, {
@@ -143,6 +190,7 @@ module.exports = {
                             creep.transfer(storage, 'KO');
                             creep.transfer(storage, 'ZH');
                             creep.transfer(storage, 'UH');
+                            creep.transfer(storage, RESOURCE_BIOMASS);
                             creep.transfer(storage, 'power');
                         }
                     }
