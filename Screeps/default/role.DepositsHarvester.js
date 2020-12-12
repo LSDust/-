@@ -22,20 +22,24 @@ module.exports = {
                 creep.suicide();
             }
             if(creep.memory.workshop != creep.room.name){
-                creep.moveTo(new RoomPosition(25, 25, creep.memory.workshop),{reusePath: 50});
+                creep.moveTo(new RoomPosition(25, 25, creep.memory.workshop),{stroke: '#ffffff'});
             }else{
-                var deposits = new Array();
-                deposits[0] = Game.getObjectById('5f89c932839c451594e8eea9');
+                let deposits = creep.room.find(FIND_DEPOSITS);
+                
+                // var deposits = new Array();
+                // deposits[0] = Game.getObjectById('5f9129593395d0e37acdcf5f');
                 // let a = creep.room.find(LOOK_DEPOSITS);
                 // console.log(a);
-                if(creep.harvest(deposits[0]) == ERR_NOT_IN_RANGE) {
-                    creep.moveTo(deposits[0], {visualizePathStyle: {stroke: '#ffaa00'}});
+                if(deposits.length > 0 && deposits[0].lastCooldown < 5000000){
+                    if(creep.harvest(deposits[0]) == ERR_NOT_IN_RANGE) {
+                        creep.moveTo(deposits[0], {visualizePathStyle: {stroke: '#ffaa00'}});
+                    }
                 }
             }
         }
         else {
             if(creep.memory.birthroom != creep.room.name){
-                creep.moveTo(Game.rooms[creep.memory.birthroom].storage,{visualizePathStyle: {stroke: '#ffffff'},reusePath: 40});
+                creep.moveTo(Game.rooms[creep.memory.birthroom].storage,{visualizePathStyle: {stroke: '#ffffff'}});
             }else{
                 var storage = creep.room.storage;
                 if(creep.transfer(storage, RESOURCE_METAL) == ERR_NOT_IN_RANGE) {

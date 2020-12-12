@@ -10,14 +10,14 @@
 module.exports = {
     run: function(creep){
         if(creep.room.name != creep.memory.workshop){
-            creep.moveTo(new RoomPosition(30, 48, creep.memory.workshop),{visualizePathStyle: {stroke: '#ffffff'},reusePath: 50});
+            creep.moveTo(new RoomPosition(25,25, creep.memory.workshop),{visualizePathStyle: {stroke: '#ffffff'}});
         }else{
-            creep.moveTo(new RoomPosition(18, 23, creep.memory.workshop),{visualizePathStyle: {stroke: '#ffffff'},reusePath: 50});
+            creep.moveTo(new RoomPosition(25,2, creep.memory.workshop),{visualizePathStyle: {stroke: '#ffffff'}});
         }
         {
             const targets = creep.pos.findInRange(FIND_HOSTILE_CREEPS, 3);
             if(targets.length > 0) {
-                creep.rangedAttack(targets[0]);
+                // creep.rangedAttack(targets[0]);
             }else{
                 // creep.moveTo(new RoomPosition(24, 16, creep.memory.workshop));
             }
@@ -30,13 +30,13 @@ module.exports = {
             // }else{
             //     creep.moveTo(new RoomPosition(41, 42, 'W2S20')); 
             // }
-    
+            
             const target = creep.pos.findClosestByRange(FIND_MY_CREEPS, {
                 filter: function(object) {
-                    return object.hits < object.hitsMax 
-                    && object.hitsMax - object.hits > 1100;
+                    return object.hits < object.hitsMax ;
                 }
             });
+            console.log(target);
             if(target) {
                 creep.moveTo(target);
                 if(creep.pos.isNearTo(target)) {
@@ -46,6 +46,16 @@ module.exports = {
                     creep.rangedHeal(target);
                 }
             }
+
+            // let spawns = creep.room.find(FIND_STRUCTURES, {
+            //     filter: (structure) => {
+            //         return (structure.structureType == STRUCTURE_SPAWN && structure.spawning == null);
+            //     }
+            // });
+            // if(creep.ticksToLive < 1450 && spawns.length > 0){
+            //     creep.moveTo(spawns[0],{visualizePathStyle: {stroke: '#ffffff'}});
+            //     spawns[0].renewCreep(creep);
+            // }
         }
     }
 };

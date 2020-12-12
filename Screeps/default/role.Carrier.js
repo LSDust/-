@@ -64,28 +64,42 @@ module.exports = {
             if(Memory.Defense.war_room.indexOf(creep.memory.workshop) == -1){
                 //正常拿取
                 if(creep.memory.workshop != creep.room.name){
-                    creep.moveTo(new RoomPosition(25, 25, creep.memory.workshop),{reusePath: 45});
+                    creep.moveTo(new RoomPosition(25, 25, creep.memory.workshop),{stroke: '#ffffff'});
                 }else{
                     var targets = creep.room.find(FIND_STRUCTURES, {
                         filter: (structure) => {return structure.structureType == STRUCTURE_CONTAINER;}
                     });
-                    targets.sort((a,b) => b.store.getUsedCapacity() - a.store.getUsedCapacity());
-                    if(creep.withdraw(targets[0], RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
-                        creep.moveTo(targets[0],{visualizePathStyle: {stroke: '#ffffff'}});
+                    if(creep.memory.workshop == creep.memory.birthroom){
+                        if(creep.withdraw(targets[creep.memory.group - 1], RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
+                            creep.moveTo(targets[creep.memory.group - 1],{visualizePathStyle: {stroke: '#ffffff'}});
+                        }else{
+                            creep.moveTo(target);
+                        }
+                        creep.withdraw(targets[creep.memory.group - 1], 'O');
+                        creep.withdraw(targets[creep.memory.group - 1], 'L');
+                        creep.withdraw(targets[creep.memory.group - 1], 'GO');
+                        creep.withdraw(targets[creep.memory.group - 1], 'KO');
+                        creep.withdraw(targets[creep.memory.group - 1], 'ZH');
+                        creep.withdraw(targets[creep.memory.group - 1], 'UH');
                     }else{
-                        creep.moveTo(target);
+                        targets.sort((a,b) => b.store.getUsedCapacity() - a.store.getUsedCapacity());
+                        if(creep.withdraw(targets[0], RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
+                            creep.moveTo(targets[0],{visualizePathStyle: {stroke: '#ffffff'}});
+                        }else{
+                            creep.moveTo(target);
+                        }
+                        creep.withdraw(targets[0], 'O');
+                        creep.withdraw(targets[0], 'L');
+                        creep.withdraw(targets[0], 'GO');
+                        creep.withdraw(targets[0], 'KO');
+                        creep.withdraw(targets[0], 'ZH');
+                        creep.withdraw(targets[0], 'UH');
                     }
-                    creep.withdraw(targets[0], 'O');
-                    creep.withdraw(targets[0], 'L');
-                    creep.withdraw(targets[0], 'GO');
-                    creep.withdraw(targets[0], 'KO');
-                    creep.withdraw(targets[0], 'ZH');
-                    creep.withdraw(targets[0], 'UH');
                 }
             }else{
                 //战备状态
                 if(creep.memory.birthroom != creep.room.name){
-                    creep.moveTo(new RoomPosition(25, 25, creep.memory.birthroom),{reusePath: 25});
+                    creep.moveTo(new RoomPosition(25, 25, creep.memory.birthroom),{stroke: '#ffffff'});
                 }else{
                     var storage = creep.room.storage;
                     if(creep.withdraw(storage, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
@@ -143,8 +157,10 @@ module.exports = {
                 creep.moveByPath(ret.path);
             }else{
                 var receive_links = creep.room.receive_link;
-                receive_links.sort((a,b) => a.cooldown - b.cooldown);
-                receive_links.sort((a,b) => a.store.getUsedCapacity(RESOURCE_ENERGY) - b.store.getUsedCapacity(RESOURCE_ENERGY));
+                if(receive_links){
+                    receive_links.sort((a,b) => a.cooldown - b.cooldown);
+                    receive_links.sort((a,b) => a.store.getUsedCapacity(RESOURCE_ENERGY) - b.store.getUsedCapacity(RESOURCE_ENERGY));
+                }
                 // console.log(receive_links);
                 if(creep.memory.birthroom != creep.memory.workshop && creep.memory.workshop != 'W2S23' 
                     && receive_links[0].store.getFreeCapacity(RESOURCE_ENERGY) != 0

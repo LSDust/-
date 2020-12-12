@@ -14,12 +14,12 @@ module.exports = {
         if(closestHostile) {
             tower.attack(closestHostile);
         }else{
-            //容量大于600执行修复
-            if(tower.store.getFreeCapacity(RESOURCE_ENERGY) < 400) {
+            //容量大于400执行修复
+            if(tower.store.getFreeCapacity(RESOURCE_ENERGY) < 600) {
                 const repair_targets = tower.room.find(FIND_STRUCTURES, {
                     filter: object => object.hits < object.hitsMax 
-                                    && object.structureType != STRUCTURE_WALL
-                                    && object.structureType != STRUCTURE_RAMPART
+                                    && (object.structureType != STRUCTURE_WALL || object.room.name == 'W0S00')
+                                    && (object.structureType != STRUCTURE_RAMPART || object.room.name == 'W0S00')
                                     && object.hitsMax - object.hits >= 1000
                 });
                 repair_targets.sort((a,b) => a.hits - b.hits);

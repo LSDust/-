@@ -2,7 +2,7 @@ module.exports = {
 
     run: function(creep) {
         if(creep.memory.workshop != creep.room.name){
-            creep.moveTo(new RoomPosition(25, 25, creep.memory.workshop),{reusePath: 50});
+            creep.moveTo(new RoomPosition(25, 25, creep.memory.workshop),{stroke: '#ffffff'});
         }else{
             var mineral = creep.room.mineral;
             var sources = creep.room.sources;
@@ -10,6 +10,7 @@ module.exports = {
             if(creep.harvest(targets[creep.memory.group]) == ERR_NOT_IN_RANGE) {
                 
             }
+            // console.log(creep.body[0].type == 'work');
             {
                 if(creep.memory.workshop == 'W1S22' && creep.memory.group == 1){
                     creep.moveTo(new RoomPosition(34, 21, 'W1S22'));
@@ -25,8 +26,10 @@ module.exports = {
                     creep.moveTo(new RoomPosition(36, 8, 'W3S23'));
                 }else if(creep.memory.workshop == 'W3S23' && creep.memory.group == 2){
                     creep.moveTo(new RoomPosition(39, 17, 'W3S23'));
+                }else if(creep.memory.workshop == 'W1S25' && creep.memory.group == 1){
+                    creep.moveTo(new RoomPosition(13, 10, 'W1S25'));
                 }else{
-                    creep.moveTo(targets[creep.memory.group],{reusePath: 50});
+                    creep.moveTo(targets[creep.memory.group],{stroke: '#ffffff'});
                 }
             }
         }
