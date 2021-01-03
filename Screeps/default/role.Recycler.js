@@ -16,8 +16,8 @@ module.exports = {
                     creep.moveTo(storage,{visualizePathStyle: {stroke: '#ffffff'}});
                 }
             }else{
-                if(Game.spawns['Spawn_W2S21_1'].recycleCreep(creep) == -9){
-                    creep.moveTo(Game.spawns['Spawn_W2S21_1']);
+                if(Game.spawns['Spawn_E3S19'].recycleCreep(creep) == -9){
+                    creep.moveTo(Game.spawns['Spawn_E3S19']);
                 };
             }
         }else{

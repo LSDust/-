@@ -1,3 +1,4 @@
+// require('lib.SuperMove');
 var roleBuilder = class Builder{
 
     constructor(){
@@ -14,17 +15,23 @@ var roleBuilder = class Builder{
             }
             else
             {
-                if(this.fillTower(creep) == 0){
-                    if(this.fillEx(creep) == 0){
+                if(this.fillEx(creep) == 0){
+                    if(this.fillTower(creep) == 0){
                         if(this.build(creep) == 0){
-
-                            if(this.repair(creep) == 0){
-                                if(creep.upgradeController(creep.room.controller) == ERR_NOT_IN_RANGE) {
-                                    creep.moveTo(creep.room.controller, {visualizePathStyle: {stroke: '#ffffff'}});
-                                }else{
-                                    creep.moveTo(creep.room.controller, {visualizePathStyle: {stroke: '#ffffff'},range:1});
+                            // if(this.reuse(creep) == 0){
+                                if(this.repair(creep) == 0){
+                                    if(creep.upgradeController(creep.room.controller) == ERR_NOT_IN_RANGE) {
+                                        creep.moveTo(creep.room.controller, {visualizePathStyle: {stroke: '#ffffff'}});
+                                    }else{
+                                        // creep.moveTo(creep.room.controller, {visualizePathStyle: {stroke: '#ffffff'},range:1});
+                                        // if(creep.room.name == "W2S21"){
+                                        //     if(creep.signController(creep.room.controller, "四方□□谓之宇，古往今来谓之宙") == ERR_NOT_IN_RANGE) {
+                                        //         creep.moveTo(creep.room.controller);
+                                        //     }
+                                        // }
+                                    }
                                 }
-                            }
+                            // }
                         }
                     }
                 }
@@ -45,6 +52,9 @@ var roleBuilder = class Builder{
                     if(true || spawns.length == 0 || spawns[0].renewCreep(creep) == ERR_FULL || spawns[0].renewCreep(creep) == ERR_NOT_IN_RANGE && true)
                     {
                         var storage = creep.room.storage;
+                        if(creep.room.name == 'E3S190'){
+                            storage = creep.room.tower[0];
+                        }
                         if(creep.withdraw(storage, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
                             creep.moveTo(storage,{visualizePathStyle: {stroke: '#ffffff'}});
                         }
@@ -75,6 +85,7 @@ var roleBuilder = class Builder{
     statusChang(creep){
         if(creep.memory.building && creep.store[RESOURCE_ENERGY] == 0) {
             creep.memory.building = false;
+            // creep.memory.dontPullMe = false;
             creep.say('🔄 back');
             //援建
             // if(creep.room.name == 'W1S25' && creep.memory.birthroom == 'W1S22'){
@@ -83,12 +94,13 @@ var roleBuilder = class Builder{
 	    }
 	    if(!creep.memory.building && creep.store.getFreeCapacity() == 0) {
 	        creep.memory.building = true;
+            // creep.memory.dontPullMe = false;
             creep.say('🚧 build');
 	    }
     }
 
     fillTower(creep){
-        let fill_tower = creep.pos.findClosestByRange(creep.room.towers, {
+        let fill_tower = creep.pos.findClosestByRange(creep.room.tower, {
             filter: function(tower) {
                 return tower.store.getFreeCapacity(RESOURCE_ENERGY) >= 400;
             }
@@ -105,7 +117,7 @@ var roleBuilder = class Builder{
 
     fillEx(creep){
         var target = creep.pos.findClosestByRange(creep.room.fill_targets);
-        if(creep.room.fill_targets.length > 0) {
+        if(creep.room.fill_targets.length > 0 && creep.room.name != 'E3S19') {
             if(creep.transfer(target, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
                 creep.moveTo(target, {visualizePathStyle: {stroke: '#ffffff'}});
             }
@@ -119,9 +131,9 @@ var roleBuilder = class Builder{
         var targets = creep.room.find(FIND_CONSTRUCTION_SITES);
         if(targets.length > 0) {
             if(creep.build(targets[0]) == ERR_NOT_IN_RANGE) {
-                creep.moveTo(targets[0], {visualizePathStyle: {stroke: '#ffffff'},range: 1});
+                creep.moveTo(targets[0], {visualizePathStyle: {stroke: '#ffffff'},range: 3});
             }else{
-                creep.moveTo(targets[0], {visualizePathStyle: {stroke: '#ffffff'},range: 1});
+                // creep.moveTo(targets[0], {visualizePathStyle: {stroke: '#ffffff'},range: 2});
             }
             return 1;
         }else{
@@ -153,6 +165,30 @@ var roleBuilder = class Builder{
         }else{
             return 0;
         }
+    }
+
+    reuse(creep){
+
+        // let target = creep.pos.findClosestByRange(FIND_DROPPED_RESOURCES);
+        // if(target) {
+        //     if(creep.pickup(target) == ERR_NOT_IN_RANGE) {
+        //         // creep.moveTo(target);
+        //     }
+        // }
+
+        let tombstones = creep.room.find(FIND_TOMBSTONES, {
+            filter: object => object.store['energe'] != 0 
+        });
+        // console.log(tombstones);
+        if(tombstones.length > 0 && creep.store.getFreeCapacity > 100){
+            if(creep.withdraw(tombstones[0], RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
+                creep.moveTo(tombstones[0],{visualizePathStyle: {stroke: '#ffffff'}});
+            }
+            return 1;
+        }else{
+            return 0;
+        }
+        
     }
 };
 

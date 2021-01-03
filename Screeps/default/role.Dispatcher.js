@@ -26,15 +26,18 @@ module.exports = {
                         creep.withdraw(storage, RESOURCE_ENERGY);
                         creep.transfer(terminal, RESOURCE_ENERGY);
                     }
-
+                    // Metal_sendflow(creep,terminal,factory,storage);
                     // Z_storageflow(creep,terminal,factory,storage);
-                    K_storageflow(creep,terminal,factory,storage);
+                    // K_storageflow(creep,terminal,factory,storage);
+                    // L_storageflow(creep,terminal,factory,storage);
+                    // U_storageflow(creep,terminal,factory,storage);
                     // Kbar_Unzipflow(creep,terminal,factory,storage);
                     // Lbar_Unzipflow(creep,terminal,factory,storage);
                     // Biomass_sendflow(creep,terminal,factory,storage);
                     // Obar_produceflow(creep,terminal,factory,storage);
-                    flowOps(creep,terminal,factory,storage);
+                    // flowOps(creep,terminal,factory,storage);
                     flowPower(creep,terminal,factory,storage);
+                    creep.withdraw(creep.room.central_link[0], RESOURCE_ENERGY);
                 }
                 if(creep.room.name == 'W2S22')
                 {
@@ -59,9 +62,62 @@ module.exports = {
                     // }
                     // Cell_sendflow(creep,terminal,factory,storage);
                     // Lbar_produceflow(creep,terminal,factory,storage);
+                    flowPower(creep,terminal,factory,storage);
+                    creep.withdraw(creep.room.central_link[0], RESOURCE_ENERGY);
                 }
+                if(creep.room.name == 'W47S16')
+                {
+                    if(true){
+                        conventional(creep,terminal,factory,storage);
+                    }else{
+                        creep.withdraw(storage, RESOURCE_ENERGY);
+                        creep.transfer(terminal, RESOURCE_ENERGY);
+                    }
+                    // Metal_sendflow(creep,terminal,factory,storage);
+                    // Z_storageflow(creep,terminal,factory,storage);
+                    // K_storageflow(creep,terminal,factory,storage);
+                    // L_storageflow(creep,terminal,factory,storage);
+                    // U_storageflow(creep,terminal,factory,storage);
+                    // Kbar_Unzipflow(creep,terminal,factory,storage);
+                    // Lbar_Unzipflow(creep,terminal,factory,storage);
+                    // Biomass_sendflow(creep,terminal,factory,storage);
+                    // Obar_produceflow(creep,terminal,factory,storage);
+                    // flowOps(creep,terminal,factory,storage);
+                    // flowPower(creep,terminal,factory,storage);
+                    creep.withdraw(creep.room.central_link[0], RESOURCE_ENERGY);
+                }
+                if(creep.room.name == 'E1S15')
+                {
+                    if(true){
+                        conventional(creep,terminal,factory,storage);
+                    }else{
+                        creep.withdraw(storage, RESOURCE_ENERGY);
+                        creep.transfer(terminal, RESOURCE_ENERGY);
+                    }
+                    creep.withdraw(creep.room.central_link[0], RESOURCE_ENERGY);
 
-                creep.withdraw(creep.room.central_link[0], RESOURCE_ENERGY);
+                    // Z_storageflow(creep,terminal,factory,storage);
+                    // K_storageflow(creep,terminal,factory,storage);
+                    // L_storageflow(creep,terminal,factory,storage);
+                    // U_storageflow(creep,terminal,factory,storage);
+                    // Kbar_Unzipflow(creep,terminal,factory,storage);
+                    // Lbar_Unzipflow(creep,terminal,factory,storage);
+                    // Biomass_sendflow(creep,terminal,factory,storage);
+                    // Obar_produceflow(creep,terminal,factory,storage);
+                    // flowOps(creep,terminal,factory,storage);
+                    // flowPower(creep,terminal,factory,storage);
+                }
+                if(creep.room.name == 'W2S21')
+                {
+                    if(true){
+                        conventional(creep,terminal,factory,storage);
+                    }else{
+                        creep.withdraw(storage, RESOURCE_ENERGY);
+                        creep.transfer(terminal, RESOURCE_ENERGY);
+                    }
+                    creep.withdraw(creep.room.central_link[0], RESOURCE_ENERGY);
+                    Metal_sendflow(creep,terminal,factory,storage);
+                }
             }
             // if(creep.store.getUsedCapacity() == 0){
             //     //加工
@@ -124,21 +180,21 @@ module.exports = {
 
 
         }catch(err){
-            console.log('Dispatcher:' + creep + '方法执行失败'+err);
+            console.log('Dispatcher:' + creep + '方法执行失败'+err.message);
         }
         
     }
 };
 
 function conventional(creep,terminal,factory,storage){
-    if(terminal.store[RESOURCE_ENERGY] > 50000){
+    if(terminal.store[RESOURCE_ENERGY] > 70000){
         creep.withdraw(terminal, RESOURCE_ENERGY);
     }
 
     //正常调度、待完善
     if(factory.store[RESOURCE_ENERGY] <= 5000){
         creep.transfer(factory, RESOURCE_ENERGY);
-    }else if(terminal.store[RESOURCE_ENERGY] <= 20000){
+    }else if(terminal.store[RESOURCE_ENERGY] <= 50000){
         creep.transfer(terminal, RESOURCE_ENERGY);
     }else{
         creep.transfer(storage, RESOURCE_ENERGY);
@@ -234,4 +290,21 @@ function K_storageflow(creep,terminal,factory,storage){
     creep.withdraw(factory, 'K');
     creep.withdraw(terminal, 'K');
     creep.transfer(storage, 'K');
+}
+
+function L_storageflow(creep,terminal,factory,storage){
+    creep.withdraw(factory, 'L');
+    creep.withdraw(terminal, 'L');
+    creep.transfer(storage, 'L');
+}
+
+function U_storageflow(creep,terminal,factory,storage){
+    creep.withdraw(factory, 'U');
+    creep.withdraw(terminal, 'U');
+    creep.transfer(storage, 'U');
+}
+
+function Metal_sendflow(creep,terminal,factory,storage){
+    creep.withdraw(storage, 'metal');
+    creep.transfer(terminal, 'metal');
 }

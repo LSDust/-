@@ -14,7 +14,7 @@ module.exports = {
             creep.say('发放');
         }
         //多个会出现过量拿取情况
-        if(creep.room.power_spawn.store['power'] == 0){
+        if(creep.room.powerSpawn.store['power'] == 0){
             creep.memory.taketype = 'power';
         }else{
             creep.memory.taketype = 'energy';
@@ -58,14 +58,14 @@ module.exports = {
                         creep.moveTo(target, {visualizePathStyle: {stroke: '#ffffff'}});
                     }
                 }
-                if(creep.room.power_spawn.store['energy'] < 5000){
-                    if(creep.transfer(creep.room.power_spawn, 'energy') == ERR_NOT_IN_RANGE) {
-                        creep.moveTo(creep.room.power_spawn, {visualizePathStyle: {stroke: '#ffffff'}});
+                if(creep.room.powerSpawn.store['energy'] < 5000){
+                    if(creep.transfer(creep.room.powerSpawn, 'energy') == ERR_NOT_IN_RANGE) {
+                        creep.moveTo(creep.room.powerSpawn, {visualizePathStyle: {stroke: '#ffffff'}});
                     }
                 }
-                if(creep.room.power_spawn.store['power'] < 100){
-                    if(creep.transfer(creep.room.power_spawn, 'power') == ERR_NOT_IN_RANGE) {
-                        creep.moveTo(creep.room.power_spawn, {visualizePathStyle: {stroke: '#ffffff'}});
+                if(creep.room.powerSpawn.store['power'] < 100){
+                    if(creep.transfer(creep.room.powerSpawn, 'power') == ERR_NOT_IN_RANGE) {
+                        creep.moveTo(creep.room.powerSpawn, {visualizePathStyle: {stroke: '#ffffff'}});
                     } 
                 }
                 if(creep.memory.workshop != creep.memory.birthroom)

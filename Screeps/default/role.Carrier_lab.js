@@ -17,6 +17,10 @@ module.exports = class Carrier_lab{
         var result_lab = creep.room.result_lab;
         let labs = source_lab.concat(result_lab);
 
+        if(labs[creep.memory.group].status == 1){
+            creep.memory.group = (creep.memory.group + 1) % 8;
+        }
+
         if(labs[creep.memory.group].status == 0 && creep.memory.taking != 'll' && creep.store.getUsedCapacity() == 0) {
             creep.memory.taking = 'll';
             creep.say('领料');
@@ -51,6 +55,8 @@ module.exports = class Carrier_lab{
             var storage = creep.room.storage;
             if(creep.withdraw(storage, lab.need_source) == ERR_NOT_IN_RANGE) {
                 creep.moveTo(storage,{visualizePathStyle: {stroke: '#ffffff'}});
+            }else if(creep.withdraw(storage, lab.need_source) == -6){
+                creep.memory.group = (creep.memory.group + 1) % 2;
             }
         }
         if(creep.memory.taking == 'tl'){
