@@ -2,7 +2,7 @@
 module.exports = {
     run: function(creep){
         if(creep.memory.workshop != creep.room.name){
-            creep.moveTo(new RoomPosition(25, 25, creep.memory.workshop));
+            creep.travelTo(new RoomPosition(25, 25, creep.memory.workshop));
         }else{
             if(creep.room.controller) {
                 if(creep.reserveController(creep.room.controller) == ERR_NOT_IN_RANGE) {

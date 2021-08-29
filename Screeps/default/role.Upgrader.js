@@ -20,7 +20,7 @@ var roleUpgrader = {
                 creep.moveTo(new RoomPosition(25, 25, creep.memory.workshop));
             }else{
                 if(creep.upgradeController(creep.room.controller) == ERR_NOT_IN_RANGE) {
-                    creep.moveTo(creep.room.controller, {visualizePathStyle: {stroke: '#ffffff'},range: 3});
+                    creep.moveTo(creep.room.controller, {visualizePathStyle: {stroke: '#ffffff'},range: 3,ignoreCreeps:false});
                 }else{
                     // creep.moveTo(creep.room.controller, {visualizePathStyle: {stroke: '#ffffff'},range: 2});
                 }
@@ -33,27 +33,31 @@ var roleUpgrader = {
             //     creep.moveTo(tower,{visualizePathStyle: {stroke: '#ffffff'}});
             // }
             // console.log(creep.name+' : '+creep.ticksToLive);
-            let spawns = creep.room.find(FIND_STRUCTURES, {
+            if(creep.memory.workshop != creep.room.name){
+                creep.travelTo(new RoomPosition(25, 25, creep.memory.workshop));
+            }else{
+                let spawns = creep.room.find(FIND_STRUCTURES, {
                     filter: (structure) => {
                         return (structure.structureType == STRUCTURE_SPAWN && structure.spawning == null);
                     }
-            });
-            // console.log(spawns);
-            if(creep.ticksToLive < 600 && spawns.length > 0){
-                // creep.moveTo(spawns[0],{visualizePathStyle: {stroke: '#ffffff'}});
-                if(creep.room.name == 'E3S19'){
-                    creep.moveTo(30,31);
-                }
-                spawns[0].renewCreep(creep);
-            }else{
-                if(spawns.length == 0 || spawns[0].renewCreep(creep) == ERR_FULL || spawns[0].renewCreep(creep) == ERR_NOT_IN_RANGE)
-                {
-                    var storage = creep.room.storage;
-                    if(creep.room.name == 'E3S190'){
-                        storage = creep.room.tower[0];
+                });
+                // console.log(spawns);
+                if(creep.ticksToLive < 600 && spawns.length > 0 && creep.room.name == 'E3S19'){
+                    // creep.moveTo(spawns[0],{visualizePathStyle: {stroke: '#ffffff'}});
+                    if(creep.room.name == 'E3S19'){
+                        creep.moveTo(30,31);
                     }
-                    if(creep.withdraw(storage, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
-                        creep.moveTo(storage,{visualizePathStyle: {stroke: '#ffffff'}});
+                    spawns[0].renewCreep(creep);
+                }else{
+                    if(creep.room.name == 'E3S19' && (spawns.length == 0 || spawns[0].renewCreep(creep) == ERR_FULL || spawns[0].renewCreep(creep) == ERR_NOT_IN_RANGE))
+                    {
+                        var storage = creep.room.storage;
+                        if(creep.room.name == 'E3S19'){
+                            storage = creep.room.terminal;
+                        }
+                        if(creep.withdraw(storage, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
+                            creep.moveTo(storage,{visualizePathStyle: {stroke: '#ffffff'}});
+                        }
                     }
                 }
             }

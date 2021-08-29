@@ -5,12 +5,12 @@ module.exports = class PowerCreep{
 
     PCWork(powercreep){
         if(powercreep.room.controller && powercreep.room.controller.my){
-            if(powercreep.ticksToLive < 1000){
+            if(powercreep.ticksToLive < 500){
                 this.renewPC(powercreep);
             }else if(this.regenSource(powercreep) == 1){}
             else if(this.fillEnergy(powercreep) == 1){}
             else if(this.stockops(powercreep) == 1){}
-            else {powercreep.moveTo(35,29);}
+            else {powercreep.moveTo(32,31);}
             // this.fillLab(powercreep);
             Game.powerCreeps['PC1'].usePower(PWR_GENERATE_OPS);
             
@@ -61,7 +61,7 @@ module.exports = class PowerCreep{
     }
 
     regenSource(powercreep){
-        if(powercreep.powers[PWR_REGEN_SOURCE].cooldown < 40){
+        if(powercreep.powers[PWR_REGEN_SOURCE].cooldown < 45){
             if(powercreep.room.source[0].effects.length == 0 || powercreep.room.source[0].effects[0].ticksRemaining <= 40){
                 if(powercreep.room.source[0].effects.length == 0 || powercreep.room.source[0].effects[0].ticksRemaining <= 15){
                     if(powercreep.pos.inRangeTo(powercreep.room.source[0], 3)) {
@@ -111,6 +111,13 @@ module.exports = class PowerCreep{
                     return tower.store.getFreeCapacity(RESOURCE_ENERGY) >= 200;
                 }
             });
+
+            //持续查找
+            const targets = creep.pos.findInRange(creep.room.fill_targets, 1);
+            if(targets.length > 0) {
+                creep.transfer(targets[0], RESOURCE_ENERGY);
+            }
+            
             if(fill_tower){
                 //填充塔
                 if(creep.transfer(fill_tower, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE) {
@@ -123,12 +130,6 @@ module.exports = class PowerCreep{
                     creep.moveTo(creep.room.fill_targets[1], {visualizePathStyle: {stroke: '#000000'}});
                     return 1;
                 }
-            }
-
-            //持续查找
-            const targets = creep.pos.findInRange(creep.room.fill_targets, 1);
-            if(targets.length > 0) {
-                creep.transfer(targets[0], RESOURCE_ENERGY);
             }
         }else if(creep.memory.taking == 1){
             let take_target = "";

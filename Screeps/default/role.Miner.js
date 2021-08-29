@@ -3,7 +3,7 @@ module.exports = {
 
     run: function(creep) {
         if(creep.memory.workshop != creep.room.name){
-            creep.moveTo(new RoomPosition(25, 25, creep.memory.workshop),{stroke: '#ffffff'});
+            creep.travelTo(new RoomPosition(25, 25, creep.memory.workshop),{stroke: '#ffffff'});
         }else{
             // var mineral = creep.room.mineral;
             // var sources = creep.room.sources;
@@ -11,7 +11,7 @@ module.exports = {
             let ret_val = creep.harvest(targets[creep.memory.group]);
             if(ret_val == ERR_NOT_IN_RANGE) {
                 creep.moveTo(targets[creep.memory.group]);
-            }else if(ret_val == 0){
+            }else{
                 if(Game.time % 10 == 0){
                     let container = creep.pos.findInRange(creep.room.container, 2);
                     if(container.length > 0 && !creep.pos.isEqualTo(container[0])) {
@@ -53,7 +53,7 @@ module.exports = {
                 }
             }
 
-            // let build_targets = creep.pos.findInRange(creep.room.repair_targets, 3);
+            // let build_targets = creep.pos.findInRange(FIND_CONSTRUCTION_SITES, 3);
             // if(build_targets.length > 0) {
             //     creep.build(build_targets[0]);
             // }

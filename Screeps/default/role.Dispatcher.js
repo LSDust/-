@@ -36,6 +36,7 @@ module.exports = {
                     // Biomass_sendflow(creep,terminal,factory,storage);
                     // Obar_produceflow(creep,terminal,factory,storage);
                     // flowOps(creep,terminal,factory,storage);
+                    sendOps(creep,terminal,factory,storage);
                     flowPower(creep,terminal,factory,storage);
                     creep.withdraw(creep.room.central_link[0], RESOURCE_ENERGY);
                 }
@@ -117,6 +118,22 @@ module.exports = {
                     }
                     creep.withdraw(creep.room.central_link[0], RESOURCE_ENERGY);
                     Metal_sendflow(creep,terminal,factory,storage);
+                    // Ubar_produceflow(creep,terminal,factory,storage);
+                    // Ubar_sendflow(creep,terminal,factory,storage);
+                    if(terminal.store['U'] < 20000){
+                        U_sendflow(creep,terminal,factory,storage);
+                    }
+                }
+                if(creep.room.name == 'E3S19')
+                {
+                    if(true){
+                        conventional(creep,terminal,factory,storage);
+                    }else{
+                        creep.withdraw(storage, RESOURCE_ENERGY);
+                        creep.transfer(terminal, RESOURCE_ENERGY);
+                    }
+                    // X_sendflow(creep,terminal,factory,storage);
+                    creep.withdraw(creep.room.central_link[0], RESOURCE_ENERGY);
                 }
             }
             // if(creep.store.getUsedCapacity() == 0){
@@ -187,7 +204,7 @@ module.exports = {
 };
 
 function conventional(creep,terminal,factory,storage){
-    if(terminal.store[RESOURCE_ENERGY] > 70000){
+    if(terminal.store[RESOURCE_ENERGY] > 60000){
         creep.withdraw(terminal, RESOURCE_ENERGY);
     }
 
@@ -203,7 +220,7 @@ function conventional(creep,terminal,factory,storage){
 
 //加工Lbar物流
 function Lbar_produceflow(creep,terminal,factory,storage){
-    if(factory.store['L'] < 50000){
+    if(factory.store['L'] < 20000){
         creep.withdraw(storage, 'L');
         creep.transfer(factory, 'L');
     }
@@ -211,9 +228,19 @@ function Lbar_produceflow(creep,terminal,factory,storage){
     creep.transfer(terminal, RESOURCE_LEMERGIUM_BAR);
 }
 
+//加工Ubar物流
+function Ubar_produceflow(creep,terminal,factory,storage){
+    if(factory.store['U'] < 20000){
+        creep.withdraw(storage, 'U');
+        creep.transfer(factory, 'U');
+    }
+    creep.withdraw(factory, RESOURCE_UTRIUM_BAR);
+    creep.transfer(storage, RESOURCE_UTRIUM_BAR);
+}
+
 //加工Obar物流
 function Obar_produceflow(creep,terminal,factory,storage){
-    if(factory.store['O'] < 50000){
+    if(factory.store['O'] < 20000){
         creep.withdraw(storage, 'O');
         creep.transfer(factory, 'O');
     }
@@ -224,6 +251,11 @@ function Obar_produceflow(creep,terminal,factory,storage){
 function flowOps(creep,terminal,factory,storage){
     creep.withdraw(terminal, 'ops');
     creep.transfer(storage, 'ops');
+}
+
+function sendOps(creep,terminal,factory,storage){
+    creep.withdraw(storage, 'ops');
+    creep.transfer(terminal, 'ops');
 }
 
 function flowPower(creep,terminal,factory,storage){
@@ -304,7 +336,23 @@ function U_storageflow(creep,terminal,factory,storage){
     creep.transfer(storage, 'U');
 }
 
+function X_sendflow(creep,terminal,factory,storage){
+    creep.withdraw(storage, 'X');
+    creep.transfer(terminal, 'X');
+}
+
 function Metal_sendflow(creep,terminal,factory,storage){
     creep.withdraw(storage, 'metal');
     creep.transfer(terminal, 'metal');
+}
+
+
+function U_sendflow(creep,terminal,factory,storage){
+    creep.withdraw(storage, 'U');
+    creep.transfer(terminal, 'U');
+}
+
+function Ubar_sendflow(creep,terminal,factory,storage){
+    creep.withdraw(storage, RESOURCE_UTRIUM_BAR);
+    creep.transfer(terminal, RESOURCE_UTRIUM_BAR);
 }

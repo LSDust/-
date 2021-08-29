@@ -95,6 +95,8 @@ module.exports = {
                         creep.withdraw(targets[0], 'KO');
                         creep.withdraw(targets[0], 'ZH');
                         creep.withdraw(targets[0], 'UH');
+                        creep.withdraw(targets[0], 'X');
+                        creep.withdraw(targets[0], 'U');
                     }
                 }
             }else{
@@ -157,9 +159,11 @@ module.exports = {
                 // creep.moveByPath(creep.memory.path);
                 creep.moveByPath(ret.path);
 
-                let repair_targets = creep.pos.findInRange(creep.room.repair_targets, 3);
-                if(repair_targets.length > 0) {
-                    creep.repair(repair_targets[0]);
+                if(creep.memory.workshop == 'W3S22'){
+                    let repair_targets = creep.pos.findInRange(creep.room.repair_targets, 3);
+                    if(repair_targets.length > 0) {
+                        creep.repair(repair_targets[0]);
+                    }
                 }
             }else{
                 var receive_links = creep.pos.findInRange(creep.room.receive_link, 4);
@@ -216,6 +220,8 @@ module.exports = {
                             creep.transfer(storage, 'UH');
                             creep.transfer(storage, RESOURCE_BIOMASS);
                             creep.transfer(storage, 'power');
+                            creep.transfer(storage, 'X');
+                            creep.transfer(storage, 'U');
                         }
                     }
                 }

@@ -15,14 +15,15 @@ module.exports = class Logistics{
             // room.sources = room.find(FIND_SOURCES);
             // let minerals = room.find(FIND_MINERALS);
             let A = new Array();
-            A[0] = room.minerals;
+            A[0] = room.mineral;
             room.pits = A.concat(room.source);
             
             room.repair_targets = room.find(FIND_STRUCTURES, {
                 filter: object => object.hits < object.hitsMax 
-                                && (object.structureType != STRUCTURE_WALL || (!!room.storage && room.storage.store.getFreeCapacity() < 200000))
-                                && (object.structureType != STRUCTURE_RAMPART || (!!room.storage && room.storage.store.getFreeCapacity() < 200000))
+                                && (object.structureType != STRUCTURE_WALL || (!!room.storage && room.storage.store.getFreeCapacity() < 200000 && room.name != 'W2S220'))
+                                && (object.structureType != STRUCTURE_RAMPART || (!!room.storage && room.storage.store.getFreeCapacity() < 200000 && room.name != 'W2S220'))
                                 && object.hitsMax - object.hits >= 1000
+                                && object.id != '61153275dd4f3539a02c66c5'
             });
             // room.repair_walls = room.find(FIND_STRUCTURES, {
             //     filter: object => object.hits < object.hitsMax 
@@ -60,7 +61,7 @@ module.exports = class Logistics{
             room.fill_targets = room.find(FIND_STRUCTURES, {
                 filter: (structure) => {
                     return (structure.structureType == STRUCTURE_EXTENSION      
-                            // || structure.structureType == STRUCTURE_POWER_SPAWN
+                            // || structure.structureType == STRUCTURE_NUKER
                             || structure.structureType == STRUCTURE_SPAWN) && 
                             structure.store.getFreeCapacity(RESOURCE_ENERGY) > 0;
                 }
@@ -75,7 +76,7 @@ module.exports = class Logistics{
             //     }
             // }
             //link部分
-            if(room.name == 'W1S22' || room.name == 'W2S22' || room.name == 'W47S16' || room.name == 'W2S21' || room.name == 'E1S15'){
+            if(room.name == 'W1S22' || room.name == 'W2S22' || room.name == 'W47S16' || room.name == 'W2S21' || room.name == 'E1S15' || room.name == 'E3S19'){
                 //从room的memory识别link，并给与room对象的成员变量
                 //接收link(多个)
                 if(room.memory.receive_link != null){
@@ -114,6 +115,9 @@ module.exports = class Logistics{
                 }
             }
             //工厂部分
+            if(room.name == 'W2S21'){
+                // room.factory.produce(RESOURCE_UTRIUM_BAR);
+            }
             // if(room.name == 'W1S22' || room.name == 'W2S22' || room.name == 'W47S16' || room.name == 'W2S21'){
             //     // room.factory = room.find(FIND_STRUCTURES, {filter: (structure) => {return structure.structureType == STRUCTURE_FACTORY;}})[0];
             //     room.factory.produce(RESOURCE_CELL);
@@ -129,14 +133,99 @@ module.exports = class Logistics{
             //     }
             // }
             //终端部分
-            if(room.name == 'W1S220' || room.name == 'W2S220' || room.name == 'W2S220')
+            if(room.name == 'W1S220' || room.name == 'W1S220' || room.name == 'W2S210')
             {
-                if(Game.rooms['W2S22'].terminal.store['energy'] < 80000){
-                    room.terminal.send('energy', 10000, 'W2S22');
+                if(Game.rooms['W1S22'].terminal.store['energy'] > 50000){
+                    room.terminal.send('energy', 10000, 'E2S17');
                 } 
             }
+            if(Game.time % 19 == 0 && room.name == 'W1S22' && room.storage.store['energy'] > 650000){
+                let ORDER_E1S19 = Game.market.getAllOrders({type: ORDER_BUY, resourceType: 'energy',roomName : 'E1S19'});
+                if(ORDER_E1S19.length > 0 && ORDER_E1S19[0].price >= 0.5){
+                    if(ORDER_E1S19[0].amount < 20000){
+                        Game.market.deal(ORDER_E1S19[0].id, ORDER_E1S19[0].amount, "W1S22");
+                    }else{
+                        Game.market.deal(ORDER_E1S19[0].id, 20000, "W1S22");
+                    }
+                }
+                // let GO_selling = Game.market.getAllOrders({type: ORDER_SELL, resourceType: 'go'}).sort((a,b)=>{a.price-b.price});
+                // console.log(GO_selling);
+                // if(GO_selling.length > 0 && GO_selling[0].price < 1.5){
+                //     Game.market.deal(GO_selling[0].id, GO_selling[0].amount, "W1S22");
+                // }
+            }else if(Game.time % 23 == 0 && room.name == 'W2S22' && room.storage.store['energy'] > 650000){
+                let ORDER_E1S12 = Game.market.getAllOrders({type: ORDER_BUY, resourceType: 'energy',roomName : 'E1S12'});
+                if(ORDER_E1S12.length > 0 && ORDER_E1S12[0].price >= 0.5){
+                    if(ORDER_E1S12[0].amount < 20000){
+                        Game.market.deal(ORDER_E1S12[0].id, ORDER_E1S12[0].amount, "W2S22");
+                    }else{
+                        Game.market.deal(ORDER_E1S12[0].id, 20000, "W2S22");
+                    }
+                }
+                if(room.storage.store['energy'] > 900000 && room.terminal.store['energy']>48000){
+                    Game.rooms['W2S22'].terminal.send('energy', 40000, 'W6S28');
+                    console.log("send");
+                }
+                let W2S22_ENERGY_SELL = Game.market.getAllOrders({type: ORDER_SELL, resourceType: 'energy',roomName : 'W2S22'});
+                console.log(W2S22_ENERGY_SELL.length);
+                // if(W2S22_ENERGY_SELL.length < 2 && room.storage.store['energy'] > 800000){
+                //     Game.market.createOrder({
+                //         type: ORDER_SELL,
+                //         resourceType: 'energy',
+                //         price: 0.62,
+                //         totalAmount: 20000,
+                //         roomName: "W2S22"   
+                //     });
+                //     console.log("createOrder");
+                // }
+            }else if(Game.time % 47 == 0 && room.name == 'W2S21'){
+                let U_SELL = Game.market.getAllOrders({type: ORDER_SELL, resourceType: 'U',roomName : 'W2S21'});
+                if(U_SELL.length < 1 && room.storage.store['U'] > 0){
+                    Game.market.createOrder({
+                        type: ORDER_SELL,
+                        resourceType: 'U',
+                        price: 1,
+                        totalAmount: 20000,
+                        roomName: "W2S21"   
+                    });
+                }
+            }else if(Game.time % 31 == 0 && room.name == 'W47S16'){
+                let en_sell = Game.market.getAllOrders({type: ORDER_BUY, resourceType: 'energy',roomName : 'W49S17'});
+                if(en_sell.length > 0 && en_sell[0].price >= 0.5){
+                    if(en_sell[0].amount < 20000){
+                        Game.market.deal(en_sell[0].id, en_sell[0].amount, "W47S16");
+                    }else{
+                        Game.market.deal(en_sell[0].id, 20000, "W47S16");
+                    }
+                }else{
+                    en_sell = Game.market.getAllOrders({type: ORDER_BUY, resourceType: 'energy',roomName : 'W41S11'});
+                    if(en_sell.length > 0 && en_sell[0].price >= 0.5){
+                        if(en_sell[0].amount < 20000){
+                            Game.market.deal(en_sell[0].id, en_sell[0].amount, "W47S16");
+                        }else{
+                            Game.market.deal(en_sell[0].id, 20000, "W47S16");
+                        }
+                    }
+                }
+            }
+            // if(room.name == 'W1S22' && room.terminal.cooldown == 0){
+            //     let buy_power =  Game.market.getAllOrders(order => order.resourceType == 'power' && order.type == ORDER_SELL && order.price <= 22);
+            //     if(buy_power.length > 0){
+            //         Game.market.deal(buy_power[0].id, buy_power[0].amount, "W1S22");
+            //     }
+            // }
+            // if(Game.time % 21 == 0 && room.name == 'E1S15' && room.storage.store['energy'] > 600000){
+            //     let ORDER_E1S12 = Game.market.getAllOrders({type: ORDER_BUY, resourceType: 'energy',roomName : 'E1S12'});
+            //     if(ORDER_E1S12.length > 0 && ORDER_E1S12[0].price >= 0.3){
+            //         if(ORDER_E1S12[0].amount < 10000){
+            //             Game.market.deal(ORDER_E1S12[0].id, ORDER_E1S12[0].amount, "E1S15");
+            //         }else{
+            //             Game.market.deal(ORDER_E1S12[0].id, 10000, "E1S15");
+            //         }
+            //     }
+            // }
             //lab部分
-            // if(room.name == 'W0S00'){
+            // if(room.name == 'W1S22'){
             //     let source_lab = new Array();
             //     for(var i = 0;room.memory.source_lab.length > i;i++){
             //         source_lab[i] = Game.getObjectById(room.memory.source_lab[i]);
@@ -145,8 +234,8 @@ module.exports = class Logistics{
 
             //     let result_lab = new Array();
             //     result_lab = room.find(FIND_STRUCTURES, {filter: (structure) => {return structure.structureType == STRUCTURE_LAB && 
-            //                                                                structure.id != room.memory.source_lab[0] && 
-            //                                                                structure.id != room.memory.source_lab[1];}});
+            //                                                               structure.id != room.memory.source_lab[0] && 
+            //                                                               structure.id != room.memory.source_lab[1];}});
             //     room.result_lab = result_lab;
                 
             //     if(room.memory.lab_info.lab_status == 'hc'){
@@ -312,7 +401,7 @@ module.exports = class Logistics{
 
     receiveLinkWork(linkFrom,room){
         let linkTo = room.central_link[0];
-        if(linkFrom.store.getFreeCapacity(RESOURCE_ENERGY) <= 300 && linkTo.store.getUsedCapacity(RESOURCE_ENERGY) == 0){
+        if(linkFrom.store.getFreeCapacity(RESOURCE_ENERGY) <= 200 && linkTo.store.getUsedCapacity(RESOURCE_ENERGY) == 0){
             linkFrom.transferEnergy(linkTo);
         }
     }

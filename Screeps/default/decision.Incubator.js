@@ -17,6 +17,7 @@ module.exports = class Incubator{
         this.Dispatchers_W2S21_count = 0;
         this.Dispatchers_E1S15_count = 0;
         this.Dispatchers_W47S16_count = 0;
+        this.Dispatchers_E3S19_count = 0;
         //采矿
         this.Miners_W1S22_G1_count = 0;
         this.Miners_W1S22_G0_count = 0;
@@ -37,6 +38,8 @@ module.exports = class Incubator{
         // this.Miners_W3S21_G2_count = 0;
         this.Miners_E3S19_G1_count = 0;
         this.Miners_E3S19_G2_count = 0;
+        this.Miners_E3S19_G0_count = 0;
+        this.Miners_W2S21_G0_count = 0;
         //运输   
         this.Carriers_W1S22_count = 0;
         this.Carriers_W1S22_G2_count = 0;
@@ -76,6 +79,7 @@ module.exports = class Incubator{
         this.upgraders_W47S16_count = 0;
         this.Builders_W47S16_count = 0;
         this.upgraders_E3S19_count = 0;
+        this.Builders_E3S19_count = 0;
         //援建
         this.Builders_W1S25_count = 0;
         this.Harvester_W1S25_G0_count = 0;
@@ -124,11 +128,12 @@ module.exports = class Incubator{
                 else if(creep.memory.role == 'Dispatcher' && creep.memory.workshop == 'W2S21'  && (creep.ticksToLive > 50 || creep.spawning)) { this.Dispatchers_W2S21_count += 1; }
                 else if(creep.memory.role == 'Dispatcher' && creep.memory.workshop == 'E1S15'  && (creep.ticksToLive > 50 || creep.spawning)) { this.Dispatchers_E1S15_count += 1; }
                 else if(creep.memory.role == 'Dispatcher' && creep.memory.workshop == 'W47S16' && (creep.ticksToLive > 50 || creep.spawning)) { this.Dispatchers_W47S16_count += 1; }
+                else if(creep.memory.role == 'Dispatcher' && creep.memory.workshop == 'E3S19' && (creep.ticksToLive > 50 || creep.spawning)) { this.Dispatchers_E3S19_count += 1; }
                 //采矿
-                else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'W1S22'  && creep.memory.group == 1  && (creep.ticksToLive > 75 || creep.spawning)) { this.Miners_W1S22_G1_count += 1; }
+                else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'W1S22'  && creep.memory.group == 1  && (creep.ticksToLive > 55 || creep.spawning)) { this.Miners_W1S22_G1_count += 1; }
                 else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'W1S22'  && creep.memory.group == 0  && (creep.ticksToLive > 80 || creep.spawning)) { this.Miners_W1S22_G0_count += 1; }
-                else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'W1S23'  && creep.memory.group == 1  && (creep.ticksToLive > 135 || creep.spawning)) { this.Miners_W1S23_G1_count += 1; }
-                else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'W1S23'  && creep.memory.group == 2  && (creep.ticksToLive > 135 || creep.spawning)) { this.Miners_W1S23_G2_count += 1; }
+                else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'W1S23'  && creep.memory.group == 1  && (creep.ticksToLive > 115 || creep.spawning)) { this.Miners_W1S23_G1_count += 1; }
+                else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'W1S23'  && creep.memory.group == 2  && (creep.ticksToLive > 115 || creep.spawning)) { this.Miners_W1S23_G2_count += 1; }
                 else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'W2S22'  && creep.memory.group == 1  && (creep.ticksToLive > 50 || creep.spawning)) { this.Miners_W2S22_G1_count += 1; }
                 else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'W2S22'  && creep.memory.group == 0  && (creep.ticksToLive > 80 || creep.spawning)) { this.Miners_W2S22_G0_count += 1; }
                 else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'W2S23'  && creep.memory.group == 1  && (creep.ticksToLive > 50 || creep.spawning)) { this.Miners_W2S23_G1_count += 1; }
@@ -136,14 +141,16 @@ module.exports = class Incubator{
                 else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'W3S23'  && creep.memory.group == 2  && (creep.ticksToLive > 80 || creep.spawning)) { this.Miners_W3S23_G2_count += 1; }
                 else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'W3S22'  && creep.memory.group == 1  && (creep.ticksToLive > 95 || creep.spawning)) { this.Miners_W3S22_G1_count += 1; }
                 else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'W2S21'  && creep.memory.group == 1  && (creep.ticksToLive > 30 || creep.spawning)) { this.Miners_W2S21_G1_count += 1; }
-                else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'E1S15'  && creep.memory.group == 1  && (creep.ticksToLive > 50 || creep.spawning)) { this.Miners_E1S15_G1_count += 1; }
-                else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'E1S15'  && creep.memory.group == 2  && (creep.ticksToLive > 50 || creep.spawning)) { this.Miners_E1S15_G2_count += 1; }
+                else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'E1S15'  && creep.memory.group == 1  && (creep.ticksToLive > 54 || creep.spawning)) { this.Miners_E1S15_G1_count += 1; }
+                else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'E1S15'  && creep.memory.group == 2  && (creep.ticksToLive > 75 || creep.spawning)) { this.Miners_E1S15_G2_count += 1; }
                 else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'W47S16' && creep.memory.group == 2  && (creep.ticksToLive > 50 || creep.spawning)) { this.Miners_W47S16_G2_count += 1; }
                 else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'W47S16' && creep.memory.group == 1  && (creep.ticksToLive > 50 || creep.spawning)) { this.Miners_W47S16_G1_count += 1; }
                 // if(creep.memory.role == 'Miner' && creep.memory.workshop == 'W3S21' && creep.memory.group == 1  && (creep.ticksToLive > 90 || creep.spawning)) { this.Miners_W3S21_G1_count += 1; }
                 // if(creep.memory.role == 'Miner' && creep.memory.workshop == 'W3S21' && creep.memory.group == 2  && (creep.ticksToLive > 90 || creep.spawning)) { this.Miners_W3S21_G2_count += 1; }
-                if(creep.memory.role == 'Miner' && creep.memory.workshop == 'E3S19' && creep.memory.group == 1  && (creep.ticksToLive > 60 || creep.spawning)) { this.Miners_E3S19_G1_count += 1; }
-                if(creep.memory.role == 'Miner' && creep.memory.workshop == 'E3S19' && creep.memory.group == 2  && (creep.ticksToLive > 40 || creep.spawning)) { this.Miners_E3S19_G2_count += 1; }
+                else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'E3S19' && creep.memory.group == 1  && (creep.ticksToLive > 60 || creep.spawning)) { this.Miners_E3S19_G1_count += 1; }
+                else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'E3S19' && creep.memory.group == 2  && (creep.ticksToLive > 40 || creep.spawning)) { this.Miners_E3S19_G2_count += 1; }
+                else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'E3S19' && creep.memory.group == 0  && (creep.ticksToLive > 150 || creep.spawning)) { this.Miners_E3S19_G0_count += 1; }
+                else if(creep.memory.role == 'Miner' && creep.memory.workshop == 'W2S21' && creep.memory.group == 0  && (creep.ticksToLive > 150 || creep.spawning)) { this.Miners_W2S21_G0_count += 1; }
                 //搬运工
                 else if(creep.memory.role == 'Carrier'    && creep.memory.workshop == 'W1S22'  && creep.memory.group == 1  && (creep.ticksToLive > 30 || creep.spawning)) { this.Carriers_W1S22_count += 1; }
                 else if(creep.memory.role == 'Carrier'    && creep.memory.workshop == 'W1S22'  && creep.memory.group == 2  && (creep.ticksToLive > 30 || creep.spawning)) { this.Carriers_W1S22_G2_count += 1; }
@@ -152,7 +159,7 @@ module.exports = class Incubator{
                 else if(creep.memory.role == 'Carrier'    && creep.memory.workshop == 'W2S22'  && creep.memory.group == 1  && (creep.ticksToLive > 50 || creep.spawning)) { this.Carriers_W2S22_G1_count += 1; }
                 else if(creep.memory.role == 'Carrier'    && creep.memory.workshop == 'W2S22'  && creep.memory.group == 2  && (creep.ticksToLive > 50 || creep.spawning)) { this.Carriers_W2S22_G2_count += 1; }
                 else if(creep.memory.role == 'Carrier'    && creep.memory.workshop == 'W2S23'  && creep.memory.group == 1  && (creep.ticksToLive > 100 || creep.spawning)) { this.Carriers_W2S23_G1_count += 1; }
-                else if(creep.memory.role == 'Carrier'    && creep.memory.workshop == 'W3S23'  && creep.memory.group == 1  && (creep.ticksToLive > 180 || creep.spawning)) { this.Carriers_W3S23_G1_count += 1; }
+                else if(creep.memory.role == 'Carrier'    && creep.memory.workshop == 'W3S23'  && creep.memory.group == 1  && (creep.ticksToLive > 250 || creep.spawning)) { this.Carriers_W3S23_G1_count += 1; }
                 else if(creep.memory.role == 'Carrier'    && creep.memory.workshop == 'W3S23'  && creep.memory.group == 2  && (creep.ticksToLive > 180 || creep.spawning)) { this.Carriers_W3S23_G2_count += 1; }
                 else if(creep.memory.role == 'Carrier'    && creep.memory.workshop == 'W3S22'  && creep.memory.group == 1  && (creep.ticksToLive > 250 || creep.spawning)) { this.Carriers_W3S22_G1_count += 1; }
                 else if(creep.memory.role == 'Carrier_p'  && creep.memory.workshop == 'W1S22'  && creep.memory.group == 0  && (creep.ticksToLive > 30 || creep.spawning)) { this.Carriers_power_count += 1; }
@@ -168,7 +175,7 @@ module.exports = class Incubator{
                 else if(creep.memory.role == 'Carrier'    && creep.memory.workshop == 'W47S16' && creep.memory.group == 1  && (creep.ticksToLive > 30 || creep.spawning)) { this.Carriers_W47S16_G1_count += 1; }
                 else if(creep.memory.role == 'Carrier'    && creep.memory.workshop == 'W47S16' && creep.memory.group == 2  && (creep.ticksToLive > 30 || creep.spawning)) { this.Carriers_W47S16_G2_count += 1; }
                 else if(creep.memory.role == 'Carrier'    && creep.memory.workshop == 'W3S21'  && creep.memory.group == 1  && (creep.ticksToLive > 30 || creep.spawning)) { this.Carriers_W3S21_G1_count += 1; }
-                else if(creep.memory.role == 'Carrier'    && creep.memory.workshop == 'E3S19'  && creep.memory.group == 1  && (creep.ticksToLive > 600 || creep.spawning)) { this.Carriers_E3S19_G1_count += 1; }
+                else if(creep.memory.role == 'Carrier'    && creep.memory.workshop == 'E3S19'  && creep.memory.group == 1  && (creep.ticksToLive > 50 || creep.spawning)) { this.Carriers_E3S19_G1_count += 1; }
                 //综合
                 else if(creep.memory.role == 'upgrader'   && creep.memory.workshop == 'W2S22')  { this.upgraders_W2S22_count += 1; }
                 else if(creep.memory.role == 'upgrader'   && creep.memory.workshop == 'W1S22')  { this.upgraders_count += 1; }
@@ -178,18 +185,19 @@ module.exports = class Incubator{
                 else if(creep.memory.role == 'Builder'    && creep.memory.workshop == 'W2S23')  { this.Builders_W2S23_count += 1; }
                 else if(creep.memory.role == 'Builder'    && creep.memory.workshop == 'W3S23')  { this.Builders_W3S23_count += 1; }
                 else if(creep.memory.role == 'Builder'    && creep.memory.workshop == 'W3S22')  { this.Builders_W3S22_count += 1; }
-                else if(creep.memory.role == 'Builder'    && creep.memory.workshop == 'E1S15')  { this.Builders_E1S15_count += 1; }
+                else if(creep.memory.role == 'Builder'    && creep.memory.workshop == 'E1S15' && (creep.ticksToLive > 160 || creep.spawning))  { this.Builders_E1S15_count += 1; }
                 else if(creep.memory.role == 'upgrader'   && creep.memory.workshop == 'E1S15')  { this.upgraders_E1S15_count += 1; }
                 else if(creep.memory.role == 'upgrader'   && creep.memory.workshop == 'W47S16') { this.upgraders_W47S16_count += 1; }
-                else if(creep.memory.role == 'Builder'    && creep.memory.workshop == 'W47S16') { this.Builders_W47S16_count += 1; }
+                else if(creep.memory.role == 'Builder'    && creep.memory.workshop == 'W47S16' && (creep.ticksToLive > 160 || creep.spawning)) { this.Builders_W47S16_count += 1; }
                 else if(creep.memory.role == 'upgrader'   && creep.memory.workshop == 'E3S19') { this.upgraders_E3S19_count += 1; }
+                else if(creep.memory.role == 'Builder'    && creep.memory.workshop == 'E3S19') { this.Builders_E3S19_count += 1; }
                 //援建
                 else if(creep.memory.role == 'Builder'    && creep.memory.workshop == 'E1S15') { this.Builders_W1S25_count += 1; }
                 else if(creep.memory.role == 'Harvester'  && creep.memory.workshop == 'E3S19' && creep.memory.group == 2) { this.Harvester_W1S25_G0_count += 1; }
                 else if(creep.memory.role == 'Harvester'  && creep.memory.workshop == 'E3S19' && creep.memory.group == 1) { this.Harvester_W1S25_G1_count += 1; }
                 else if(creep.memory.role == 'Recycler'   && creep.memory.workshop == 'E3S19' ) { this.Recyclers_count += 1; }
                 else if(creep.memory.role == 'Harvester'  && creep.memory.workshop == 'W2S21' && creep.memory.group == 1 && (creep.ticksToLive > 50 || creep.spawning)) { this.Harvester_W2S21_G1_count += 1; }
-                else if(creep.memory.role == 'Recycler'   && creep.memory.workshop == 'W2S21' ) { this.Recyclers_W2S21_count += 1; }
+                else if(creep.memory.role == 'Recycler'   && creep.memory.workshop == 'E2S17' ) { this.Recyclers_W2S21_count += 1; }
                 else if(creep.memory.role == 'Builder'    && creep.memory.workshop == 'W2S21' && (creep.ticksToLive > 10 || creep.spawning)) { this.Builders_W2S21_count += 1; }
                 else if(creep.memory.role == 'Harvester'  && creep.memory.workshop == 'E1S15' && creep.memory.group == 1) { this.Harvester_E1S15_G1_count += 1; }
                 else if(creep.memory.role == 'Harvester'  && creep.memory.workshop == 'E1S15' && creep.memory.group == 2) { this.Harvester_E1S15_G2_count += 1; }
@@ -207,11 +215,11 @@ module.exports = class Incubator{
                 else if(creep.memory.role == 'RangAttacker' && creep.memory.workshop == 'E0S21') { this.RangAttackers_0_count += 1; }
                 else if(creep.memory.role == 'Attacker'   && creep.memory.workshop == 'E0S21'  ) { this.Attackers_0_count += 1; }
                 //过道
-                else if(creep.memory.role == 'DepositsHarvester' && creep.memory.workshop == 'W0S21'  && (creep.ticksToLive > 150 || creep.spawning)) { this.Dpo_Harvesters1_count +=1; }
+                else if(creep.memory.role == 'DepositsHarvester' && creep.memory.workshop == 'W0S22'  && (creep.ticksToLive > 150 || creep.spawning)) { this.Dpo_Harvesters1_count +=1; }
                 else if(creep.memory.role == 'DepositsHarvester' && creep.memory.workshop == 'E0S20'  && (creep.ticksToLive > 150 || creep.spawning)) { this.Dpo_Harvesters2_count +=1; }
-                else if(creep.memory.role == 'DepositsHarvester' && creep.memory.workshop == 'W1S20'  && (creep.ticksToLive > 150 || creep.spawning)) { this.Dpo_Harvesters3_count +=1; }
+                else if(creep.memory.role == 'DepositsHarvester' && creep.memory.workshop == 'W2S20'  && (creep.ticksToLive > 150 || creep.spawning)) { this.Dpo_Harvesters3_count +=1; }
                 else if(creep.memory.role == 'DepositsHarvester' && creep.memory.workshop == 'W3S20'  && (creep.ticksToLive > 150 || creep.spawning)) { this.Dpo_Harvesters4_count +=1; }
-                else if(creep.memory.role == 'DepositsHarvester' && creep.memory.workshop == 'W4S20'  && (creep.ticksToLive > 150 || creep.spawning)) { this.Dpo_Harvesters5_count +=1; }
+                else if(creep.memory.role == 'DepositsHarvester' && creep.memory.workshop == 'W0S15'  && (creep.ticksToLive > 150 || creep.spawning)) { this.Dpo_Harvesters5_count +=1; }
             }
         }
     }    
@@ -232,7 +240,7 @@ module.exports = class Incubator{
     w1S22Spawn1Incubator(spawn){
         if(this.Incubator_Level < 2 ){
             //援建
-            if(this.Recyclers_count < 0){
+            if(this.Recyclers_count < 0 ){
                 var newName = 'Recycler' + Game.time;
                 console.log('孵化新的 Recycler: ' + newName);
                 spawn.spawnCreep([CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE], newName, {memory: {role: 'Recycler', workshop: 'E3S19',birthroom:'W1S22',building: false, group: 0}});
@@ -256,7 +264,7 @@ module.exports = class Incubator{
             if(this.Dpo_Harvesters1_count < 0 ) {
                 var newName = 'DepositsHarvester' + Game.time;
                 console.log('孵化新的 DepositsHarvester: ' + newName);
-                spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'DepositsHarvester',workshop: 'W0S21',birthroom:'W1S22'}});
+                spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'DepositsHarvester',workshop: 'W0S22',birthroom:'W1S22',dontPullMe : true}});
             }
             if(this.Dpo_Harvesters2_count < 0 ) {
                 var newName = 'DepositsHarvester' + Game.time;
@@ -276,7 +284,7 @@ module.exports = class Incubator{
                 spawn.spawnCreep([CLAIM,CLAIM,CLAIM,CLAIM,CLAIM,CLAIM,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'reserver',workshop: 'W1S23'}});
             }
             //全能者
-            if(this.upgraders_count < 1 ) {
+            if(this.upgraders_count < 0 ) {
                 var newName = 'Upgrader_' + Game.time;
                 console.log('孵化新的 Upgrader: ' + newName);
                 spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'upgrader',workshop: 'W1S22'}});
@@ -290,7 +298,7 @@ module.exports = class Incubator{
             if(this.Builders_W1S22_count < 1 ) {
                 var newName = 'Builder_W1S22_' + Game.time;
                 console.log('孵化新的 Builder: ' + newName);
-                spawn.spawnCreep([WORK,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Builder', workshop: 'W1S22',birthroom:'W1S22', group: 0}});
+                spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Builder', workshop: 'W1S22',birthroom:'W1S22', group: 0}});
             }
         }
         if(this.Incubator_Level < 2 ) {
@@ -323,7 +331,7 @@ module.exports = class Incubator{
             if(this.Carriers_W1S22_lab_count < 0){
                 var newName = 'Carrier_W1S22_lab_' + Game.time;
                 console.log('孵化新的 Carrier: ' + newName);
-                spawn.spawnCreep([CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Carrier_lab', workshop: 'W1S22', birthroom:'W1S22',group :0}});
+                spawn.spawnCreep([CARRY,CARRY,MOVE], newName, {memory: {role: 'Carrier_lab', workshop: 'W1S22', birthroom:'W1S22',group :0}});
             }
         }
         {
@@ -408,7 +416,7 @@ module.exports = class Incubator{
             if(this.reservers_W3S23_count < 1 && (!Game.rooms['W3S23'] || !Game.rooms['W3S23'].controller.reservation || Game.rooms['W3S23'].controller.reservation.ticksToEnd < 1000)) { 
                 var newName = 'Reserver_W3S23_' + Game.time;
                 console.log('孵化新的 Reserver: ' + newName);
-                spawn.spawnCreep([CLAIM,CLAIM,CLAIM,CLAIM,CLAIM,CLAIM,MOVE,MOVE,MOVE], newName, {memory: {role: 'reserver',workshop: 'W3S23'}});
+                spawn.spawnCreep([CLAIM,CLAIM,CLAIM,CLAIM,CLAIM,CLAIM,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'reserver',workshop: 'W3S23'}});
             }
             if(this.Carriers_W3S23_G1_count < 1){
                 var newName = 'Carrier_W3S23_G1_' + Game.time;
@@ -503,7 +511,7 @@ module.exports = class Incubator{
             console.log('孵化新的 Miner: ' + newName);
             spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Miner', workshop: 'W2S22',group:0}});
         }
-        if(this.upgraders_W2S22_count < 1 ) {
+        if(this.upgraders_W2S22_count < 0 ) {
             var newName = 'Upgrader_W2S22' + Game.time;
             console.log('孵化新的 Upgrader: ' + newName);
             spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'upgrader',workshop: 'W2S22'}});
@@ -576,9 +584,9 @@ module.exports = class Incubator{
 
     w2S21Spawn1Incubator(spawn){
         if(this.Dpo_Harvesters3_count < 0 ) {
-                var newName = 'DepositsHarvester' + Game.time;
-                console.log('孵化新的 DepositsHarvester: ' + newName);
-                spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'DepositsHarvester',workshop: 'W1S20',birthroom:'W2S21'}});
+            var newName = 'DepositsHarvester' + Game.time;
+            console.log('孵化新的 DepositsHarvester: ' + newName);
+            spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'DepositsHarvester',workshop: 'W2S20',birthroom:'W2S21'}});
         }
         if(this.Dpo_Harvesters4_count < 0 ) {
             var newName = 'DepositsHarvester' + Game.time;
@@ -600,6 +608,11 @@ module.exports = class Incubator{
             console.log('孵化新的 Reserver: ' + newName);
             spawn.spawnCreep([CLAIM,CLAIM,CLAIM,CLAIM,CLAIM,CLAIM,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'reserver',workshop: 'W3S21'}});
         }
+        if(this.Miners_W2S21_G0_count < 1 && Game.getObjectById('5bbcb2c240062e4259e93d53').mineralAmount > 0 && Game.rooms['W2S21'].extractor && spawn.room.storage.store['U'] < 100000) {
+            var newName = 'Miner_W2S21_G0_' + Game.time;
+            console.log('孵化新的 Miner: ' + newName);
+            spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,MOVE,MOVE,MOVE,MOVE,MOVE,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Miner', workshop: 'W2S21',group:0 , dontPullMe: true}});
+        }
         if(this.Miners_W3S21_G1_count < 0) {
             var newName = 'Miner_W3S21_G1_' + Game.time;
             console.log('孵化新的 Miner: ' + newName);
@@ -620,7 +633,7 @@ module.exports = class Incubator{
             console.log('孵化新的 Carrier: ' + newName);
             spawn.spawnCreep([CARRY,CARRY,CARRY,CARRY,MOVE,MOVE], newName, {memory: {role: 'Carrier',workshop: 'W2S21',birthroom:'W2S21', group :2, taking: true}});
         }
-        if(this.Carriers_W2S21_G1_count < 0){
+        if(this.Carriers_W2S21_G1_count < 1 && Game.getObjectById('5bbcb2c240062e4259e93d53').mineralAmount > 0 && Game.rooms['W2S21'].extractor && spawn.room.storage.store['U'] < 100000){
             var newName = 'Carriers_W2S21_G1_' + Game.time;
             console.log('孵化新的 Carrier: ' + newName);
             spawn.spawnCreep([CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Carrier',workshop: 'W2S21',birthroom:'W2S21', group :1, taking: true}});
@@ -633,11 +646,21 @@ module.exports = class Incubator{
         if(this.Builders_W2S21_count < 1 ) {
             var newName = 'Builder_W2S21_' + Game.time;
             console.log('孵化新的 Builder: ' + newName);
-            spawn.spawnCreep([WORK,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Builder', workshop: 'W2S21',birthroom:'W2S21', group: 0}});
+            spawn.spawnCreep([WORK,WORK,WORK,WORK,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Builder', workshop: 'W2S21',birthroom:'W2S21', group: 0}});
         }
     }
 
     E1S15Spawn1Incubator(spawn){
+        if(this.Recyclers_W2S21_count < 0){
+            var newName = 'Recycler' + Game.time;
+            console.log('孵化新的 Recycler: ' + newName);
+            spawn.spawnCreep([CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE,CARRY,MOVE], newName, {memory: {role: 'Recycler', workshop: 'E2S17',birthroom:'E1S15',building: false, group: 0}});
+        }
+        if(this.Dpo_Harvesters5_count < 0 ) {
+            var newName = 'DepositsHarvester' + Game.time;
+            console.log('孵化新的 DepositsHarvester: ' + newName);
+            spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'DepositsHarvester',workshop: 'W0S15',birthroom:'E1S15'}});
+        }
         if(this.upgraders_E1S15_count < 0 ) {
             var newName = 'upgraders_E1S15' + Game.time;
             console.log('孵化新的 Upgrader: ' + newName);
@@ -661,7 +684,7 @@ module.exports = class Incubator{
         if(this.Miners_E1S15_G2_count < 1) {
             var newName = 'Miner_E1S15_G2_' + Game.time;
             console.log('孵化新的 Miner: ' + newName);
-            spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,CARRY,MOVE,MOVE,MOVE], newName, {memory: {role: 'Miner', workshop: 'E1S15',group:2}});
+            spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,CARRY,MOVE,MOVE,MOVE], newName, {memory: {role: 'Miner', workshop: 'E1S15',group:2}});
         }
         if(this.Carriers_E1S15_G2_count < 0){
             var newName = 'Carrier_E1S15_G2_' + Game.time;
@@ -671,7 +694,7 @@ module.exports = class Incubator{
         if(this.Miners_E1S15_G1_count < 1) {
             var newName = 'Miner_E1S15_G1_' + Game.time;
             console.log('孵化新的 Miner: ' + newName);
-            spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,CARRY,MOVE,MOVE,MOVE], newName, {memory: {role: 'Miner', workshop: 'E1S15',group:1}});
+            spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,CARRY,MOVE,MOVE,MOVE], newName, {memory: {role: 'Miner', workshop: 'E1S15',group:1}});
         }
         if(this.Carriers_E1S15_G1_count < 0){
             var newName = 'Carrier_E1S15_G1_' + Game.time;
@@ -681,7 +704,7 @@ module.exports = class Incubator{
         if(this.Builders_E1S15_count < 1 ) {
             var newName = 'Builder_E1S15_' + Game.time;
             console.log('孵化新的 Builder: ' + newName);
-            spawn.spawnCreep([WORK,WORK,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Builder', workshop: 'E1S15',birthroom:'E1S15', group: 0}});
+            spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Builder', workshop: 'E1S15',birthroom:'E1S15', group: 0}});
         }
     }
 
@@ -709,12 +732,12 @@ module.exports = class Incubator{
         if(this.Miners_W47S16_G1_count < 1) {
             var newName = 'Miner_W47S16_G1_' + Game.time;
             console.log('孵化新的 Miner: ' + newName);
-            spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,CARRY,MOVE,MOVE,MOVE], newName, {memory: {role: 'Miner', workshop: 'W47S16',group:1}});
+            spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,CARRY,MOVE,MOVE,MOVE], newName, {memory: {role: 'Miner', workshop: 'W47S16',group:1}});
         }
         if(this.Miners_W47S16_G2_count < 1) {
             var newName = 'Miner_W47S16_G2_' + Game.time;
             console.log('孵化新的 Miner: ' + newName);
-            spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,CARRY,MOVE,MOVE,MOVE], newName, {memory: {role: 'Miner', workshop: 'W47S16',group:2}});
+            spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,CARRY,MOVE,MOVE,MOVE], newName, {memory: {role: 'Miner', workshop: 'W47S16',group:2}});
         }
         if(this.Carriers_W47S16_G1_count < 0){
             var newName = 'Carrier_W47S16_G1_' + Game.time;
@@ -729,7 +752,7 @@ module.exports = class Incubator{
         if(this.Builders_W47S16_count < 1 ) {
             var newName = 'Builder_W47S16_' + Game.time;
             console.log('孵化新的 Builder: ' + newName);
-            spawn.spawnCreep([WORK,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Builder', workshop: 'W47S16',birthroom:'W47S16', group: 0}});
+            spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Builder', workshop: 'W47S16',birthroom:'W47S16', group: 0}});
         }
     }
 
@@ -749,21 +772,48 @@ module.exports = class Incubator{
             console.log('孵化新的 Harvester: ' + newName);
             spawn.spawnCreep([WORK,WORK,WORK,WORK,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Harvester', workshop: 'E3S19',birthroom:'E3S19',building: false, group: 2}});
         }
-        if(this.Carriers_E3S19_G1_count < 1){
+        if(this.Carriers_E3S19_G1_count < 0 && Game.getObjectById('5bbcb2ed40062e4259e93f02').mineralAmount > 0){
             var newName = 'Carrier_E3S19_G1_' + Game.time;
             console.log('孵化新的 Carrier: ' + newName);
-            spawn.spawnCreep([CARRY,CARRY,MOVE,CARRY,CARRY,MOVE,CARRY,CARRY,MOVE,CARRY,CARRY,MOVE,CARRY,CARRY,MOVE,CARRY,CARRY,MOVE,CARRY,CARRY,MOVE,CARRY,CARRY,MOVE], newName, {memory: {role: 'Carrier',workshop: 'E3S19', birthroom:'E3S19',group :1, taking: true}});
+            spawn.spawnCreep([CARRY,CARRY,MOVE,CARRY,CARRY,MOVE,CARRY,CARRY,MOVE,CARRY,CARRY,MOVE,CARRY,CARRY,MOVE,CARRY,CARRY,MOVE,CARRY,CARRY,MOVE,CARRY,CARRY,MOVE,CARRY,CARRY,MOVE,CARRY,CARRY,MOVE], newName, {memory: {role: 'Carrier',workshop: 'E3S19', birthroom:'E3S19',group :1, taking: true}});
+        }
+        if(this.Miners_E3S19_G0_count < 0 && Game.getObjectById('5bbcb2ed40062e4259e93f02').mineralAmount > 0 && Game.rooms['E3S19'].extractor) {
+            var newName = 'Miner_E3S19_G0_' + Game.time;
+            console.log('孵化新的 Miner: ' + newName);
+            spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,MOVE,MOVE,MOVE,MOVE,MOVE,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,WORK,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Miner', workshop: 'E3S19',group:0 , dontPullMe: true}});
         }
         if(this.Miners_E3S19_G1_count < 1) {
             var newName = 'Miner_E3S19_G1_' + Game.time;
             console.log('孵化新的 Miner: ' + newName);
-            spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,MOVE,MOVE,MOVE], newName, {memory: {role: 'Miner', workshop: 'E3S19',group:1}});
+            spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,CARRY,MOVE,MOVE,MOVE], newName, {memory: {role: 'Miner', workshop: 'E3S19',group:1}});
         }
         if(this.Miners_E3S19_G2_count < 1) {
             var newName = 'Miner_E3S19_G2_' + Game.time;
             console.log('孵化新的 Miner: ' + newName);
-            spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,MOVE,MOVE,MOVE], newName, {memory: {role: 'Miner', workshop: 'E3S19',group:2}});
+            spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,WORK,CARRY,MOVE,MOVE,MOVE], newName, {memory: {role: 'Miner', workshop: 'E3S19',group:2}});
         }
+        if(this.Dispatchers_E3S19_count < 1 ) {
+            var newName = 'Dispatchers_E3S19_' + Game.time;
+            console.log('孵化新的 Dispatcher: ' + newName);
+            spawn.spawnCreep([CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE], newName, {memory: {role: 'Dispatcher',workshop: 'E3S19',X: 33,Y:29}});
+        }
+        if(this.Builders_E3S19_count < 1 ) {
+            var newName = 'Builder_E3S19_' + Game.time;
+            console.log('孵化新的 Builder: ' + newName);
+            spawn.spawnCreep([WORK,WORK,WORK,WORK,WORK,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Builder', workshop: 'E3S19',birthroom:'E3S19', group: 0}});
+        }
+        if(this.Attackers_count < 0 ) {
+            var newName = 'Attacker_' + Game.time;
+            console.log('孵化新的 Attacker: ' + newName);
+            spawn.spawnCreep([ATTACK,ATTACK,ATTACK,ATTACK,ATTACK,MOVE,MOVE,MOVE,MOVE,MOVE,ATTACK,ATTACK,ATTACK,ATTACK,ATTACK,MOVE,MOVE,MOVE,MOVE,MOVE,ATTACK,ATTACK,ATTACK,ATTACK,ATTACK,MOVE,MOVE,MOVE,MOVE,MOVE,ATTACK,ATTACK,ATTACK,ATTACK,ATTACK,MOVE,MOVE,MOVE,MOVE,MOVE,ATTACK,ATTACK,ATTACK,ATTACK,ATTACK,MOVE,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Attacker',workshop: 'E4S18'}});
+            // spawn.spawnCreep([CARRY,CARRY,CARRY,CARRY,MOVE,MOVE,MOVE,MOVE], newName, {memory: {role: 'Attacker',workshop: 'W1S22'}});
+        }
+        if(this.RangAttackers_count < 0 ) {
+            var newName = 'RangAttacker_' + Game.time;
+            console.log('孵化新的 RangAttacker: ' + newName);
+            spawn.spawnCreep([MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,MOVE,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL,HEAL], newName, {memory: {role: 'RangAttacker',workshop: 'E4S17'}});
+        }
+        // console.log(this.dynamicBody(spawn.room));
     }
     //#endregion
 
@@ -776,5 +826,22 @@ module.exports = class Incubator{
                 spawn.pos.y, 
                 {align: 'left', opacity: 0.8});
         }
+    }
+    
+    dynamicBody(room) {
+        let body;
+        let body_array = [];
+        if (true) {
+            if (room.energyAvailable < 300) {
+                body = { work: 1, carry: 1, move: 1 };
+            }
+            else if (room.energyAvailable >= 300) {
+                body = { work: 2, carry: 1, move: 1 };
+            }
+        }
+        for (let key in body) {
+            body_array.push(...Array(body[key]).fill(key));
+        }
+        return body_array;
     }
 };

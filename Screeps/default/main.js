@@ -1,5 +1,6 @@
-// require('lib.SuperMove');
+require('lib.SuperMove');
 require('lib.StructureCache');
+var Traveler = require('lib.Traveler');
 var roleUpgrader = require('role.Upgrader');
 var roleBuilder = require('role.Builder');
 var roleClaimer = require('role.Claimer');
@@ -45,13 +46,24 @@ module.exports.loop = function () {
     }else{
         incubator.w2S22Spawn1Incubator(Game.spawns['Spawn_W2S22_3']);
     }
-    if(Game.spawns['Spawn_W2S21_2']){
+    //W2S21
+    if(Game.spawns['Spawn_W2S21_2'] && !Game.spawns['Spawn_W2S21_2'].spawning){
         incubator.w2S21Spawn1Incubator(Game.spawns['Spawn_W2S21_2']);
+    }else if(Game.spawns['Spawn_W2S21_1'] && !Game.spawns['Spawn_W2S21_1'].spawning){
+        incubator.w2S21Spawn1Incubator(Game.spawns['Spawn_W2S21_1']);
+    }else if(Game.spawns['Spawn_W2S21_3'] && !Game.spawns['Spawn_W2S21_3'].spawning){
+        incubator.w2S21Spawn1Incubator(Game.spawns['Spawn_W2S21_3']);
     }
+    
     incubator.E1S15Spawn1Incubator(Game.spawns['Spawn_E1S15_2']);
     incubator.W47S16pawn1Incubator(Game.spawns['Spawn_W47S16_2']);
-    if(Game.spawns['Spawn_E3S19']){
+    //E3S19
+    if(Game.spawns['Spawn_E3S19'] && !Game.spawns['Spawn_E3S19'].spawning){
         incubator.E3S19Spawn1Incubator(Game.spawns['Spawn_E3S19']);
+    }else if(Game.spawns['Spawn_E3S19_2'] && !Game.spawns['Spawn_E3S19_2'].spawning){
+        incubator.E3S19Spawn1Incubator(Game.spawns['Spawn_E3S19_2']);
+    }else if(Game.spawns['Spawn_E3S19_'] && !Game.spawns['Spawn_E3S19_'].spawning){
+        incubator.E3S19Spawn1Incubator(Game.spawns['Spawn_E3S19_']);
     }
     // incubator.w1S25Spawn1Incubator(Game.spawns['Spawn_W1S25_1']);
     
@@ -116,18 +128,18 @@ module.exports.loop = function () {
     //     structureTower.run(towers[i]);
     // }
 
-    // Game.rooms['W1S22'].memory.receive_link = '5f663fbac6882b2c62b82699';
+    // Game.rooms['W2S21'].memory.receive_link = '5fae8c7a5223f3bdb6111968';
     // let A = new Array();
-    // A[0] = '5fabd82fa5c3296f0cd73065'
-    // A[1] = '5fca2af6b8260b2518bab9d7'
+    // A[0] = '61294469b781a1661cb48458'
+    // A[1] = '60066963116aaf29812cebc2'
     // Game.rooms['W1S22'].memory.lab_info = {lab_status:'hc',lab_source:['Z','K'],lab_result:'ZK'};
     // delete Game.rooms['W1S22'].memory.lab_source;
     // Game.rooms['W1S22'].memory.source_lab = A;
     // let B = new Array();
     // B[0] = '5f66fab2df9e7e43f289b41e'
-    // Game.rooms['E1S15'].memory.receive_link = A;
-    // Game.rooms['W2S21'].memory.central_link = A;
-    // Game.rooms['W2S22'].memory.front_link = A;
+    // Game.rooms['E3S19'].memory.receive_link = A;
+    // Game.rooms['E3S19'].memory.central_link = A;
+    // Game.rooms['W47S16'].memory.front_link = A;
     // structureLink.run();
     // {
     //     const linkFrom = Game.rooms['W1S22'].lookForAt('structure', 40, 35)[0];
@@ -185,7 +197,7 @@ module.exports.loop = function () {
             roleRecycler.run(creep);
         }
         if(creep.memory.role == 'Carrier_lab') {
-            Carrier_lab.CarrierWork(creep);
+            // Carrier_lab.CarrierWork(creep); 
         }
         if(creep.memory.role == 'Repairer') {
             roleRepairer.run(creep);

@@ -12,12 +12,12 @@ module.exports = {
         if(creep.room.name != creep.memory.workshop){
             creep.moveTo(new RoomPosition(25,25, creep.memory.workshop),{visualizePathStyle: {stroke: '#ffffff'}});
         }else{
-            creep.moveTo(new RoomPosition(25,2, creep.memory.workshop),{visualizePathStyle: {stroke: '#ffffff'}});
+            creep.moveTo(new RoomPosition(22,28, creep.memory.workshop),{visualizePathStyle: {stroke: '#ffffff'}});
         }
         {
             const targets = creep.pos.findInRange(FIND_HOSTILE_CREEPS, 3);
             if(targets.length > 0) {
-                // creep.rangedAttack(targets[0]);
+                creep.rangedAttack(targets[0]);
             }else{
                 // creep.moveTo(new RoomPosition(24, 16, creep.memory.workshop));
             }
@@ -45,6 +45,9 @@ module.exports = {
                 else {
                     creep.rangedHeal(target);
                 }
+            }else{
+                // var target1 = Game.getObjectById('6115436d3f1ea226f9c8938a');
+                // creep.moveTo(target1);
             }
 
             // let spawns = creep.room.find(FIND_STRUCTURES, {

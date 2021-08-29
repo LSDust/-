@@ -12,7 +12,7 @@ module.exports = {
         // var tower = Game.getObjectById('5f5c4d1a73fd055335fb00f9');
         // var closestHostile = tower.pos.findClosestByRange(FIND_HOSTILE_CREEPS);
         if(tower.room.hostileCreeps.length > 0) {
-            tower.attack(hostileCreeps[0]);
+            tower.attack(tower.room.hostileCreeps[0]);
         }else{
             //容量大于400执行修复
             if(tower.store.getFreeCapacity(RESOURCE_ENERGY) < 600) {
