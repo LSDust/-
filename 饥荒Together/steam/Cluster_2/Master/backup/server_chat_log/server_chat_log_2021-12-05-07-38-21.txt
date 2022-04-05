@@ -1,0 +1,36 @@
+[00:01:16]: [Join Announcement] 彡粼
+[00:16:12]: [Vote Announcement] rollback passed
+[00:16:17]: [Death Announcement] 彡粼 死于： 损坏的发条主教。她变成了可怕的鬼魂！
+[00:19:05]: [Vote Announcement] rollback passed
+[00:27:04]: [Vote Announcement] rollback passed
+[00:28:22]: [Vote Announcement] rollback passed
+[00:30:03]: [Vote Announcement] rollback passed
+[00:30:29]: [Vote Announcement] rollback passed
+[00:32:24]: [Vote Announcement] rollback passed
+[00:36:45]: [Vote Announcement] rollback passed
+[00:36:49]: [Death Announcement] 彡粼 死于： 洞穴蠕虫。她变成了可怕的鬼魂！
+[01:01:14]: [Skin Announcement] 彡粼 body_wathgrithr_shadowp
+[01:55:56]: [Vote Announcement] rollback passed
+[02:00:07]: [Vote Announcement] rollback passed
+[02:01:11]: [Skin Announcement] 彡粼 hand_shortgloves_black_scribble
+[02:08:45]: [Vote Announcement] rollback passed
+[02:11:49]: [Vote Announcement] rollback passed
+[02:21:56]: [Vote Announcement] rollback passed
+[02:30:48]: [Vote Announcement] rollback passed
+[03:19:57]: [Skin Announcement] 彡粼 legs_wanda_shadow
+[04:31:19]: [Skin Announcement] 彡粼 legs_pants_basic_tan_cream
+[04:45:54]: [Vote Announcement] rollback passed
+[04:45:57]: [Death Announcement] 彡粼 死于： 损坏的发条主教。她变成了可怕的鬼魂！
+[04:54:49]: [Vote Announcement] rollback passed
+[05:42:55]: [Announcement] 彡粼   造成100000点伤害   获得成就【超凶】
+[05:46:27]: [Vote Announcement] rollback passed
+[05:50:53]: [Announcement] 彡粼   造成100000点伤害   获得成就【超凶】
+[05:58:26]: [Vote Announcement] rollback passed
+[06:17:12]: [Announcement] 彡粼   吃掉80个鸡蛋火腿   获得成就【舌尖上的饥荒Ⅱ】
+[10:06:30]: [Announcement] 彡粼   过冷状态超过10分钟   获得成就【寒霜侵袭】
+[10:06:44]: [Vote Announcement] rollback passed
+[10:07:40]: [Vote Announcement] rollback passed
+[10:08:40]: [Vote Announcement] rollback passed
+[10:09:38]: [Vote Announcement] rollback passed
+[10:10:40]: [Vote Announcement] rollback passed
+[10:11:55]: [Leave Announcement] 彡粼

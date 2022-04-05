@@ -1,0 +1,2456 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 39%
+	Available Physical Memory: 9756m/16244m
+	Available Page File: 11449m/20212m
+	Available Virtual Memory: 134213487m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 30m
+	Working Set Size: 30m
+	Quota Peak Page Pool Usage: 206k
+	Quota Page Pool Usage: 202k
+	Quota Peak Non Paged Pool Usage:14k
+	Quota Non Paged Pool Usage: 14k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/325311374/Cluster_2/Caves/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 487848
+[00:00:00]: Current time: Sat Dec 04 14:03:17 2021
+
+[00:00:00]: Don't Starve Together: 487848 WIN32
+[00:00:00]: Build Date: 497
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 14568 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_2 -fo -ownernetid 76561198285577102 -ownerdir 325311374 -backup_log_count 25 -backup_log_period 0 -ugc_directory E:\\Games\\Steam\\steamapps\\workshop -shard Caves -sigprefix DST_Secondary -region Sing -token *********************************************************************************** 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (15448)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10998, 27017)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:01]: ProfileIndex:3.09
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: THREAD - started 'Ping Job Thread' (12220)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Authorized application E:\Games\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is enabled in the firewall.
+[00:00:01]: WindowsFirewall - Application already authorized
+[00:00:01]: Overriding region to Sing
+[00:00:01]: THREAD - started 'StreamInput' (7944)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/325311374/client_save/blocklist.txt (Failure)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/325311374/client_save/adminlist.txt (Failure)
+[00:00:01]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/325311374/client_save/whitelist.txt (Failure)
+[00:00:01]: Offline user ID: OU_76561198285577102
+[00:00:01]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 家庭中文版
+    version                   10.0.19042
+    platformSpecific          SP 0.0
+    architecture              64 位
+  CPU                       
+    clockSpeed                2304
+    name                      Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz
+    manufacturer              GenuineIntel
+    numCores                  4
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    megsOfRam                 4095
+    videoModeDescription      
+    name                      NVIDIA GeForce GTX 1050
+    driverVersion             27.21.14.6231
+    driverDate                20210408000000.000000-000
+    refreshRate               0
+
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: AppVersion::GetArchitecture() x64
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:03]:   taskgrouplist:	default	联机版	
+[00:00:03]:   taskgrouplist:	classic	经典	
+[00:00:03]:   taskgrouplist:	cave_default	地下	
+[00:00:03]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:03]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:04]: running main.lua
+	
+[00:00:04]: loaded modindex	
+[00:00:04]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:04]: SUCCESS: Loaded modoverrides.lua	
+[00:00:04]: modoverrides.lua enabling workshop-1877637921	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1877637921	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-1877637921_CLIENT	
+[00:00:04]: Loading mod: workshop-1877637921 (  成就与等级系统) Version:3.4.6	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-1877637921	
+[00:00:04]: Overriding mod workshop-1877637921's option LANGUAGE with value chs	
+[00:00:04]: Overriding mod workshop-1877637921's option COSTRAISE with value true	
+[00:00:04]: Overriding mod workshop-1877637921's option HIDEPERK with value none	
+[00:00:04]: Overriding mod workshop-1877637921's option MULT with value 1	
+[00:00:04]: Overriding mod workshop-1877637921's option PLAYS with value 999	
+[00:00:04]: Overriding mod workshop-1877637921's option SYSTEM with value achieve	
+[00:00:04]: Overriding mod workshop-1877637921's option REFUND with value 1	
+[00:00:04]: Overriding mod workshop-1877637921's option EXPMULT with value 1	
+[00:00:04]: Overriding mod workshop-1877637921's option MANDRAKEBOI with value true	
+[00:00:04]: Overriding mod workshop-1877637921's option GEAR with value nothing	
+[00:00:04]: Overriding mod workshop-1877637921's option CAVES with value true	
+[00:00:04]: Overriding mod workshop-1877637921's option GAMEBREAKER with value true	
+[00:00:04]: Overriding mod workshop-1877637921's option HEALTHPENATLY with value true	
+[00:00:04]: Mod: workshop-1877637921 (  成就与等级系统)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-1877637921 (  成就与等级系统)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-1877637921 (  成就与等级系统)	Loading modmain.lua	
+[00:00:04]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:05]: LOADING LUA SUCCESS
+[00:00:05]: Registering Server mod namespace "dstachievement"
+[00:00:05]: PlayerDeaths could not load morgue	
+[00:00:05]: PlayerHistory could not load player_history	
+[00:00:05]: ServerPreferences could not load server_preferences	
+[00:00:05]: bloom_enabled	true	
+[00:00:05]: OnFilesLoaded()	
+[00:00:05]: OnUpdatePurchaseStateComplete	
+[00:00:05]: Klump load on boot started.	
+[00:00:05]: Klump files loaded: 	0	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	Registering prefabs	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/seffc	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    seffc	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/klaussack_placer	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    klaussack_placer	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/altar_placer	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    ancient_altar_placer	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/achivbooks	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_tentacles	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_birds	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_brimstone	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_sleep	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_gardening	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/pigking	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    pigking	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/antlion	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    antlion	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/shadowwaxwell	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowlumber	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowminer	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowdigger	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowduelist	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowlumber_builder	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowminer_builder	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowdigger_builder	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowduelist_builder	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/perkportableblender	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportableblender_placer	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportableblender	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/perkportablecookpot	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablecookpot_placer	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablecookpot	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/perkportablespicer	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablespicer_placer	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablespicer	
+[00:00:08]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering default mod prefab	
+[00:00:12]: 	Load FE	
+[00:00:13]: 	Load FE: done	
+[00:00:13]: THREAD - started 'FilesExistAsyncThread' (12604)
+[00:00:13]: FilesExistAsyncThread started (18775 files)...
+[00:00:13]: Check for write access: TRUE
+[00:00:13]: Check for read access: TRUE
+[00:00:13]: Available disk space for save files: 210411 MB
+[00:00:13]: ModIndex: Load sequence finished successfully.	
+[00:00:13]: Reset() returning
+[00:00:13]: [IPC] Signal 'DST_Secondary_Kill' opened  #00000000000006D4
+[00:00:13]: [IPC] Registering handler for signal #00000000000006D4
+[00:00:13]: [IPC] Handle #00000000000006D4 added to the Eventhandles
+[00:00:13]: [IPC] Signal 'DST_Secondary_Starting' opened  #00000000000006C8
+[00:00:13]: [IPC] Sending signal... #00000000000006C8
+[00:00:14]: [200] Account Communication Success (6)
+[00:00:14]: Received (KU_4_WneQJr) from TokenPurpose
+[00:00:14]: Starting Dedicated Server Game	
+[00:00:14]: Network tick rate: U=15(2), D=0
+[00:00:14]: About to start a server with the following settings:
+[00:00:14]:   Dedicated: true
+[00:00:14]:   Online: true
+[00:00:14]:   Passworded: false
+[00:00:14]:   ServerPort: 10998
+[00:00:14]:   SteamAuthPort: 8767
+[00:00:14]:   SteamMasterServerPort: 27017
+[00:00:14]:   ClanID: false
+[00:00:14]:   ClanOnly: false
+[00:00:14]:   ClanAdmin: false
+[00:00:14]:   LanOnly: false
+[00:00:14]:   FriendsOnly: true
+[00:00:14]:   EnableAutosaver: true
+[00:00:14]:   EncodeUserPath: true
+[00:00:14]:   PVP: false
+[00:00:14]:   MaxPlayers: 6
+[00:00:14]:   GameMode: survival
+[00:00:14]:   OverridenDNS: 
+[00:00:14]:   PauseWhenEmpty: true
+[00:00:14]:   IdleTimeout: 1800s
+[00:00:14]:   VoteEnabled: false
+[00:00:14]:   InternetBroadcasting: true
+[00:00:14]:   Intent: madness
+[00:00:14]: [Warning] Could not confirm port 10998 is open in the firewall. 
+[00:00:14]: Could not load mod_config_data/modconfiguration_workshop-1877637921	
+[00:00:14]: Online Server Started on port: 10998
+[00:00:14]: SUCCESS: Loaded modoverrides.lua	
+[00:00:14]: Found a level data override file with these contents:	
+[00:00:14]: 	K: 	background_node_range	 V: 	table: 00000000140F4820	
+[00:00:14]: 		K: 	1	 V: 	0	
+[00:00:14]: 		K: 	2	 V: 	1	
+[00:00:14]: 	K: 	desc	 V: 	探查洞穴…… 一起！	
+[00:00:14]: 	K: 	hideminimap	 V: 	false	
+[00:00:14]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:14]: 	K: 	location	 V: 	cave	
+[00:00:14]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:14]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:14]: 	K: 	name	 V: 	洞穴	
+[00:00:14]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:14]: 	K: 	override_level_string	 V: 	false	
+[00:00:14]: 	K: 	overrides	 V: 	table: 00000000140F4550	
+[00:00:14]: 		K: 	atriumgate	 V: 	default	
+[00:00:14]: 		K: 	banana	 V: 	default	
+[00:00:14]: 		K: 	bats	 V: 	default	
+[00:00:14]: 		K: 	bats_setting	 V: 	default	
+[00:00:14]: 		K: 	beefaloheat	 V: 	default	
+[00:00:14]: 		K: 	berrybush	 V: 	default	
+[00:00:14]: 		K: 	boons	 V: 	default	
+[00:00:14]: 		K: 	branching	 V: 	default	
+[00:00:14]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:14]: 		K: 	bunnymen	 V: 	default	
+[00:00:14]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:14]: 		K: 	cave_ponds	 V: 	default	
+[00:00:14]: 		K: 	cave_spiders	 V: 	default	
+[00:00:14]: 		K: 	cavelight	 V: 	default	
+[00:00:14]: 		K: 	chess	 V: 	default	
+[00:00:14]: 		K: 	day	 V: 	default	
+[00:00:14]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:14]: 		K: 	dustmoths	 V: 	default	
+[00:00:14]: 		K: 	earthquakes	 V: 	default	
+[00:00:14]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:14]: 		K: 	fern	 V: 	default	
+[00:00:14]: 		K: 	fissure	 V: 	default	
+[00:00:14]: 		K: 	flint	 V: 	default	
+[00:00:14]: 		K: 	flower_cave	 V: 	default	
+[00:00:14]: 		K: 	flower_cave_regrowth	 V: 	default	
+[00:00:14]: 		K: 	fruitfly	 V: 	default	
+[00:00:14]: 		K: 	grass	 V: 	default	
+[00:00:14]: 		K: 	grassgekkos	 V: 	default	
+[00:00:14]: 		K: 	krampus	 V: 	default	
+[00:00:14]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:14]: 		K: 	lichen	 V: 	default	
+[00:00:14]: 		K: 	liefs	 V: 	default	
+[00:00:14]: 		K: 	lightflier_flower_regrowth	 V: 	default	
+[00:00:14]: 		K: 	lightfliers	 V: 	default	
+[00:00:14]: 		K: 	loop	 V: 	default	
+[00:00:14]: 		K: 	marshbush	 V: 	default	
+[00:00:14]: 		K: 	merms	 V: 	default	
+[00:00:14]: 		K: 	molebats	 V: 	default	
+[00:00:14]: 		K: 	moles_setting	 V: 	default	
+[00:00:14]: 		K: 	monkey	 V: 	default	
+[00:00:14]: 		K: 	monkey_setting	 V: 	default	
+[00:00:14]: 		K: 	mushgnome	 V: 	default	
+[00:00:14]: 		K: 	mushroom	 V: 	default	
+[00:00:14]: 		K: 	mushtree	 V: 	default	
+[00:00:14]: 		K: 	mushtree_moon_regrowth	 V: 	default	
+[00:00:14]: 		K: 	mushtree_regrowth	 V: 	default	
+[00:00:14]: 		K: 	nightmarecreatures	 V: 	default	
+[00:00:14]: 		K: 	pigs_setting	 V: 	default	
+[00:00:14]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:14]: 		K: 	reeds	 V: 	default	
+[00:00:14]: 		K: 	regrowth	 V: 	default	
+[00:00:14]: 		K: 	roads	 V: 	never	
+[00:00:14]: 		K: 	rock	 V: 	default	
+[00:00:14]: 		K: 	rocky	 V: 	default	
+[00:00:14]: 		K: 	rocky_setting	 V: 	default	
+[00:00:14]: 		K: 	sapling	 V: 	default	
+[00:00:14]: 		K: 	season_start	 V: 	default	
+[00:00:14]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:14]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:14]: 		K: 	slurper	 V: 	default	
+[00:00:14]: 		K: 	slurtles	 V: 	default	
+[00:00:14]: 		K: 	slurtles_setting	 V: 	default	
+[00:00:14]: 		K: 	snurtles	 V: 	default	
+[00:00:14]: 		K: 	spawnprotection	 V: 	default	
+[00:00:14]: 		K: 	specialevent	 V: 	default	
+[00:00:14]: 		K: 	spider_dropper	 V: 	default	
+[00:00:14]: 		K: 	spider_hider	 V: 	default	
+[00:00:14]: 		K: 	spider_spitter	 V: 	default	
+[00:00:14]: 		K: 	spider_warriors	 V: 	default	
+[00:00:14]: 		K: 	spiderqueen	 V: 	default	
+[00:00:14]: 		K: 	spiders	 V: 	default	
+[00:00:14]: 		K: 	spiders_setting	 V: 	default	
+[00:00:14]: 		K: 	start_location	 V: 	caves	
+[00:00:14]: 		K: 	task_set	 V: 	cave_default	
+[00:00:14]: 		K: 	tentacles	 V: 	default	
+[00:00:14]: 		K: 	toadstool	 V: 	default	
+[00:00:14]: 		K: 	touchstone	 V: 	default	
+[00:00:14]: 		K: 	trees	 V: 	default	
+[00:00:14]: 		K: 	weather	 V: 	default	
+[00:00:14]: 		K: 	world_size	 V: 	small	
+[00:00:14]: 		K: 	wormattacks	 V: 	default	
+[00:00:14]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:14]: 		K: 	wormlights	 V: 	default	
+[00:00:14]: 		K: 	worms	 V: 	default	
+[00:00:14]: 	K: 	required_prefabs	 V: 	table: 00000000140F4A00	
+[00:00:14]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:14]: 	K: 	settings_desc	 V: 	探查洞穴…… 一起！	
+[00:00:14]: 	K: 	settings_id	 V: 	DST_CAVE	
+[00:00:14]: 	K: 	settings_name	 V: 	洞穴	
+[00:00:14]: 	K: 	substitutes	 V: 	table: 00000000140F50E0	
+[00:00:14]: 	K: 	version	 V: 	4	
+[00:00:14]: 	K: 	worldgen_desc	 V: 	探查洞穴…… 一起！	
+[00:00:14]: 	K: 	worldgen_id	 V: 	DST_CAVE	
+[00:00:14]: 	K: 	worldgen_name	 V: 	洞穴	
+[00:00:14]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:14]: Overwriting savedata with level data file.	
+[00:00:14]: Not applying world gen overrides.	
+[00:00:14]: Collecting garbage...
+[00:00:14]: lua_gc took 0.09 seconds
+[00:00:14]: ~ShardLuaProxy()
+[00:00:14]: ~cEventLeaderboardProxy()
+[00:00:14]: ~ItemServerLuaProxy()
+[00:00:14]: ~InventoryLuaProxy()
+[00:00:14]: ~NetworkLuaProxy()
+[00:00:14]: ~SimLuaProxy()
+[00:00:14]: FilesExistAsyncThread aborted.
+[00:00:14]: ... FilesExistAsyncThread complete
+[00:00:14]: lua_close took 0.11 seconds
+[00:00:14]: ReleaseAll
+[00:00:14]: ReleaseAll Finished
+[00:00:14]: cGame::StartPlaying
+[00:00:14]: AppVersion::GetArchitecture() x64
+[00:00:14]: LOADING LUA
+[00:00:14]: DoLuaFile scripts/main.lua
+[00:00:14]: DoLuaFile loading buffer scripts/main.lua
+[00:00:14]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:16]:   taskgrouplist:	default	联机版	
+[00:00:16]:   taskgrouplist:	classic	经典	
+[00:00:16]:   taskgrouplist:	cave_default	地下	
+[00:00:16]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:16]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:16]: running main.lua
+	
+[00:00:16]: loaded modindex	
+[00:00:16]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:16]: SUCCESS: Loaded modoverrides.lua	
+[00:00:16]: modoverrides.lua enabling workshop-1877637921	
+[00:00:16]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1877637921	
+[00:00:16]: Could not load mod_config_data/modconfiguration_workshop-1877637921	
+[00:00:16]: Loading mod: workshop-1877637921 (  成就与等级系统) Version:3.4.6	
+[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1877637921	
+[00:00:16]: Overriding mod workshop-1877637921's option LANGUAGE with value chs	
+[00:00:16]: Overriding mod workshop-1877637921's option COSTRAISE with value true	
+[00:00:16]: Overriding mod workshop-1877637921's option HIDEPERK with value none	
+[00:00:16]: Overriding mod workshop-1877637921's option MULT with value 1	
+[00:00:16]: Overriding mod workshop-1877637921's option PLAYS with value 999	
+[00:00:16]: Overriding mod workshop-1877637921's option SYSTEM with value achieve	
+[00:00:16]: Overriding mod workshop-1877637921's option REFUND with value 1	
+[00:00:16]: Overriding mod workshop-1877637921's option EXPMULT with value 1	
+[00:00:16]: Overriding mod workshop-1877637921's option MANDRAKEBOI with value true	
+[00:00:16]: Overriding mod workshop-1877637921's option GEAR with value nothing	
+[00:00:16]: Overriding mod workshop-1877637921's option CAVES with value true	
+[00:00:16]: Overriding mod workshop-1877637921's option GAMEBREAKER with value true	
+[00:00:16]: Overriding mod workshop-1877637921's option HEALTHPENATLY with value true	
+[00:00:16]: Mod: workshop-1877637921 (  成就与等级系统)	Loading modworldgenmain.lua	
+[00:00:16]: Mod: workshop-1877637921 (  成就与等级系统)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:16]: Mod: workshop-1877637921 (  成就与等级系统)	Loading modmain.lua	
+[00:00:17]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:17]: LOADING LUA SUCCESS
+[00:00:17]: Registering Server mod namespace "dstachievement"
+[00:00:17]: PlayerDeaths could not load morgue	
+[00:00:17]: PlayerHistory could not load player_history	
+[00:00:17]: ServerPreferences could not load server_preferences	
+[00:00:17]: bloom_enabled	true	
+[00:00:17]: OnFilesLoaded()	
+[00:00:17]: OnUpdatePurchaseStateComplete	
+[00:00:17]: Loading world: session/4CA977E64E63C38B/0000000192	
+[00:00:17]: Save file is at version 5.09	
+[00:00:17]: Klump load on boot started.	
+[00:00:17]: Klump files loaded: 	0	
+[00:00:17]: 	Unload FE	
+[00:00:17]: 	Unload FE done	
+[00:00:17]: Could not unload undefined prefab (ocean_splash_med1)
+[00:00:17]: Could not unload undefined prefab (ocean_splash_med1)
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	Registering prefabs	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/seffc	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    seffc	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/klaussack_placer	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    klaussack_placer	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/altar_placer	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    ancient_altar_placer	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/achivbooks	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_tentacles	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_birds	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_brimstone	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_sleep	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_gardening	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/pigking	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    pigking	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/antlion	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    antlion	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/shadowwaxwell	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowlumber	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowminer	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowdigger	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowduelist	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowlumber_builder	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowminer_builder	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowdigger_builder	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowduelist_builder	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/perkportableblender	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportableblender_placer	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportableblender	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/perkportablecookpot	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablecookpot_placer	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablecookpot	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/perkportablespicer	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablespicer_placer	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablespicer	
+[00:01:26]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering default mod prefab	
+[00:01:26]: 	LOAD BE	
+[00:01:32]: Could not preload undefined prefab (redpouch_yotc)
+[00:01:37]: Could not preload undefined prefab (hermit_bundle)
+[00:01:37]: Could not preload undefined prefab (hermit_bundle_shells)
+[00:01:39]: Could not preload undefined prefab (yotc_seedpacket)
+[00:01:40]: Could not preload undefined prefab (redpouch_yotc)
+[00:01:41]: Could not preload undefined prefab (carnival_seedpacket)
+[00:01:41]: Could not preload undefined prefab (redpouch_yotb)
+[00:01:42]: Could not preload undefined prefab (yotc_seedpacket_rare)
+[00:01:43]: Could not preload undefined prefab (hermit_bundle_shells)
+[00:01:43]: 	LOAD BE: done	
+[00:01:43]: Begin Session: 4CA977E64E63C38B
+[00:01:43]: saving to server_temp/server_save	
+[00:01:44]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:01:44]: MiniMapComponent::AddAtlas( ../mods/workshop-1877637921/images/inventoryimages/altar.xml )
+[00:01:44]: Loading 18 new character(s)	
+[00:01:47]: Total 18 character(s) loaded	
+[00:01:50]: Loading Nav Grid	
+[00:01:51]: World generated on build 487848 with save version: 5.09, using seed: 1637988707	
+[00:01:51]: setting 	summerlength	15	
+[00:01:51]: setting 	cavemoonphase	quarter	
+[00:01:51]: setting 	iscavefullmoon	false	
+[00:01:51]: setting 	isnightmaredawn	false	
+[00:01:51]: setting 	elapseddaysinseason	3	
+[00:01:51]: setting 	isfullmoon	false	
+[00:01:51]: setting 	moisture	7822.537109375	
+[00:01:51]: setting 	cavephase	day	
+[00:01:51]: setting 	iscavewaxingmoon	false	
+[00:01:51]: setting 	isnightmarewild	false	
+[00:01:51]: setting 	nightmaretimeinphase	0.10225153065168	
+[00:01:51]: setting 	precipitationrate	0.66864776611328	
+[00:01:51]: setting 	iswet	true	
+[00:01:51]: setting 	isnewmoon	false	
+[00:01:51]: setting 	precipitation	rain	
+[00:01:51]: setting 	israining	true	
+[00:01:51]: setting 	isnightmarewarn	true	
+[00:01:51]: setting 	iswinter	false	
+[00:01:51]: setting 	season	spring	
+[00:01:51]: setting 	remainingdaysinseason	17	
+[00:01:51]: setting 	winterlength	15	
+[00:01:51]: setting 	iscaveday	true	
+[00:01:51]: setting 	moistureceil	12000.147460938	
+[00:01:51]: setting 	isday	false	
+[00:01:51]: setting 	springlength	20	
+[00:01:51]: setting 	wetness	100	
+[00:01:51]: setting 	iscavedusk	false	
+[00:01:51]: setting 	isalterawake	false	
+[00:01:51]: setting 	isnightmarecalm	false	
+[00:01:51]: setting 	isnight	true	
+[00:01:51]: setting 	isdusk	false	
+[00:01:51]: setting 	isspring	true	
+[00:01:51]: setting 	isautumn	false	
+[00:01:51]: setting 	issnowing	false	
+[00:01:51]: setting 	iswaxingmoon	true	
+[00:01:51]: setting 	phase	night	
+[00:01:51]: setting 	snowlevel	0	
+[00:01:51]: setting 	issnowcovered	false	
+[00:01:51]: setting 	autumnlength	20	
+[00:01:51]: setting 	pop	1	
+[00:01:51]: setting 	nightmaretime	369.20263775865	
+[00:01:51]: setting 	seasonprogress	0.15	
+[00:01:51]: setting 	moonphase	new	
+[00:01:51]: setting 	nightmarephase	warn	
+[00:01:51]: setting 	cycles	178	
+[00:01:51]: setting 	timeinphase	0.32614908854167	
+[00:01:51]: setting 	iscavenight	false	
+[00:01:51]: setting 	iscavenewmoon	false	
+[00:01:51]: setting 	issummer	false	
+[00:01:51]: setting 	temperature	11.353783852809	
+[00:01:51]: setting 	time	0.10192159016927	
+[00:01:51]: [Shard] Secondary shard is waiting for LUA...
+[00:01:54]: SWITCHING 	false	
+[00:01:54]: Reconstructing topology	
+[00:01:54]: 	...Sorting points	
+[00:01:54]: 	...Sorting edges	
+[00:01:54]: 	...Connecting nodes	
+[00:01:54]: 	...Validating connections	
+[00:01:55]: 	...Housekeeping	
+[00:01:55]: 	...Done!	
+[00:01:55]: 1 uploads added to server. From server_temp
+[00:01:55]: About to start a shard with these settings:
+[00:01:55]:   ShardName: Caves
+[00:01:55]:   ShardID: 319933145
+[00:01:55]:   ShardRole: SECONDARY
+[00:01:55]:   MasterHost: 127.0.0.1
+[00:01:55]:   MasterBind: (null)
+[00:01:55]:   MasterPort: 10888
+[00:01:55]: [Shard] Connecting to master...
+[00:01:55]: Telling Client our new session identifier: 4CA977E64E63C38B
+[00:01:55]: Check for write access: TRUE
+[00:01:55]: Check for read access: TRUE
+[00:01:55]: Available disk space for save files: 210411 MB
+[00:01:55]: ModIndex: Load sequence finished successfully.	
+[00:01:55]: Reset() returning
+[00:01:55]: [Shard] Sending secondary shard information to master...
+[00:01:55]: Validating portal[6] <-> 1[6] (inactive)	
+[00:01:55]: Validating portal[9] <-> 1[9] (inactive)	
+[00:01:55]: Validating portal[3] <-> 1[3] (inactive)	
+[00:01:55]: Validating portal[10] <-> 1[10] (inactive)	
+[00:01:55]: Validating portal[8] <-> 1[8] (inactive)	
+[00:01:55]: Validating portal[5] <-> 1[5] (inactive)	
+[00:01:55]: Validating portal[4] <-> 1[4] (inactive)	
+[00:01:55]: Validating portal[2] <-> 1[2] (inactive)	
+[00:01:55]: Validating portal[7] <-> 1[7] (inactive)	
+[00:01:55]: Validating portal[1] <-> 1[1] (inactive)	
+[00:01:55]: Registering secondary shard in Sing lobby
+[00:01:56]: [Shard] secondary shard is now ready!
+[00:01:56]: World 1 is now connected	
+[00:01:56]: Validating portal[6] <-> 1[6] (active)	
+[00:01:56]: Validating portal[9] <-> 1[9] (active)	
+[00:01:56]: Validating portal[3] <-> 1[3] (active)	
+[00:01:56]: Validating portal[10] <-> 1[10] (active)	
+[00:01:56]: Validating portal[8] <-> 1[8] (active)	
+[00:01:56]: Validating portal[5] <-> 1[5] (active)	
+[00:01:56]: Validating portal[4] <-> 1[4] (active)	
+[00:01:56]: Validating portal[2] <-> 1[2] (active)	
+[00:01:56]: Validating portal[7] <-> 1[7] (active)	
+[00:01:56]: Validating portal[1] <-> 1[1] (active)	
+[00:01:57]: [Shard] secondary shard LUA is now ready!
+[00:01:57]: [IPC] Signal 'DST_Secondary_Ready' opened  #00000000000007F0
+[00:01:57]: [IPC] Sending signal... #00000000000007F0
+[00:01:57]: Sim paused
+[00:02:18]: Sim unpaused
+[00:02:24]: Server Autopaused	
+[00:02:28]: Server Unpaused	
+[00:02:41]: Server Autopaused	
+[00:03:02]: Server Unpaused	
+[00:03:06]: Server Autopaused	
+[00:03:08]: Server Unpaused	
+[00:03:13]: Server Autopaused	
+[00:03:15]: Server Unpaused	
+[00:03:17]: Server Autopaused	
+[00:06:55]: Registering secondary shard in Sing lobby
+[00:07:51]: Server Unpaused	
+[00:07:56]: Server Autopaused	
+[00:07:57]: Server Unpaused	
+[00:07:58]: Server Autopaused	
+[00:07:58]: Server Unpaused	
+[00:08:00]: Server Autopaused	
+[00:08:00]: Server Unpaused	
+[00:08:03]: Server Autopaused	
+[00:08:03]: Server Unpaused	
+[00:08:07]: Server Autopaused	
+[00:08:09]: Server Unpaused	
+[00:08:10]: Server Autopaused	
+[00:08:11]: Server Unpaused	
+[00:08:12]: Server Autopaused	
+[00:08:12]: Server Unpaused	
+[00:08:13]: Server Autopaused	
+[00:08:14]: Server Unpaused	
+[00:08:16]: Server Autopaused	
+[00:08:20]: Server Unpaused	
+[00:08:21]: Server Autopaused	
+[00:08:24]: Server Unpaused	
+[00:08:26]: Server Autopaused	
+[00:08:26]: Server Unpaused	
+[00:08:28]: Server Autopaused	
+[00:08:28]: Server Unpaused	
+[00:08:54]: Server Autopaused	
+[00:08:56]: Server Unpaused	
+[00:08:58]: Server Autopaused	
+[00:09:00]: Server Unpaused	
+[00:11:35]: Server Autopaused	
+[00:11:36]: Server Unpaused	
+[00:11:41]: Server Autopaused	
+[00:11:42]: Server Unpaused	
+[00:11:54]: Server Autopaused	
+[00:11:55]: Registering secondary shard in Sing lobby
+[00:11:56]: Server Unpaused	
+[00:12:00]: Server Autopaused	
+[00:12:00]: Server Unpaused	
+[00:12:04]: Server Autopaused	
+[00:12:04]: Server Unpaused	
+[00:13:07]: Server Autopaused	
+[00:13:08]: Server Unpaused	
+[00:13:12]: Server Autopaused	
+[00:13:12]: Server Unpaused	
+[00:13:22]: Server Autopaused	
+[00:13:22]: Server Unpaused	
+[00:13:24]: Server Autopaused	
+[00:13:25]: Server Unpaused	
+[00:13:25]: Server Autopaused	
+[00:13:26]: Server Unpaused	
+[00:13:27]: Server Autopaused	
+[00:13:28]: Server Unpaused	
+[00:13:31]: Server Autopaused	
+[00:13:32]: Server Unpaused	
+[00:13:35]: Server Autopaused	
+[00:13:36]: Server Unpaused	
+[00:13:43]: Server Autopaused	
+[00:13:43]: Server Unpaused	
+[00:13:47]: Server Autopaused	
+[00:13:48]: Server Unpaused	
+[00:13:50]: Server Autopaused	
+[00:13:50]: Server Unpaused	
+[00:13:55]: Server Autopaused	
+[00:13:55]: Server Unpaused	
+[00:13:56]: Server Autopaused	
+[00:13:57]: Server Unpaused	
+[00:14:00]: Server Autopaused	
+[00:14:00]: Server Unpaused	
+[00:14:07]: Server Autopaused	
+[00:14:07]: Server Unpaused	
+[00:14:10]: Server Autopaused	
+[00:14:12]: Server Unpaused	
+[00:14:15]: Server Autopaused	
+[00:14:16]: Server Unpaused	
+[00:14:18]: Server Autopaused	
+[00:14:19]: Server Unpaused	
+[00:14:24]: Server Autopaused	
+[00:14:24]: Server Unpaused	
+[00:14:35]: Server Autopaused	
+[00:14:36]: Server Unpaused	
+[00:14:37]: Server Autopaused	
+[00:14:38]: Server Unpaused	
+[00:14:42]: Server Autopaused	
+[00:14:42]: Server Unpaused	
+[00:14:55]: Server Autopaused	
+[00:14:56]: Server Unpaused	
+[00:15:07]: Server Autopaused	
+[00:15:09]: Server Unpaused	
+[00:15:12]: Available disk space for save files: 210411 MB
+[00:15:13]: Serializing world: session/4CA977E64E63C38B/0000000193
+[00:15:13]: Truncating to snapshot #193...
+[00:15:13]:  - session/4CA977E64E63C38B/0000000187
+[00:15:13]:    1 file(s) removed
+[00:15:45]: Server Autopaused	
+[00:15:45]: Server Unpaused	
+[00:15:50]: Server Autopaused	
+[00:15:50]: Server Unpaused	
+[00:15:52]: Server Autopaused	
+[00:15:53]: Server Unpaused	
+[00:16:35]: Server Autopaused	
+[00:16:36]: Server Unpaused	
+[00:16:55]: Registering secondary shard in Sing lobby
+[00:17:03]: Server Autopaused	
+[00:17:04]: Server Unpaused	
+[00:17:07]: Server Autopaused	
+[00:17:14]: Server Unpaused	
+[00:17:28]: Server Autopaused	
+[00:17:31]: Server Unpaused	
+[00:18:15]: Server Autopaused	
+[00:18:16]: Server Unpaused	
+[00:18:21]: Server Autopaused	
+[00:18:30]: Server Unpaused	
+[00:18:36]: Server Autopaused	
+[00:18:36]: Server Unpaused	
+[00:18:38]: Server Autopaused	
+[00:18:41]: Server Unpaused	
+[00:18:47]: Server Autopaused	
+[00:18:47]: Server Unpaused	
+[00:18:57]: Server Autopaused	
+[00:18:58]: Server Unpaused	
+[00:19:04]: Server Autopaused	
+[00:19:04]: Server Unpaused	
+[00:20:04]: Server Autopaused	
+[00:20:05]: Server Unpaused	
+[00:20:11]: Server Autopaused	
+[00:20:11]: Server Unpaused	
+[00:20:25]: Server Autopaused	
+[00:20:26]: Server Unpaused	
+[00:20:28]: Server Autopaused	
+[00:20:30]: Server Unpaused	
+[00:20:31]: Server Autopaused	
+[00:20:32]: Server Unpaused	
+[00:20:37]: Server Autopaused	
+[00:20:37]: Server Unpaused	
+[00:20:50]: Server Autopaused	
+[00:20:51]: Server Unpaused	
+[00:20:57]: Server Autopaused	
+[00:20:57]: Server Unpaused	
+[00:21:13]: Server Autopaused	
+[00:21:14]: Server Unpaused	
+[00:21:55]: Registering secondary shard in Sing lobby
+[00:22:00]: Server Autopaused	
+[00:22:05]: Server Unpaused	
+[00:22:26]: Server Autopaused	
+[00:22:29]: Server Unpaused	
+[00:22:31]: Server Autopaused	
+[00:22:32]: Server Unpaused	
+[00:22:40]: Server Autopaused	
+[00:22:41]: Server Unpaused	
+[00:22:42]: Server Autopaused	
+[00:22:45]: Server Unpaused	
+[00:22:50]: Server Autopaused	
+[00:22:51]: Server Unpaused	
+[00:23:01]: Server Autopaused	
+[00:23:01]: Server Unpaused	
+[00:23:06]: Server Autopaused	
+[00:23:06]: Server Unpaused	
+[00:23:09]: Server Autopaused	
+[00:23:13]: Server Unpaused	
+[00:23:17]: Server Autopaused	
+[00:23:18]: Server Unpaused	
+[00:23:19]: Server Autopaused	
+[00:23:20]: Server Unpaused	
+[00:23:25]: Server Autopaused	
+[00:23:34]: Server Unpaused	
+[00:23:51]: Server Autopaused	
+[00:24:06]: Server Unpaused	
+[00:24:14]: Server Autopaused	
+[00:24:14]: Server Unpaused	
+[00:24:17]: Server Autopaused	
+[00:24:17]: Server Unpaused	
+[00:24:19]: Server Autopaused	
+[00:24:21]: Server Unpaused	
+[00:24:22]: Server Autopaused	
+[00:24:30]: Server Unpaused	
+[00:24:34]: Server Autopaused	
+[00:24:34]: Server Unpaused	
+[00:24:38]: Server Autopaused	
+[00:24:39]: Server Unpaused	
+[00:24:40]: Server Autopaused	
+[00:24:45]: Server Unpaused	
+[00:24:46]: Available disk space for save files: 210408 MB
+[00:24:47]: Serializing world: session/4CA977E64E63C38B/0000000194
+[00:24:47]: Truncating to snapshot #194...
+[00:24:47]:  - session/4CA977E64E63C38B/0000000188
+[00:24:47]:    1 file(s) removed
+[00:24:47]: Server Autopaused	
+[00:25:03]: Server Unpaused	
+[00:25:11]: Server Autopaused	
+[00:25:12]: Server Unpaused	
+[00:25:26]: Server Autopaused	
+[00:25:27]: Server Unpaused	
+[00:25:33]: Server Autopaused	
+[00:25:33]: Server Unpaused	
+[00:25:58]: Server Autopaused	
+[00:25:59]: Server Unpaused	
+[00:26:01]: Server Autopaused	
+[00:26:24]: Server Unpaused	
+[00:26:43]: Server Autopaused	
+[00:26:45]: Server Unpaused	
+[00:26:55]: Registering secondary shard in Sing lobby
+[00:27:01]: Server Autopaused	
+[00:27:02]: Server Unpaused	
+[00:27:09]: Server Autopaused	
+[00:27:09]: Server Unpaused	
+[00:27:39]: Server Autopaused	
+[00:27:39]: Server Unpaused	
+[00:27:42]: Server Autopaused	
+[00:27:43]: Server Unpaused	
+[00:27:49]: Server Autopaused	
+[00:27:49]: Server Unpaused	
+[00:27:54]: Server Autopaused	
+[00:27:55]: Server Unpaused	
+[00:28:44]: Server Autopaused	
+[00:28:45]: Server Unpaused	
+[00:28:54]: Server Autopaused	
+[00:28:54]: Server Unpaused	
+[00:29:01]: Server Autopaused	
+[00:29:02]: Server Unpaused	
+[00:29:09]: Server Autopaused	
+[00:29:12]: Server Unpaused	
+[00:29:24]: Server Autopaused	
+[00:29:25]: Server Unpaused	
+[00:29:49]: Server Autopaused	
+[00:29:49]: Server Unpaused	
+[00:29:59]: Server Autopaused	
+[00:30:00]: Server Unpaused	
+[00:30:02]: Server Autopaused	
+[00:30:03]: Server Unpaused	
+[00:30:12]: Server Autopaused	
+[00:30:13]: Server Unpaused	
+[00:30:14]: [200] Account Communication Success (6)
+[00:30:14]: Received (KU_4_WneQJr) from TokenPurpose
+[00:30:16]: Server Autopaused	
+[00:30:17]: Server Unpaused	
+[00:30:22]: Server Autopaused	
+[00:30:24]: Server Unpaused	
+[00:30:41]: Server Autopaused	
+[00:30:42]: Server Unpaused	
+[00:30:42]: Server Autopaused	
+[00:30:43]: Server Unpaused	
+[00:30:49]: Server Autopaused	
+[00:30:49]: Server Unpaused	
+[00:31:38]: Server Autopaused	
+[00:31:40]: Server Unpaused	
+[00:31:55]: Registering secondary shard in Sing lobby
+[00:32:11]: Server Autopaused	
+[00:32:12]: Server Unpaused	
+[00:32:14]: Server Autopaused	
+[00:32:16]: Server Unpaused	
+[00:32:23]: Server Autopaused	
+[00:32:23]: Server Unpaused	
+[00:32:35]: Server Autopaused	
+[00:32:36]: Server Unpaused	
+[00:32:39]: Server Autopaused	
+[00:32:40]: Server Unpaused	
+[00:32:43]: Server Autopaused	
+[00:32:43]: Server Unpaused	
+[00:32:46]: Server Autopaused	
+[00:32:51]: Server Unpaused	
+[00:32:55]: Server Autopaused	
+[00:32:56]: Server Unpaused	
+[00:33:14]: Server Autopaused	
+[00:33:17]: Server Unpaused	
+[00:33:19]: Server Autopaused	
+[00:33:29]: Server Unpaused	
+[00:33:33]: Server Autopaused	
+[00:33:38]: Server Unpaused	
+[00:33:41]: Server Autopaused	
+[00:33:41]: Server Unpaused	
+[00:33:43]: Server Autopaused	
+[00:33:43]: Server Unpaused	
+[00:33:44]: Server Autopaused	
+[00:33:50]: Server Unpaused	
+[00:33:55]: Server Autopaused	
+[00:33:59]: Server Unpaused	
+[00:34:02]: Server Autopaused	
+[00:34:56]: Server Unpaused	
+[00:35:04]: Server Autopaused	
+[00:35:04]: Server Unpaused	
+[00:35:12]: Server Autopaused	
+[00:35:12]: Server Unpaused	
+[00:35:21]: Server Autopaused	
+[00:35:22]: Server Unpaused	
+[00:35:23]: Available disk space for save files: 210406 MB
+[00:35:24]: Serializing world: session/4CA977E64E63C38B/0000000195
+[00:35:24]: Truncating to snapshot #195...
+[00:35:24]:  - session/4CA977E64E63C38B/0000000189
+[00:35:24]:    1 file(s) removed
+[00:35:35]: Server Autopaused	
+[00:35:37]: Server Unpaused	
+[00:35:49]: Server Autopaused	
+[00:35:57]: Server Unpaused	
+[00:36:15]: Server Autopaused	
+[00:36:17]: Server Unpaused	
+[00:36:18]: Server Autopaused	
+[00:36:55]: Registering secondary shard in Sing lobby
+[00:37:32]: Server Unpaused	
+[00:38:26]: Server Autopaused	
+[00:38:27]: Server Unpaused	
+[00:38:36]: Server Autopaused	
+[00:38:36]: Server Unpaused	
+[00:38:38]: Server Autopaused	
+[00:39:38]: Server Unpaused	
+[00:39:44]: Server Autopaused	
+[00:39:45]: Server Unpaused	
+[00:39:47]: Server Autopaused	
+[00:39:53]: Server Unpaused	
+[00:39:57]: Server Autopaused	
+[00:40:03]: Server Unpaused	
+[00:40:10]: Server Autopaused	
+[00:40:11]: Server Unpaused	
+[00:40:13]: Server Autopaused	
+[00:40:14]: Server Unpaused	
+[00:40:19]: Server Autopaused	
+[00:40:20]: Server Unpaused	
+[00:40:25]: Server Autopaused	
+[00:40:25]: Server Unpaused	
+[00:40:29]: Server Autopaused	
+[00:40:29]: Server Unpaused	
+[00:41:09]: Server Autopaused	
+[00:41:09]: Server Unpaused	
+[00:41:12]: Server Autopaused	
+[00:41:19]: Server Unpaused	
+[00:41:25]: Server Autopaused	
+[00:41:25]: Server Unpaused	
+[00:41:47]: Server Autopaused	
+[00:41:47]: Server Unpaused	
+[00:41:50]: Server Autopaused	
+[00:41:52]: Server Unpaused	
+[00:41:55]: Registering secondary shard in Sing lobby
+[00:41:56]: Server Autopaused	
+[00:41:57]: Server Unpaused	
+[00:42:40]: Server Autopaused	
+[00:42:41]: Server Unpaused	
+[00:43:10]: Server Autopaused	
+[00:43:11]: Server Unpaused	
+[00:43:12]: Server Autopaused	
+[00:43:13]: Server Unpaused	
+[00:43:14]: Server Autopaused	
+[00:43:15]: Server Unpaused	
+[00:43:18]: Server Autopaused	
+[00:43:19]: Server Unpaused	
+[00:43:21]: Server Autopaused	
+[00:43:24]: Server Unpaused	
+[00:43:27]: Server Autopaused	
+[00:43:27]: Server Unpaused	
+[00:43:30]: Server Autopaused	
+[00:43:30]: Server Unpaused	
+[00:43:34]: Server Autopaused	
+[00:43:34]: Server Unpaused	
+[00:43:47]: Server Autopaused	
+[00:43:54]: Server Unpaused	
+[00:43:56]: Server Autopaused	
+[00:44:01]: Server Unpaused	
+[00:44:01]: Server Paused	
+[00:44:09]: Server Unpaused	
+[00:44:15]: Server Autopaused	
+[00:44:27]: Server Unpaused	
+[00:45:51]: Server Autopaused	
+[00:45:54]: Server Unpaused	
+[00:46:04]: Server Autopaused	
+[00:46:05]: Server Unpaused	
+[00:46:23]: Server Autopaused	
+[00:46:24]: Server Unpaused	
+[00:46:50]: Server Autopaused	
+[00:46:55]: Server Unpaused	
+[00:46:55]: Registering secondary shard in Sing lobby
+[00:46:58]: Server Autopaused	
+[00:47:02]: Server Unpaused	
+[00:47:05]: Server Autopaused	
+[00:47:07]: Server Unpaused	
+[00:47:08]: Server Autopaused	
+[00:47:09]: Server Unpaused	
+[00:47:17]: Available disk space for save files: 210404 MB
+[00:47:17]: Serializing world: session/4CA977E64E63C38B/0000000196
+[00:47:17]: Truncating to snapshot #196...
+[00:47:17]:  - session/4CA977E64E63C38B/0000000190
+[00:47:17]:    1 file(s) removed
+[00:47:31]: Server Autopaused	
+[00:47:33]: Server Unpaused	
+[00:47:41]: Server Autopaused	
+[00:47:42]: Server Unpaused	
+[00:47:46]: Server Autopaused	
+[00:47:49]: Server Unpaused	
+[00:48:23]: Server Autopaused	
+[00:48:23]: Server Unpaused	
+[00:48:49]: Server Autopaused	
+[00:48:51]: Server Unpaused	
+[00:49:23]: Server Autopaused	
+[00:49:25]: Server Unpaused	
+[00:49:35]: Server Autopaused	
+[00:49:36]: Server Unpaused	
+[00:50:11]: Server Autopaused	
+[00:50:12]: Server Unpaused	
+[00:51:51]: Server Autopaused	
+[00:51:51]: Server Unpaused	
+[00:51:55]: Server Autopaused	
+[00:51:55]: Registering secondary shard in Sing lobby
+[00:51:56]: Server Unpaused	
+[00:52:00]: Server Autopaused	
+[00:52:01]: Server Unpaused	
+[00:52:04]: Server Autopaused	
+[00:52:08]: Server Unpaused	
+[00:52:17]: Server Autopaused	
+[00:52:17]: Server Unpaused	
+[00:53:17]: Server Autopaused	
+[00:53:21]: Server Unpaused	
+[00:53:26]: Server Autopaused	
+[00:53:27]: Server Unpaused	
+[00:53:33]: Server Autopaused	
+[00:53:37]: Server Unpaused	
+[00:53:56]: Server Autopaused	
+[00:54:04]: Server Unpaused	
+[00:54:15]: Server Autopaused	
+[00:54:15]: Server Unpaused	
+[00:54:42]: Server Autopaused	
+[00:54:52]: Server Unpaused	
+[00:54:58]: Server Autopaused	
+[00:56:21]: Server Unpaused	
+[00:56:41]: Server Autopaused	
+[00:56:53]: Server Unpaused	
+[00:56:55]: Registering secondary shard in Sing lobby
+[00:56:58]: Server Autopaused	
+[00:57:00]: Server Unpaused	
+[00:57:13]: Server Autopaused	
+[00:57:14]: Server Unpaused	
+[00:57:20]: Server Autopaused	
+[00:57:20]: Server Unpaused	
+[00:57:31]: Server Autopaused	
+[00:57:31]: Server Unpaused	
+[00:57:37]: Server Autopaused	
+[00:57:39]: Server Unpaused	
+[00:57:41]: Available disk space for save files: 210401 MB
+[00:57:42]: Serializing world: session/4CA977E64E63C38B/0000000197
+[00:57:42]: Truncating to snapshot #197...
+[00:57:42]:  - session/4CA977E64E63C38B/0000000191
+[00:57:42]:    1 file(s) removed
+[00:58:25]: Server Autopaused	
+[00:58:29]: Server Unpaused	
+[00:58:33]: Server Autopaused	
+[00:58:34]: Server Unpaused	
+[00:58:46]: Server Autopaused	
+[00:58:46]: Server Unpaused	
+[01:00:14]: [200] Account Communication Success (6)
+[01:00:14]: Received (KU_4_WneQJr) from TokenPurpose
+[01:00:22]: Server Autopaused	
+[01:00:24]: Server Unpaused	
+[01:00:30]: Server Autopaused	
+[01:00:32]: Server Unpaused	
+[01:00:35]: Server Autopaused	
+[01:00:35]: Server Unpaused	
+[01:00:36]: Server Autopaused	
+[01:00:42]: Server Unpaused	
+[01:00:45]: Server Autopaused	
+[01:00:45]: Server Unpaused	
+[01:01:00]: Server Autopaused	
+[01:01:01]: Server Unpaused	
+[01:01:08]: Server Autopaused	
+[01:01:09]: Server Unpaused	
+[01:01:23]: Server Autopaused	
+[01:01:35]: Server Unpaused	
+[01:01:46]: Server Autopaused	
+[01:01:46]: Server Unpaused	
+[01:01:55]: Registering secondary shard in Sing lobby
+[01:02:04]: Server Autopaused	
+[01:02:05]: Server Unpaused	
+[01:02:09]: Server Autopaused	
+[01:02:09]: Server Unpaused	
+[01:02:19]: Server Autopaused	
+[01:02:19]: Server Unpaused	
+[01:02:40]: Server Autopaused	
+[01:02:41]: Server Unpaused	
+[01:02:46]: Server Autopaused	
+[01:02:46]: Server Unpaused	
+[01:02:54]: Server Autopaused	
+[01:02:54]: Server Unpaused	
+[01:03:05]: Server Autopaused	
+[01:03:05]: Server Unpaused	
+[01:03:14]: Server Autopaused	
+[01:03:14]: Server Unpaused	
+[01:03:29]: Server Autopaused	
+[01:03:30]: Server Unpaused	
+[01:03:32]: Server Autopaused	
+[01:03:32]: Server Unpaused	
+[01:03:35]: Server Autopaused	
+[01:03:37]: Server Unpaused	
+[01:03:38]: Server Autopaused	
+[01:03:38]: Server Unpaused	
+[01:03:45]: Server Autopaused	
+[01:03:53]: Server Unpaused	
+[01:04:13]: Server Autopaused	
+[01:04:14]: Server Unpaused	
+[01:04:21]: Server Autopaused	
+[01:04:21]: Server Unpaused	
+[01:04:31]: Server Autopaused	
+[01:04:32]: Server Unpaused	
+[01:04:33]: Server Autopaused	
+[01:04:33]: Server Unpaused	
+[01:04:52]: Server Autopaused	
+[01:04:52]: Server Unpaused	
+[01:04:55]: Server Autopaused	
+[01:04:57]: Server Unpaused	
+[01:05:14]: Server Autopaused	
+[01:05:14]: Server Unpaused	
+[01:05:18]: Server Autopaused	
+[01:05:19]: Server Unpaused	
+[01:05:23]: Server Autopaused	
+[01:05:23]: Server Unpaused	
+[01:05:26]: Server Autopaused	
+[01:05:26]: Server Unpaused	
+[01:05:32]: Server Autopaused	
+[01:05:34]: Server Unpaused	
+[01:05:36]: Server Autopaused	
+[01:05:38]: Server Unpaused	
+[01:05:41]: Server Autopaused	
+[01:05:42]: Server Unpaused	
+[01:05:43]: Server Autopaused	
+[01:05:44]: Server Unpaused	
+[01:05:45]: Server Autopaused	
+[01:05:46]: Server Unpaused	
+[01:05:47]: Server Autopaused	
+[01:05:48]: Server Unpaused	
+[01:06:15]: Server Autopaused	
+[01:06:17]: Server Unpaused	
+[01:06:20]: Server Autopaused	
+[01:06:20]: Server Unpaused	
+[01:06:23]: Server Autopaused	
+[01:06:23]: Server Unpaused	
+[01:06:26]: Server Autopaused	
+[01:06:27]: Server Unpaused	
+[01:06:30]: Server Autopaused	
+[01:06:32]: Server Unpaused	
+[01:06:41]: Available disk space for save files: 210399 MB
+[01:06:42]: Serializing world: session/4CA977E64E63C38B/0000000198
+[01:06:42]: Truncating to snapshot #198...
+[01:06:42]:  - session/4CA977E64E63C38B/0000000192
+[01:06:42]:    1 file(s) removed
+[01:06:55]: Registering secondary shard in Sing lobby
+[01:07:11]: Server Autopaused	
+[01:07:12]: Server Unpaused	
+[01:07:13]: Server Autopaused	
+[01:07:13]: Server Unpaused	
+[01:07:15]: Server Autopaused	
+[01:07:15]: Server Unpaused	
+[01:07:20]: Server Autopaused	
+[01:07:20]: Server Unpaused	
+[01:07:26]: Server Autopaused	
+[01:07:26]: Server Unpaused	
+[01:07:30]: Server Autopaused	
+[01:07:33]: Server Unpaused	
+[01:07:52]: Server Autopaused	
+[01:07:54]: Server Unpaused	
+[01:08:02]: Server Autopaused	
+[01:08:02]: Server Unpaused	
+[01:08:09]: Server Autopaused	
+[01:08:10]: Server Unpaused	
+[01:08:13]: Server Autopaused	
+[01:08:13]: Server Unpaused	
+[01:08:20]: Server Autopaused	
+[01:08:20]: Server Unpaused	
+[01:09:05]: Server Autopaused	
+[01:09:07]: Server Unpaused	
+[01:10:11]: Server Autopaused	
+[01:10:11]: Server Unpaused	
+[01:10:12]: Server Autopaused	
+[01:10:12]: Server Unpaused	
+[01:10:28]: Server Autopaused	
+[01:10:28]: Server Unpaused	
+[01:10:42]: Server Autopaused	
+[01:10:42]: Server Unpaused	
+[01:10:45]: Server Autopaused	
+[01:10:45]: Server Unpaused	
+[01:10:50]: Server Autopaused	
+[01:10:50]: Server Unpaused	
+[01:11:09]: Server Autopaused	
+[01:11:09]: Server Unpaused	
+[01:11:48]: Server Autopaused	
+[01:11:48]: Server Unpaused	
+[01:11:49]: Server Autopaused	
+[01:11:53]: Server Unpaused	
+[01:11:55]: Server Autopaused	
+[01:11:55]: Registering secondary shard in Sing lobby
+[01:11:57]: Server Unpaused	
+[01:12:01]: Server Autopaused	
+[01:12:06]: Server Unpaused	
+[01:12:11]: Server Autopaused	
+[01:12:13]: Server Unpaused	
+[01:12:16]: Server Autopaused	
+[01:12:16]: Server Unpaused	
+[01:12:18]: Server Autopaused	
+[01:12:18]: Server Unpaused	
+[01:12:22]: Server Autopaused	
+[01:12:23]: Server Unpaused	
+[01:12:26]: Server Autopaused	
+[01:12:27]: Server Unpaused	
+[01:12:27]: Server Autopaused	
+[01:12:28]: Server Unpaused	
+[01:12:30]: Server Autopaused	
+[01:12:35]: Server Unpaused	
+[01:12:42]: Server Autopaused	
+[01:12:42]: Server Unpaused	
+[01:12:45]: Server Autopaused	
+[01:12:45]: Server Unpaused	
+[01:13:10]: Server Autopaused	
+[01:13:17]: Server Unpaused	
+[01:13:17]: Server Autopaused	
+[01:13:21]: Server Unpaused	
+[01:13:21]: Registering secondary shard in Sing lobby
+[01:13:21]: CURL ERROR: (lobby-sing.kleientertainment.com) Could not resolve host: lobby-sing.kleientertainment.com
+[01:13:21]: Failed to send shard broadcast message
+[01:13:54]: Server Autopaused	
+[01:13:54]: Server Unpaused	
+[01:13:56]: Registering secondary shard in Sing lobby
+[01:14:00]: Server Autopaused	
+[01:14:01]: Server Unpaused	
+[01:14:03]: Server Autopaused	
+[01:14:04]: Server Unpaused	
+[01:14:15]: Server Autopaused	
+[01:15:09]: Server Unpaused	
+[01:15:21]: Server Autopaused	
+[01:15:49]: Server Unpaused	
+[01:16:05]: Server Autopaused	
+[01:16:11]: Server Unpaused	
+[01:16:17]: Server Autopaused	
+[01:16:24]: Server Unpaused	
+[01:16:40]: Server Autopaused	
+[01:16:41]: Server Unpaused	
+[01:16:44]: Server Autopaused	
+[01:16:46]: Server Unpaused	
+[01:16:49]: Server Autopaused	
+[01:16:50]: Server Unpaused	
+[01:16:54]: Server Autopaused	
+[01:16:54]: Server Unpaused	
+[01:16:55]: Server Autopaused	
+[01:16:58]: Server Unpaused	
+[01:17:01]: Server Autopaused	
+[01:17:02]: Server Unpaused	
+[01:17:02]: Server Autopaused	
+[01:17:03]: Server Unpaused	
+[01:17:03]: Server Autopaused	
+[01:17:05]: Server Unpaused	
+[01:17:11]: Available disk space for save files: 210397 MB
+[01:17:11]: Serializing world: session/4CA977E64E63C38B/0000000199
+[01:17:11]: Truncating to snapshot #199...
+[01:17:11]:  - session/4CA977E64E63C38B/0000000193
+[01:17:11]:    1 file(s) removed
+[01:17:39]: Server Autopaused	
+[01:17:39]: Server Unpaused	
+[01:17:40]: Server Autopaused	
+[01:17:42]: Server Unpaused	
+[01:17:44]: Server Autopaused	
+[01:17:44]: Server Unpaused	
+[01:17:48]: Server Autopaused	
+[01:17:49]: Server Unpaused	
+[01:17:51]: Server Autopaused	
+[01:17:52]: Server Unpaused	
+[01:17:55]: Server Autopaused	
+[01:17:55]: Server Unpaused	
+[01:17:57]: Server Autopaused	
+[01:17:59]: Server Unpaused	
+[01:18:30]: Server Autopaused	
+[01:18:31]: Server Unpaused	
+[01:18:39]: Server Autopaused	
+[01:18:40]: Server Unpaused	
+[01:18:45]: Server Autopaused	
+[01:18:47]: Server Unpaused	
+[01:18:56]: Registering secondary shard in Sing lobby
+[01:19:08]: Server Autopaused	
+[01:19:14]: Server Unpaused	
+[01:19:30]: Server Autopaused	
+[01:19:31]: Server Unpaused	
+[01:19:46]: Server Autopaused	
+[01:19:47]: Server Unpaused	
+[01:19:58]: Server Autopaused	
+[01:19:59]: Server Unpaused	
+[01:20:24]: Server Autopaused	
+[01:20:24]: Server Unpaused	
+[01:20:35]: Server Autopaused	
+[01:20:35]: Server Unpaused	
+[01:20:37]: Server Autopaused	
+[01:20:52]: Server Unpaused	
+[01:21:03]: Server Autopaused	
+[01:21:21]: Server Unpaused	
+[01:21:34]: Server Autopaused	
+[01:21:55]: Server Unpaused	
+[01:21:59]: Server Autopaused	
+[01:22:05]: Server Unpaused	
+[01:22:41]: Server Autopaused	
+[01:22:49]: Server Unpaused	
+[01:23:05]: Server Autopaused	
+[01:23:07]: Server Unpaused	
+[01:23:17]: [Shard] #1 -> session/4CA977E64E63C38B/A7GJV0OQ397L/0000000200
+[01:23:17]: [Shard] Received migration #1 data for (KU_4_WneQJr)
+[01:23:22]: New incoming connection 127.0.0.1|63679 <5614436799064430414>
+[01:23:22]: Client connected from [LAN] 127.0.0.1|63679 <5614436799064430414>
+[01:23:22]: ValidateGameSessionToken pgs-usc^KU_4_WneQJr^DontStarveTogether^CrnyM3vO4w4jnGjehk38dpREQRDQ/NJIy7nNSrFFoMY= for <5614436799064430414>
+[01:23:23]: Client authenticated: (KU_4_WneQJr) 彡粼
+[01:23:23]: [Steam] Authenticated host '76561198285577102'
+[01:23:23]: [Shard] Completed incoming migration #1 for (KU_4_WneQJr)
+[01:23:31]: Resuming user: session/4CA977E64E63C38B/A7GJV0OQ397L/0000000200
+[01:23:32]: Player will spawn close to portal #1	
+[01:23:32]: Spawning player at: [Load] (365.70, 0.00, -25.03)	
+[01:23:34]: Server Autopaused	
+[01:23:43]: Server Unpaused	
+[01:23:46]: Server Autopaused	
+[01:23:48]: Server Unpaused	
+[01:23:55]: Server Autopaused	
+[01:23:56]: Registering secondary shard in Sing lobby
+[01:23:56]: Server Unpaused	
+[01:24:06]: Server Autopaused	
+[01:25:19]: Server Unpaused	
+[01:25:22]: Server Autopaused	
+[01:25:24]: Server Unpaused	
+[01:25:26]: Activating portal[1] to 1	
+[01:25:26]: Serializing user: session/4CA977E64E63C38B/A7GJV0OQ397L/0000000200
+[01:25:26]: [Shard] Migration request: (KU_4_WneQJr) to [SHDMASTER](1)
+[01:25:26]: [Shard] #2 <- session/4CA977E64E63C38B/A7GJV0OQ397L/0000000200
+[01:25:26]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[01:25:26]: [Steam] SendUserDisconnect for '76561198285577102'
+[01:25:40]: Server Autopaused	
+[01:25:42]: Server Unpaused	
+[01:25:50]: Server Autopaused	
+[01:26:00]: Server Unpaused	
+[01:26:05]: Server Autopaused	
+[01:26:09]: Server Unpaused	
+[01:26:27]: Server Autopaused	
+[01:26:28]: Server Unpaused	
+[01:26:53]: Server Autopaused	
+[01:26:53]: Server Unpaused	
+[01:27:13]: Server Autopaused	
+[01:27:13]: Server Unpaused	
+[01:27:15]: Server Autopaused	
+[01:27:15]: Server Unpaused	
+[01:27:28]: Server Autopaused	
+[01:27:28]: Server Unpaused	
+[01:27:33]: Server Autopaused	
+[01:27:35]: Server Unpaused	
+[01:27:37]: Server Autopaused	
+[01:27:37]: Server Unpaused	
+[01:27:39]: Server Autopaused	
+[01:27:39]: Server Unpaused	
+[01:27:41]: Server Autopaused	
+[01:27:41]: Server Unpaused	
+[01:27:45]: Server Autopaused	
+[01:27:47]: Server Unpaused	
+[01:27:55]: Server Autopaused	
+[01:27:57]: Server Unpaused	
+[01:28:36]: Available disk space for save files: 210394 MB
+[01:28:37]: Serializing world: session/4CA977E64E63C38B/0000000200
+[01:28:37]: Truncating to snapshot #200...
+[01:28:37]:  - session/4CA977E64E63C38B/0000000194
+[01:28:37]:    1 file(s) removed
+[01:28:51]: Server Autopaused	
+[01:28:51]: Server Unpaused	
+[01:28:56]: Registering secondary shard in Sing lobby
+[01:29:00]: Server Autopaused	
+[01:29:01]: Server Unpaused	
+[01:29:03]: Server Autopaused	
+[01:29:04]: Server Unpaused	
+[01:29:09]: Server Autopaused	
+[01:29:10]: Server Unpaused	
+[01:29:59]: Server Autopaused	
+[01:30:00]: Server Unpaused	
+[01:30:14]: [200] Account Communication Success (6)
+[01:30:14]: Received (KU_4_WneQJr) from TokenPurpose
+[01:31:06]: Server Autopaused	
+[01:31:06]: Server Unpaused	
+[01:31:13]: Server Autopaused	
+[01:31:14]: Server Unpaused	
+[01:31:35]: Server Autopaused	
+[01:31:35]: Server Unpaused	
+[01:31:38]: Server Autopaused	
+[01:31:49]: Server Unpaused	
+[01:31:52]: Server Autopaused	
+[01:31:52]: Server Unpaused	
+[01:31:53]: Server Autopaused	
+[01:31:55]: Server Unpaused	
+[01:33:55]: Server Autopaused	
+[01:33:56]: Server Unpaused	
+[01:33:56]: Registering secondary shard in Sing lobby
+[01:33:58]: Server Autopaused	
+[01:33:59]: Server Unpaused	
+[01:34:24]: Server Autopaused	
+[01:34:25]: Server Unpaused	
+[01:34:27]: Server Autopaused	
+[01:34:27]: Server Unpaused	
+[01:34:45]: Server Autopaused	
+[01:34:46]: Server Unpaused	
+[01:34:48]: Server Autopaused	
+[01:34:49]: Server Unpaused	
+[01:34:58]: Server Autopaused	
+[01:34:59]: Server Unpaused	
+[01:35:55]: Server Autopaused	
+[01:35:58]: Server Unpaused	
+[01:36:06]: Server Autopaused	
+[01:36:06]: Server Unpaused	
+[01:36:14]: Server Autopaused	
+[01:36:17]: Server Unpaused	
+[01:36:20]: Server Autopaused	
+[01:36:22]: Server Unpaused	
+[01:36:39]: Server Autopaused	
+[01:36:39]: Server Unpaused	
+[01:36:42]: Server Autopaused	
+[01:36:43]: Server Unpaused	
+[01:37:05]: Server Autopaused	
+[01:37:15]: Server Unpaused	
+[01:37:19]: Available disk space for save files: 210392 MB
+[01:37:20]: Serializing world: session/4CA977E64E63C38B/0000000201
+[01:37:20]: Truncating to snapshot #201...
+[01:37:20]:  - session/4CA977E64E63C38B/0000000195
+[01:37:20]:    1 file(s) removed
+[01:37:21]: Server Autopaused	
+[01:37:21]: Server Unpaused	
+[01:37:25]: Server Autopaused	
+[01:37:25]: Server Unpaused	
+[01:37:28]: Server Autopaused	
+[01:37:28]: Server Unpaused	
+[01:37:33]: Server Autopaused	
+[01:37:33]: Server Unpaused	
+[01:37:39]: Server Autopaused	
+[01:37:39]: Server Unpaused	
+[01:37:41]: Server Autopaused	
+[01:37:41]: Server Unpaused	
+[01:37:42]: Server Autopaused	
+[01:37:42]: Server Unpaused	
+[01:37:43]: Server Autopaused	
+[01:37:43]: Server Unpaused	
+[01:37:45]: Server Autopaused	
+[01:37:46]: Server Unpaused	
+[01:37:47]: Server Autopaused	
+[01:37:47]: Server Unpaused	
+[01:37:47]: Server Autopaused	
+[01:37:48]: Server Unpaused	
+[01:37:50]: Server Autopaused	
+[01:37:50]: Server Unpaused	
+[01:38:02]: Server Autopaused	
+[01:38:05]: Server Unpaused	
+[01:38:10]: Server Autopaused	
+[01:38:10]: Server Unpaused	
+[01:38:13]: Server Autopaused	
+[01:38:13]: Server Unpaused	
+[01:38:15]: Server Autopaused	
+[01:38:16]: Server Unpaused	
+[01:38:19]: Server Autopaused	
+[01:38:19]: Server Unpaused	
+[01:38:24]: Server Autopaused	
+[01:38:24]: Server Unpaused	
+[01:38:33]: Server Autopaused	
+[01:38:33]: Server Unpaused	
+[01:38:56]: Registering secondary shard in Sing lobby
+[01:39:08]: Server Autopaused	
+[01:39:08]: Server Unpaused	
+[01:39:14]: Server Autopaused	
+[01:39:14]: Server Unpaused	
+[01:39:17]: Server Autopaused	
+[01:39:35]: Server Unpaused	
+[01:40:06]: Server Autopaused	
+[01:40:06]: Server Unpaused	
+[01:41:17]: Server Autopaused	
+[01:41:18]: Server Unpaused	
+[01:41:29]: Server Autopaused	
+[01:41:30]: Server Unpaused	
+[01:41:46]: Server Autopaused	
+[01:41:46]: Server Unpaused	
+[01:41:48]: Server Autopaused	
+[01:41:50]: Server Unpaused	
+[01:41:56]: Server Autopaused	
+[01:41:56]: Server Unpaused	
+[01:42:03]: Server Autopaused	
+[01:42:04]: Server Unpaused	
+[01:42:18]: Server Autopaused	
+[01:42:19]: Server Unpaused	
+[01:42:26]: Server Autopaused	
+[01:42:27]: Server Unpaused	
+[01:42:32]: Server Autopaused	
+[01:42:33]: Server Unpaused	
+[01:42:37]: Server Autopaused	
+[01:42:38]: Server Unpaused	
+[01:42:54]: Server Autopaused	
+[01:42:54]: Server Unpaused	
+[01:43:04]: Server Autopaused	
+[01:43:05]: Server Unpaused	
+[01:43:24]: Server Autopaused	
+[01:43:25]: Server Unpaused	
+[01:43:39]: Server Autopaused	
+[01:43:40]: Server Unpaused	
+[01:43:42]: Server Autopaused	
+[01:43:43]: Server Unpaused	
+[01:43:56]: Registering secondary shard in Sing lobby
+[01:44:26]: Server Autopaused	
+[01:44:27]: Server Unpaused	
+[01:44:29]: Server Autopaused	
+[01:44:30]: Server Unpaused	
+[01:44:31]: Server Autopaused	
+[01:44:31]: Server Unpaused	
+[01:44:37]: Server Autopaused	
+[01:44:37]: Server Unpaused	
+[01:44:47]: Server Autopaused	
+[01:44:49]: Server Unpaused	
+[01:44:52]: Server Autopaused	
+[01:44:52]: Server Unpaused	
+[01:44:55]: Server Autopaused	
+[01:44:56]: Server Unpaused	
+[01:45:00]: Server Autopaused	
+[01:45:01]: Server Unpaused	
+[01:45:02]: Server Autopaused	
+[01:45:02]: Server Unpaused	
+[01:45:18]: Server Autopaused	
+[01:45:18]: Server Unpaused	
+[01:45:27]: Server Autopaused	
+[01:45:27]: Server Unpaused	
+[01:45:34]: Server Autopaused	
+[01:45:34]: Server Unpaused	
+[01:45:36]: Server Autopaused	
+[01:45:37]: Server Unpaused	
+[01:45:40]: Server Autopaused	
+[01:45:40]: Server Unpaused	
+[01:45:43]: Server Autopaused	
+[01:45:43]: Server Unpaused	
+[01:45:47]: Server Autopaused	
+[01:45:47]: Server Unpaused	
+[01:45:52]: Server Autopaused	
+[01:45:52]: Server Unpaused	
+[01:45:59]: Server Autopaused	
+[01:46:06]: Server Unpaused	
+[01:46:07]: Server Autopaused	
+[01:46:09]: Server Unpaused	
+[01:46:10]: Server Autopaused	
+[01:46:11]: Server Unpaused	
+[01:46:14]: Server Autopaused	
+[01:46:16]: Server Unpaused	
+[01:46:16]: Available disk space for save files: 210390 MB
+[01:46:17]: Serializing world: session/4CA977E64E63C38B/0000000202
+[01:46:17]: Truncating to snapshot #202...
+[01:46:17]:  - session/4CA977E64E63C38B/0000000196
+[01:46:17]:    1 file(s) removed
+[01:46:19]: Server Autopaused	
+[01:46:19]: Server Unpaused	
+[01:46:21]: Server Autopaused	
+[01:46:23]: Server Unpaused	
+[01:46:25]: Server Autopaused	
+[01:46:27]: Server Unpaused	
+[01:46:38]: Server Autopaused	
+[01:46:39]: Server Unpaused	
+[01:47:08]: Server Autopaused	
+[01:47:12]: Server Unpaused	
+[01:47:18]: Server Autopaused	
+[01:47:23]: Server Unpaused	
+[01:47:25]: Server Autopaused	
+[01:47:26]: Server Unpaused	
+[01:47:29]: Server Autopaused	
+[01:47:30]: Server Unpaused	
+[01:47:32]: Server Autopaused	
+[01:47:33]: Server Unpaused	
+[01:47:35]: Server Autopaused	
+[01:47:35]: Server Unpaused	
+[01:47:37]: Server Autopaused	
+[01:47:45]: Server Unpaused	
+[01:47:47]: Server Autopaused	
+[01:47:47]: Server Unpaused	
+[01:47:49]: Server Autopaused	
+[01:47:51]: Server Unpaused	
+[01:47:54]: Server Autopaused	
+[01:47:56]: Server Unpaused	
+[01:47:59]: Server Autopaused	
+[01:48:01]: Server Unpaused	
+[01:48:08]: Server Autopaused	
+[01:48:09]: Server Unpaused	
+[01:48:30]: Server Autopaused	
+[01:48:31]: Server Unpaused	
+[01:48:36]: Server Autopaused	
+[01:48:37]: Server Unpaused	
+[01:48:38]: Server Autopaused	
+[01:48:40]: Server Unpaused	
+[01:48:47]: Server Autopaused	
+[01:48:47]: Server Unpaused	
+[01:48:53]: Server Autopaused	
+[01:48:53]: Server Unpaused	
+[01:48:55]: Server Autopaused	
+[01:48:56]: Server Unpaused	
+[01:48:56]: Registering secondary shard in Sing lobby
+[01:49:00]: Server Autopaused	
+[01:49:00]: Server Unpaused	
+[01:49:09]: Server Autopaused	
+[01:49:09]: Server Unpaused	
+[01:49:21]: Server Autopaused	
+[01:49:21]: Server Unpaused	
+[01:49:24]: Server Autopaused	
+[01:49:24]: Server Unpaused	
+[01:49:28]: Server Autopaused	
+[01:49:29]: Server Unpaused	
+[01:49:31]: Server Autopaused	
+[01:49:31]: Server Unpaused	
+[01:49:36]: Server Autopaused	
+[01:49:37]: Server Unpaused	
+[01:49:38]: Server Autopaused	
+[01:49:38]: Server Unpaused	
+[01:49:44]: Server Autopaused	
+[01:49:45]: Server Unpaused	
+[01:49:50]: Server Autopaused	
+[01:49:51]: Server Unpaused	
+[01:50:26]: Server Autopaused	
+[01:50:27]: Server Unpaused	
+[01:50:27]: Server Autopaused	
+[01:50:35]: Server Unpaused	
+[01:50:37]: Server Autopaused	
+[01:50:38]: Server Unpaused	
+[01:50:40]: Server Autopaused	
+[01:50:40]: Server Unpaused	
+[01:50:42]: Server Autopaused	
+[01:50:44]: Server Unpaused	
+[01:50:46]: Server Autopaused	
+[01:50:46]: Server Unpaused	
+[01:50:48]: Server Autopaused	
+[01:50:49]: Server Unpaused	
+[01:51:12]: Server Autopaused	
+[01:51:16]: Server Unpaused	
+[01:51:49]: Server Autopaused	
+[01:51:49]: Server Unpaused	
+[01:51:56]: Server Autopaused	
+[01:51:56]: Server Unpaused	
+[01:52:16]: Server Autopaused	
+[01:52:16]: Server Unpaused	
+[01:52:32]: Server Autopaused	
+[01:52:33]: Server Unpaused	
+[01:52:46]: Server Autopaused	
+[01:52:47]: Server Unpaused	
+[01:52:53]: Server Autopaused	
+[01:52:54]: Server Unpaused	
+[01:52:58]: Server Autopaused	
+[01:52:59]: Server Unpaused	
+[01:53:03]: Server Autopaused	
+[01:53:08]: Server Unpaused	
+[01:53:13]: Server Autopaused	
+[01:53:15]: Server Unpaused	
+[01:53:20]: Server Autopaused	
+[01:53:20]: Server Unpaused	
+[01:53:22]: Server Autopaused	
+[01:53:23]: Server Unpaused	
+[01:53:44]: Server Autopaused	
+[01:53:44]: Server Unpaused	
+[01:53:48]: Server Autopaused	
+[01:53:48]: Server Unpaused	
+[01:53:50]: Server Autopaused	
+[01:53:50]: Server Unpaused	
+[01:53:51]: Server Autopaused	
+[01:53:52]: Server Unpaused	
+[01:53:56]: Registering secondary shard in Sing lobby
+[01:54:16]: Server Autopaused	
+[01:54:21]: Server Unpaused	
+[01:54:24]: Server Autopaused	
+[01:54:25]: Server Unpaused	
+[01:54:29]: Server Autopaused	
+[01:54:49]: Server Unpaused	
+[01:55:08]: Server Autopaused	
+[01:55:08]: Server Unpaused	
+[01:55:14]: Server Autopaused	
+[01:55:15]: Server Unpaused	
+[01:55:24]: Server Autopaused	
+[01:55:25]: Server Unpaused	
+[01:55:38]: Server Autopaused	
+[01:55:40]: Server Unpaused	
+[01:55:50]: Available disk space for save files: 210387 MB
+[01:55:51]: Serializing world: session/4CA977E64E63C38B/0000000203
+[01:55:51]: Truncating to snapshot #203...
+[01:55:51]:  - session/4CA977E64E63C38B/0000000197
+[01:55:51]:    1 file(s) removed
+[01:55:52]: Server Autopaused	
+[01:56:30]: Server Unpaused	
+[01:56:53]: Server Autopaused	
+[01:56:54]: Server Unpaused	
+[01:57:02]: Server Autopaused	
+[01:57:18]: Server Unpaused	
+[01:57:20]: Server Autopaused	
+[01:57:24]: Server Unpaused	
+[01:57:35]: Server Autopaused	
+[01:57:36]: Server Unpaused	
+[01:57:46]: Server Autopaused	
+[01:57:52]: Server Unpaused	
+[01:58:11]: Server Autopaused	
+[01:58:46]: Server Unpaused	
+[01:58:52]: Server Autopaused	
+[01:58:56]: Registering secondary shard in Sing lobby
+[02:00:17]: [200] Account Communication Success (6)
+[02:00:17]: Received (KU_4_WneQJr) from TokenPurpose
+[02:01:41]: Server Unpaused	
+[02:01:55]: Server Autopaused	
+[02:01:56]: Server Unpaused	
+[02:02:33]: Server Autopaused	
+[02:02:42]: Server Unpaused	
+[02:02:46]: Server Autopaused	
+[02:02:53]: Server Unpaused	
+[02:02:57]: Server Autopaused	
+[02:02:57]: Server Unpaused	
+[02:03:02]: Server Autopaused	
+[02:03:23]: Server Unpaused	
+[02:03:38]: Server Autopaused	
+[02:03:40]: Server Unpaused	
+[02:03:56]: Registering secondary shard in Sing lobby
+[02:04:26]: Server Autopaused	
+[02:04:36]: Server Unpaused	
+[02:04:44]: Server Autopaused	
+[02:04:44]: Server Unpaused	
+[02:04:47]: Server Autopaused	
+[02:04:47]: Server Unpaused	
+[02:05:24]: Server Autopaused	
+[02:05:25]: Server Unpaused	
+[02:05:28]: Server Autopaused	
+[02:05:29]: Server Unpaused	
+[02:05:53]: Server Autopaused	
+[02:05:54]: Server Unpaused	
+[02:06:18]: Server Autopaused	
+[02:06:41]: Server Unpaused	
+[02:06:47]: Server Autopaused	
+[02:07:20]: Server Unpaused	
+[02:08:23]: Server Autopaused	
+[02:08:23]: Server Unpaused	
+[02:08:31]: Server Autopaused	
+[02:08:32]: Server Unpaused	
+[02:08:40]: Server Autopaused	
+[02:08:41]: Server Unpaused	
+[02:08:56]: Registering secondary shard in Sing lobby
+[02:09:05]: Server Autopaused	
+[02:09:05]: Server Unpaused	
+[02:09:22]: Server Autopaused	
+[02:09:22]: Server Unpaused	
+[02:09:24]: Server Autopaused	
+[02:09:25]: Server Unpaused	
+[02:09:27]: Server Autopaused	
+[02:09:45]: Server Unpaused	
+[02:09:48]: Server Autopaused	
+[02:09:56]: Server Unpaused	
+[02:09:57]: Server Autopaused	
+[02:09:58]: Server Unpaused	
+[02:09:59]: Server Autopaused	
+[02:10:24]: Server Unpaused	
+[02:10:27]: Server Autopaused	
+[02:10:27]: Server Unpaused	
+[02:10:32]: Server Autopaused	
+[02:10:33]: Server Unpaused	
+[02:10:35]: Server Autopaused	
+[02:10:36]: Server Unpaused	
+[02:10:39]: Server Autopaused	
+[02:10:39]: Server Unpaused	
+[02:10:40]: Server Autopaused	
+[02:10:43]: Server Unpaused	
+[02:10:57]: Server Autopaused	
+[02:10:59]: Server Unpaused	
+[02:11:04]: Server Autopaused	
+[02:11:07]: Server Unpaused	
+[02:11:15]: Available disk space for save files: 210384 MB
+[02:11:16]: Serializing world: session/4CA977E64E63C38B/0000000204
+[02:11:16]: Truncating to snapshot #204...
+[02:11:16]:  - session/4CA977E64E63C38B/0000000198
+[02:11:16]:    1 file(s) removed
+[02:11:51]: Server Autopaused	
+[02:11:51]: Server Unpaused	
+[02:12:00]: Server Autopaused	
+[02:12:02]: Server Unpaused	
+[02:12:05]: Server Autopaused	
+[02:12:06]: Server Unpaused	
+[02:12:12]: Server Autopaused	
+[02:12:12]: Server Unpaused	
+[02:12:14]: Server Autopaused	
+[02:12:16]: Server Unpaused	
+[02:12:23]: Server Autopaused	
+[02:12:24]: Server Unpaused	
+[02:13:18]: Server Autopaused	
+[02:13:19]: Server Unpaused	
+[02:13:20]: Server Autopaused	
+[02:13:20]: Server Unpaused	
+[02:13:23]: Server Autopaused	
+[02:13:23]: Server Unpaused	
+[02:13:31]: Server Autopaused	
+[02:13:33]: Server Unpaused	
+[02:13:34]: Server Autopaused	
+[02:13:36]: Server Unpaused	
+[02:13:41]: Server Autopaused	
+[02:13:42]: Server Unpaused	
+[02:13:55]: Server Autopaused	
+[02:13:56]: Registering secondary shard in Sing lobby
+[02:13:56]: Server Unpaused	
+[02:13:58]: Server Autopaused	
+[02:13:58]: Server Unpaused	
+[02:14:06]: Server Autopaused	
+[02:14:06]: Server Unpaused	
+[02:14:12]: Server Autopaused	
+[02:14:12]: Server Unpaused	
+[02:14:15]: Server Autopaused	
+[02:14:16]: Server Unpaused	
+[02:14:26]: Server Autopaused	
+[02:14:27]: Server Unpaused	
+[02:14:33]: Server Autopaused	
+[02:14:33]: Server Unpaused	
+[02:14:36]: Server Autopaused	
+[02:14:39]: Server Unpaused	
+[02:14:44]: Server Autopaused	
+[02:14:45]: Server Unpaused	
+[02:15:00]: Server Autopaused	
+[02:15:01]: Server Unpaused	
+[02:15:03]: Server Autopaused	
+[02:15:04]: Server Unpaused	
+[02:15:22]: Server Autopaused	
+[02:15:23]: Server Unpaused	
+[02:15:30]: Server Autopaused	
+[02:15:33]: Server Unpaused	
+[02:15:37]: Server Autopaused	
+[02:15:38]: Server Unpaused	
+[02:16:07]: Server Autopaused	
+[02:16:08]: Server Unpaused	
+[02:16:11]: Server Autopaused	
+[02:16:21]: Server Unpaused	
+[02:16:25]: Server Autopaused	
+[02:16:54]: Server Unpaused	
+[02:17:14]: Server Autopaused	
+[02:17:15]: Server Unpaused	
+[02:17:26]: Server Autopaused	
+[02:17:41]: Server Unpaused	
+[02:17:50]: Server Autopaused	
+[02:17:51]: Server Unpaused	
+[02:18:27]: [Shard] #3 -> session/4CA977E64E63C38B/A7GJV0OQ397L/0000000205
+[02:18:27]: [Shard] Received migration #3 data for (KU_4_WneQJr)
+[02:18:32]: New incoming connection 127.0.0.1|55772 <9001697167552660979>
+[02:18:32]: Client connected from [LAN] 127.0.0.1|55772 <9001697167552660979>
+[02:18:32]: ValidateGameSessionToken pgs-usc^KU_4_WneQJr^DontStarveTogether^AWywH8Jd2FWDJwmtRKtvqzCf5gzXYQs9Vtn0/qbiDPM= for <9001697167552660979>
+[02:18:33]: Client authenticated: (KU_4_WneQJr) 彡粼
+[02:18:33]: [Steam] Authenticated host '76561198285577102'
+[02:18:33]: [Shard] Completed incoming migration #3 for (KU_4_WneQJr)
+[02:18:42]: Resuming user: session/4CA977E64E63C38B/A7GJV0OQ397L/0000000205
+[02:18:42]: Player will spawn close to portal #9	
+[02:18:42]: Spawning player at: [Load] (143.44, 0.00, 185.81)	
+[02:18:44]: Server Autopaused	
+[02:18:56]: Registering secondary shard in Sing lobby
+[02:19:52]: Server Unpaused	
+[02:19:52]: Server Autopaused	
+[02:19:54]: Server Unpaused	
+[02:19:57]: Server Autopaused	
+[02:20:00]: Server Unpaused	
+[02:20:01]: Server Autopaused	
+[02:20:03]: Server Unpaused	
+[02:20:03]: Server Autopaused	
+[02:20:04]: Server Unpaused	
+[02:20:13]: Server Autopaused	
+[02:20:14]: Server Unpaused	
+[02:20:25]: Server Autopaused	
+[02:20:27]: Server Unpaused	
+[02:20:33]: Server Autopaused	
+[02:20:41]: Server Unpaused	
+[02:20:47]: Server Autopaused	
+[02:20:48]: Server Unpaused	
+[02:21:10]: Server Autopaused	
+[02:21:15]: Server Unpaused	
+[02:21:30]: Server Autopaused	
+[02:21:34]: Server Unpaused	
+[02:21:48]: Server Autopaused	
+[02:21:52]: Server Unpaused	
+[02:22:06]: Server Autopaused	
+[02:22:08]: Server Unpaused	
+[02:22:17]: Server Autopaused	
+[02:22:18]: Server Unpaused	
+[02:22:19]: Server Autopaused	
+[02:22:22]: Server Unpaused	
+[02:22:23]: Server Autopaused	
+[02:22:23]: Server Unpaused	
+[02:22:24]: Available disk space for save files: 210382 MB
+[02:22:24]: Serializing user: session/4CA977E64E63C38B/A7GJV0OQ397L/0000000205
+[02:22:24]: Missing reference:	124443 - beefaloherd	->	124382	124382 - beefalo	
+[02:22:25]: Serializing world: session/4CA977E64E63C38B/0000000205
+[02:22:28]: Server Autopaused	
+[02:22:29]: Server Unpaused	
+[02:22:31]: Server Autopaused	
+[02:22:31]: Server Unpaused	
+[02:23:10]: Server Autopaused	
+[02:23:10]: Server Unpaused	
+[02:23:13]: Server Autopaused	
+[02:23:14]: Server Unpaused	
+[02:23:16]: Server Autopaused	
+[02:23:19]: Server Unpaused	
+[02:23:20]: Server Autopaused	
+[02:23:23]: Server Unpaused	
+[02:23:25]: Server Autopaused	
+[02:23:35]: Server Unpaused	
+[02:23:40]: Server Autopaused	
+[02:23:41]: Server Unpaused	
+[02:23:43]: Server Autopaused	
+[02:23:44]: Server Unpaused	
+[02:23:46]: Server Autopaused	
+[02:23:47]: Server Unpaused	
+[02:23:48]: Server Autopaused	
+[02:23:55]: Server Unpaused	
+[02:23:56]: Registering secondary shard in Sing lobby
+[02:23:59]: Server Autopaused	
+[02:24:04]: Server Unpaused	
+[02:24:14]: Server Autopaused	
+[02:24:18]: Server Unpaused	
+[02:24:37]: Server Autopaused	
+[02:24:40]: Server Unpaused	
+[02:24:47]: Server Autopaused	
+[02:24:47]: Server Unpaused	
+[02:24:52]: Server Autopaused	
+[02:24:54]: Server Unpaused	
+[02:25:21]: Server Autopaused	
+[02:25:24]: Server Unpaused	
+[02:25:43]: Server Autopaused	
+[02:25:45]: Server Unpaused	
+[02:25:52]: Server Autopaused	
+[02:25:53]: Server Unpaused	
+[02:25:55]: Server Autopaused	
+[02:25:57]: Server Unpaused	
+[02:26:07]: Server Autopaused	
+[02:26:09]: Server Unpaused	
+[02:26:46]: Server Autopaused	
+[02:26:48]: Server Unpaused	
+[02:26:49]: Server Autopaused	
+[02:26:56]: Server Unpaused	
+[02:27:10]: Server Autopaused	
+[02:27:12]: Server Unpaused	
+[02:27:25]: Server Autopaused	
+[02:27:27]: Server Unpaused	
+[02:27:35]: Server Autopaused	
+[02:27:50]: Server Unpaused	
+[02:28:02]: Server Autopaused	
+[02:28:03]: Server Unpaused	
+[02:28:04]: Server Autopaused	
+[02:28:36]: Server Unpaused	
+[02:28:51]: Server Autopaused	
+[02:28:53]: Server Unpaused	
+[02:28:56]: Registering secondary shard in Sing lobby
+[02:29:01]: Server Autopaused	
+[02:29:03]: Server Unpaused	
+[02:29:08]: Server Autopaused	
+[02:29:10]: Server Unpaused	
+[02:29:18]: Server Autopaused	
+[02:29:20]: Server Unpaused	
+[02:29:31]: Activating portal[7] to 1	
+[02:29:31]: Serializing user: session/4CA977E64E63C38B/A7GJV0OQ397L/0000000206
+[02:29:31]: [Shard] Migration request: (KU_4_WneQJr) to [SHDMASTER](1)
+[02:29:31]: [Shard] #4 <- session/4CA977E64E63C38B/A7GJV0OQ397L/0000000206
+[02:29:31]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[02:29:31]: [Steam] SendUserDisconnect for '76561198285577102'
+[02:29:44]: Server Autopaused	
+[02:29:54]: Server Unpaused	
+[02:30:14]: [200] Account Communication Success (6)
+[02:30:14]: Received (KU_4_WneQJr) from TokenPurpose
+[02:31:14]: Server Autopaused	
+[02:31:16]: Server Unpaused	
+[02:31:27]: Server Autopaused	
+[02:31:28]: Server Unpaused	
+[02:31:32]: Server Autopaused	
+[02:31:34]: Server Unpaused	
+[02:31:51]: Server Autopaused	
+[02:31:52]: Server Unpaused	
+[02:32:08]: Server Autopaused	
+[02:32:09]: Server Unpaused	
+[02:32:42]: Available disk space for save files: 210407 MB
+[02:32:42]: Missing reference:	124380 - beef_bell	->	124382	124382 - beefalo	
+[02:32:43]: Serializing world: session/4CA977E64E63C38B/0000000206
+[02:32:43]: Truncating to snapshot #206...
+[02:32:43]:  - session/4CA977E64E63C38B/0000000199
+[02:32:43]:  - session/4CA977E64E63C38B/0000000200
+[02:32:43]:  - session/4CA977E64E63C38B/A7GJV0OQ397L/0000000181
+[02:32:43]:    3 file(s) removed
+[02:33:07]: Server Autopaused	
+[02:33:08]: Server Unpaused	
+[02:33:21]: Server Autopaused	
+[02:33:23]: Server Unpaused	
+[02:33:26]: Server Autopaused	
+[02:33:28]: Server Unpaused	
+[02:33:37]: Server Autopaused	
+[02:33:38]: Server Unpaused	
+[02:33:39]: Server Autopaused	
+[02:33:40]: Server Unpaused	
+[02:33:56]: Registering secondary shard in Sing lobby
+[02:33:58]: Server Autopaused	
+[02:33:58]: Server Unpaused	
+[02:34:07]: Server Autopaused	
+[02:34:12]: Server Unpaused	
+[02:34:27]: Registering secondary shard in Sing lobby
+[02:34:48]: Registering secondary shard in Sing lobby
+[02:35:20]: Server Autopaused	
+[02:35:21]: Server Unpaused	
+[02:35:25]: Server Autopaused	
+[02:35:26]: Server Unpaused	
+[02:35:30]: Server Autopaused	
+[02:35:30]: Server Unpaused	
+[02:35:33]: Server Autopaused	
+[02:35:34]: Server Unpaused	
+[02:35:36]: Server Autopaused	
+[02:35:37]: Server Unpaused	
+[02:35:38]: Server Autopaused	
+[02:35:39]: Server Unpaused	
+[02:35:40]: Server Autopaused	
+[02:35:41]: Server Unpaused	
+[02:36:33]: Server Autopaused	
+[02:36:34]: Server Unpaused	
+[02:36:51]: Server Autopaused	
+[02:36:52]: Server Unpaused	
+[02:36:58]: Server Autopaused	
+[02:36:59]: Server Unpaused	
+[02:37:15]: Server Autopaused	
+[02:37:15]: Server Unpaused	
+[02:38:09]: Server Autopaused	
+[02:38:11]: Server Unpaused	
+[02:38:50]: Server Autopaused	
+[02:38:50]: Server Unpaused	
+[02:39:19]: Server Autopaused	
+[02:39:19]: Server Unpaused	
+[02:39:21]: Server Autopaused	
+[02:39:21]: Server Unpaused	
+[02:39:24]: Server Autopaused	
+[02:39:26]: Server Unpaused	
+[02:39:29]: Server Autopaused	
+[02:39:31]: Server Unpaused	
+[02:39:34]: Server Autopaused	
+[02:39:39]: Server Unpaused	
+[02:39:48]: Registering secondary shard in Sing lobby
+[02:39:50]: Server Autopaused	
+[02:39:51]: Server Unpaused	
+[02:39:58]: Server Autopaused	
+[02:39:58]: Server Unpaused	
+[02:40:11]: Server Autopaused	
+[02:40:13]: Server Unpaused	
+[02:40:16]: Server Autopaused	
+[02:40:16]: Server Unpaused	
+[02:40:22]: Server Autopaused	
+[02:40:23]: Server Unpaused	
+[02:40:26]: Server Autopaused	
+[02:40:27]: Server Unpaused	
+[02:40:48]: Server Autopaused	
+[02:40:49]: Server Unpaused	
+[02:41:19]: Available disk space for save files: 210407 MB
+[02:41:19]: Missing reference:	124443 - beefaloherd	->	124382	124382 - beefalo	
+[02:41:19]: Serializing world: session/4CA977E64E63C38B/0000000207
+[02:41:19]: Truncating to snapshot #207...
+[02:41:19]:  - session/4CA977E64E63C38B/0000000201
+[02:41:19]:    1 file(s) removed
+[02:43:14]: Server Autopaused	
+[02:43:14]: Server Unpaused	
+[02:43:19]: Server Autopaused	
+[02:43:29]: Server Unpaused	
+[02:43:38]: Server Autopaused	
+[02:43:39]: Server Unpaused	
+[02:44:19]: Server Autopaused	
+[02:44:20]: Server Unpaused	
+[02:44:30]: Server Autopaused	
+[02:44:31]: Server Unpaused	
+[02:44:32]: Server Autopaused	
+[02:44:33]: Server Unpaused	
+[02:44:48]: Registering secondary shard in Sing lobby
+[02:45:03]: Server Autopaused	
+[02:45:04]: Server Unpaused	
+[02:45:06]: Server Autopaused	
+[02:45:07]: Server Unpaused	
+[02:45:11]: Server Autopaused	
+[02:45:12]: Server Unpaused	
+[02:45:25]: Server Autopaused	
+[02:45:26]: Server Unpaused	
+[02:45:30]: Server Autopaused	
+[02:45:30]: Server Unpaused	
+[02:45:37]: Server Autopaused	
+[02:45:37]: Server Unpaused	
+[02:45:40]: Server Autopaused	
+[02:45:44]: Server Unpaused	
+[02:45:45]: Server Autopaused	
+[02:45:46]: Server Unpaused	
+[02:45:47]: Server Autopaused	
+[02:45:47]: Server Unpaused	
+[02:45:50]: Server Autopaused	
+[02:45:51]: Server Unpaused	
+[02:45:59]: Server Autopaused	
+[02:46:00]: Server Unpaused	
+[02:46:02]: Server Autopaused	
+[02:46:04]: Server Unpaused	
+[02:46:05]: Server Autopaused	
+[02:46:06]: Server Unpaused	
+[02:46:26]: Server Autopaused	
+[02:46:26]: Server Unpaused	
+[02:47:07]: Server Autopaused	
+[02:47:13]: Server Unpaused	
+[02:47:23]: Server Autopaused	
+[02:47:25]: Server Unpaused	
+[02:48:20]: Server Autopaused	
+[02:48:22]: Server Unpaused	
+[02:48:51]: Server Autopaused	
+[02:48:52]: Server Unpaused	
+[02:49:07]: Server Autopaused	
+[02:49:08]: Server Unpaused	
+[02:49:20]: Server Autopaused	
+[02:49:20]: Server Unpaused	
+[02:49:48]: Registering secondary shard in Sing lobby
+[02:49:55]: Available disk space for save files: 210405 MB
+[02:49:55]: Missing reference:	124443 - beefaloherd	->	124382	124382 - beefalo	
+[02:49:55]: Serializing world: session/4CA977E64E63C38B/0000000208
+[02:49:55]: Truncating to snapshot #208...
+[02:49:55]:  - session/4CA977E64E63C38B/0000000202
+[02:49:55]:    1 file(s) removed
+[02:50:25]: Server Autopaused	
+[02:50:25]: Server Unpaused	
+[02:51:22]: Server Autopaused	
+[02:51:22]: Server Unpaused	
+[02:51:32]: Server Autopaused	
+[02:51:33]: Server Unpaused	
+[02:51:35]: Server Autopaused	
+[02:51:36]: Server Unpaused	
+[02:51:42]: Server Autopaused	
+[02:51:42]: Server Unpaused	
+[02:52:33]: Server Autopaused	
+[02:52:34]: Server Unpaused	
+[02:52:41]: Server Autopaused	
+[02:52:41]: Server Unpaused	
+[02:53:35]: Server Autopaused	
+[02:53:58]: Server Unpaused	
+[02:54:01]: Server Autopaused	
+[02:54:20]: Server Unpaused	
+[02:54:30]: Server Paused	
+[02:54:34]: Server Unpaused	
+[02:54:43]: Server Autopaused	
+[02:54:48]: Registering secondary shard in Sing lobby
+[02:55:06]: Server Unpaused	
+[02:56:02]: Server Autopaused	
+[02:56:04]: Server Unpaused	
+[02:56:05]: Server Autopaused	
+[02:56:06]: Server Unpaused	
+[02:56:21]: Server Autopaused	
+[02:56:24]: Server Unpaused	
+[02:57:35]: Server Autopaused	
+[02:57:36]: Server Unpaused	
+[02:57:37]: Server Autopaused	
+[02:57:38]: Server Unpaused	
+[02:57:41]: Server Autopaused	
+[02:57:41]: Server Unpaused	
+[02:57:47]: Server Autopaused	
+[02:57:48]: Server Unpaused	
+[02:58:46]: Server Autopaused	
+[02:58:47]: Server Unpaused	
+[02:59:18]: Available disk space for save files: 210402 MB
+[02:59:19]: Missing reference:	124443 - beefaloherd	->	124382	124382 - beefalo	
+[02:59:19]: Serializing world: session/4CA977E64E63C38B/0000000209
+[02:59:19]: Truncating to snapshot #209...
+[02:59:19]:  - session/4CA977E64E63C38B/0000000203
+[02:59:19]:    1 file(s) removed
+[02:59:19]: Server Autopaused	
+[02:59:21]: Server Unpaused	
+[02:59:48]: Registering secondary shard in Sing lobby
+[03:00:14]: [200] Account Communication Success (6)
+[03:00:14]: Received (KU_4_WneQJr) from TokenPurpose
+[03:01:51]: Server Autopaused	
+[03:01:54]: Server Unpaused	
+[03:02:13]: Server Autopaused	
+[03:02:14]: Server Unpaused	
+[03:02:31]: Server Autopaused	
+[03:02:33]: Server Unpaused	
+[03:03:26]: Server Autopaused	
+[03:03:27]: Server Unpaused	
+[03:03:29]: Server Autopaused	
+[03:03:31]: Server Unpaused	
+[03:04:07]: Server Autopaused	
+[03:04:09]: Server Unpaused	
+[03:04:48]: Registering secondary shard in Sing lobby
+[03:06:49]: Server Autopaused	
+[03:06:53]: Server Unpaused	
+[03:06:54]: Server Autopaused	
+[03:07:01]: Server Unpaused	
+[03:07:03]: Server Autopaused	
+[03:07:04]: Server Unpaused	
+[03:07:43]: Server Autopaused	
+[03:07:44]: Server Unpaused	
+[03:07:45]: Available disk space for save files: 210400 MB
+[03:07:45]: Missing reference:	124443 - beefaloherd	->	124382	124382 - beefalo	
+[03:07:46]: Serializing world: session/4CA977E64E63C38B/0000000210
+[03:07:46]: Truncating to snapshot #210...
+[03:07:46]:  - session/4CA977E64E63C38B/0000000204
+[03:07:46]:  - session/4CA977E64E63C38B/A7GJV0OQ397L/0000000200
+[03:07:46]:    2 file(s) removed
+[03:07:50]: Server Autopaused	
+[03:07:51]: Server Unpaused	
+[03:08:08]: Server Autopaused	
+[03:08:11]: Server Unpaused	
+[03:08:16]: Server Autopaused	
+[03:08:17]: Server Unpaused	
+[03:08:23]: Server Autopaused	
+[03:08:27]: Server Unpaused	
+[03:08:28]: Server Autopaused	
+[03:08:28]: Server Unpaused	
+[03:08:33]: Server Autopaused	
+[03:08:33]: Server Unpaused	
+[03:08:34]: Server Autopaused	
+[03:08:35]: Server Unpaused	
+[03:08:39]: Server Autopaused	
+[03:08:39]: Server Unpaused	
+[03:08:41]: Server Autopaused	
+[03:08:41]: Server Unpaused	
+[03:08:44]: Server Autopaused	
+[03:08:46]: Server Unpaused	
+[03:08:51]: Server Autopaused	
+[03:08:51]: Server Unpaused	
+[03:08:56]: Server Autopaused	
+[03:08:56]: Server Unpaused	
+[03:09:00]: Server Autopaused	
+[03:09:01]: Server Unpaused	
+[03:09:16]: Server Autopaused	
+[03:09:17]: Server Unpaused	
+[03:09:19]: Server Autopaused	
+[03:09:23]: Server Unpaused	
+[03:09:30]: Server Autopaused	
+[03:09:32]: Server Unpaused	
+[03:09:37]: Server Autopaused	
+[03:09:39]: Server Unpaused	
+[03:09:48]: Registering secondary shard in Sing lobby
+[03:10:11]: Server Autopaused	
+[03:10:13]: Server Unpaused	
+[03:10:21]: Server Autopaused	
+[03:10:22]: Server Unpaused	
+[03:10:23]: Server Autopaused	
+[03:10:24]: Server Unpaused	
+[03:10:29]: Server Autopaused	
+[03:10:29]: Server Unpaused	
+[03:10:30]: Server Autopaused	
+[03:10:30]: Server Unpaused	
+[03:10:34]: Server Autopaused	
+[03:10:34]: Server Unpaused	
+[03:10:36]: Server Autopaused	
+[03:10:36]: Server Unpaused	
+[03:10:37]: Server Autopaused	
+[03:10:38]: Server Unpaused	
+[03:10:39]: Server Autopaused	
+[03:10:39]: Server Unpaused	
+[03:10:49]: Server Autopaused	
+[03:10:50]: Server Unpaused	
+[03:10:57]: Server Autopaused	
+[03:10:59]: Server Unpaused	
+[03:11:08]: Server Autopaused	
+[03:11:08]: Server Unpaused	
+[03:11:16]: Server Autopaused	
+[03:11:16]: Server Unpaused	
+[03:11:26]: Server Autopaused	
+[03:11:34]: Server Unpaused	
+[03:12:08]: Server Autopaused	
+[03:12:09]: Server Unpaused	
+[03:12:10]: Server Autopaused	
+[03:12:11]: Server Unpaused	
+[03:12:16]: Server Autopaused	
+[03:12:17]: Server Unpaused	
+[03:12:37]: Server Autopaused	
+[03:12:37]: Server Unpaused	
+[03:12:41]: Server Autopaused	
+[03:12:42]: Server Unpaused	
+[03:12:58]: Server Autopaused	
+[03:12:59]: Server Unpaused	
+[03:13:01]: Server Autopaused	
+[03:13:01]: Server Unpaused	
+[03:13:03]: Server Autopaused	
+[03:13:05]: Server Unpaused	
+[03:13:12]: Server Autopaused	
+[03:13:13]: Server Unpaused	
+[03:13:15]: Server Autopaused	
+[03:13:15]: Server Unpaused	
+[03:13:19]: Server Autopaused	
+[03:13:25]: Server Unpaused	
+[03:13:31]: Server Autopaused	
+[03:13:33]: Server Unpaused	
+[03:13:37]: Server Autopaused	
+[03:13:38]: Server Unpaused	
+[03:13:42]: Server Autopaused	
+[03:13:42]: Server Unpaused	
+[03:13:44]: Server Autopaused	
+[03:13:44]: Server Unpaused	
+[03:13:59]: Server Autopaused	
+[03:14:00]: Server Unpaused	
+[03:14:07]: Server Autopaused	
+[03:14:08]: Server Unpaused	
+[03:14:09]: Server Autopaused	
+[03:14:09]: Server Unpaused	
+[03:14:11]: Server Autopaused	
+[03:14:11]: Server Unpaused	
+[03:14:21]: Server Autopaused	
+[03:14:21]: Server Unpaused	
+[03:14:28]: Server Autopaused	
+[03:14:44]: Server Unpaused	
+[03:14:48]: Registering secondary shard in Sing lobby
+[03:15:36]: Server Autopaused	
+[03:15:38]: Server Unpaused	
+[03:15:43]: Server Autopaused	
+[03:15:45]: Server Unpaused	
+[03:15:47]: Server Autopaused	
+[03:15:47]: Server Unpaused	
+[03:15:52]: Server Autopaused	
+[03:15:53]: Server Unpaused	
+[03:15:58]: Server Autopaused	
+[03:15:59]: Server Unpaused	
+[03:16:02]: Server Autopaused	
+[03:16:08]: Server Unpaused	
+[03:16:12]: Server Autopaused	
+[03:16:14]: Server Unpaused	
+[03:16:59]: Server Autopaused	
+[03:16:59]: Server Unpaused	
+[03:17:03]: Server Autopaused	
+[03:17:06]: Server Unpaused	
+[03:17:06]: Server Autopaused	
+[03:17:07]: Server Unpaused	
+[03:17:14]: Available disk space for save files: 210398 MB
+[03:17:15]: Missing reference:	124443 - beefaloherd	->	124382	124382 - beefalo	
+[03:17:15]: Serializing world: session/4CA977E64E63C38B/0000000211
+[03:17:15]: Truncating to snapshot #211...
+[03:17:15]:  - session/4CA977E64E63C38B/0000000205
+[03:17:15]:  - session/4CA977E64E63C38B/A7GJV0OQ397L/0000000205
+[03:17:15]:    2 file(s) removed
+[03:17:55]: Server Autopaused	
+[03:17:56]: Server Unpaused	
+[03:18:07]: Server Autopaused	
+[03:18:07]: Server Unpaused	
+[03:18:11]: Server Autopaused	
+[03:18:13]: Server Unpaused	
+[03:18:20]: Server Autopaused	
+[03:18:21]: Server Unpaused	
+[03:18:22]: Server Autopaused	
+[03:18:22]: Server Unpaused	
+[03:18:24]: Server Autopaused	
+[03:18:24]: Server Unpaused	
+[03:18:26]: Server Autopaused	
+[03:18:32]: Server Unpaused	
+[03:18:34]: Server Autopaused	
+[03:18:36]: Server Unpaused	
+[03:18:40]: Server Autopaused	
+[03:18:41]: Server Unpaused	
+[03:18:42]: Server Autopaused	
+[03:18:53]: Server Unpaused	
+[03:18:59]: Server Autopaused	
+[03:19:00]: Server Unpaused	
+[03:19:01]: Server Autopaused	
+[03:19:02]: Server Unpaused	
+[03:19:05]: Server Autopaused	
+[03:19:05]: Server Unpaused	
+[03:19:11]: Server Autopaused	
+[03:19:11]: Server Unpaused	
+[03:19:16]: Server Autopaused	
+[03:19:17]: Server Unpaused	
+[03:19:19]: Server Autopaused	
+[03:19:20]: Server Unpaused	
+[03:19:27]: Server Autopaused	
+[03:19:27]: Server Unpaused	
+[03:19:29]: Server Autopaused	
+[03:19:29]: Server Unpaused	
+[03:19:33]: Server Autopaused	
+[03:19:34]: Server Unpaused	
+[03:19:48]: Registering secondary shard in Sing lobby
+[03:19:51]: Server Autopaused	
+[03:19:53]: Server Unpaused	
+[03:19:59]: Server Autopaused	
+[03:20:01]: Server Unpaused	
+[03:20:02]: Server Autopaused	
+[03:20:02]: Server Unpaused	
+[03:20:02]: Server Autopaused	
+[03:20:04]: Server Unpaused	
+[03:20:05]: Server Autopaused	
+[03:20:06]: Server Unpaused	
+[03:20:09]: Server Autopaused	
+[03:20:09]: Server Unpaused	
+[03:20:10]: Server Autopaused	
+[03:20:10]: Server Unpaused	
+[03:20:12]: Server Autopaused	
+[03:20:12]: Server Unpaused	
+[03:20:15]: Server Autopaused	
+[03:20:15]: Server Unpaused	
+[03:20:17]: Server Autopaused	
+[03:20:18]: Server Unpaused	
+[03:20:19]: Server Autopaused	
+[03:20:25]: Server Unpaused	
+[03:20:26]: Server Autopaused	
+[03:20:26]: Server Unpaused	
+[03:20:52]: Server Autopaused	
+[03:20:58]: Server Unpaused	
+[03:21:03]: Server Autopaused	
+[03:21:03]: Server Unpaused	
+[03:21:06]: Server Autopaused	
+[03:21:07]: Server Unpaused	
+[03:21:08]: Server Autopaused	
+[03:21:10]: Server Unpaused	
+[03:21:17]: Server Autopaused	
+[03:21:18]: Server Unpaused	
+[03:21:19]: Server Autopaused	
+[03:21:20]: Server Unpaused	
+[03:21:22]: Server Autopaused	
+[03:21:22]: Server Unpaused	
+[03:21:23]: Server Autopaused	
+[03:21:23]: Server Unpaused	
+[03:21:27]: Server Autopaused	
+[03:21:28]: Server Unpaused	
+[03:21:30]: Server Autopaused	
+[03:21:30]: Server Unpaused	
+[03:22:16]: Server Autopaused	
+[03:24:48]: Registering secondary shard in Sing lobby
+[03:25:12]: Server Unpaused	
+[03:25:15]: Server Autopaused	
+[03:25:15]: Server Unpaused	
+[03:25:16]: Server Autopaused	
+[03:25:24]: Server Unpaused	
+[03:25:28]: Server Autopaused	
+[03:25:34]: Server Unpaused	
+[03:25:36]: Server Autopaused	
+[03:25:38]: Server Unpaused	
+[03:25:45]: Server Autopaused	
+[03:25:59]: Server Unpaused	
+[03:26:00]: Server Autopaused	
+[03:26:00]: Server Unpaused	
+[03:26:01]: Server Autopaused	
+[03:26:27]: Server Unpaused	
+[03:26:30]: Server Autopaused	
+[03:26:31]: Server Unpaused	
+[03:26:32]: Server Autopaused	
+[03:26:32]: Server Unpaused	
+[03:26:33]: Server Autopaused	
+[03:26:33]: Server Unpaused	
+[03:26:35]: Server Autopaused	
+[03:26:35]: Server Unpaused	
+[03:26:37]: Server Autopaused	
+[03:26:38]: Server Unpaused	
+[03:26:39]: Server Autopaused	
+[03:26:43]: Server Unpaused	
+[03:26:44]: Server Autopaused	
+[03:26:59]: Server Unpaused	
+[03:27:00]: Server Autopaused	
+[03:27:03]: Server Unpaused	
+[03:27:05]: Server Autopaused	
+[03:27:07]: Server Unpaused	
+[03:27:08]: Server Autopaused	
+[03:27:10]: Server Unpaused	
+[03:27:12]: Server Autopaused	
+[03:29:48]: Registering secondary shard in Sing lobby
+[03:30:14]: [200] Account Communication Success (6)
+[03:30:14]: Received (KU_4_WneQJr) from TokenPurpose
+[03:31:55]: Server Unpaused	
+[03:31:57]: Server Autopaused	
+[03:31:58]: Server Unpaused	
+[03:31:59]: Server Paused	
+[03:34:12]: Server Unpaused	
+[03:34:19]: Server Autopaused	
+[03:34:20]: Server Unpaused	
+[03:34:21]: Server Autopaused	
+[03:34:29]: Server Unpaused	
+[03:34:48]: Registering secondary shard in Sing lobby
+[03:35:03]: Server Autopaused	
+[03:35:22]: Server Unpaused	
+[03:35:32]: [Shard] #5 -> session/4CA977E64E63C38B/A7GJV0OQ397L/0000000212
+[03:35:32]: [Shard] Received migration #5 data for (KU_4_WneQJr)
+[03:35:36]: New incoming connection 127.0.0.1|58555 <8267564193132496787>
+[03:35:36]: Client connected from [LAN] 127.0.0.1|58555 <8267564193132496787>
+[03:35:36]: ValidateGameSessionToken pgs-usc^KU_4_WneQJr^DontStarveTogether^KE5B4x9pwRLIVsVN7XryPdMnQHYr67nuoNhGu/RLHFI= for <8267564193132496787>
+[03:35:37]: Client authenticated: (KU_4_WneQJr) 彡粼
+[03:35:37]: [Steam] Authenticated host '76561198285577102'
+[03:35:37]: [Shard] Completed incoming migration #5 for (KU_4_WneQJr)
+[03:35:46]: Resuming user: session/4CA977E64E63C38B/A7GJV0OQ397L/0000000212
+[03:35:46]: Player will spawn close to portal #6	
+[03:35:46]: Spawning player at: [Load] (-541.74, 0.00, -173.06)	
+[03:35:50]: Server Autopaused	
+[03:39:48]: Registering secondary shard in Sing lobby
+[03:44:48]: Registering secondary shard in Sing lobby
+[03:47:25]: Server Unpaused	
+[03:47:25]: Server Autopaused	
+[03:47:29]: Server Unpaused	
+[03:47:30]: [Steam] SendUserDisconnect for '76561198285577102'
+[03:47:31]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[03:47:31]: Serializing user: session/4CA977E64E63C38B/A7GJV0OQ397L/0000000212
+[03:47:31]: Sim paused
+[03:47:32]: [IPC] Received shutdown signal.
+[03:47:32]: Available disk space for save files: 210409 MB
+[03:47:32]: Missing reference:	124443 - beefaloherd	->	124382	124382 - beefalo	
+[03:47:32]: Serializing world: session/4CA977E64E63C38B/0000000212
+[03:47:32]: Truncating to snapshot #212...
+[03:47:32]:  - session/4CA977E64E63C38B/0000000206
+[03:47:32]:    1 file(s) removed
+[03:47:32]: [Shard] Stopping shard mode
+[03:47:32]: [Steam] SendUserDisconnect for ''
+[03:47:32]: Collecting garbage...
+[03:47:32]: lua_gc took 0.18 seconds
+[03:47:32]: ~ShardLuaProxy()
+[03:47:32]: ~cEventLeaderboardProxy()
+[03:47:32]: ~ItemServerLuaProxy()
+[03:47:32]: ~InventoryLuaProxy()
+[03:47:32]: ~NetworkLuaProxy()
+[03:47:32]: ~SimLuaProxy()
+[03:47:33]: lua_close took 0.27 seconds
+[03:47:33]: Could not unload undefined prefab (redpouch_yotb)
+[03:47:33]: Could not unload undefined prefab (hermit_bundle)
+[03:47:33]: Could not unload undefined prefab (hermit_bundle_shells)
+[03:47:33]: Could not unload undefined prefab (redpouch_yotc)
+[03:47:33]: Could not unload undefined prefab (redpouch_yotc)
+[03:47:33]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[03:47:33]: CurlRequestManager::ClientThread::Main() complete
+[03:47:33]: HttpClient2 discarded 0 callbacks.
+[03:47:33]: Shutting down

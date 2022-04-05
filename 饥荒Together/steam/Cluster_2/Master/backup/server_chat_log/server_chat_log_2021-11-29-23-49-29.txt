@@ -1,0 +1,10 @@
+[00:00:46]: [Join Announcement] 彡粼
+[00:06:38]: [Vote Announcement] rollback passed
+[00:11:23]: [Vote Announcement] rollback passed
+[00:14:16]: [Vote Announcement] rollback passed
+[01:54:59]: [Vote Announcement] rollback passed
+[02:38:37]: [Vote Announcement] rollback passed
+[02:39:39]: [Vote Announcement] rollback passed
+[02:41:03]: [Vote Announcement] rollback passed
+[03:19:08]: [Announcement] 彡粼   被闪电击中   获得成就【我没装B】
+[03:43:23]: [Leave Announcement] 彡粼

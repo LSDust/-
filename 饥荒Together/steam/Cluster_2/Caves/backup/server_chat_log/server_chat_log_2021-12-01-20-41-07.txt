@@ -1,0 +1,7 @@
+[00:00:59]: [Join Announcement] 彡粼
+[00:26:53]: [Vote Announcement] rollback passed
+[00:34:34]: [Vote Announcement] rollback passed
+[00:34:38]: [Death Announcement] 彡粼 死于： 蜂王。她变成了可怕的鬼魂！
+[00:43:33]: [Death Announcement] 彡粼 死于： 蜂王。她变成了可怕的鬼魂！
+[00:43:36]: [Vote Announcement] rollback passed
+[00:48:56]: [Leave Announcement] 彡粼

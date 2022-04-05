@@ -1,0 +1,18 @@
+[00:00:50]: [Join Announcement] 彡粼
+[00:33:13]: [Announcement] 彡粼   停止不动并活着 90分钟   获得成就【安如磐石】
+[00:57:12]: [Announcement] 彡粼   吃下 100个食物   获得成就【美食家】
+[01:02:13]: [Vote Announcement] rollback passed
+[01:02:14]: [Death Announcement] 彡粼 死于： 梦魇尖喙。她变成了可怕的鬼魂！
+[01:48:39]: [Vote Announcement] rollback passed
+[01:48:40]: [Death Announcement] 彡粼 死于： 独眼巨鹿。她变成了可怕的鬼魂！
+[01:51:34]: [Death Announcement] 彡粼 死于： 独眼巨鹿。她变成了可怕的鬼魂！
+[01:51:37]: [Vote Announcement] rollback passed
+[01:57:28]: [Vote Announcement] rollback passed
+[01:57:32]: [Death Announcement] 彡粼 死于： 独眼巨鹿。她变成了可怕的鬼魂！
+[02:00:55]: [Vote Announcement] rollback passed
+[02:08:46]: [Vote Announcement] rollback passed
+[02:11:24]: [Vote Announcement] rollback passed
+[02:41:46]: [Vote Announcement] rollback passed
+[02:45:29]: [Vote Announcement] rollback passed
+[02:48:33]: [Vote Announcement] rollback passed
+[03:25:45]: [Vote Announcement] rollback passed

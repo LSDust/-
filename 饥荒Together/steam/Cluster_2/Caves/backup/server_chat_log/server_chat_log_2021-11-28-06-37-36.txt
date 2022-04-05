@@ -1,0 +1,20 @@
+[00:00:54]: [Join Announcement] 彡粼
+[00:58:58]: [Vote Announcement] rollback passed
+[01:00:59]: [Vote Announcement] rollback passed
+[01:13:49]: [Vote Announcement] rollback passed
+[01:31:15]: [Announcement] 彡粼   通过任意方式瞬移   获得成就【空间置换】
+[02:42:39]: [Announcement] 彡粼   行走超过 300分钟   获得成就【行者无疆】
+[02:44:39]: [Vote Announcement] rollback passed
+[02:46:57]: [Announcement] 彡粼   采集 750次   获得成就【采集者】
+[02:47:13]: [Vote Announcement] rollback passed
+[02:48:00]: [Vote Announcement] rollback passed
+[02:59:48]: [Announcement] 彡粼   行走超过 300分钟   获得成就【行者无疆】
+[03:02:34]: [Announcement] 彡粼   采集 750次   获得成就【采集者】
+[03:09:53]: [Announcement] 彡粼   生存超过70天   获得成就【漫长的等待】
+[03:52:51]: [Vote Announcement] rollback passed
+[04:03:09]: [Vote Announcement] rollback passed
+[04:23:28]: [Vote Announcement] rollback passed
+[04:26:26]: [Vote Announcement] rollback passed
+[04:41:16]: [Vote Announcement] rollback passed
+[04:54:54]: [Vote Announcement] rollback passed
+[05:06:45]: [Leave Announcement] 彡粼

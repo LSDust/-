@@ -1,0 +1,1307 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 40%
+	Available Physical Memory: 9712m/16244m
+	Available Page File: 11555m/20212m
+	Available Virtual Memory: 134213487m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 30m
+	Working Set Size: 30m
+	Quota Peak Page Pool Usage: 206k
+	Quota Page Pool Usage: 202k
+	Quota Peak Non Paged Pool Usage:14k
+	Quota Non Paged Pool Usage: 14k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/325311374/Cluster_2/Caves/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 487848
+[00:00:00]: Current time: Fri Dec 03 19:48:53 2021
+
+[00:00:00]: Don't Starve Together: 487848 WIN32
+[00:00:00]: Build Date: 497
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 9388 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_2 -fo -ownernetid 76561198285577102 -ownerdir 325311374 -backup_log_count 25 -backup_log_period 0 -ugc_directory E:\\Games\\Steam\\steamapps\\workshop -shard Caves -sigprefix DST_Secondary -region Sing -token *********************************************************************************** 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (6012)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10998, 27017)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: ProfileIndex:2.95
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: THREAD - started 'Ping Job Thread' (8320)
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Authorized application E:\Games\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is enabled in the firewall.
+[00:00:00]: WindowsFirewall - Application already authorized
+[00:00:00]: Overriding region to Sing
+[00:00:00]: THREAD - started 'StreamInput' (15868)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/325311374/client_save/blocklist.txt (Failure)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/325311374/client_save/adminlist.txt (Failure)
+[00:00:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/325311374/client_save/whitelist.txt (Failure)
+[00:00:00]: Offline user ID: OU_76561198285577102
+[00:00:00]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 家庭中文版
+    version                   10.0.19042
+    platformSpecific          SP 0.0
+    architecture              64 位
+  CPU                       
+    clockSpeed                2304
+    name                      Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz
+    manufacturer              GenuineIntel
+    numCores                  4
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    megsOfRam                 4095
+    videoModeDescription      
+    name                      NVIDIA GeForce GTX 1050
+    driverVersion             27.21.14.6231
+    driverDate                20210408000000.000000-000
+    refreshRate               0
+
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:01]: AppVersion::GetArchitecture() x64
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:03]:   taskgrouplist:	default	联机版	
+[00:00:03]:   taskgrouplist:	classic	经典	
+[00:00:03]:   taskgrouplist:	cave_default	地下	
+[00:00:03]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:03]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:03]: running main.lua
+	
+[00:00:03]: loaded modindex	
+[00:00:03]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:03]: SUCCESS: Loaded modoverrides.lua	
+[00:00:03]: modoverrides.lua enabling workshop-1877637921	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1877637921	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-1877637921_CLIENT	
+[00:00:03]: Loading mod: workshop-1877637921 (  成就与等级系统) Version:3.4.6	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-1877637921	
+[00:00:03]: Overriding mod workshop-1877637921's option LANGUAGE with value chs	
+[00:00:03]: Overriding mod workshop-1877637921's option COSTRAISE with value true	
+[00:00:03]: Overriding mod workshop-1877637921's option HIDEPERK with value none	
+[00:00:03]: Overriding mod workshop-1877637921's option MULT with value 1	
+[00:00:03]: Overriding mod workshop-1877637921's option PLAYS with value 999	
+[00:00:03]: Overriding mod workshop-1877637921's option SYSTEM with value achieve	
+[00:00:03]: Overriding mod workshop-1877637921's option REFUND with value 1	
+[00:00:03]: Overriding mod workshop-1877637921's option EXPMULT with value 1	
+[00:00:03]: Overriding mod workshop-1877637921's option MANDRAKEBOI with value true	
+[00:00:03]: Overriding mod workshop-1877637921's option GEAR with value nothing	
+[00:00:03]: Overriding mod workshop-1877637921's option CAVES with value true	
+[00:00:03]: Overriding mod workshop-1877637921's option GAMEBREAKER with value true	
+[00:00:03]: Overriding mod workshop-1877637921's option HEALTHPENATLY with value true	
+[00:00:03]: Mod: workshop-1877637921 (  成就与等级系统)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-1877637921 (  成就与等级系统)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-1877637921 (  成就与等级系统)	Loading modmain.lua	
+[00:00:03]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:05]: LOADING LUA SUCCESS
+[00:00:05]: Registering Server mod namespace "dstachievement"
+[00:00:05]: PlayerDeaths could not load morgue	
+[00:00:05]: PlayerHistory could not load player_history	
+[00:00:05]: ServerPreferences could not load server_preferences	
+[00:00:05]: bloom_enabled	true	
+[00:00:05]: OnFilesLoaded()	
+[00:00:05]: OnUpdatePurchaseStateComplete	
+[00:00:05]: Klump load on boot started.	
+[00:00:05]: Klump files loaded: 	0	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	Registering prefabs	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/seffc	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    seffc	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/klaussack_placer	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    klaussack_placer	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/altar_placer	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    ancient_altar_placer	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/achivbooks	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_tentacles	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_birds	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_brimstone	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_sleep	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_gardening	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/pigking	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    pigking	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/antlion	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    antlion	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/shadowwaxwell	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowlumber	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowminer	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowdigger	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowduelist	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowlumber_builder	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowminer_builder	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowdigger_builder	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowduelist_builder	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/perkportableblender	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportableblender_placer	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportableblender	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/perkportablecookpot	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablecookpot_placer	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablecookpot	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/perkportablespicer	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablespicer_placer	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablespicer	
+[00:00:07]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering default mod prefab	
+[00:00:08]: 	Load FE	
+[00:00:09]: 	Load FE: done	
+[00:00:09]: THREAD - started 'FilesExistAsyncThread' (17896)
+[00:00:09]: FilesExistAsyncThread started (18775 files)...
+[00:00:09]: Check for write access: TRUE
+[00:00:09]: Check for read access: TRUE
+[00:00:09]: Available disk space for save files: 210360 MB
+[00:00:09]: ModIndex: Load sequence finished successfully.	
+[00:00:09]: Reset() returning
+[00:00:09]: [IPC] Signal 'DST_Secondary_Kill' opened  #000000000000072C
+[00:00:09]: [IPC] Registering handler for signal #000000000000072C
+[00:00:09]: [IPC] Handle #000000000000072C added to the Eventhandles
+[00:00:09]: [IPC] Signal 'DST_Secondary_Starting' opened  #0000000000000654
+[00:00:09]: [IPC] Sending signal... #0000000000000654
+[00:00:10]: [200] Account Communication Success (6)
+[00:00:10]: Received (KU_4_WneQJr) from TokenPurpose
+[00:00:10]: Starting Dedicated Server Game	
+[00:00:10]: Network tick rate: U=15(2), D=0
+[00:00:10]: About to start a server with the following settings:
+[00:00:10]:   Dedicated: true
+[00:00:10]:   Online: true
+[00:00:10]:   Passworded: false
+[00:00:10]:   ServerPort: 10998
+[00:00:10]:   SteamAuthPort: 8767
+[00:00:10]:   SteamMasterServerPort: 27017
+[00:00:10]:   ClanID: false
+[00:00:10]:   ClanOnly: false
+[00:00:10]:   ClanAdmin: false
+[00:00:10]:   LanOnly: false
+[00:00:10]:   FriendsOnly: true
+[00:00:10]:   EnableAutosaver: true
+[00:00:10]:   EncodeUserPath: true
+[00:00:10]:   PVP: false
+[00:00:10]:   MaxPlayers: 6
+[00:00:10]:   GameMode: survival
+[00:00:10]:   OverridenDNS: 
+[00:00:10]:   PauseWhenEmpty: true
+[00:00:10]:   IdleTimeout: 1800s
+[00:00:10]:   VoteEnabled: false
+[00:00:10]:   InternetBroadcasting: true
+[00:00:10]:   Intent: madness
+[00:00:10]: [Warning] Could not confirm port 10998 is open in the firewall. 
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-1877637921	
+[00:00:10]: Online Server Started on port: 10998
+[00:00:10]: SUCCESS: Loaded modoverrides.lua	
+[00:00:10]: Found a level data override file with these contents:	
+[00:00:10]: 	K: 	background_node_range	 V: 	table: 000000000B2A84B0	
+[00:00:10]: 		K: 	1	 V: 	0	
+[00:00:10]: 		K: 	2	 V: 	1	
+[00:00:10]: 	K: 	desc	 V: 	探查洞穴…… 一起！	
+[00:00:10]: 	K: 	hideminimap	 V: 	false	
+[00:00:10]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:10]: 	K: 	location	 V: 	cave	
+[00:00:10]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:10]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:10]: 	K: 	name	 V: 	洞穴	
+[00:00:10]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:10]: 	K: 	override_level_string	 V: 	false	
+[00:00:10]: 	K: 	overrides	 V: 	table: 000000000B2A9450	
+[00:00:10]: 		K: 	atriumgate	 V: 	default	
+[00:00:10]: 		K: 	banana	 V: 	default	
+[00:00:10]: 		K: 	bats	 V: 	default	
+[00:00:10]: 		K: 	bats_setting	 V: 	default	
+[00:00:10]: 		K: 	beefaloheat	 V: 	default	
+[00:00:10]: 		K: 	berrybush	 V: 	default	
+[00:00:10]: 		K: 	boons	 V: 	default	
+[00:00:10]: 		K: 	branching	 V: 	default	
+[00:00:10]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:10]: 		K: 	bunnymen	 V: 	default	
+[00:00:10]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:10]: 		K: 	cave_ponds	 V: 	default	
+[00:00:10]: 		K: 	cave_spiders	 V: 	default	
+[00:00:10]: 		K: 	cavelight	 V: 	default	
+[00:00:10]: 		K: 	chess	 V: 	default	
+[00:00:10]: 		K: 	day	 V: 	default	
+[00:00:10]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:10]: 		K: 	dustmoths	 V: 	default	
+[00:00:10]: 		K: 	earthquakes	 V: 	default	
+[00:00:10]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:10]: 		K: 	fern	 V: 	default	
+[00:00:10]: 		K: 	fissure	 V: 	default	
+[00:00:10]: 		K: 	flint	 V: 	default	
+[00:00:10]: 		K: 	flower_cave	 V: 	default	
+[00:00:10]: 		K: 	flower_cave_regrowth	 V: 	default	
+[00:00:10]: 		K: 	fruitfly	 V: 	default	
+[00:00:10]: 		K: 	grass	 V: 	default	
+[00:00:10]: 		K: 	grassgekkos	 V: 	default	
+[00:00:10]: 		K: 	krampus	 V: 	default	
+[00:00:10]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:10]: 		K: 	lichen	 V: 	default	
+[00:00:10]: 		K: 	liefs	 V: 	default	
+[00:00:10]: 		K: 	lightflier_flower_regrowth	 V: 	default	
+[00:00:10]: 		K: 	lightfliers	 V: 	default	
+[00:00:10]: 		K: 	loop	 V: 	default	
+[00:00:10]: 		K: 	marshbush	 V: 	default	
+[00:00:10]: 		K: 	merms	 V: 	default	
+[00:00:10]: 		K: 	molebats	 V: 	default	
+[00:00:10]: 		K: 	moles_setting	 V: 	default	
+[00:00:10]: 		K: 	monkey	 V: 	default	
+[00:00:10]: 		K: 	monkey_setting	 V: 	default	
+[00:00:10]: 		K: 	mushgnome	 V: 	default	
+[00:00:10]: 		K: 	mushroom	 V: 	default	
+[00:00:10]: 		K: 	mushtree	 V: 	default	
+[00:00:10]: 		K: 	mushtree_moon_regrowth	 V: 	default	
+[00:00:10]: 		K: 	mushtree_regrowth	 V: 	default	
+[00:00:10]: 		K: 	nightmarecreatures	 V: 	default	
+[00:00:10]: 		K: 	pigs_setting	 V: 	default	
+[00:00:10]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:10]: 		K: 	reeds	 V: 	default	
+[00:00:10]: 		K: 	regrowth	 V: 	default	
+[00:00:10]: 		K: 	roads	 V: 	never	
+[00:00:10]: 		K: 	rock	 V: 	default	
+[00:00:10]: 		K: 	rocky	 V: 	default	
+[00:00:10]: 		K: 	rocky_setting	 V: 	default	
+[00:00:10]: 		K: 	sapling	 V: 	default	
+[00:00:10]: 		K: 	season_start	 V: 	default	
+[00:00:10]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:10]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:10]: 		K: 	slurper	 V: 	default	
+[00:00:10]: 		K: 	slurtles	 V: 	default	
+[00:00:10]: 		K: 	slurtles_setting	 V: 	default	
+[00:00:10]: 		K: 	snurtles	 V: 	default	
+[00:00:10]: 		K: 	spawnprotection	 V: 	default	
+[00:00:10]: 		K: 	specialevent	 V: 	default	
+[00:00:10]: 		K: 	spider_dropper	 V: 	default	
+[00:00:10]: 		K: 	spider_hider	 V: 	default	
+[00:00:10]: 		K: 	spider_spitter	 V: 	default	
+[00:00:10]: 		K: 	spider_warriors	 V: 	default	
+[00:00:10]: 		K: 	spiderqueen	 V: 	default	
+[00:00:10]: 		K: 	spiders	 V: 	default	
+[00:00:10]: 		K: 	spiders_setting	 V: 	default	
+[00:00:10]: 		K: 	start_location	 V: 	caves	
+[00:00:10]: 		K: 	task_set	 V: 	cave_default	
+[00:00:10]: 		K: 	tentacles	 V: 	default	
+[00:00:10]: 		K: 	toadstool	 V: 	default	
+[00:00:10]: 		K: 	touchstone	 V: 	default	
+[00:00:10]: 		K: 	trees	 V: 	default	
+[00:00:10]: 		K: 	weather	 V: 	default	
+[00:00:10]: 		K: 	world_size	 V: 	small	
+[00:00:10]: 		K: 	wormattacks	 V: 	default	
+[00:00:10]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:10]: 		K: 	wormlights	 V: 	default	
+[00:00:10]: 		K: 	worms	 V: 	default	
+[00:00:10]: 	K: 	required_prefabs	 V: 	table: 000000000B2A94F0	
+[00:00:10]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:10]: 	K: 	settings_desc	 V: 	探查洞穴…… 一起！	
+[00:00:10]: 	K: 	settings_id	 V: 	DST_CAVE	
+[00:00:10]: 	K: 	settings_name	 V: 	洞穴	
+[00:00:10]: 	K: 	substitutes	 V: 	table: 000000000B2A82D0	
+[00:00:10]: 	K: 	version	 V: 	4	
+[00:00:10]: 	K: 	worldgen_desc	 V: 	探查洞穴…… 一起！	
+[00:00:10]: 	K: 	worldgen_id	 V: 	DST_CAVE	
+[00:00:10]: 	K: 	worldgen_name	 V: 	洞穴	
+[00:00:10]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:10]: Overwriting savedata with level data file.	
+[00:00:10]: Not applying world gen overrides.	
+[00:00:10]: Collecting garbage...
+[00:00:10]: lua_gc took 0.11 seconds
+[00:00:10]: ~ShardLuaProxy()
+[00:00:10]: ~cEventLeaderboardProxy()
+[00:00:10]: ~ItemServerLuaProxy()
+[00:00:10]: ~InventoryLuaProxy()
+[00:00:10]: ~NetworkLuaProxy()
+[00:00:10]: ~SimLuaProxy()
+[00:00:10]: FilesExistAsyncThread aborted.
+[00:00:10]: ... FilesExistAsyncThread complete
+[00:00:10]: lua_close took 0.09 seconds
+[00:00:10]: ReleaseAll
+[00:00:10]: ReleaseAll Finished
+[00:00:10]: cGame::StartPlaying
+[00:00:10]: AppVersion::GetArchitecture() x64
+[00:00:10]: LOADING LUA
+[00:00:10]: DoLuaFile scripts/main.lua
+[00:00:10]: DoLuaFile loading buffer scripts/main.lua
+[00:00:10]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:12]:   taskgrouplist:	default	联机版	
+[00:00:12]:   taskgrouplist:	classic	经典	
+[00:00:12]:   taskgrouplist:	cave_default	地下	
+[00:00:12]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:12]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:12]: running main.lua
+	
+[00:00:12]: loaded modindex	
+[00:00:12]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:12]: SUCCESS: Loaded modoverrides.lua	
+[00:00:12]: modoverrides.lua enabling workshop-1877637921	
+[00:00:12]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1877637921	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-1877637921	
+[00:00:12]: Loading mod: workshop-1877637921 (  成就与等级系统) Version:3.4.6	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-1877637921	
+[00:00:12]: Overriding mod workshop-1877637921's option LANGUAGE with value chs	
+[00:00:12]: Overriding mod workshop-1877637921's option COSTRAISE with value true	
+[00:00:12]: Overriding mod workshop-1877637921's option HIDEPERK with value none	
+[00:00:12]: Overriding mod workshop-1877637921's option MULT with value 1	
+[00:00:12]: Overriding mod workshop-1877637921's option PLAYS with value 999	
+[00:00:12]: Overriding mod workshop-1877637921's option SYSTEM with value achieve	
+[00:00:12]: Overriding mod workshop-1877637921's option REFUND with value 1	
+[00:00:12]: Overriding mod workshop-1877637921's option EXPMULT with value 1	
+[00:00:12]: Overriding mod workshop-1877637921's option MANDRAKEBOI with value true	
+[00:00:12]: Overriding mod workshop-1877637921's option GEAR with value nothing	
+[00:00:12]: Overriding mod workshop-1877637921's option CAVES with value true	
+[00:00:12]: Overriding mod workshop-1877637921's option GAMEBREAKER with value true	
+[00:00:12]: Overriding mod workshop-1877637921's option HEALTHPENATLY with value true	
+[00:00:12]: Mod: workshop-1877637921 (  成就与等级系统)	Loading modworldgenmain.lua	
+[00:00:12]: Mod: workshop-1877637921 (  成就与等级系统)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:12]: Mod: workshop-1877637921 (  成就与等级系统)	Loading modmain.lua	
+[00:00:13]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:13]: LOADING LUA SUCCESS
+[00:00:13]: Registering Server mod namespace "dstachievement"
+[00:00:13]: PlayerDeaths could not load morgue	
+[00:00:13]: PlayerHistory could not load player_history	
+[00:00:13]: ServerPreferences could not load server_preferences	
+[00:00:13]: bloom_enabled	true	
+[00:00:13]: OnFilesLoaded()	
+[00:00:13]: OnUpdatePurchaseStateComplete	
+[00:00:13]: Loading world: session/4CA977E64E63C38B/0000000185	
+[00:00:13]: Save file is at version 5.09	
+[00:00:13]: Klump load on boot started.	
+[00:00:13]: Klump files loaded: 	0	
+[00:00:13]: 	Unload FE	
+[00:00:13]: 	Unload FE done	
+[00:00:13]: Could not unload undefined prefab (ocean_splash_med1)
+[00:00:13]: Could not unload undefined prefab (ocean_splash_med1)
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	Registering prefabs	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/seffc	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    seffc	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/klaussack_placer	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    klaussack_placer	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/altar_placer	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    ancient_altar_placer	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/achivbooks	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_tentacles	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_birds	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_brimstone	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_sleep	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_gardening	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/pigking	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    pigking	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/antlion	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    antlion	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/shadowwaxwell	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowlumber	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowminer	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowdigger	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowduelist	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowlumber_builder	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowminer_builder	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowdigger_builder	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowduelist_builder	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/perkportableblender	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportableblender_placer	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportableblender	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/perkportablecookpot	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablecookpot_placer	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablecookpot	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/perkportablespicer	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablespicer_placer	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablespicer	
+[00:00:14]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering default mod prefab	
+[00:00:15]: 	LOAD BE	
+[00:00:18]: Could not preload undefined prefab (redpouch_yotc)
+[00:00:24]: Could not preload undefined prefab (hermit_bundle)
+[00:00:24]: Could not preload undefined prefab (hermit_bundle_shells)
+[00:00:26]: Could not preload undefined prefab (yotc_seedpacket)
+[00:00:27]: Could not preload undefined prefab (redpouch_yotc)
+[00:00:28]: Could not preload undefined prefab (carnival_seedpacket)
+[00:00:28]: Could not preload undefined prefab (redpouch_yotb)
+[00:00:29]: Could not preload undefined prefab (yotc_seedpacket_rare)
+[00:00:30]: Could not preload undefined prefab (hermit_bundle_shells)
+[00:00:31]: 	LOAD BE: done	
+[00:00:31]: Begin Session: 4CA977E64E63C38B
+[00:00:31]: saving to server_temp/server_save	
+[00:00:31]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:31]: MiniMapComponent::AddAtlas( ../mods/workshop-1877637921/images/inventoryimages/altar.xml )
+[00:00:31]: Loading 18 new character(s)	
+[00:00:33]: Total 18 character(s) loaded	
+[00:00:37]: Loading Nav Grid	
+[00:00:37]: World generated on build 487848 with save version: 5.09, using seed: 1637988707	
+[00:00:37]: setting 	summerlength	15	
+[00:00:37]: setting 	cavemoonphase	threequarter	
+[00:00:37]: setting 	iscavefullmoon	false	
+[00:00:37]: setting 	isnightmaredawn	false	
+[00:00:37]: setting 	elapseddaysinseason	12	
+[00:00:37]: setting 	isfullmoon	false	
+[00:00:37]: setting 	moisture	9453.677734375	
+[00:00:37]: setting 	cavephase	night	
+[00:00:37]: setting 	iscavewaxingmoon	false	
+[00:00:37]: setting 	isnightmarewild	false	
+[00:00:37]: setting 	nightmaretimeinphase	0.087236047760857	
+[00:00:37]: setting 	precipitationrate	0	
+[00:00:37]: setting 	iswet	false	
+[00:00:37]: setting 	isnewmoon	false	
+[00:00:37]: setting 	precipitation	none	
+[00:00:37]: setting 	israining	false	
+[00:00:37]: setting 	isnightmarewarn	true	
+[00:00:37]: setting 	iswinter	true	
+[00:00:37]: setting 	season	winter	
+[00:00:37]: setting 	remainingdaysinseason	3	
+[00:00:37]: setting 	winterlength	15	
+[00:00:37]: setting 	iscaveday	false	
+[00:00:37]: setting 	moistureceil	12000.147460938	
+[00:00:37]: setting 	isday	false	
+[00:00:37]: setting 	springlength	20	
+[00:00:37]: setting 	wetness	0	
+[00:00:37]: setting 	iscavedusk	false	
+[00:00:37]: setting 	isalterawake	false	
+[00:00:37]: setting 	isnightmarecalm	false	
+[00:00:37]: setting 	isnight	true	
+[00:00:37]: setting 	isdusk	false	
+[00:00:37]: setting 	isspring	false	
+[00:00:37]: setting 	isautumn	false	
+[00:00:37]: setting 	issnowing	false	
+[00:00:37]: setting 	iswaxingmoon	true	
+[00:00:37]: setting 	phase	night	
+[00:00:37]: setting 	snowlevel	0	
+[00:00:37]: setting 	issnowcovered	false	
+[00:00:37]: setting 	autumnlength	20	
+[00:00:37]: setting 	pop	0.76654490242678	
+[00:00:37]: setting 	nightmaretime	367.85124429848	
+[00:00:37]: setting 	seasonprogress	0.8	
+[00:00:37]: setting 	moonphase	new	
+[00:00:37]: setting 	nightmarephase	warn	
+[00:00:37]: setting 	cycles	172	
+[00:00:37]: setting 	timeinphase	0.077347920735677	
+[00:00:37]: setting 	iscavenight	true	
+[00:00:37]: setting 	iscavenewmoon	false	
+[00:00:37]: setting 	issummer	false	
+[00:00:37]: setting 	temperature	-8.1679925030509	
+[00:00:37]: setting 	time	0.7116712252299	
+[00:00:37]: [Shard] Secondary shard is waiting for LUA...
+[00:00:41]: SWITCHING 	false	
+[00:00:41]: Reconstructing topology	
+[00:00:41]: 	...Sorting points	
+[00:00:41]: 	...Sorting edges	
+[00:00:41]: 	...Connecting nodes	
+[00:00:41]: 	...Validating connections	
+[00:00:41]: 	...Housekeeping	
+[00:00:41]: 	...Done!	
+[00:00:41]: 1 uploads added to server. From server_temp
+[00:00:41]: About to start a shard with these settings:
+[00:00:41]:   ShardName: Caves
+[00:00:41]:   ShardID: 319933145
+[00:00:41]:   ShardRole: SECONDARY
+[00:00:41]:   MasterHost: 127.0.0.1
+[00:00:41]:   MasterBind: (null)
+[00:00:41]:   MasterPort: 10888
+[00:00:41]: [Shard] Connecting to master...
+[00:00:41]: Telling Client our new session identifier: 4CA977E64E63C38B
+[00:00:41]: Check for write access: TRUE
+[00:00:41]: Check for read access: TRUE
+[00:00:41]: Available disk space for save files: 210360 MB
+[00:00:41]: ModIndex: Load sequence finished successfully.	
+[00:00:41]: Reset() returning
+[00:00:41]: [Shard] Sending secondary shard information to master...
+[00:00:42]: Validating portal[10] <-> 1[10] (inactive)	
+[00:00:42]: Validating portal[2] <-> 1[2] (inactive)	
+[00:00:42]: Validating portal[9] <-> 1[9] (inactive)	
+[00:00:42]: Validating portal[1] <-> 1[1] (inactive)	
+[00:00:42]: Validating portal[3] <-> 1[3] (inactive)	
+[00:00:42]: Validating portal[6] <-> 1[6] (inactive)	
+[00:00:42]: Validating portal[4] <-> 1[4] (inactive)	
+[00:00:42]: Validating portal[7] <-> 1[7] (inactive)	
+[00:00:42]: Validating portal[8] <-> 1[8] (inactive)	
+[00:00:42]: Validating portal[5] <-> 1[5] (inactive)	
+[00:00:42]: Registering secondary shard in Sing lobby
+[00:00:42]: [Shard] secondary shard is now ready!
+[00:00:42]: World 1 is now connected	
+[00:00:42]: Validating portal[10] <-> 1[10] (active)	
+[00:00:42]: Validating portal[2] <-> 1[2] (active)	
+[00:00:42]: Validating portal[9] <-> 1[9] (active)	
+[00:00:42]: Validating portal[1] <-> 1[1] (active)	
+[00:00:42]: Validating portal[3] <-> 1[3] (active)	
+[00:00:42]: Validating portal[6] <-> 1[6] (active)	
+[00:00:42]: Validating portal[4] <-> 1[4] (active)	
+[00:00:42]: Validating portal[7] <-> 1[7] (active)	
+[00:00:42]: Validating portal[8] <-> 1[8] (active)	
+[00:00:42]: Validating portal[5] <-> 1[5] (active)	
+[00:00:43]: [Shard] secondary shard LUA is now ready!
+[00:00:43]: [IPC] Signal 'DST_Secondary_Ready' opened  #00000000000007C4
+[00:00:43]: [IPC] Sending signal... #00000000000007C4
+[00:00:43]: Sim paused
+[00:01:01]: Sim unpaused
+[00:01:08]: Server Autopaused	
+[00:02:03]: Server Unpaused	
+[00:02:07]: Server Autopaused	
+[00:02:15]: Server Unpaused	
+[00:02:20]: Server Autopaused	
+[00:02:21]: Server Unpaused	
+[00:02:38]: Server Autopaused	
+[00:02:40]: Server Unpaused	
+[00:02:43]: Server Autopaused	
+[00:02:43]: Server Unpaused	
+[00:02:47]: Server Autopaused	
+[00:02:47]: Server Unpaused	
+[00:02:51]: Server Autopaused	
+[00:02:52]: Server Unpaused	
+[00:03:02]: Server Autopaused	
+[00:03:04]: Server Unpaused	
+[00:03:25]: Server Autopaused	
+[00:03:25]: Server Unpaused	
+[00:03:29]: Server Autopaused	
+[00:03:29]: Server Unpaused	
+[00:03:30]: Server Autopaused	
+[00:03:31]: Server Unpaused	
+[00:03:31]: Server Autopaused	
+[00:03:33]: Server Unpaused	
+[00:04:16]: Server Autopaused	
+[00:04:18]: Server Unpaused	
+[00:04:20]: Server Autopaused	
+[00:04:27]: Server Unpaused	
+[00:04:35]: Server Autopaused	
+[00:04:42]: Server Unpaused	
+[00:04:49]: Available disk space for save files: 210360 MB
+[00:04:49]: Serializing world: session/4CA977E64E63C38B/0000000186
+[00:04:49]: Truncating to snapshot #186...
+[00:04:49]:  - session/4CA977E64E63C38B/0000000180
+[00:04:49]:  - session/4CA977E64E63C38B/A7GJV0OQ397L/0000000180
+[00:04:49]:    2 file(s) removed
+[00:05:42]: Registering secondary shard in Sing lobby
+[00:06:46]: Server Autopaused	
+[00:06:47]: Server Unpaused	
+[00:06:58]: Server Autopaused	
+[00:07:01]: Server Unpaused	
+[00:07:06]: Server Autopaused	
+[00:07:07]: Server Unpaused	
+[00:07:16]: Server Autopaused	
+[00:07:17]: Server Unpaused	
+[00:07:30]: Server Autopaused	
+[00:08:43]: Server Unpaused	
+[00:08:51]: Server Autopaused	
+[00:09:00]: Server Unpaused	
+[00:09:02]: Server Autopaused	
+[00:09:06]: Server Unpaused	
+[00:09:10]: Server Autopaused	
+[00:09:36]: Server Unpaused	
+[00:09:39]: Server Autopaused	
+[00:09:39]: Server Unpaused	
+[00:09:42]: Server Autopaused	
+[00:09:42]: Server Unpaused	
+[00:10:42]: Registering secondary shard in Sing lobby
+[00:11:24]: Server Autopaused	
+[00:11:31]: Server Unpaused	
+[00:11:36]: Server Autopaused	
+[00:11:37]: Server Unpaused	
+[00:11:40]: Server Autopaused	
+[00:11:40]: Server Unpaused	
+[00:11:43]: Server Autopaused	
+[00:11:44]: Server Unpaused	
+[00:11:47]: Server Autopaused	
+[00:11:50]: Server Unpaused	
+[00:11:56]: Server Autopaused	
+[00:12:02]: Server Unpaused	
+[00:12:04]: Server Autopaused	
+[00:12:08]: Server Unpaused	
+[00:12:09]: Server Autopaused	
+[00:12:15]: Server Unpaused	
+[00:12:18]: Server Autopaused	
+[00:12:22]: Server Unpaused	
+[00:12:23]: Server Autopaused	
+[00:12:23]: Server Unpaused	
+[00:12:34]: Server Autopaused	
+[00:12:34]: Server Unpaused	
+[00:12:37]: Server Autopaused	
+[00:12:38]: Server Unpaused	
+[00:12:38]: Server Autopaused	
+[00:12:40]: Server Unpaused	
+[00:13:05]: Server Autopaused	
+[00:13:17]: Server Unpaused	
+[00:13:31]: Server Autopaused	
+[00:13:42]: Server Unpaused	
+[00:13:53]: Server Autopaused	
+[00:15:36]: Server Unpaused	
+[00:15:42]: Registering secondary shard in Sing lobby
+[00:15:50]: Server Autopaused	
+[00:15:50]: Server Unpaused	
+[00:16:23]: Server Autopaused	
+[00:16:23]: Server Unpaused	
+[00:16:24]: Server Autopaused	
+[00:16:25]: Server Unpaused	
+[00:16:26]: Server Autopaused	
+[00:16:30]: Server Unpaused	
+[00:16:44]: Server Autopaused	
+[00:16:45]: Server Unpaused	
+[00:17:10]: Server Autopaused	
+[00:17:11]: Server Unpaused	
+[00:17:13]: Server Autopaused	
+[00:17:21]: Server Unpaused	
+[00:17:24]: Server Autopaused	
+[00:17:25]: Server Unpaused	
+[00:17:26]: Server Autopaused	
+[00:17:27]: Server Unpaused	
+[00:17:36]: Server Autopaused	
+[00:20:09]: Server Unpaused	
+[00:20:10]: Server Autopaused	
+[00:20:13]: Server Unpaused	
+[00:20:18]: World 1 is now disconnected	
+[00:20:18]: Validating portal[10] <-> 1[10] (inactive)	
+[00:20:18]: Validating portal[2] <-> 1[2] (inactive)	
+[00:20:18]: Validating portal[9] <-> 1[9] (inactive)	
+[00:20:18]: Validating portal[1] <-> 1[1] (inactive)	
+[00:20:18]: Validating portal[3] <-> 1[3] (inactive)	
+[00:20:18]: Validating portal[6] <-> 1[6] (inactive)	
+[00:20:18]: Validating portal[4] <-> 1[4] (inactive)	
+[00:20:18]: Validating portal[7] <-> 1[7] (inactive)	
+[00:20:18]: Validating portal[8] <-> 1[8] (inactive)	
+[00:20:18]: Validating portal[5] <-> 1[5] (inactive)	
+[00:20:18]: Sim paused
+[00:20:42]: Registering secondary shard in Sing lobby
+[00:20:49]: Synchronizing backward to master snapshot 186	
+[00:20:49]: World 1 is now connected	
+[00:20:49]: Validating portal[10] <-> 1[10] (active)	
+[00:20:49]: Validating portal[2] <-> 1[2] (active)	
+[00:20:49]: Validating portal[9] <-> 1[9] (active)	
+[00:20:49]: Validating portal[1] <-> 1[1] (active)	
+[00:20:49]: Validating portal[3] <-> 1[3] (active)	
+[00:20:49]: Validating portal[6] <-> 1[6] (active)	
+[00:20:49]: Validating portal[4] <-> 1[4] (active)	
+[00:20:49]: Validating portal[7] <-> 1[7] (active)	
+[00:20:49]: Validating portal[8] <-> 1[8] (active)	
+[00:20:49]: Validating portal[5] <-> 1[5] (active)	
+[00:20:49]: Sim unpaused
+[00:20:49]: Collecting garbage...
+[00:20:50]: lua_gc took 0.77 seconds
+[00:20:50]: ~ShardLuaProxy()
+[00:20:50]: ~cEventLeaderboardProxy()
+[00:20:50]: ~ItemServerLuaProxy()
+[00:20:50]: ~InventoryLuaProxy()
+[00:20:50]: ~NetworkLuaProxy()
+[00:20:50]: ~SimLuaProxy()
+[00:20:51]: lua_close took 0.91 seconds
+[00:20:51]: ReleaseAll
+[00:20:51]: ReleaseAll Finished
+[00:20:51]: cGame::StartPlaying
+[00:20:51]: AppVersion::GetArchitecture() x64
+[00:20:51]: LOADING LUA
+[00:20:51]: DoLuaFile scripts/main.lua
+[00:20:51]: DoLuaFile loading buffer scripts/main.lua
+[00:20:51]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:20:53]:   taskgrouplist:	default	联机版	
+[00:20:53]:   taskgrouplist:	classic	经典	
+[00:20:53]:   taskgrouplist:	cave_default	地下	
+[00:20:53]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:20:53]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:20:53]: running main.lua
+	
+[00:20:53]: loaded modindex	
+[00:20:53]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:20:53]: SUCCESS: Loaded modoverrides.lua	
+[00:20:53]: modoverrides.lua enabling workshop-1877637921	
+[00:20:53]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1877637921	
+[00:20:53]: Could not load mod_config_data/modconfiguration_workshop-1877637921	
+[00:20:53]: Loading mod: workshop-1877637921 (  成就与等级系统) Version:3.4.6	
+[00:20:53]: applying configuration_options from modoverrides.lua to mod workshop-1877637921	
+[00:20:53]: Overriding mod workshop-1877637921's option LANGUAGE with value chs	
+[00:20:53]: Overriding mod workshop-1877637921's option COSTRAISE with value true	
+[00:20:53]: Overriding mod workshop-1877637921's option HIDEPERK with value none	
+[00:20:53]: Overriding mod workshop-1877637921's option MULT with value 1	
+[00:20:53]: Overriding mod workshop-1877637921's option PLAYS with value 999	
+[00:20:53]: Overriding mod workshop-1877637921's option SYSTEM with value achieve	
+[00:20:53]: Overriding mod workshop-1877637921's option REFUND with value 1	
+[00:20:53]: Overriding mod workshop-1877637921's option EXPMULT with value 1	
+[00:20:53]: Overriding mod workshop-1877637921's option MANDRAKEBOI with value true	
+[00:20:53]: Overriding mod workshop-1877637921's option GEAR with value nothing	
+[00:20:53]: Overriding mod workshop-1877637921's option CAVES with value true	
+[00:20:53]: Overriding mod workshop-1877637921's option GAMEBREAKER with value true	
+[00:20:53]: Overriding mod workshop-1877637921's option HEALTHPENATLY with value true	
+[00:20:53]: Mod: workshop-1877637921 (  成就与等级系统)	Loading modworldgenmain.lua	
+[00:20:53]: Mod: workshop-1877637921 (  成就与等级系统)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:20:53]: Mod: workshop-1877637921 (  成就与等级系统)	Loading modmain.lua	
+[00:20:53]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:20:53]: LOADING LUA SUCCESS
+[00:20:53]: Registering Server mod namespace "dstachievement"
+[00:20:53]: PlayerDeaths could not load morgue	
+[00:20:53]: PlayerHistory could not load player_history	
+[00:20:53]: ServerPreferences could not load server_preferences	
+[00:20:53]: bloom_enabled	true	
+[00:20:53]: OnFilesLoaded()	
+[00:20:53]: OnUpdatePurchaseStateComplete	
+[00:20:53]: Loading world: session/4CA977E64E63C38B/0000000186	
+[00:20:54]: Save file is at version 5.09	
+[00:20:54]: Klump load on boot started.	
+[00:20:54]: Klump files loaded: 	0	
+[00:20:54]: 	Unload characters	
+[00:20:54]: 	BE assets already loaded	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	Registering prefabs	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/seffc	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    seffc	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/klaussack_placer	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    klaussack_placer	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/altar_placer	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    ancient_altar_placer	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/achivbooks	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_tentacles	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_birds	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_brimstone	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_sleep	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    achivbook_gardening	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/pigking	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    pigking	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/antlion	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    antlion	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/shadowwaxwell	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowlumber	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowminer	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowdigger	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowduelist	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowlumber_builder	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowminer_builder	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowdigger_builder	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    shadowduelist_builder	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/perkportableblender	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportableblender_placer	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportableblender	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/perkportablecookpot	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablecookpot_placer	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablecookpot	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering prefab file: prefabs/perkportablespicer	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablespicer_placer	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	    perkportablespicer	
+[00:20:54]: Mod: workshop-1877637921 (  成就与等级系统)	  Registering default mod prefab	
+[00:20:54]: Begin Session: 4CA977E64E63C38B
+[00:20:54]: Stomping previously assigned session identifier, two loads issued.
+[00:20:54]: saving to server_temp/server_save	
+[00:20:54]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:20:54]: MiniMapComponent::AddAtlas( ../mods/workshop-1877637921/images/inventoryimages/altar.xml )
+[00:20:54]: Loading 18 new character(s)	
+[00:20:55]: Total 18 character(s) loaded	
+[00:20:59]: Loading Nav Grid	
+[00:20:59]: World generated on build 487848 with save version: 5.09, using seed: 1637988707	
+[00:20:59]: setting 	summerlength	15	
+[00:20:59]: setting 	cavemoonphase	threequarter	
+[00:20:59]: setting 	iscavefullmoon	false	
+[00:20:59]: setting 	isnightmaredawn	false	
+[00:20:59]: setting 	elapseddaysinseason	13	
+[00:20:59]: setting 	isfullmoon	false	
+[00:20:59]: setting 	moisture	9532.59375	
+[00:20:59]: setting 	cavephase	day	
+[00:20:59]: setting 	iscavewaxingmoon	false	
+[00:20:59]: setting 	isnightmarewild	false	
+[00:20:59]: setting 	nightmaretimeinphase	0.9401538816802	
+[00:20:59]: setting 	precipitationrate	0	
+[00:20:59]: setting 	iswet	false	
+[00:20:59]: setting 	isnewmoon	false	
+[00:20:59]: setting 	precipitation	none	
+[00:20:59]: setting 	israining	false	
+[00:20:59]: setting 	isnightmarewarn	true	
+[00:20:59]: setting 	iswinter	true	
+[00:20:59]: setting 	season	winter	
+[00:20:59]: setting 	remainingdaysinseason	2	
+[00:20:59]: setting 	winterlength	15	
+[00:20:59]: setting 	iscaveday	true	
+[00:20:59]: setting 	moistureceil	12000.147460938	
+[00:20:59]: setting 	isday	false	
+[00:20:59]: setting 	springlength	20	
+[00:20:59]: setting 	wetness	0	
+[00:20:59]: setting 	iscavedusk	false	
+[00:20:59]: setting 	isalterawake	false	
+[00:20:59]: setting 	isnightmarecalm	false	
+[00:20:59]: setting 	isnight	true	
+[00:20:59]: setting 	isdusk	false	
+[00:20:59]: setting 	isspring	false	
+[00:20:59]: setting 	isautumn	false	
+[00:20:59]: setting 	issnowing	false	
+[00:20:59]: setting 	iswaxingmoon	true	
+[00:20:59]: setting 	phase	night	
+[00:20:59]: setting 	snowlevel	0	
+[00:20:59]: setting 	issnowcovered	false	
+[00:20:59]: setting 	autumnlength	20	
+[00:20:59]: setting 	pop	0.77377976013416	
+[00:20:59]: setting 	nightmaretime	444.61384935122	
+[00:20:59]: setting 	seasonprogress	0.86666666666667	
+[00:20:59]: setting 	moonphase	new	
+[00:20:59]: setting 	nightmarephase	warn	
+[00:20:59]: setting 	cycles	173	
+[00:20:59]: setting 	timeinphase	0.0069089762369792	
+[00:20:59]: setting 	iscavenight	false	
+[00:20:59]: setting 	iscavenewmoon	false	
+[00:20:59]: setting 	issummer	false	
+[00:20:59]: setting 	temperature	-5.3511921820249	
+[00:20:59]: setting 	time	0.002159055074056	
+[00:21:14]: SWITCHING 	false	
+[00:21:14]: Reconstructing topology	
+[00:21:14]: 	...Sorting points	
+[00:21:14]: 	...Sorting edges	
+[00:21:14]: 	...Connecting nodes	
+[00:21:14]: 	...Validating connections	
+[00:21:14]: 	...Housekeeping	
+[00:21:14]: 	...Done!	
+[00:21:14]: 1 uploads added to server. From server_temp
+[00:21:14]: World 1 is now connected	
+[00:21:14]: Telling Client our new session identifier: 4CA977E64E63C38B
+[00:21:14]: Check for write access: TRUE
+[00:21:14]: Check for read access: TRUE
+[00:21:14]: Available disk space for save files: 210360 MB
+[00:21:14]: ModIndex: Load sequence finished successfully.	
+[00:21:15]: Reset() returning
+[00:21:16]: Validating portal[3] <-> 1[3] (active)	
+[00:21:16]: Validating portal[1] <-> 1[1] (active)	
+[00:21:16]: Validating portal[9] <-> 1[9] (active)	
+[00:21:16]: Validating portal[7] <-> 1[7] (active)	
+[00:21:16]: Validating portal[5] <-> 1[5] (active)	
+[00:21:16]: Validating portal[4] <-> 1[4] (active)	
+[00:21:16]: Validating portal[6] <-> 1[6] (active)	
+[00:21:16]: Validating portal[8] <-> 1[8] (active)	
+[00:21:16]: Validating portal[10] <-> 1[10] (active)	
+[00:21:16]: Validating portal[2] <-> 1[2] (active)	
+[00:21:21]: Server Autopaused	
+[00:21:22]: Server Unpaused	
+[00:22:22]: Server Autopaused	
+[00:22:25]: Server Unpaused	
+[00:22:55]: Server Autopaused	
+[00:22:58]: Server Unpaused	
+[00:23:16]: Server Autopaused	
+[00:23:16]: Server Unpaused	
+[00:24:05]: Server Autopaused	
+[00:24:05]: Server Unpaused	
+[00:24:19]: Server Autopaused	
+[00:24:20]: Server Unpaused	
+[00:24:20]: Server Autopaused	
+[00:24:22]: Server Unpaused	
+[00:24:24]: Server Autopaused	
+[00:24:25]: Server Unpaused	
+[00:24:33]: Server Autopaused	
+[00:24:34]: Server Unpaused	
+[00:24:38]: Server Autopaused	
+[00:24:38]: Server Unpaused	
+[00:24:41]: Server Autopaused	
+[00:24:42]: Server Unpaused	
+[00:24:50]: Server Autopaused	
+[00:24:51]: Server Unpaused	
+[00:25:16]: Server Autopaused	
+[00:25:18]: Server Unpaused	
+[00:25:42]: Registering secondary shard in Sing lobby
+[00:25:43]: Server Autopaused	
+[00:25:43]: Server Unpaused	
+[00:25:48]: Server Autopaused	
+[00:25:49]: Server Unpaused	
+[00:25:59]: Server Autopaused	
+[00:25:59]: Server Unpaused	
+[00:26:05]: Server Autopaused	
+[00:26:05]: Server Unpaused	
+[00:26:41]: Server Autopaused	
+[00:26:41]: Server Unpaused	
+[00:27:22]: Server Autopaused	
+[00:27:23]: Server Unpaused	
+[00:27:52]: Server Autopaused	
+[00:27:57]: Server Unpaused	
+[00:28:36]: Server Autopaused	
+[00:28:36]: Server Unpaused	
+[00:28:39]: Server Autopaused	
+[00:28:40]: Server Unpaused	
+[00:28:45]: Server Autopaused	
+[00:28:45]: Server Unpaused	
+[00:28:50]: Server Autopaused	
+[00:28:50]: Server Unpaused	
+[00:28:52]: Server Autopaused	
+[00:28:53]: Server Unpaused	
+[00:28:56]: Server Autopaused	
+[00:28:57]: Server Unpaused	
+[00:29:07]: Server Autopaused	
+[00:29:12]: Server Unpaused	
+[00:29:16]: Server Autopaused	
+[00:29:17]: Server Unpaused	
+[00:29:25]: Server Autopaused	
+[00:29:26]: Server Unpaused	
+[00:29:30]: Server Autopaused	
+[00:29:30]: Server Unpaused	
+[00:29:33]: Server Autopaused	
+[00:29:34]: Server Unpaused	
+[00:29:37]: Server Autopaused	
+[00:29:37]: Server Unpaused	
+[00:29:43]: Available disk space for save files: 210360 MB
+[00:29:44]: Serializing world: session/4CA977E64E63C38B/0000000187
+[00:29:44]: Truncating to snapshot #187...
+[00:29:44]:  - session/4CA977E64E63C38B/0000000181
+[00:29:44]:    1 file(s) removed
+[00:30:03]: Server Autopaused	
+[00:30:05]: Server Unpaused	
+[00:30:10]: [200] Account Communication Success (6)
+[00:30:10]: Received (KU_4_WneQJr) from TokenPurpose
+[00:30:11]: Server Autopaused	
+[00:30:11]: Server Unpaused	
+[00:30:27]: Server Autopaused	
+[00:30:28]: Server Unpaused	
+[00:30:30]: Server Autopaused	
+[00:30:42]: Registering secondary shard in Sing lobby
+[00:30:44]: Server Unpaused	
+[00:31:24]: Server Autopaused	
+[00:31:24]: Server Unpaused	
+[00:31:28]: Server Autopaused	
+[00:31:28]: Server Unpaused	
+[00:31:38]: Server Autopaused	
+[00:31:38]: Server Unpaused	
+[00:32:06]: Server Autopaused	
+[00:32:07]: Server Unpaused	
+[00:32:20]: Server Autopaused	
+[00:32:21]: Server Unpaused	
+[00:32:28]: Server Autopaused	
+[00:32:28]: Server Unpaused	
+[00:32:32]: Server Autopaused	
+[00:32:33]: Server Unpaused	
+[00:32:40]: Server Autopaused	
+[00:32:40]: Server Unpaused	
+[00:32:50]: Server Autopaused	
+[00:32:51]: Server Unpaused	
+[00:33:18]: Server Autopaused	
+[00:33:18]: Server Unpaused	
+[00:34:36]: Server Autopaused	
+[00:34:37]: Server Unpaused	
+[00:34:39]: Server Autopaused	
+[00:34:39]: Server Unpaused	
+[00:34:57]: Server Autopaused	
+[00:34:57]: Server Unpaused	
+[00:35:42]: Registering secondary shard in Sing lobby
+[00:35:53]: Server Autopaused	
+[00:35:54]: Server Unpaused	
+[00:35:59]: Server Autopaused	
+[00:35:59]: Server Unpaused	
+[00:36:10]: Server Autopaused	
+[00:36:11]: Server Unpaused	
+[00:36:16]: Server Autopaused	
+[00:36:28]: Server Unpaused	
+[00:36:52]: Server Autopaused	
+[00:36:53]: Server Unpaused	
+[00:36:58]: Server Autopaused	
+[00:36:59]: Server Unpaused	
+[00:37:00]: Server Autopaused	
+[00:37:01]: Server Unpaused	
+[00:37:05]: Server Autopaused	
+[00:37:05]: Server Unpaused	
+[00:37:07]: Server Autopaused	
+[00:37:30]: Server Unpaused	
+[00:37:41]: Server Autopaused	
+[00:37:42]: Server Unpaused	
+[00:37:53]: Server Autopaused	
+[00:37:54]: Server Unpaused	
+[00:37:56]: Server Autopaused	
+[00:37:58]: Server Unpaused	
+[00:38:06]: Server Autopaused	
+[00:38:06]: Server Unpaused	
+[00:38:27]: Server Autopaused	
+[00:38:28]: Server Unpaused	
+[00:38:42]: Server Autopaused	
+[00:38:47]: Server Unpaused	
+[00:38:53]: Server Autopaused	
+[00:39:05]: Server Unpaused	
+[00:39:08]: Available disk space for save files: 210358 MB
+[00:39:08]: Serializing world: session/4CA977E64E63C38B/0000000188
+[00:39:08]: Truncating to snapshot #188...
+[00:39:08]:  - session/4CA977E64E63C38B/0000000182
+[00:39:08]:    1 file(s) removed
+[00:39:08]: Server Autopaused	
+[00:39:09]: Server Unpaused	
+[00:39:38]: Server Autopaused	
+[00:39:38]: Server Unpaused	
+[00:39:51]: Server Autopaused	
+[00:39:51]: Server Unpaused	
+[00:39:52]: Server Autopaused	
+[00:39:52]: Server Unpaused	
+[00:39:54]: Server Autopaused	
+[00:39:54]: Server Unpaused	
+[00:39:57]: Server Autopaused	
+[00:40:05]: Server Unpaused	
+[00:40:42]: Registering secondary shard in Sing lobby
+[00:43:13]: Server Autopaused	
+[00:43:14]: Server Unpaused	
+[00:43:16]: Server Autopaused	
+[00:43:17]: Server Unpaused	
+[00:43:30]: Server Autopaused	
+[00:43:31]: Server Unpaused	
+[00:43:33]: Server Autopaused	
+[00:43:34]: Server Unpaused	
+[00:43:41]: Server Autopaused	
+[00:43:42]: Server Unpaused	
+[00:44:40]: Server Autopaused	
+[00:44:40]: Server Unpaused	
+[00:45:05]: Server Autopaused	
+[00:45:05]: Server Unpaused	
+[00:45:42]: Registering secondary shard in Sing lobby
+[00:45:44]: Server Autopaused	
+[00:45:44]: Server Unpaused	
+[00:46:07]: Server Autopaused	
+[00:46:08]: Server Unpaused	
+[00:46:10]: Server Autopaused	
+[00:46:16]: Server Unpaused	
+[00:46:22]: Server Autopaused	
+[00:46:28]: Server Unpaused	
+[00:46:31]: Server Autopaused	
+[00:46:43]: Server Unpaused	
+[00:47:17]: Server Autopaused	
+[00:47:21]: Server Unpaused	
+[00:47:23]: Server Autopaused	
+[00:47:24]: Server Unpaused	
+[00:47:33]: Server Autopaused	
+[00:47:34]: Server Unpaused	
+[00:47:35]: Server Autopaused	
+[00:50:24]: Server Unpaused	
+[00:50:33]: Server Autopaused	
+[00:50:42]: Registering secondary shard in Sing lobby
+[00:50:58]: Server Unpaused	
+[00:51:03]: Server Autopaused	
+[00:51:08]: Server Unpaused	
+[00:51:11]: Available disk space for save files: 210356 MB
+[00:51:11]: Serializing world: session/4CA977E64E63C38B/0000000189
+[00:51:12]: Truncating to snapshot #189...
+[00:51:12]:  - session/4CA977E64E63C38B/0000000183
+[00:51:12]:    1 file(s) removed
+[00:51:12]: Server Autopaused	
+[00:51:12]: Server Unpaused	
+[00:51:18]: Server Autopaused	
+[00:51:18]: Server Unpaused	
+[00:51:30]: Server Autopaused	
+[00:51:31]: Server Unpaused	
+[00:52:23]: Server Autopaused	
+[00:52:23]: Server Unpaused	
+[00:52:26]: Server Autopaused	
+[00:52:26]: Server Unpaused	
+[00:52:28]: Server Autopaused	
+[00:52:29]: Server Unpaused	
+[00:52:43]: Server Autopaused	
+[00:52:44]: Server Unpaused	
+[00:53:11]: Server Autopaused	
+[00:53:13]: Server Unpaused	
+[00:53:20]: Server Autopaused	
+[00:53:20]: Server Unpaused	
+[00:53:23]: Server Autopaused	
+[00:53:24]: Server Unpaused	
+[00:53:36]: Server Autopaused	
+[00:53:36]: Server Unpaused	
+[00:53:39]: Server Autopaused	
+[00:53:45]: Server Unpaused	
+[00:54:32]: Server Autopaused	
+[00:54:32]: Server Unpaused	
+[00:54:40]: Server Autopaused	
+[00:54:41]: Server Unpaused	
+[00:55:07]: Server Autopaused	
+[00:55:42]: Registering secondary shard in Sing lobby
+[01:00:10]: [200] Account Communication Success (6)
+[01:00:10]: Received (KU_4_WneQJr) from TokenPurpose
+[01:00:21]: Server Unpaused	
+[01:00:23]: Server Autopaused	
+[01:00:25]: Server Unpaused	
+[01:00:26]: Server Autopaused	
+[01:00:27]: Server Unpaused	
+[01:00:31]: Server Autopaused	
+[01:00:33]: Server Unpaused	
+[01:00:42]: Registering secondary shard in Sing lobby
+[01:00:43]: Server Autopaused	
+[01:00:45]: Server Unpaused	
+[01:00:54]: Server Autopaused	
+[01:00:54]: Server Unpaused	
+[01:02:59]: Server Autopaused	
+[01:03:00]: Server Unpaused	
+[01:03:06]: Server Autopaused	
+[01:03:06]: Server Unpaused	
+[01:03:13]: Server Autopaused	
+[01:03:14]: Server Unpaused	
+[01:03:15]: Server Autopaused	
+[01:03:15]: Server Unpaused	
+[01:03:20]: Server Autopaused	
+[01:03:23]: Server Unpaused	
+[01:03:27]: Server Autopaused	
+[01:03:31]: Server Unpaused	
+[01:03:32]: Server Autopaused	
+[01:03:32]: Server Unpaused	
+[01:03:33]: Server Autopaused	
+[01:03:42]: Server Unpaused	
+[01:03:46]: Server Autopaused	
+[01:03:47]: Server Unpaused	
+[01:03:48]: Server Autopaused	
+[01:03:48]: Server Unpaused	
+[01:03:51]: Server Autopaused	
+[01:03:53]: Server Unpaused	
+[01:03:56]: Server Autopaused	
+[01:03:56]: Server Unpaused	
+[01:03:59]: Server Autopaused	
+[01:04:08]: Server Unpaused	
+[01:04:13]: Server Autopaused	
+[01:04:14]: Server Unpaused	
+[01:04:23]: Server Autopaused	
+[01:04:24]: Server Unpaused	
+[01:04:43]: Server Autopaused	
+[01:04:43]: Server Unpaused	
+[01:04:48]: Server Autopaused	
+[01:04:52]: Server Unpaused	
+[01:04:54]: Server Autopaused	
+[01:04:58]: Server Unpaused	
+[01:04:59]: Server Autopaused	
+[01:05:42]: Registering secondary shard in Sing lobby
+[01:06:03]: Server Unpaused	
+[01:06:06]: Server Autopaused	
+[01:06:15]: Server Unpaused	
+[01:06:18]: Server Autopaused	
+[01:06:50]: Server Unpaused	
+[01:06:56]: Server Autopaused	
+[01:06:57]: Server Unpaused	
+[01:07:13]: Server Autopaused	
+[01:07:13]: Server Unpaused	
+[01:07:14]: Available disk space for save files: 210353 MB
+[01:07:15]: Serializing world: session/4CA977E64E63C38B/0000000190
+[01:07:15]: Truncating to snapshot #190...
+[01:07:15]:  - session/4CA977E64E63C38B/0000000184
+[01:07:15]:    1 file(s) removed
+[01:07:24]: Server Autopaused	
+[01:07:26]: Server Unpaused	
+[01:07:57]: Server Autopaused	
+[01:08:06]: Server Unpaused	
+[01:08:14]: Server Autopaused	
+[01:08:16]: Server Unpaused	
+[01:08:27]: Server Autopaused	
+[01:08:28]: Server Unpaused	
+[01:08:28]: Server Autopaused	
+[01:08:30]: Server Unpaused	
+[01:08:49]: Server Autopaused	
+[01:08:50]: Server Unpaused	
+[01:09:18]: Server Autopaused	
+[01:09:19]: Server Unpaused	
+[01:09:22]: Server Autopaused	
+[01:09:31]: Server Unpaused	
+[01:10:42]: Registering secondary shard in Sing lobby
+[01:11:12]: Server Autopaused	
+[01:11:17]: Server Unpaused	
+[01:11:21]: Server Autopaused	
+[01:11:25]: Server Unpaused	
+[01:11:40]: Server Autopaused	
+[01:11:43]: Server Unpaused	
+[01:12:00]: Server Autopaused	
+[01:12:01]: Server Unpaused	
+[01:12:03]: Server Autopaused	
+[01:12:04]: Server Unpaused	
+[01:12:05]: Server Autopaused	
+[01:12:09]: Server Unpaused	
+[01:12:11]: Server Autopaused	
+[01:12:13]: Server Unpaused	
+[01:12:14]: Server Autopaused	
+[01:12:14]: Server Unpaused	
+[01:12:25]: Server Autopaused	
+[01:12:26]: Server Unpaused	
+[01:12:49]: Server Autopaused	
+[01:12:50]: Server Unpaused	
+[01:12:51]: Server Autopaused	
+[01:12:52]: Server Unpaused	
+[01:12:57]: Server Autopaused	
+[01:12:58]: Server Unpaused	
+[01:12:59]: Server Autopaused	
+[01:13:03]: Server Unpaused	
+[01:13:16]: Server Autopaused	
+[01:13:24]: Server Unpaused	
+[01:13:35]: Server Autopaused	
+[01:13:36]: Server Unpaused	
+[01:13:44]: Server Autopaused	
+[01:13:48]: Server Unpaused	
+[01:13:53]: Server Autopaused	
+[01:13:53]: Server Unpaused	
+[01:13:59]: Server Autopaused	
+[01:14:00]: Server Unpaused	
+[01:14:09]: Server Autopaused	
+[01:14:10]: Server Unpaused	
+[01:14:14]: Server Autopaused	
+[01:14:14]: Server Unpaused	
+[01:14:21]: Server Autopaused	
+[01:14:22]: Server Unpaused	
+[01:14:28]: Server Autopaused	
+[01:14:29]: Server Unpaused	
+[01:14:37]: Server Autopaused	
+[01:14:38]: Server Unpaused	
+[01:14:42]: Server Autopaused	
+[01:14:43]: Server Unpaused	
+[01:14:52]: Server Autopaused	
+[01:14:52]: Server Unpaused	
+[01:14:54]: Server Autopaused	
+[01:14:56]: Server Unpaused	
+[01:15:42]: Server Autopaused	
+[01:15:42]: Server Unpaused	
+[01:15:42]: Registering secondary shard in Sing lobby
+[01:15:52]: Server Autopaused	
+[01:15:53]: Server Unpaused	
+[01:16:01]: Server Autopaused	
+[01:16:06]: Server Unpaused	
+[01:16:14]: Server Autopaused	
+[01:16:15]: Server Unpaused	
+[01:16:22]: Server Autopaused	
+[01:16:26]: Server Unpaused	
+[01:16:33]: Server Autopaused	
+[01:16:35]: Server Unpaused	
+[01:16:38]: Available disk space for save files: 210351 MB
+[01:16:39]: Serializing world: session/4CA977E64E63C38B/0000000191
+[01:16:39]: Truncating to snapshot #191...
+[01:16:39]:  - session/4CA977E64E63C38B/0000000185
+[01:16:39]:    1 file(s) removed
+[01:16:40]: Server Autopaused	
+[01:16:42]: Server Unpaused	
+[01:16:45]: Server Autopaused	
+[01:16:46]: Server Unpaused	
+[01:16:48]: Server Autopaused	
+[01:16:49]: Server Unpaused	
+[01:16:56]: Server Autopaused	
+[01:17:05]: Server Unpaused	
+[01:17:14]: Server Autopaused	
+[01:17:16]: Server Unpaused	
+[01:17:34]: Server Autopaused	
+[01:17:35]: Server Unpaused	
+[01:17:41]: Server Autopaused	
+[01:17:47]: Server Unpaused	
+[01:17:47]: Server Autopaused	
+[01:17:51]: Server Unpaused	
+[01:17:53]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[01:17:53]: Sim paused
+[01:17:54]: [IPC] Received shutdown signal.
+[01:17:54]: Available disk space for save files: 210360 MB
+[01:17:54]: Serializing world: session/4CA977E64E63C38B/0000000192
+[01:17:54]: Truncating to snapshot #192...
+[01:17:54]:  - session/4CA977E64E63C38B/0000000186
+[01:17:54]:    1 file(s) removed
+[01:17:54]: [Shard] Stopping shard mode
+[01:17:54]: [Steam] SendUserDisconnect for ''
+[01:17:54]: Collecting garbage...
+[01:17:54]: lua_gc took 0.18 seconds
+[01:17:55]: ~ShardLuaProxy()
+[01:17:55]: ~cEventLeaderboardProxy()
+[01:17:55]: ~ItemServerLuaProxy()
+[01:17:55]: ~InventoryLuaProxy()
+[01:17:55]: ~NetworkLuaProxy()
+[01:17:55]: ~SimLuaProxy()
+[01:17:55]: lua_close took 0.25 seconds
+[01:17:55]: Could not unload undefined prefab (redpouch_yotb)
+[01:17:55]: Could not unload undefined prefab (hermit_bundle)
+[01:17:55]: Could not unload undefined prefab (hermit_bundle_shells)
+[01:17:55]: Could not unload undefined prefab (redpouch_yotc)
+[01:17:55]: Could not unload undefined prefab (redpouch_yotc)
+[01:17:55]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:17:55]: CurlRequestManager::ClientThread::Main() complete
+[01:17:55]: HttpClient2 discarded 0 callbacks.
+[01:17:55]: Shutting down

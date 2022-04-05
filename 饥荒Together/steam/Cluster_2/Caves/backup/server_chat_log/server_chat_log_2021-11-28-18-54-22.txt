@@ -1,0 +1,19 @@
+[00:03:08]: [Join Announcement] 彡粼
+[00:19:47]: [Announcement] 彡粼   烹饪100次菜肴   获得成就【主厨】
+[01:43:30]: [Announcement] 这将是一个恐怖之夜……
+[01:43:41]: [Announcement] 双子魔眼盯上了彡粼
+[01:54:48]: [Announcement] 这将是一个恐怖之夜……
+[01:54:58]: [Announcement] 双子魔眼盯上了彡粼
+[01:57:28]: [Vote Announcement] rollback passed
+[02:04:41]: [Announcement] 这将是一个恐怖之夜……
+[02:04:52]: [Announcement] 双子魔眼盯上了彡粼
+[02:14:50]: [Announcement] 这将是一个恐怖之夜……
+[02:15:01]: [Announcement] 双子魔眼盯上了彡粼
+[02:19:33]: [Announcement] 这将是一个恐怖之夜……
+[02:19:44]: [Announcement] 双子魔眼盯上了彡粼
+[02:20:26]: [Vote Announcement] rollback passed
+[02:24:32]: [Vote Announcement] rollback passed
+[02:30:44]: [Announcement] 这将是一个恐怖之夜……
+[02:30:56]: [Announcement] 双子魔眼盯上了彡粼
+[03:08:03]: [Announcement] 彡粼   收集齐船上需要的所有物品   获得成就【船长】
+[03:15:14]: [Leave Announcement] 彡粼

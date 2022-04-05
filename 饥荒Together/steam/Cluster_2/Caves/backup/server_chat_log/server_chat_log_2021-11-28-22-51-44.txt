@@ -1,0 +1,31 @@
+[00:00:46]: [Join Announcement] 彡粼
+[01:23:15]: [Vote Announcement] rollback passed
+[01:26:33]: [Vote Announcement] rollback passed
+[01:31:35]: [Vote Announcement] rollback passed
+[01:40:29]: [Vote Announcement] rollback passed
+[01:42:57]: [Vote Announcement] rollback passed
+[01:47:50]: [Vote Announcement] rollback passed
+[01:49:47]: [Vote Announcement] rollback passed
+[02:00:15]: [Vote Announcement] rollback passed
+[02:01:06]: [Vote Announcement] rollback passed
+[02:01:41]: [Vote Announcement] rollback passed
+[02:02:18]: [Vote Announcement] rollback passed
+[02:05:46]: [Vote Announcement] rollback passed
+[02:10:54]: [Vote Announcement] rollback passed
+[02:26:03]: [Vote Announcement] rollback passed
+[02:41:01]: [Vote Announcement] rollback passed
+[03:00:14]: [Vote Announcement] rollback passed
+[03:00:15]: [Death Announcement] 彡粼 死于： 克劳斯。她变成了可怕的鬼魂！
+[03:03:06]: [Vote Announcement] rollback passed
+[03:10:03]: [Vote Announcement] rollback passed
+[03:12:58]: [Vote Announcement] rollback passed
+[03:12:59]: [Death Announcement] 彡粼 死于： 克劳斯。她变成了可怕的鬼魂！
+[03:15:23]: [Vote Announcement] rollback passed
+[03:21:41]: [Vote Announcement] rollback passed
+[03:22:29]: [Vote Announcement] rollback passed
+[03:24:47]: [Vote Announcement] rollback passed
+[03:26:47]: [Vote Announcement] rollback passed
+[03:34:57]: [Vote Announcement] rollback passed
+[03:43:33]: [Vote Announcement] rollback passed
+[03:45:32]: [Vote Announcement] rollback passed
+[03:49:34]: [Leave Announcement] 彡粼

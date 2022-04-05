@@ -1,0 +1,7 @@
+[00:02:16]: [Join Announcement] 彡粼
+[00:28:08]: [Announcement] 彡粼   采集1500次   获得成就【拾荒者】
+[00:33:41]: [Announcement] 彡粼   保持95%以上饥饿值 30 分钟   获得成就【饱荒】
+[00:54:01]: [Skin Announcement] 彡粼 hand_workgloves_brown_chocolate
+[01:57:07]: [Skin Announcement] 彡粼 hand_wormwood_victorian
+[03:11:31]: [Skin Announcement] 彡粼 feet_ridingboot_white_pure
+[03:47:29]: [Leave Announcement] 彡粼

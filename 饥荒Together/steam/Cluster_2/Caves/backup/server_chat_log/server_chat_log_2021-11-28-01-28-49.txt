@@ -1,0 +1,9 @@
+[00:00:43]: [Join Announcement] 彡粼
+[01:25:49]: [Vote Announcement] rollback passed
+[01:41:29]: [Announcement] 彡粼   吃下 10 个培根煎蛋   获得成就【这才是能量】
+[01:48:09]: [Vote Announcement] rollback passed
+[02:12:29]: [Vote Announcement] rollback passed
+[02:47:36]: [Announcement] 彡粼   击杀格罗姆   获得成就【击杀格罗姆】
+[03:34:35]: [Vote Announcement] rollback passed
+[04:02:36]: [Announcement] 彡粼   在洞穴停留超过 90分钟   获得成就【穴居人】
+[04:17:17]: [Leave Announcement] 彡粼

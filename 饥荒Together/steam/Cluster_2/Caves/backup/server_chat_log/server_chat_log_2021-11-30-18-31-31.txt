@@ -1,0 +1,9 @@
+[00:02:33]: [Join Announcement] 彡粼
+[00:03:44]: [Vote Announcement] rollback passed
+[00:04:40]: [Vote Announcement] rollback passed
+[00:08:03]: [Vote Announcement] rollback passed
+[00:22:04]: [Vote Announcement] rollback passed
+[00:25:39]: [Vote Announcement] rollback passed
+[02:20:51]: [Vote Announcement] rollback passed
+[02:50:10]: [Announcement] 彡粼   击杀远古守护者   获得成就【守护者的断角】
+[03:46:20]: [Leave Announcement] 彡粼

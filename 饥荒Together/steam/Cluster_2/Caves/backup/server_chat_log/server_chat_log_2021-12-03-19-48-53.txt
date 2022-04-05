@@ -1,0 +1,24 @@
+[00:00:44]: [Join Announcement] 彡粼
+[00:06:00]: [Vote Announcement] rollback passed
+[00:08:16]: [Vote Announcement] rollback passed
+[00:15:37]: [Death Announcement] 彡粼 死于： 蜂王。她变成了可怕的鬼魂！
+[00:15:42]: [Vote Announcement] rollback passed
+[00:21:00]: [Death Announcement] 彡粼 死于： 蜂王。她变成了可怕的鬼魂！
+[00:21:11]: [Vote Announcement] rollback passed
+[00:25:05]: [Vote Announcement] rollback passed
+[00:31:00]: [Death Announcement] 彡粼 死于： 蜂王。她变成了可怕的鬼魂！
+[00:31:04]: [Vote Announcement] rollback passed
+[00:37:46]: [Announcement] 彡粼   击杀蜜蜂女王   获得成就【香甜的蜜蜂女王】
+[00:53:18]: [Vote Announcement] rollback passed
+[00:54:38]: [Vote Announcement] rollback passed
+[01:34:54]: [Vote Announcement] rollback passed
+[01:44:20]: [Vote Announcement] rollback passed
+[01:45:02]: [Vote Announcement] rollback passed
+[01:52:27]: [Announcement] 彡粼   着火   获得成就【灼伤】
+[01:57:28]: [Announcement] 彡粼   承受超过100000点伤害   获得成就【乔碧萝】
+[01:59:44]: [Vote Announcement] rollback passed
+[02:04:39]: [Announcement] 彡粼   承受超过100000点伤害   获得成就【乔碧萝】
+[02:08:19]: [Vote Announcement] rollback passed
+[02:15:35]: [Announcement] 彡粼   击杀克劳斯   获得成就【克劳斯之死】
+[02:17:24]: [Announcement] 彡粼   承受超过100000点伤害   获得成就【乔碧萝】
+[02:36:03]: [Leave Announcement] 彡粼

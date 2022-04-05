@@ -1,0 +1,19 @@
+[00:01:02]: [Join Announcement] 彡粼
+[01:06:55]: [Death Announcement] 彡粼 死于： 蜂王。她变成了可怕的鬼魂！
+[01:06:58]: [Vote Announcement] rollback passed
+[01:11:36]: [Death Announcement] 彡粼 死于： 蜂王。她变成了可怕的鬼魂！
+[01:11:54]: [Vote Announcement] rollback passed
+[01:28:37]: [Announcement] 彡粼   生存超过 150天   获得成就【永恒的守候】
+[01:50:53]: [Vote Announcement] rollback passed
+[01:51:31]: [Vote Announcement] rollback passed
+[01:52:14]: [Vote Announcement] rollback passed
+[01:53:28]: [Vote Announcement] rollback passed
+[01:54:42]: [Vote Announcement] rollback passed
+[03:53:22]: [Announcement] 彡粼   生存超过 150天   获得成就【永恒的守候】
+[04:09:12]: [Vote Announcement] rollback passed
+[04:09:54]: [Vote Announcement] rollback passed
+[05:05:44]: [Announcement] 彡粼   敲矿200次   获得成就【淘金者】
+[05:47:13]: [Announcement] 彡粼   建造500次   获得成就【建造师】
+[06:17:20]: [Announcement] 彡粼   烹饪200次菜肴   获得成就【小当家】
+[06:24:15]: [Announcement] 彡粼   吃掉40个肉丸   获得成就【舌尖上的饥荒Ⅶ】
+[06:25:01]: [Leave Announcement] 彡粼

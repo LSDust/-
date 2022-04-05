@@ -1,0 +1,6 @@
+[00:01:00]: [Join Announcement] 彡粼
+[00:20:12]: [Vote Announcement] rollback passed
+[00:40:46]: [Announcement] 彡粼   砍树或移植 350次   获得成就【伐木工】
+[01:09:11]: [Announcement] 彡粼   单杀刚羊   获得成就【单杀刚羊】
+[01:13:22]: [Skin Announcement] 彡粼 legs_pants_basic_brown_sepia
+[01:17:52]: [Leave Announcement] 彡粼

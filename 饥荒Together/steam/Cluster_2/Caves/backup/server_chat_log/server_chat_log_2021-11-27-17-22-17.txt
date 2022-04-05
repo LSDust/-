@@ -1,0 +1,17 @@
+[00:00:57]: [Join Announcement] 彡粼
+[00:01:10]: [Announcement] 彡粼   成功进入游戏   获得成就【新的开始】
+[00:17:09]: [Announcement] 彡粼   吃下第一个食物   获得成就【第一口】
+[01:33:15]: [Announcement] 彡粼   没有造成任何伤害在 40 分钟里   获得成就【和平主义者】
+[02:53:26]: [Announcement] 彡粼   保持95%以上理智值 30 分钟   获得成就【保持冷静】
+[03:19:26]: [Announcement] 你感觉到有一种邪恶的存在在看着你……
+[03:19:36]: [Announcement] 恐怖之眼盯上了彡粼
+[03:42:08]: [Announcement] 你感觉到有一种邪恶的存在在看着你……
+[03:42:18]: [Announcement] 恐怖之眼盯上了彡粼
+[03:46:22]: [Vote Announcement] rollback passed
+[03:47:10]: [Vote Announcement] rollback passed
+[03:56:00]: [Announcement] 你感觉到有一种邪恶的存在在看着你……
+[03:56:13]: [Announcement] 恐怖之眼盯上了彡粼
+[04:12:18]: [Death Announcement] 彡粼 死于： 海象。她变成了可怕的鬼魂！
+[04:12:27]: [Vote Announcement] rollback passed
+[04:17:17]: [Announcement] 彡粼   结冰   获得成就【冰封】
+[04:30:17]: [Leave Announcement] 彡粼

@@ -1,0 +1,20 @@
+return {
+  ["workshop-1877637921"]={
+    configuration_options={
+      CAVES=true,
+      COSTRAISE=true,
+      EXPMULT=1,
+      GAMEBREAKER=true,
+      GEAR="nothing",
+      HEALTHPENATLY=true,
+      HIDEPERK="none",
+      LANGUAGE="chs",
+      MANDRAKEBOI=true,
+      MULT=1,
+      PLAYS=999,
+      REFUND=1,
+      SYSTEM="achieve" 
+    },
+    enabled=true 
+  } 
+}
